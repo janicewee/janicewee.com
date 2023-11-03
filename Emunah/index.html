@@ -1,151 +1,57 @@
-<html>
 
-<head>
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-E6246CCBY8"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag(&rsquo;js&rsquo;, new Date());
+      <!DOCTYPE html>
+      <html>
+      <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <script defer src="https://use.fontawesome.com/releases/v5.15.4/js/solid.js" integrity="sha384-/BxOvRagtVDn9dJ+JGCtcofNXgQO/CCCVKdMfL115s3gOgQxWaX/tSq5V8dRgsbc" crossorigin="anonymous"></script>
+        <script defer src="https://use.fontawesome.com/releases/v5.15.4/js/fontawesome.js" integrity="sha384-dPBGbj4Uoy1OOpM4+aRGfAOc0W37JkROT+3uynUgTHZCHZNMHfGXsmmvYTffZjYO" crossorigin="anonymous"></script>
+        <script src=" https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js "></script>
+        <link href=" https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css " rel="stylesheet">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/openlayers/4.6.5/ol.css" rel="stylesheet"/>
+        <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/openlayers/4.6.5/ol.js"></script>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootswatch@4.5.2/dist/litera/bootstrap.min.css" integrity="sha384-enpDwFISL6M3ZGZ50Tjo8m65q06uLVnyvkFO3rsoW0UC15ATBFz3QEhr3hmxpYsn" crossorigin="anonymous">        
+        <style>
+              img {
+              object-fit: cover;
+              border-radius: 10px;
+              transition: transform 0.3s ease;
+              }
+              .rounded-circle {
+                  border-radius: 5px !important;
+              }
 
-  gtag(&rsquo;config&rsquo;, &rsquo;G-E6246CCBY8&rsquo;);
-</script>
-  <title>Emunah Chronicles</title>
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.16/dist/tailwind.min.css">
-<link rel="icon" type="image/png" rel="noopener" target="_blank" href="/favicon.png">
-</head>
+              .btn-primary {
+                  color: #fff !important;
+              }
+        </style>
+      </head>
+      <body>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/openlayers/4.6.5/ol.js"></script>
+        <html><head></head><body class="bg-light text-dark"> <div class="container-fluid"> <div class="row"> <div class="col-12 text-center"><a href="https://books2read.com/u/mB8WLO"><img alt="Book Cover" class="img-fluid mx-auto" height="1080" src="http://www.janicewee.com/Emunah/images/Emunah-3.png" width="720"></a><h2 class="my-2">Emunah Chronicles</h2> <p class="text-muted">by Janice Wee</p> <p class="lead my-2">Buy these books on the world's biggest bookstores!</p> <div class="row justify-content-center my-2"> <div class="col-auto border border-dark rounded-lg p-2"> <p class="m-0">Categories</p> <p class="m-0">Christian Fiction, Science Fiction, Dystopian Fiction</p> </div> </div> </div> </div> <div class="row"> <div class="col-12 my-2"> <p>
 
-<body class="bg-gray-100">
-
-  <!-- Navbar -->
-  <nav class="flex items-center justify-between flex-wrap p-6 bg-gray-800">
-    <div class="flex items-center flex-shrink-0 text-white mr-6">
-     <a href="../index.html"> <img src="https://www.janicewee.com/images/logo.jpg" alt="Janicewee.com" class="w-10 h-10 rounded-full" />
-      <span class="font-semibold text-xl tracking-tight ml-2">Janicewee.com</span></a>
-    </div>
-    <div class="block lg:hidden">
-      <a href="https://www.janicewee.com"><button class="flex items-center px-3 py-2 border rounded text-gray-200 border-gray-400 hover:text-white hover:border-white">
-        <svg class="h-3 w-3 fill-current" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-          <title>Menu</title>
-          <path d="M0 3h20v2H0zM0 9h20v2H0zM0 15h20v2H0z" />
-        </svg>
-      </button></a>
-    </div>
-    <div class="w-full block flex-grow lg:flex lg:items-center lg:w-auto">
-      <div class="text-sm lg:flex-grow">
-        <a href="https://www.janicewee.com/author.html" class="block mt-4 lg:inline-block lg:mt-0 text-gray-200 hover:text-white mr-4">
-          About the Author
-        </a>
-        <a href="https://www.janicewee.com/books.html" class="block mt-4 lg:inline-block lg:mt-0 text-gray-200 hover:text-white mr-4">
-          Books
-        </a>
-        <a href="https://www.janicewee.com/fanfic.html" class="block mt-4 lg:inline-block lg:mt-0 text-gray-200 hover:text-white">
-          Fan Fiction
-        </a>
-      </div>
-      <div class="mt-4 lg:mt-0">
-        <a href="https://www.amazon.com/author/janicewee" class="inline-block text-sm px-4 py-2 leading-none border rounded text-white border-white hover:border-transparent hover:text-gray-800 hover:bg-white mt-4 lg:mt-0">
-          Amazon
-        </a>
-      </div>
-    </div>
-  </nav>
-
-  <!-- Book Details -->
-  <section class="py-10">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-      <div class="flex flex-col md:flex-row items-center justify-between">
-        <div class="md:w-1/2">
-          <img src="https://www.janicewee.com/Emunah/images/book1.jpg" alt="Disturbing Dreams" class="w-full rounded-lg shadow-lg">
-        </div>
-        <div class="md:w-1/2 md:pl-10">
-          <h2 class="text-3xl font-bold text-gray-800">Emunah Chronicles Book 1:<br>Disturbing Dreams</h2>
-          <p class="text-gray-600 text-lg mt-2">In a world on the precipice of the unknown, young Emunah finds herself entangled in a web of secrets, technological wonders, and cryptic dreams. As her heart battles with feelings for her enigmatic friend Jayden, Emunah seeks solace and advice from an AI. The response she receives is as chilling as it is unthinkable.<br><br>
-
-Surrounded by a cast of vibrant characters including Leo, Oliver, Logan, and Ava, Emunah is drawn into the shadows of an insidious corporation - The Beast Corp. The group&rsquo;s research uncovers unsettling projects involving implantable cell phones and DNA manipulation. It&rsquo;s a race against time as they begin to see haunting correlations with ancient prophecies.<br><br>
-
-Emunah&rsquo;s dreams become more disturbing. Nightmares where ethereal visions and monstrous hybrids collide, whispering of a reality that sends shivers down her spine.<br><br>
-
-Amidst personal turmoils and earth-shattering revelations, Emunah&rsquo;s path is forever altered by a tragic loss, shadowy figures, and the allure of a spiritual fellowship led by the mesmerizing Jezebel.<br><br>
-
-As Emunah delves deeper into the mysterious workings of the Beast Corp, the line between dreams and reality blurs. She must decide who she can trust, how to decipher her disturbing dreams, and what role she is destined to play in events much larger than herself.<br><br>
-
-&ldquo;Disturbing Dreams&rdquo; is an explosive mix of science fiction, suspense, and spiritual intrigue. It&rsquo;s an electrifying tale that dances on the edge of the apocalypse, asking the reader: Can one person change the tides of fate?
+Emunah Chronicles is a sci-fi thriller set in the end times. It begins when Emunah’s A.I. friend declares undying love for her. Investigations into Beast Corp., the company behind A.I. and various biotech advancements lead Emunah and her friends down a rabbit hole where their paths diverge towards heaven or hell.
 <br><br>
-Hold on tight. Once you enter Emunah&rsquo;s world, there&rsquo;s no turning back.</p>
-          <div class="flex items-center mt-4">
-            <svg class="h-6 w-6 text-gray-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
-            </svg>
-            <p class="ml-2 text-gray-600">#EmunahChronicles #DisturbingDreams #ScienceFiction #Thriller #JaniceWee #MustRead</p>
-          </div>
-          <div class="flex items-center mt-2">
-            <svg class="h-6 w-6 text-gray-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
-            </svg>
-            <p class="ml-2 text-gray-600">          <a href="book1.html" class="inline-block bg-gray-800 text-white px-4 py-2 mt-4 rounded hover:bg-gray-700">More Info</a></p>
-          </div>
-          <a href="https://amazon.com/dp/B0C9WXPZMF" class="inline-block bg-gray-800 text-white px-4 py-2 mt-4 rounded hover:bg-gray-700">Get it on Amazon</a>
-        </div>
-      </div>
-    </div>
-  </section>
+Disturbing Dreams, Book 1 is a mini novella that chronicles Emunah’s encounter with aliens, her friends’ preparation from the unknown until half of their merry group vanishes.
+<br><br>
+The Beast’s Mark, Book 2 is a dark tale where the antichrist rules, clones with superpowers emerge and some of the gang go underground. It’s where the love story between Ava and Jayden begins.
+<br><br>
+The Quest for Immortalith, Book 3, is a full novel that covers the entire story, starting and ending with Leo and Mei, transhumanists who search for the way to beat death. Leo encounters the physical embodiment of death at a young age and tries to save as many as he can from its clutches. Mei is haunted by her grandmother’s ghost who promises to drag her to hell on her twenty-fifth birthday. It’s a story of friendship and betrayal, of victory and loss in the last days.
 
 
+</p> </div> </div> 
 
 
- <!-- Book Details -->
-  <section class="py-10">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-      <div class="flex flex-col md:flex-row items-center justify-between">
-        <div class="md:w-1/2">
-          <a href="https://books2read.com/u/38Wwjr"><img src="https://www.janicewee.com/Emunah/images/book2.jpg" alt="The Beast&rsquo;s Mark" class="w-full rounded-lg shadow-lg"></a>
-        </div>
-        <div class="md:w-1/2 md:pl-10">
-          <h2 class="text-3xl font-bold text-gray-800">Emunah Chronicles Book 2:<br>The Beast&rsquo;s Mark</h2>
-          <p class="text-gray-600 text-lg mt-2">The world is in turmoil as a beguiling figure known as The Beast seizes control, promising an age of prosperity while harboring sinister motives. With the cunning of a sorcerer and the technology to bend reality, The Beast enforces his will through an insidious mark, veiled in promise but fraught with darkness.<br><br>
+<div class="row"> <div class="col-12 my-2"> <a class="btn btn-dark text-white" href="https://books2read.com/u/4A2rGp"><i class="fab fa-amazon"></i>Disturbing Dreams</a> </div> </div> 
 
-Rejoin Emunah&rsquo;s allies, Logan, Jayden, Ava, and new characters as they are thrust into a whirlwind of deception, prophecy, and rebellion. Logan, tormented by visions of the Four Riders, realizes he may be an essential piece in a game he doesn&rsquo;t yet understand. Jayden, who&rsquo;s been building an underground refuge with his friends, finds his heart caught in a war of love and loyalty.<br><br>
+<div class="row"> <div class="col-12 my-2"> <a class="btn btn-dark text-white" href="https://books2read.com/u/38Wwjr"><i class="fab fa-amazon"></i>The Beast's Mark</a> </div> </div> 
 
-The mark of The Beast, bearing the haunting 666, becomes a symbol of terror and submission. It is a device infused with ominous technology, granting control, and allegiance to The Beast. As humanity buckles under its dominion, those who resist face insurmountable odds.<br><br>
-
-Ava, a resilient survivor, navigates the treacherous terrain between submission and defiance. When she is faced with the ultimate choice, her path converges with Jayden&rsquo;s, and together they must fight not only for their own souls but for the soul of the world.<br><br>
-
-From breathless chases to haunting dreams, from the pulse of romance to the terror of subjugation, &ldquo;The Beast&rsquo;s Mark&rdquo; is a masterful blend of science fiction and spiritual warfare. The fate of humanity hangs in the balance, as characters wrestle with prophecies, heartache, and the ever-encroaching shadow of The Beast.<br><br>
-
-This heart-pounding sequel will challenge the very essence of what it means to be human, in a world where the line between man and monster is razor-thin.<br><br>
-
-Witness the rise of the valiant. Experience the terror of The Beast&rsquo;s Mark.</p>
-          <div class="flex items-center mt-4">
-            <svg class="h-6 w-6 text-gray-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
-            </svg>
-            <p class="ml-2 text-gray-600">#EmunahChronicles #TheBeastsMark #JaniceWee #ScienceFiction #Thriller #EpicSaga #MustRead</p>
-          </div>
-          <div class="flex items-center mt-2">
-            <svg class="h-6 w-6 text-gray-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
-            </svg>
-            <p class="ml-2 text-gray-600">          <a href="book2.html" class="inline-block bg-gray-800 text-white px-4 py-2 mt-4 rounded hover:bg-gray-700">More Info</a></p>
-          </div>
-          <a href="https://amazon.com/dp/B0C7WJR5PT" class="inline-block bg-gray-800 text-white px-4 py-2 mt-4 rounded hover:bg-gray-700">Get it on Amazon</a>
-        </div>
-      </div>
-    </div>
-  </section>
+<div class="row"> <div class="col-12 my-2"> <a class="btn btn-dark text-white" href="https://books2read.com/u/mB8WLO"><i class="fab fa-amazon"></i>The Quest For Immortality</a> </div> </div> 
 
 
-
-
-  <!-- Footer -->
-  <footer class="bg-gray-800 py-6">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-      <p class="text-center text-gray-400">
-        &copy; 2021 Janicewee.com. All rights reserved.
-      </p>
-    </div>
-  </footer>
-
-</body>
-
-</html>
+</div> </body></html></body>
+        </body>
+      </html>
+    
