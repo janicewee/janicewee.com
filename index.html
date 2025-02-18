@@ -90,6 +90,14 @@
   max-width: 300px; /* Adjust based on how wide you want each review on mobile */
 }
 
+.review-item img {
+  width: 100%; /* Ensure the image takes full width of its container */
+  height: auto; /* Maintain aspect ratio */
+  max-width: 200px; /* Uniform width for all images on mobile */
+  max-height: 300px; /* Uniform height for all images on mobile; adjust based on your needs */
+  object-fit: cover; /* Crop the image if necessary to fill the defined aspect ratio */
+}
+
 @media (min-width: 768px) {
   .reviews-container {
     display: table;
