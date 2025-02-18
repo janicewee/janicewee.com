@@ -79,6 +79,41 @@
         }
 
 
+.reviews-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.review-item {
+  margin: 10px;
+  max-width: 300px; /* Adjust based on how wide you want each review on mobile */
+}
+
+@media (min-width: 768px) {
+  .reviews-container {
+    display: table;
+    width: 100%;
+  }
+
+  .review-item {
+    display: table-cell;
+    vertical-align: top;
+    width: 33.33%;
+    max-width: none;
+    padding: 0 10px; /* Space between columns */
+  }
+
+  .review-item img {
+    width: 100%; /* Ensure the image takes full width of its container */
+    max-width: 100%; /* Prevents overflow if image is larger than container */
+    height: auto; /* Maintain aspect ratio */
+    max-height: 200px; /* Optionally limit height for uniformity */
+    object-fit: contain; /* Keep image aspect ratio while fitting in the container */
+  }
+}
+
+
         </style>
       </head>
       <body>
@@ -153,46 +188,51 @@ This grand finale of Emunah Short Stories will not disappoint. Get ready for the
 </div></div>
 
 
-<div class="container-fluid bg-light text-dark"><div class="row"><div class="col-12 text-center min-vh-100 d-flex flex-column justify-content-center gap-3" style="background: {{bg-primary}};"><h1 class="display-4">What Readers Are Saying</h1>
+<div class="container-fluid bg-light text-dark">
+  <div class="row">
+    <div class="col-12 text-center min-vh-100 d-flex flex-column justify-content-center gap-3" style="background: {{bg-primary}};">
+      <h1 class="display-4">What Readers Are Saying</h1>
 
-<table class="responsive-table">
-    <tr>
-        <td>
-            <h3>Singapore's Runaway</h3>
-            <a href="https://www.janicewee.com/book1.html"><img src="https://www.janicewee.com/images/runaway.jpg" alt="Singapore's Runaway Cover" style="width: 30%; height: auto; max-width: 30%;"></a>
-            <p><strong>Review by TIEN NEO</strong>  <div class="stars">
-        &#9733; &#9733; &#9733; &#9733; &#9733;
-    </div></p>
-            <p><em>February 10, 2024</em></p>
-            <p>As a Singaporean now living in Canada, this book brought back so many memories of my Singaporean people and history that are absolutely still a vital part of me! I was thrown into the sounds of water, the mix of our unique languages, the racial dynamics, plus some mystical and historical folklore! Fun, easy to read, engaging. Plus this being written by my own family member, taking our family history into a new interpretation, is completely thrilling! Well Done!</p>
-        </td>
-        <td>
-            <h3>Emunah Chronicles: The Quest for Immortality</h3>
-<A href="https://www.goodreads.com/book/show/203105207-the-quest-for-immortality"><img src="https://www.janicewee.com/Emunah/images/book3k.jpg" alt="The Quest for Immortality" ></a>
-            <p><strong>Review by Yvonne Sequerah</strong>  <div class="stars">
-        &#9733; &#9733; &#9733; &#9733; &#9733;
-    </div></p>
-            <p><em>February 10, 2024</em></p>
-            <p>Fiction or Reality ? Is this the future ?<br>
-A must read.<br>
-The author is creative & insightful in weaving a story that grips you to the very end.</p>
-        </td>
-        <td>
- <h3>Emunah Short Stories: Abigail</h3>
-<A href="https://www.janicewee.com/Emunah/book1abigail.html"><img src="https://www.janicewee.com/Emunah/images/book1abigail.jpg" alt="Emunah Short Stories: Abigail" style="width: 30%; height: auto; max-width: 30%;"></a>
-            <p><strong>Review by Miranda Yeoh</strong>  <div class="stars">
-        &#9733; &#9733; &#9733; &#9733; &#9733;
-    </div></p>
-            <p><em>February 10, 2024</em></p>
-            <p>Do you observe strong relationships, partnerships, and marriages often sprang up from childhood neighbors, school friends, or church pals? This story features Abigail - A heroine anyone can relate to, not an impeccably organized heroine, and not particularly endowed with physical beauty. A crush on a muscular guy with worldly values despite attending church services.<br><br>
+      <div class="reviews-container">
+        <div class="review-item">
+          <h3>Singapore's Runaway</h3>
+          <a href="https://www.janicewee.com/book1.html"><img src="https://www.janicewee.com/images/runaway.jpg" alt="Singapore's Runaway Cover" style="width: 30%; height: auto; max-width: 30%;"></a>
+          <p><strong>Review by TIEN NEO</strong>  
+            <div class="stars">
+              ★ ★ ★ ★ ★
+            </div>
+          </p>
+          <p><em>February 10, 2024</em></p>
+          <p>As a Singaporean now living in Canada, this book brought back so many memories of my Singaporean people and history that are absolutely still a vital part of me! I was thrown into the sounds of water, the mix of our unique languages, the racial dynamics, plus some mystical and historical folklore! Fun, easy to read, engaging. Plus this being written by my own family member, taking our family history into a new interpretation, is completely thrilling! Well Done!</p>
+        </div>
 
-It is a tragedy when we do not realize we already have everything to be happy. Abigail took Aaron, her childhood pal, for granted. He was always loving and patient. The antagonist is Stella, a Sunday Christian, Abigail's boss. Stella was full of hate towards several people, including Abigail. Stella fired Abigail and is capable of more heinous sins. Would you think that hatred and murder are the same category of sins? What is the response of the believer in Christ? Do read the short story. You might learn some precious lessons.</p>
-        </td>
-    </tr>
-</table>
+        <div class="review-item">
+          <h3>Emunah Chronicles: The Quest for Immortality</h3>
+          <a href="https://www.goodreads.com/book/show/203105207-the-quest-for-immortality"><img src="https://www.janicewee.com/Emunah/images/book3k.jpg" alt="The Quest for Immortality"></a>
+          <p><strong>Review by Yvonne Sequerah</strong>  
+            <div class="stars">
+              ★ ★ ★ ★ ★
+            </div>
+          </p>
+          <p><em>February 10, 2024</em></p>
+          <p>Fiction or Reality ? Is this the future ?<br>A must read.<br>The author is creative & insightful in weaving a story that grips you to the very end.</p>
+        </div>
 
+        <div class="review-item">
+          <h3>Emunah Short Stories: Abigail</h3>
+          <a href="https://www.janicewee.com/Emunah/book1abigail.html"><img src="https://www.janicewee.com/Emunah/images/book1abigail.jpg" alt="Emunah Short Stories: Abigail" style="width: 30%; height: auto; max-width: 30%;"></a>
+          <p><strong>Review by Miranda Yeoh</strong>  
+            <div class="stars">
+              ★ ★ ★ ★ ★
+            </div>
+          </p>
+          <p><em>February 10, 2024</em></p>
+          <p>Do you observe strong relationships, partnerships, and marriages often sprang up from childhood neighbors, school friends, or church pals? This story features Abigail - A heroine anyone can relate to, not an impeccably organized heroine, and not particularly endowed with physical beauty. A crush on a muscular guy with worldly values despite attending church services.<br><br>It is a tragedy when we do not realize we already have everything to be happy. Abigail took Aaron, her childhood pal, for granted. He was always loving and patient. The antagonist is Stella, a Sunday Christian, Abigail's boss. Stella was full of hate towards several people, including Abigail. Stella fired Abigail and is capable of more heinous sins. Would you think that hatred and murder are the same category of sins? What is the response of the believer in Christ? Do read the short story. You might learn some precious lessons.</p>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
-</div></div>
 
 
 <div class="container-fluid bg-light text-dark"><div class="row"><div class="col-12 text-center min-vh-100 d-flex flex-column justify-content-center gap-3" style="background: {{bg-primary}};"><h1 class="display-4">Connect with Janice</h1>
