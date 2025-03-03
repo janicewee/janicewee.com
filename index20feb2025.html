@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <script defer src="https://use.fontawesome.com/releases/v5.15.4/js/solid.js" integrity="sha384-/BxOvRagtVDn9dJ+JGCtcofNXgQO/CCCVKdMfL115s3gOgQxWaX/tSq5V8dRgsbc" crossorigin="anonymous"></script>
+        <script defer src="https://use.fontawesome.com/releases/v5.15.4/js/fontawesome.js" integrity="sha384-dPBGbj4Uoy1OOpM4+aRGfAOc0W37JkROT+3uynUgTHZCHZNMHfGXsmmvYTffZjYO" crossorigin="anonymous"></script>
+        <script src=" https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js "></script>
+        <link href=" https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css " rel="stylesheet">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/openlayers/4.6.5/ol.css" rel="stylesheet"/>
+        <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/openlayers/4.6.5/ol.js"></script>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootswatch@4.5.2/dist/litera/bootstrap.min.css" integrity="sha384-enpDwFISL6M3ZGZ50Tjo8m65q06uLVnyvkFO3rsoW0UC15ATBFz3QEhr3hmxpYsn" crossorigin="anonymous">        
+        <style>
+              img {
+              object-fit: cover;
+              border-radius: 10px;
+              transition: transform 0.3s ease;
+              }
+              .rounded-circle {
+                  border-radius: 5px !important;
+              }
+
+              .btn-primary {
+                  color: #fff !important;
+              }
+
+ .red-button {
+            /* Basic button styles */
+            background-color: #FF4136;
+            color: white;
+            border: none;
+            padding: 15px 30px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+
+            /* Adjust width to fit text but not full page width */
+            max-width: 300px; /* Adjust this value as needed */
+            width: auto;
+
+            /* 3D effect */
+            border-radius: 5px;
+            box-shadow: 0 8px #D33A2F;
+
+            /* Text shadow for depth */
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+        }
+
+        .red-button:active {
+            /* Button depress effect on click */
+            box-shadow: 0 4px #D33A2F;
+            transform: translateY(4px);
+        }
+
+ .responsive-table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        .responsive-table th, .responsive-table td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        .responsive-table img {
+            max-width: 100%;
+            height: auto;
+        }
+
+
+        .stars {
+            font-size: 24px; /* Adjust size as needed */
+            color: gold; /* Gold color for filled stars */
+        }
+
+
+.reviews-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.review-item {
+  margin: 10px;
+  max-width: 300px; /* Adjust based on how wide you want each review on mobile */
+}
+
+.review-item img {
+  width: 100%; /* Ensure the image takes full width of its container */
+  height: auto; /* Maintain aspect ratio */
+  max-width: 200px; /* Uniform width for all images on mobile */
+  max-height: 300px; /* Uniform height for all images on mobile; adjust based on your needs */
+  object-fit: cover; /* Crop the image if necessary to fill the defined aspect ratio */
+}
+
+@media (min-width: 768px) {
+  .reviews-container {
+    display: table;
+    width: 100%;
+  }
+
+  .review-item {
+    display: table-cell;
+    vertical-align: top;
+    width: 33.33%;
+    max-width: none;
+    padding: 0 10px; /* Space between columns */
+  }
+
+  .review-item img {
+    width: 100%; /* Ensure the image takes full width of its container */
+    max-width: 100%; /* Prevents overflow if image is larger than container */
+    height: auto; /* Maintain aspect ratio */
+    max-height: 200px; /* Optionally limit height for uniformity */
+    object-fit: contain; /* Keep image aspect ratio while fitting in the container */
+  }
+}
+
+
+        </style>
+</head>
+<body>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/openlayers/4.6.5/ol.js"></script>
+  
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <!-- Adding the logo here -->
+      <a class="navbar-brand" href="https://www.janicewee.com">
+        <img src="https://www.janicewee.com/images/logo.jpg" alt="Janice Wee Logo" style="height: 40px; margin-right: 10px;">
+        Janice Wee
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="https://www.janicewee.com/index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://www.janicewee.com/books.html">Books</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://www.janicewee.com/author.html">Author</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://www.janicewee.com/fanfic.html">Fan Fiction</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+<div class="container-fluid bg-light text-dark"><div class="row"><div class="col-12 text-center min-vh-100 d-flex flex-column justify-content-center gap-3" style="background: {{bg-primary}};">
+
+
+
+
+
+<h1 class="display-4">Welcome to the World of Janice Wee</h1>
+
+<h2 align="center">
+Presenting truth wrapped in fiction by indie author Janice Wee.</h2>
+<br>
+
+<blockquote>They say that truth is stranger than fiction, and the best stories have elements of truth. That is what Daddy told me before he passed on. Memories of my father, grandfather -- the people I encountered throughout my life colour my tales.<br>
+<I>Janice Wee</I></blockquote>
+<a href="https://www.janicewee.com/books.html" style="text-decoration: none;">
+    <button class="red-button">Explore My Books</button>
+</a>
+</p>
+
+
+
+<div class="container-fluid bg-light text-dark"><div class="row"><div class="col-12 text-center min-vh-100 d-flex flex-column justify-content-center gap-3" style="background: {{bg-primary}};"><h1 class="display-4">Featured Book: Mary's Flight</h1>
+
+<p align="center">
+<a href="https://www.janicewee.com/Emunah/book8mary.html"><img alt="Emunah Short Stories Book 8: Mary's Flight" 
+    class="img-fluid rounded mx-auto d-block" 
+    src="https://www.janicewee.com/Emunah/images/book8mary.jpg" 
+    style="width: 100%; height: auto; max-width: 100%;"></a>
+</p>
+<p class="text-center"><strong>Dystopia fiction and sweet romance with a strong female protagonist.</strong></p></div>
+<div class="d-flex flex-column justify-content-center gap-3" style="background: {{bg-light}};"><p class="lead text-center" style="background: {{bg-light}};">During humanity's darkest hour, an ancient prophecy is fulfilled. Mary makes Aliyah with the help of Barry. When chaos breaks loose and the lovers flee to survive, a woman with eagle's wings visits Mary's dreams.<br> Who is she?<br>What does she want?<br><br>
+This grand finale of Emunah Short Stories will not disappoint. Get ready for the ride of your life in Mary's Flight!.<br>
+<a href="https://www.janicewee.com/Emunah/book8mary.html" style="text-decoration: none;">
+    <button class="red-button">Read Mary's Flight</button>
+</a>
+</p>
+</div>
+</div></div>
+
+
+<div class="container-fluid bg-light text-dark">
+  <div class="row">
+    <div class="col-12 text-center min-vh-100 d-flex flex-column justify-content-center gap-3" style="background: {{bg-primary}};">
+      <h1 class="display-4">What Readers Are Saying</h1>
+
+      <div class="reviews-container">
+        <div class="review-item">
+          <h3>Singapore's Runaway</h3>
+          <a href="https://www.janicewee.com/book1.html"><img src="https://www.janicewee.com/images/runaway.jpg" alt="Singapore's Runaway Cover" style="width: 30%; height: auto; max-width: 30%;"></a>
+          <p><strong>Review by TIEN NEO</strong>  
+            <div class="stars">
+              ★ ★ ★ ★ ★
+            </div>
+          </p>
+          <p><em>February 10, 2024</em></p>
+          <p>As a Singaporean now living in Canada, this book brought back so many memories of my Singaporean people and history that are absolutely still a vital part of me! I was thrown into the sounds of water, the mix of our unique languages, the racial dynamics, plus some mystical and historical folklore! Fun, easy to read, engaging. Plus this being written by my own family member, taking our family history into a new interpretation, is completely thrilling! Well Done!</p>
+        </div>
+
+        <div class="review-item">
+          <h3>Emunah Chronicles: The Quest for Immortality</h3>
+          <a href="https://www.goodreads.com/book/show/203105207-the-quest-for-immortality"><img src="https://www.janicewee.com/Emunah/images/book3k.jpg" alt="The Quest for Immortality"></a>
+          <p><strong>Review by Yvonne Sequerah</strong>  
+            <div class="stars">
+              ★ ★ ★ ★ ★
+            </div>
+          </p>
+          <p><em>March 17, 2024</em></p>
+          <p>Fiction or Reality ? Is this the future ?<br>A must read.<br>The author is creative & insightful in weaving a story that grips you to the very end.</p>
+        </div>
+
+        <div class="review-item">
+          <h3>Emunah Short Stories: Abigail</h3>
+          <a href="https://www.janicewee.com/Emunah/book1abigail.html"><img src="https://www.janicewee.com/Emunah/images/book1abigail.jpg" alt="Emunah Short Stories: Abigail" style="width: 30%; height: auto; max-width: 30%;"></a>
+          <p><strong>Review by Miranda Yeoh</strong>  
+            <div class="stars">
+              ★ ★ ★ ★ ★
+            </div>
+          </p>
+          <p><em>December 9, 2024</em></p>
+          <p>Do you observe strong relationships, partnerships, and marriages often sprang up from childhood neighbors, school friends, or church pals? This story features Abigail - A heroine anyone can relate to, not an impeccably organized heroine, and not particularly endowed with physical beauty. A crush on a muscular guy with worldly values despite attending church services.<br><br>It is a tragedy when we do not realize we already have everything to be happy. Abigail took Aaron, her childhood pal, for granted. He was always loving and patient. The antagonist is Stella, a Sunday Christian, Abigail's boss. Stella was full of hate towards several people, including Abigail. Stella fired Abigail and is capable of more heinous sins. Would you think that hatred and murder are the same category of sins? What is the response of the believer in Christ? Do read the short story. You might learn some precious lessons.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="container-fluid bg-light text-dark"><div class="row"><div class="col-12 text-center min-vh-100 d-flex flex-column justify-content-center gap-3" style="background: {{bg-primary}};"><h1 class="display-4">Connect with Janice</h1>
+
+<h2 align="center">
+<a href="https://www.goodreads.com/author/show/29746824.Janice_Wee">Goodreads</a> . <a href="https://books2read.com/janicewee">Books2Read</a>
+</h2>
+
+</div>
+</div></div>
+
+
+
+<div class="container-fluid bg-light text-dark"><div class="row"><div class="col-12 text-center min-vh-100 d-flex flex-column justify-content-center gap-3" style="background: {{bg-primary}};"><h1 class="display-4">Quick Links</h1>
+
+<p align="center">
+<a href="https://www.janicewee.com/books.html">Books</a><br>
+<a href="https://www.janicewee.com/series.html">Series</a><br>
+<a href="https://www.janicewee.com/author.html">About</a><br>
+<a href="https://www.janicewee.com/index2024.html">2024 Releases</a>
+</p>
+
+</div>
+</div></div>
+
+<p><a href="https://books2read.com/author/janice-wee/subscribe/50444/"><b>Subscribe to stay updated with new releases.</b></a>.</p>
+
+</div>
+</body>
+</html>
