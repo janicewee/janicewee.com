@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <script defer src="https://use.fontawesome.com/releases/v5.15.4/js/solid.js" integrity="sha384-/BxOvRagtVDn9dJ+JGCtcofNXgQO/CCCVKdMfL115s3gOgQxWaX/tSq5V8dRgsbc" crossorigin="anonymous"></script>
+        <script defer src="https://use.fontawesome.com/releases/v5.15.4/js/fontawesome.js" integrity="sha384-dPBGbj4Uoy1OOpM4+aRGfAOc0W37JkROT+3uynUgTHZCHZNMHfGXsmmvYTffZjYO" crossorigin="anonymous"></script>
+        <script src=" https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js "></script>
+        <link href=" https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css " rel="stylesheet">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/openlayers/4.6.5/ol.css" rel="stylesheet"/>
+        <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/openlayers/4.6.5/ol.js"></script>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootswatch@4.5.2/dist/litera/bootstrap.min.css" integrity="sha384-enpDwFISL6M3ZGZ50Tjo8m65q06uLVnyvkFO3rsoW0UC15ATBFz3QEhr3hmxpYsn" crossorigin="anonymous">        
+        <style>
+              img {
+              object-fit: cover;
+              border-radius: 10px;
+              transition: transform 0.3s ease;
+              }
+              .rounded-circle {
+                  border-radius: 5px !important;
+              }
+
+              .btn-primary {
+                  color: #fff !important;
+              }
+
+ .red-button {
+            /* Basic button styles */
+            background-color: #FF4136;
+            color: white;
+            border: none;
+            padding: 15px 30px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+
+            /* Adjust width to fit text but not full page width */
+            max-width: 600px; /* Adjust this value as needed */
+            width: auto;
+
+            /* 3D effect */
+            border-radius: 5px;
+            box-shadow: 0 8px #D33A2F;
+
+            /* Text shadow for depth */
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+        }
+
+        .red-button:active {
+            /* Button depress effect on click */
+            box-shadow: 0 4px #D33A2F;
+            transform: translateY(4px);
+        }
+
+ .responsive-table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        .responsive-table th, .responsive-table td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        .responsive-table img {
+            max-width: 100%;
+            height: auto;
+        }
+
+
+        .stars {
+            font-size: 24px; /* Adjust size as needed */
+            color: gold; /* Gold color for filled stars */
+        }
+
+
+.reviews-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.review-item {
+  margin: 10px;
+  max-width: 300px; /* Adjust based on how wide you want each review on mobile */
+}
+
+.review-item img {
+  width: 100%; /* Ensure the image takes full width of its container */
+  height: auto; /* Maintain aspect ratio */
+  max-width: 200px; /* Uniform width for all images on mobile */
+  max-height: 300px; /* Uniform height for all images on mobile; adjust based on your needs */
+  object-fit: cover; /* Crop the image if necessary to fill the defined aspect ratio */
+}
+
+@media (min-width: 768px) {
+  .reviews-container {
+    display: table;
+    width: 100%;
+  }
+
+  .review-item {
+    display: table-cell;
+    vertical-align: top;
+    width: 33.33%;
+    max-width: none;
+    padding: 0 10px; /* Space between columns */
+  }
+
+  .review-item img {
+    width: 100%; /* Ensure the image takes full width of its container */
+    max-width: 100%; /* Prevents overflow if image is larger than container */
+    height: auto; /* Maintain aspect ratio */
+    max-height: 200px; /* Optionally limit height for uniformity */
+    object-fit: contain; /* Keep image aspect ratio while fitting in the container */
+  }
+}
+
+
+        </style>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-E6246CCBY8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-E6246CCBY8');
+</script>
+</head>
+<body>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/openlayers/4.6.5/ol.js"></script>
+  
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <!-- Adding the logo here -->
+      <a class="navbar-brand" href="https://www.janicewee.com">
+        <img src="https://www.janicewee.com/images/logo.jpg" alt="Janice Wee Logo" style="height: 40px; margin-right: 10px;">
+        Janice Wee
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="https://www.janicewee.com/index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://www.janicewee.com/books.html">Books</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://www.janicewee.com/author.html">Author</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://www.janicewee.com/series.html">Series</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+<div class="container-fluid bg-light text-dark"><div class="row"><div class="col-12 text-center min-vh-100 d-flex flex-column justify-content-center gap-3" style="background: {{bg-primary}};">
+
+
+
+
+
+<h1 class="display-4">Welcome to the World of Janice Wee</h1>
+
+<h2 align="center">
+Gripping twists and page-turning tales from indie author Janice Wee</h2>
+<br>
+
+<blockquote>My two favourite authors are J.R. R.Tolkien and C.S. Lewis. I love the world building in both The Lord of the Rings and The Chronicles of Narnia. It's my dream to write epic stories like these with larger than life fictional characters. <br>
+<I>Janice Wee</I></blockquote>
+<a href="https://www.janicewee.com/books.html" style="text-decoration: none;">
+    <button class="red-button">Explore My Books</button>
+</a>
+</p>
+
+
+
+<div class="container-fluid bg-light text-dark"><div class="row"><div class="col-12 text-center min-vh-100 d-flex flex-column justify-content-center gap-3" style="background: {{bg-primary}};"><h1 class="display-4">Billy & Bluma: Double Trouble – Out May 2, 2025!</h1>
+
+<p align="center">
+
+<a href="https://www.janicewee.com/Emunah/billy2.html"><img alt="The Adventures of Billy Lionheart: Billy & Bluma. Double Trouble." 
+    class="img-fluid rounded mx-auto d-block" 
+    src="https://www.janicewee.com/Emunah/images/billybluma.jpg" 
+    style="width: 100%; height: auto; max-width: 100%;"></a>
+
+</p>
+<p class="text-center"><strong>Billy and his fearless pal Bluma unleash epic chaos, ditching school for a daring quest that drives their lion guardian absolutely wild!
+
+</strong></p></div>
+
+
+
+
+
+
+
+
+<div class="d-flex flex-column justify-content-center gap-3" style="background: {{bg-light}};"><p class="lead text-center" style="background: {{bg-light}};">
+Buckle up for a whirlwind adventure with Billy and Bluma, childhood friends whose reunion sparks chaos and courage! When Billy’s immortal parents gift him a glowing, indestructible orb, a mischievous monkey swipes it, dropping it into Bluma’s bread dough. Their lion guardian, Leonard, chomps into the loaf—only to break a tooth on the orb! The kids’ wild solution? Tying Leonard’s tooth to a boulder and sending it hurtling downhill, yanking the tooth out as the lion crashes into a stone wall. But the collision reveals a hidden treasure: a shattered porcelain box containing a map and a gold coin stamped with the face of their long-lost nanny, Aunt Mathilda, murdered during the Tribulation but now resurrected as an immortal saint.  <br><br>
+Determined to find her, Billy and Bluma sneak out of school, with a grumpy Leonard hot on their heels. The map leads them to a bustling farmer’s market, where they encounter the sinister Junta, a cult leader who uses his dazzling Carnival City to ensnare kids. Junta drugs Leonard, shipping him off to a deadly hunting ground, and lures the kids into a treacherous abyss. When they refuse to join his twisted cause, he locks them up, leaving them trapped in darkness.  <br><br>
+Will Billy and Bluma outsmart Junta’s cult? Can they rescue Leonard from a hunter’s trap? Packed with heart-pounding twists, mischievous antics, and a dash of otherworldly mystery, Billy & Bluma: Double Trouble is a page-turner that will keep you hooked until the very last page. Join the quest—available May 2, 2025!
+
+
+<br><br>
+This is the second book in my latest fantasy adventure series: The Adventures of Billy Lionheart.<br><br>
+
+<br>
+<a href="https://www.janicewee.com/Emunah/billy2.html" style="text-decoration: none;">
+    <button class="red-button">Preorder The Book: Billy & Bluma. Double Trouble!</button>
+</a>
+<br><br>
+Trivia for grown ups: Billy first met Bluma in <a href="https://www.janicewee.com/Emunah/book8mary.html">Emunah Short Stories Book 8: Mary's Flight</a>. Parental guidance is advised for that dyspotian novella.
+</p>
+</div>
+
+
+
+
+
+
+</div></div>
+
+
+<div class="container-fluid bg-light text-dark">
+  <div class="row">
+    <div class="col-12 text-center min-vh-100 d-flex flex-column justify-content-center gap-3" style="background: {{bg-primary}};">
+      <h1 class="display-4">What Readers Are Saying</h1>
+
+      <div class="reviews-container">
+        <div class="review-item">
+          <h3>Billy The Lion Boy</h3>
+          <a href="https://www.janicewee.com/Emunah/billy1.html"><img src="https://www.janicewee.com/Emunah/images/billylionheart.jpg" alt="Billy The Lion Boy" style="width: 30%; height: auto; max-width: 30%;"></a>
+          <p><strong>Review by VonneD</strong>  
+            <div class="stars">
+              ★ ★ ★ ★ ★
+            </div>
+          </p>
+          <p><em>April 3, 2025</em></p>
+          <p>Piqued my interest from the start - writing from the viewpoint of a lion being a nanny … you have to read to find out the rest</p>
+        </div>
+
+        <div class="review-item">
+          <h3>Emunah Short Stories: Abigail</h3>
+          <a href="https://www.janicewee.com/Emunah/book1abigail.html"><img src="https://www.janicewee.com/Emunah/images/book1abigail.jpg" alt="Emunah Short Stories: Abigail"></a>
+          <p><strong>Review by Miranda P. YEOH</strong>  
+            <div class="stars">
+              ★ ★ ★ ★ ★
+            </div>
+          </p>
+          <p><em>December 10, 2024</em></p>
+          <p>Have you noticed how strong relationships, partnerships, and marriages often stem from childhood bonds, school friendships, or church connections? This story introduces Abigail, a relatable heroine who isn’t perfectly organized or blessed with striking beauty. Abigail finds herself drawn to a muscular man with worldly values, overlooking the quiet love and patience of Aaron, her steadfast childhood friend. The story turns darker with Stella, Abigail’s boss, and a Sunday Christian. Stella’s animosity toward Abigail and others leads her down a path of hate, culminating in more sinister acts. It raises thought-provoking questions: Are hatred and murder sins of the same family, although they differ in magnitude? How should a believer respond to such trials? This compelling short story offers valuable lessons about gratitude, faith, and the dangers of taking blessings for granted. It’s a poignant reminder to cherish what we already have. Don’t miss it!</p>
+        </div>
+
+        <div class="review-item">
+          <h3>Little Nonya's Escapades</h3>
+          <a href="https://www.janicewee.com/nonyaescapades.html"><img src="https://www.janicewee.com/images/escapades.jpg" alt="Little Nonya's Escapades" style="width: 30%; height: auto; max-width: 30%;"></a>
+          <p><strong>Review by Reader</strong>  
+            <div class="stars">
+              ★ ★ ★ ★ ★
+            </div>
+          </p>
+          <p><em>December 1, 2024</em></p>
+          <p>It’s good reading material. Language simple yet interesting and punctuated with humour.<br>
+Many children and adults can identify with the little nonya as it brings one back to memory lane of childhood days and pranks.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container-fluid bg-light text-dark"><div class="row"><div class="col-12 text-center min-vh-100 d-flex flex-column justify-content-center gap-3" style="background: {{bg-primary}};"><h1 class="display-4">Buy Janice Wee's Books</h1>
+
+<h2 align="center">
+<a href="https://books2read.com/ap/8G2gQM/Janice-Wee">Major Online Stores</a> <br><br> <a href="https://www.barnesandnoble.com/s/%22Janice%20Wee%22">Barnes & Noble</a> <br><br> <a 
+</h2>
+
+</div>
+</div></div>
+
+
+
+<div class="container-fluid bg-light text-dark"><div class="row"><div class="col-12 text-center min-vh-100 d-flex flex-column justify-content-center gap-3" style="background: {{bg-primary}};"><h1 class="display-4">Connect with Janice</h1>
+
+<h2 align="center">
+<a href="https://www.goodreads.com/author/show/29746824.Janice_Wee">Goodreads</a> . <a href="https://books2read.com/Users/janice/Documents/janicewee.com/index.html/janicewee">Books2Read</a> . <a href="https://www.pinterest.com/?boardId=215398863367237766">Emunah Timeline on Pinterest</a> 
+</h2>
+
+</div>
+</div></div>
+
+
+
+<div class="container-fluid bg-light text-dark"><div class="row"><div class="col-12 text-center min-vh-100 d-flex flex-column justify-content-center gap-3" style="background: {{bg-primary}};"><h1 class="display-4">Quick Links</h1>
+
+<p align="center">
+<a href="https://www.janicewee.com/books.html">Books</a><br>
+<a href="https://www.janicewee.com/series.html">Series</a><br>
+<a href="https://www.janicewee.com/author.html">About</a><br>
+</p>
+<h3 align="center">Past Posts</h3>
+<p align="center">
+<a href="https://www.janicewee.com/index2024.html">2024 Releases</a><br>
+<a href="https://www.janicewee.com/index20feb2025.html">20 Feb 2025. Mary's Flight</a><br>
+<a href="https://www.janicewee.com/blog/index3mar2025.html">3 March 2025 Singapore Stories</a><br>
+<a href="https://www.janicewee.com/blog/index12mar2025.html">12 March 2025 Save With Collections.</a><br>
+<a href="https://www.janicewee.com/blog/index17mar2025.html">17 March 2025 Billy The Lion Boy Prelaunch.</a><br>
+<a href="https://www.janicewee.com/blog/index4apr2025.html">4 April 2025 Billy The Lion Boy and the Reading Order and Timeline of the Emunah Chronicles Universe.</a><br>
+</p>
+
+</div>
+</div></div>
+
+<p><a href="https://books2read.com/author/janice-wee/subscribe/50444/"><b>Subscribe to stay updated with new releases.</b></a>.</p>
+
+</div>
+</body>
+</html>
