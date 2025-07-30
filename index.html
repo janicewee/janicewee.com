@@ -11,167 +11,182 @@
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/openlayers/4.6.5/ol.js"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootswatch@4.5.2/dist/litera/bootstrap.min.css" integrity="sha384-enpDwFISL6M3ZGZ50Tjo8m65q06uLVnyvkFO3rsoW0UC15ATBFz3QEhr3hmxpYsn" crossorigin="anonymous">
-    <style>
-        /* General image styling */
-        img {
-            object-fit: cover;
-            border-radius: 10px;
-            transition: transform 0.3s ease;
-            max-width: 100%;
-            height: auto;
-        }
+<style>
+    /* General image styling */
+    img {
+        object-fit: cover;
+        border-radius: 10px;
+        transition: transform 0.3s ease;
+        max-width: 100%;
+        height: auto;
+    }
 
-        .rounded-circle {
-            border-radius: 5px !important;
-        }
+    /* Specific rule for billyonlion.jpg on desktop */
+    img[src="https://www.janicewee.com/images/billyonlion.jpg"] {
+        width: 200px; /* Set to 200px for desktop */
+        height: auto;
+    }
 
-        .btn-primary {
-            color: #fff !important;
-        }
+    .rounded-circle {
+        border-radius: 5px !important;
+    }
 
-        .red-button {
-            background-color: #FF4136;
-            color: white;
-            border: none;
-            padding: 1rem 2rem;
-            text-align: center;
-            text-decoration: none;
-            display: inline-block;
-            font-size: 1rem;
-            margin: 0.25rem 0.125rem;
-            cursor: pointer;
-            transition: all 0.3s ease;
-            border-radius: 5px;
-            box-shadow: 0 0.5rem #D33A2F;
-            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
-            width: auto;
-            max-width: 90%;
-        }
+    .btn-primary {
+        color: #fff !important;
+    }
 
-        .red-button:active {
-            box-shadow: 0 0.25rem #D33A2F;
-            transform: translateY(0.25rem);
-        }
+    .red-button {
+        background-color: #FF4136;
+        color: white;
+        border: none;
+        padding: 1rem 2rem;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 1rem;
+        margin: 0.25rem 0.125rem;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        border-radius: 5px;
+        box-shadow: 0 0.5rem #D33A2F;
+        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+        width: auto;
+        max-width: 90%;
+    }
 
-        .responsive-table {
-            width: 100%;
-            border-collapse: collapse;
-        }
+    .red-button:active {
+        box-shadow: 0 0.25rem #D33A2F;
+        transform: translateY(0.25rem);
+    }
 
-        .responsive-table th, .responsive-table td {
-            border: 1px solid #ddd;
-            padding: 0.5rem;
-            text-align: left;
-        }
+    .responsive-table {
+        width: 100%;
+        border-collapse: collapse;
+    }
 
-        .stars {
-            font-size: 1.5rem;
-            color: gold;
-        }
+    .responsive-table th, .responsive-table td {
+        border: 1px solid #ddd;
+        padding: 0.5rem;
+        text-align: left;
+    }
 
-        /* Responsive container for reviews */
+    .stars {
+        font-size: 1.5rem;
+        color: gold;
+    }
+
+    /* Responsive container for reviews */
+    .reviews-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 1rem;
+        padding: 1rem;
+    }
+
+    .review-item {
+        flex: 1 1 100%;
+        max-width: 300px;
+        margin: 0.5rem;
+        text-align: center;
+    }
+
+    .review-item img {
+        width: 100%;
+        max-width: 200px;
+        height: auto;
+        object-fit: cover;
+    }
+
+    /* Book grid */
+    .book-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 1rem;
+        padding: 1rem;
+    }
+
+    .book-grid a {
+        text-decoration: none;
+    }
+
+    /* General container adjustments */
+    .container-fluid {
+        padding: 0 1rem;
+    }
+
+    .container-fluid .row {
+        margin: 0;
+    }
+
+    /* Responsive typography */
+    h1.display-4 {
+        font-size: clamp(2rem, 5vw, 3rem);
+    }
+
+    h2 {
+        font-size: clamp(1.5rem, 4vw, 2rem);
+    }
+
+    p {
+        font-size: clamp(1rem, 2.5vw, 1.125rem);
+    }
+
+    /* YouTube iframes */
+    iframe {
+        width: 100%;
+        max-width: 560px;
+        height: auto;
+        aspect-ratio: 16 / 9;
+    }
+
+    /* Media queries for larger screens */
+    @media (min-width: 768px) {
         .reviews-container {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-            gap: 1rem;
-            padding: 1rem;
+            justify-content: space-around;
         }
 
         .review-item {
-            flex: 1 1 100%;
-            max-width: 300px;
-            margin: 0.5rem;
-            text-align: center;
+            flex: 1 1 30%;
+            max-width: 350px;
         }
 
         .review-item img {
-            width: 100%;
-            max-width: 200px;
-            height: auto;
-            object-fit: cover;
+            max-width: 100%;
+            max-height: 200px;
+            object-fit: contain;
         }
 
-        /* Book grid */
         .book-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-            gap: 1rem;
-            padding: 1rem;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
         }
+    }
 
-        .book-grid a {
-            text-decoration: none;
+    @media (min-width: 1200px) {
+        .book-grid {
+            grid-template-columns: repeat(4, 1fr);
         }
+    }
 
-        /* General container adjustments */
-        .container-fluid {
-            padding: 0 1rem;
-        }
-
-        .container-fluid .row {
-            margin: 0;
-        }
-
-        /* Responsive typography */
-        h1.display-4 {
-            font-size: clamp(2rem, 5vw, 3rem);
-        }
-
-        h2 {
-            font-size: clamp(1.5rem, 4vw, 2rem);
-        }
-
-        p {
-            font-size: clamp(1rem, 2.5vw, 1.125rem);
-        }
-
-        /* YouTube iframes */
-        iframe {
+    /* Ensure billyonlion.jpg scales appropriately on mobile */
+    @media (max-width: 767px) {
+        img[src="https://www.janicewee.com/images/billyonlion.jpg"] {
             width: 100%;
-            max-width: 560px;
+            max-width: 150px; /* Smaller on mobile for better fit */
             height: auto;
-            aspect-ratio: 16 / 9;
         }
+    }
 
-        /* Media queries for larger screens */
-        @media (min-width: 768px) {
-            .reviews-container {
-                justify-content: space-around;
-            }
+    /* Fix navbar for mobile */
+    .navbar-nav {
+        margin-left: auto;
+    }
 
-            .review-item {
-                flex: 1 1 30%;
-                max-width: 350px;
-            }
-
-            .review-item img {
-                max-width: 100%;
-                max-height: 200px;
-                object-fit: contain;
-            }
-
-            .book-grid {
-                grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            }
-        }
-
-        @media (min-width: 1200px) {
-            .book-grid {
-                grid-template-columns: repeat(4, 1fr);
-            }
-        }
-
-        /* Fix navbar for mobile */
-        .navbar-nav {
-            margin-left: auto;
-        }
-
-        .navbar-brand img {
-            height: 40px;
-            width: auto;
-        }
-    </style>
+    .navbar-brand img {
+        height: 40px;
+        width: auto;
+    }
+</style>
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-E6246CCBY8"></script>
     <script>
@@ -229,12 +244,12 @@
         <div class="row">
             <div class="col-12 text-center py-5 d-flex flex-column justify-content-center gap-3">
                 <h1 class="display-4">Fictional Character</h1>
-                <a href="https://www.janicewee.com/Emunah/dragonunbound.html" class="bg-white rounded-lg shadow-lg overflow-hidden d-inline-block">
-                    <img src="https://www.janicewee.com/images/billyonlion.jpg" alt="Billy. Fictional Character" class="img-fluid">
-                    <div class="p-4">
-                        <h2 class="text-gray-800 text-lg font-bold">Billy Lionheart</h2>
-                    </div>
-                </a>
+               <a href="https://www.janicewee.com/Emunah/dragonunbound.html" class="bg-white rounded-lg shadow-lg overflow-hidden d-inline-block">
+    <img src="https://www.janicewee.com/images/billyonlion.jpg" alt="Billy. Fictional Character" class="img-fluid">
+    <div class="p-4">
+        <h2 class="text-gray-800 text-lg font-bold">Billy Lionheart</h2>
+    </div>
+</a>
                 <p>
                     Billy was born during the Tribulation. He was a mere toddler when his parents Jake and Ella were beheaded by followers of the Antichrist (Beast). Rescue pilots, <a href="https://www.janicewee.com/Emunah/book5mei.html">Mei</a> and Boris arrived in his menuvival camp too late. They found the tiny boy hiding in a pipe. Itty bitty little Billy was the only survivor from the community.<br><br>
                     Mei and Boris took them back with him to their camp. Their community of believers became Billy's new family. Mei treated him like her own son.<br><br>
