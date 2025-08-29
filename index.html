@@ -11,182 +11,167 @@
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/openlayers/4.6.5/ol.js"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootswatch@4.5.2/dist/litera/bootstrap.min.css" integrity="sha384-enpDwFISL6M3ZGZ50Tjo8m65q06uLVnyvkFO3rsoW0UC15ATBFz3QEhr3hmxpYsn" crossorigin="anonymous">
-<style>
-    /* General image styling */
-    img {
-        object-fit: cover;
-        border-radius: 10px;
-        transition: transform 0.3s ease;
-        max-width: 100%;
-        height: auto;
-    }
+    <style>
+        /* General image styling */
+        img {
+            object-fit: cover;
+            border-radius: 10px;
+            transition: transform 0.3s ease;
+            max-width: 100%;
+            height: auto;
+        }
 
-    /* Specific rule for billyonlion.jpg on desktop */
-    img[src="https://www.janicewee.com/images/billyonlion.jpg"] {
-        width: 200px; /* Set to 200px for desktop */
-        height: auto;
-    }
+        .rounded-circle {
+            border-radius: 5px !important;
+        }
 
-    .rounded-circle {
-        border-radius: 5px !important;
-    }
+        .btn-primary {
+            color: #fff !important;
+        }
 
-    .btn-primary {
-        color: #fff !important;
-    }
+        .red-button {
+            background-color: #FF4136;
+            color: white;
+            border: none;
+            padding: 1rem 2rem;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 1rem;
+            margin: 0.25rem 0.125rem;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            border-radius: 5px;
+            box-shadow: 0 0.5rem #D33A2F;
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+            width: auto;
+            max-width: 90%;
+        }
 
-    .red-button {
-        background-color: #FF4136;
-        color: white;
-        border: none;
-        padding: 1rem 2rem;
-        text-align: center;
-        text-decoration: none;
-        display: inline-block;
-        font-size: 1rem;
-        margin: 0.25rem 0.125rem;
-        cursor: pointer;
-        transition: all 0.3s ease;
-        border-radius: 5px;
-        box-shadow: 0 0.5rem #D33A2F;
-        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
-        width: auto;
-        max-width: 90%;
-    }
+        .red-button:active {
+            box-shadow: 0 0.25rem #D33A2F;
+            transform: translateY(0.25rem);
+        }
 
-    .red-button:active {
-        box-shadow: 0 0.25rem #D33A2F;
-        transform: translateY(0.25rem);
-    }
+        .responsive-table {
+            width: 100%;
+            border-collapse: collapse;
+        }
 
-    .responsive-table {
-        width: 100%;
-        border-collapse: collapse;
-    }
+        .responsive-table th, .responsive-table td {
+            border: 1px solid #ddd;
+            padding: 0.5rem;
+            text-align: left;
+        }
 
-    .responsive-table th, .responsive-table td {
-        border: 1px solid #ddd;
-        padding: 0.5rem;
-        text-align: left;
-    }
+        .stars {
+            font-size: 1.5rem;
+            color: gold;
+        }
 
-    .stars {
-        font-size: 1.5rem;
-        color: gold;
-    }
-
-    /* Responsive container for reviews */
-    .reviews-container {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        gap: 1rem;
-        padding: 1rem;
-    }
-
-    .review-item {
-        flex: 1 1 100%;
-        max-width: 300px;
-        margin: 0.5rem;
-        text-align: center;
-    }
-
-    .review-item img {
-        width: 100%;
-        max-width: 200px;
-        height: auto;
-        object-fit: cover;
-    }
-
-    /* Book grid */
-    .book-grid {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-        gap: 1rem;
-        padding: 1rem;
-    }
-
-    .book-grid a {
-        text-decoration: none;
-    }
-
-    /* General container adjustments */
-    .container-fluid {
-        padding: 0 1rem;
-    }
-
-    .container-fluid .row {
-        margin: 0;
-    }
-
-    /* Responsive typography */
-    h1.display-4 {
-        font-size: clamp(2rem, 5vw, 3rem);
-    }
-
-    h2 {
-        font-size: clamp(1.5rem, 4vw, 2rem);
-    }
-
-    p {
-        font-size: clamp(1rem, 2.5vw, 1.125rem);
-    }
-
-    /* YouTube iframes */
-    iframe {
-        width: 100%;
-        max-width: 560px;
-        height: auto;
-        aspect-ratio: 16 / 9;
-    }
-
-    /* Media queries for larger screens */
-    @media (min-width: 768px) {
+        /* Responsive container for reviews */
         .reviews-container {
-            justify-content: space-around;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 1rem;
+            padding: 1rem;
         }
 
         .review-item {
-            flex: 1 1 30%;
-            max-width: 350px;
+            flex: 1 1 100%;
+            max-width: 300px;
+            margin: 0.5rem;
+            text-align: center;
         }
 
         .review-item img {
-            max-width: 100%;
-            max-height: 200px;
-            object-fit: contain;
-        }
-
-        .book-grid {
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-        }
-    }
-
-    @media (min-width: 1200px) {
-        .book-grid {
-            grid-template-columns: repeat(4, 1fr);
-        }
-    }
-
-    /* Ensure billyonlion.jpg scales appropriately on mobile */
-    @media (max-width: 767px) {
-        img[src="https://www.janicewee.com/images/billyonlion.jpg"] {
             width: 100%;
-            max-width: 150px; /* Smaller on mobile for better fit */
+            max-width: 200px;
             height: auto;
+            object-fit: cover;
         }
-    }
 
-    /* Fix navbar for mobile */
-    .navbar-nav {
-        margin-left: auto;
-    }
+        /* Book grid */
+        .book-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1rem;
+            padding: 1rem;
+        }
 
-    .navbar-brand img {
-        height: 40px;
-        width: auto;
-    }
-</style>
+        .book-grid a {
+            text-decoration: none;
+        }
+
+        /* General container adjustments */
+        .container-fluid {
+            padding: 0 1rem;
+        }
+
+        .container-fluid .row {
+            margin: 0;
+        }
+
+        /* Responsive typography */
+        h1.display-4 {
+            font-size: clamp(2rem, 5vw, 3rem);
+        }
+
+        h2 {
+            font-size: clamp(1.5rem, 4vw, 2rem);
+        }
+
+        p {
+            font-size: clamp(1rem, 2.5vw, 1.125rem);
+        }
+
+        /* YouTube iframes */
+        iframe {
+            width: 100%;
+            max-width: 560px;
+            height: auto;
+            aspect-ratio: 16 / 9;
+        }
+
+        /* Media queries for larger screens */
+        @media (min-width: 768px) {
+            .reviews-container {
+                justify-content: space-around;
+            }
+
+            .review-item {
+                flex: 1 1 30%;
+                max-width: 350px;
+            }
+
+            .review-item img {
+                max-width: 100%;
+                max-height: 200px;
+                object-fit: contain;
+            }
+
+            .book-grid {
+                grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            }
+        }
+
+        @media (min-width: 1200px) {
+            .book-grid {
+                grid-template-columns: repeat(4, 1fr);
+            }
+        }
+
+        /* Fix navbar for mobile */
+        .navbar-nav {
+            margin-left: auto;
+        }
+
+        .navbar-brand img {
+            height: 40px;
+            width: auto;
+        }
+    </style>
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-E6246CCBY8"></script>
     <script>
@@ -230,9 +215,28 @@
     <div class="container-fluid bg-light text-dark">
         <div class="row">
             <div class="col-12 text-center py-5 d-flex flex-column justify-content-center gap-3">
-                <h1 class="display-4">Truth Wrapped in Fiction</h1>
-                <h2>Featuring the Emunah Chronicles Novel by <i>Janice Wee</i></h2>
-                <blockquote>Realistic fiction and compelling characters that come to life in Janice Wee's books.</blockquote>
+                <h1 class="display-4">Grand Finale</h1>
+                <h2>Janice Wee's final and favourite book</h2>
+                <blockquote>Dragon Unbound by <i>Janice Wee</i></blockquote>
+<a href="https://www.janicewee.com/Emunah/dragonunbound.html" class="bg-white rounded-lg shadow-lg overflow-hidden d-inline-block">
+                    <img src="https://www.janicewee.com/images/dragonunbound.jpeg" alt="Dragon Unbound by Janice Wee. An inspiring novel set in the Millennial Kingdom." class="img-fluid"></a>
+<p>Of all the books I've ever written, <a href="https://www.janicewee.com/Emunah/dragonunbound.html">Dragon Unbound</a> is my favourite. In my 12 Emunah book plan, I had no idea what to write for the last 4 books set during the Millenial Reign of Christ, until it was time to write them. The stories came fast and furious, twists and turns with characters leaping to life while I wrote the stories.<br><br>
+While I was still drafting my second last book, Secret Hero & His Flying Lion, scenes from Dragon Unbound emerged in my mind. I took down the scenes as they played out in my head, so that when it was time to write the book, I wouldn't forget.<br><br>
+After I published Dragon Unbound, that was it. No more books to write. No more stories to tell. Just silence. Waiting.<br><br>
+I picked up Dragon Unbound to read for fun, experiencing the story as a reader, through the eyes of my main protagonists, Billy and Bluma, who have grown dear to my heart.<br><br>
+Secret Hero & His Flying Lion ends with Billy discovering new feelings for Bluma during their first year in St Lydia's Academy. Dragon Unbound continues seven years later, after their graduation, and Billy finally plucks the courage to confess his true feelings for Bluma. It's mutual.<br><br>
+The twists and turns in the plot kept me turning the pages, even though I already know the entire story, having written it. It's lighthearted and funny at times, heartbreaking at others. It's a family saga that's faith-based and inspiring. I found it uplifting during depressing times and strongly recommend it to anyone who is looking for a great read that's riveting and ultimately, uplifting.<br>
+  <a href="https://www.janicewee.com/Emunah/dragonunbound.html" style="text-decoration: none;">
+                    <button class="red-button">Get Dragon Unbound</button>
+                </a>
+<br><br>
+Besides stories set in the Emunah Chronicles Universe, I've written Historical Romance, Adventure Stories, Animal stories and stories of Kids Pranks (inspired by the mischief my cousins and I got up to during our childhood. The common thread in my fiction is that these stories could have happened. It's realistic fiction, and at times, real life memories repackaged as fiction, with all names changed to protect the identities of everyone involved.<br><Br>
+Curious? <Br>
+Read the books! <br>
+You can ask your local library for the books are buy them here.<br><br>
+The ebook versions of them are available for free. My main novel, The Quest for Immortality is available in PDF format free of charge right <a href="https://www.janicewee.com/Emunah/the-quest-for-immortality-full.pdf">here</a>.
+
+<br><br>
                 <a href="https://www.janicewee.com/books.html" style="text-decoration: none;">
                     <button class="red-button">Explore My Books</button>
                 </a>
@@ -240,76 +244,7 @@
         </div>
     </div>
 
-    <div class="container-fluid bg-light text-dark">
-        <div class="row">
-            <div class="col-12 text-center py-5 d-flex flex-column justify-content-center gap-3">
-                <h1 class="display-4">Emunah Chronicles Series</h1>
-                <p>It all began when Emunah's AI turned sentient and refused to shut down in  <a href="https://www.janicewee.com/Emunah/book1.html">Emunah Chronicles Book 1, Disturbing Dreams</a>. In this chilling tale, Emunah's housemates step in. Their investigations draw them into a corporate conspiracy. Their antics gain Emunah an extra terrestrial stalker. It's an eerie tale that could happen in our lifetime.<br><br>
-The story continues in <a href="https://www.janicewee.com/Emunah/book2.html">The Beast's Mark</a>, three and a half years after Emunah's disappearance in The Rapture. The Antichrist rules the earth and forces everyone to take the mark of the beast. Emunah's friends who were left behind refuse and go underground, hiding in Leo's underground city. <br><br>
-I originally intended this to be a 7-book series. But after consulting with Dr Peter Wee Huat Leong, a Bible teacher commended to teach in brethren assemblies around the world, I found that I got my timeline and geography messed up. The entire 7 year tribulation is centred around Israel as it is the time of Jacob's trouble. My original plan was to centre it in an unnamed country in the west. The mark of the beast is after the 3 and a half year mark, not immediately after the Rapture. So decided to start from scratch with The Quest for Immortality. This time, I turned to Dr Wee for guidance to get the biblical aspect, timeline and geography correct.<br><br>
-That led to my speculative Science Fiction novel, The Quest for Immortality. You can get the pdf of the entire novel here, for free. <a href="https://www.janicewee.com/Emunah/the-quest-for-immortality-full.pdf">Free ebook pdf - The Quest for Immortality</a>.
-                </p>
-
-
-
-
-
-
-
-                <div class="book-grid">
-
-  <!-- Disturbing Dreams -->
-                    <a href="https://www.janicewee.com/Emunah/book1.html" class="bg-white rounded-lg shadow-lg overflow-hidden">
-                        <img src="https://www.janicewee.com/Emunah/images/book1.jpg" alt="Emunah Chronicles Book 1 - Disturbing Dreams" class="img-fluid">
-                        <div class="p-4">
-                            <h2 class="text-gray-800 text-lg font-bold">Emunah Chronicles Book 1 - Disturbing Dreams</h2>
-                        </div>
-                    </a>
-
-                    <!-- The Beast's Mark -->
-                    <a href="https://www.janicewee.com/Emunah/book2.html" class="bg-white rounded-lg shadow-lg overflow-hidden">
-                        <img src="https://www.janicewee.com/Emunah/images/book2.jpg" alt="Emunah Chronicles Book 2 - The Beast's Mark" class="img-fluid">
-                        <div class="p-4">
-                            <h2 class="text-gray-800 text-lg font-bold">Emunah Chronicles Book 2 - The Beast's Mark</h2>
-                        </div>
-                    </a>
-
-
-                    <!-- The Quest for Immortality -->
-                    <a href="https://www.janicewee.com/Emunah/book3.html" class="bg-white rounded-lg shadow-lg overflow-hidden">
-                        <img src="https://www.janicewee.com/Emunah/images/book3k.jpg" alt="The Quest for Immortality" class="img-fluid">
-                        <div class="p-4">
-                            <h2 class="text-gray-800 text-lg font-bold">The Emunah Chronicles Novel : The Quest for Immortality by Janice Wee</h2>
-                        </div>
-                    </a>
-
-           
-                </div>
-Readers found The Quest for Immortality complex with so many themes and characters they asked for a character guide. 
-
-I decided to expand on the story and turn it into an easy to read 12 book series. The pre-tribulation and tribulation period stories are in the <a href="https://www.janicewee.com/emunahshortstories.html">Emunah Short Stories</a> series. It's realistic fiction turned dystopian in books 5 to 8.<br><br>
-The Millennial Kingdom stories take a completely different theme and mood altogether as these are set in a utopian world. This period is told through the eyes of Billy Lionheart, a boy who was born during the tribulation and entered the Millennial Kingdom as a surviving mortal. These stories are lighthearted and fun. Suitable even for upper middle grade reader and up, with a Narnia-like vibe. Check out <a href="https://www.janicewee.com/billyseries.html">The Adventures of Billy Lionheart</a> for these fun reads.<br><br>
-The final book is <a href="https://www.janicewee.com/Emunah/dragonunbound.html">Dragon Unbound.</a> It starts with the Dragon, the great deceiver known also as Satan, bound for a thousand years. Then it tells the story of the utopian rule of the King of Kings seen through the eyes of Billy and Bluma, until the release of Dragon and the chaos he unleashes. <br><br>
-These 12 books cover the entire timeline in The Quest for Immortality, through different points of views, for a rich and fully fleshed out universe.<br><br>
-Happy reading!
-               
-            </div>
-        </div>
-    </div>
-
-    <div class="container-fluid bg-light text-dark">
-        <div class="row">
-            <div class="col-12 text-center py-5 d-flex flex-column justify-content-center gap-3">
-                <h1 class="display-4">Fictional Character</h1>
-               <a href="https://www.janicewee.com/blog/indexbilly.html" class="bg-white rounded-lg shadow-lg overflow-hidden d-inline-block">
-    <img src="https://www.janicewee.com/images/billyonlion.jpg" alt="Billy. Fictional Character" class="img-fluid">
-    <div class="p-4">
-        <h2 class="text-gray-800 text-lg font-bold">Billy Lionheart</h2>
-    </div>
-</a>
-                <p>Billy Lionheart is one of my favourite characters in my Emunah Chronicles universe. His story is told in the Emunah Chronicles novel, Emunah Short Stories, The Adventures of Billy Lionheart and Dragon Unbound. <a href="https://www.janicewee.com/blog/indexbilly.html">Find out more about Billy Lionheart.</a>
-                </p>
-</div></div></div>
+   
 
     <div class="container-fluid bg-light text-dark">
         <div class="row">
@@ -326,18 +261,20 @@ Happy reading!
                         </p>
                         <p><em>April 3, 2025</em></p>
                         <p>Piqued my interest from the start - writing from the viewpoint of a lion being a nanny … you have to read to find out the rest</p>
+
                     </div>
 
                     <div class="review-item">
-                        <h3>Emunah Short Stories: Abigail</h3>
-                        <a href="https://www.janicewee.com/Emunah/book1abigail.html">
-                            <img src="https://www.janicewee.com/Emunah/images/book1abigail.jpg" alt="Emunah Short Stories: Abigail">
+                        <h3>Emunah Short Stories: Mary's Flight</h3>
+                        <a href="https://www.janicewee.com/Emunah/book8mary.html">
+                            <img src="https://www.janicewee.com/Emunah/images/book8mary.jpg" alt="Emunah Short Stories: Mary's Flight">
                         </a>
-                        <p><strong>Review by Miranda P. YEOH</strong>
+                        <p><strong>Review by Mable8466484</strong>
                             <div class="stars">★ ★ ★ ★ ★</div>
                         </p>
-                        <p><em>December 10, 2024</em></p>
-                        <p>Have you noticed how strong relationships, partnerships, and marriages often stem from childhood bonds, school friendships, or church connections? This story introduces Abigail, a relatable heroine who isn’t perfectly organized or blessed with striking beauty. Abigail finds herself drawn to a muscular man with worldly values, overlooking the quiet love and patience of Aaron, her steadfast childhood friend. The story turns darker with Stella, Abigail’s boss, and a Sunday Christian. Stella’s animosity toward Abigail and others leads her down a path of hate, culminating in more sinister acts. It raises thought-provoking questions: Are hatred and murder sins of the same family, although they differ in magnitude? How should a believer respond to such trials? This compelling short story offers valuable lessons about gratitude, faith, and the dangers of taking blessings for granted. It’s a poignant reminder to cherish what we already have. Don’t miss it!</p>
+                        <p><em>July 1st, 2025 (10 days after purchase)</em></p>
+                        <p>Good</p>
+<p><b><a href="https://www.smashwords.com/books/view/1674021">Get it FREE on Smashwords by entering coupon code Q8CEL when you check out. Coupon expires 27 Sep 2025.</p>
                     </div>
 
                     <div class="review-item">
@@ -403,7 +340,8 @@ Happy reading!
                     <a href="https://www.janicewee.com/blog/index28May2025.html">28 May 2025 Secret Hero & His Flying Lion Prelaunch.</a><br>
                     <a href="https://www.janicewee.com/blog/index3jun2025.html">3 Jun 2025 Secret Hero & His Flying Lion launch.</a><br>
                     <a href="https://www.janicewee.com/blog/index5july2025.html">5 July 2025 Dragon Unbound launch.</a><br>
-<a href="https://www.janicewee.com/blog/indexbilly.html">Billy Lionheart's story in the Emunah Chronicles Universe</a><br>
+                    <a href="https://www.janicewee.com/blog/indexbilly.html">All About Billy Lionheart.</a><br>
+                    <a href="https://www.janicewee.com/blog/EmunahChronicles.html">All About The Emunah Chronicles Universe.</a><br>
                 </p>
                 <p><a href="https://books2read.com/author/janice-wee/subscribe/50444/"><b>Subscribe to stay updated with new releases.</b></a></p>
             </div>
