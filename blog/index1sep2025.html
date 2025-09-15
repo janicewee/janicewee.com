@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
+    <title>Janice Wee - Home</title>
+    <script defer src="https://use.fontawesome.com/releases/v5.15.4/js/solid.js" integrity="sha384-/BxOvRagtVDn9dJ+JGCtcofNXgQO/CCCVKdMfL115s3gOgQxWaX/tSq5V8dRgsbc" crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.15.4/js/fontawesome.js" integrity="sha384-dPBGbj4Uoy1OOpM4+aRGfAOc0W37JkROT+3uynUgTHZCHZNMHfGXsmmvYTffZjYO" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/openlayers/4.6.5/ol.css" rel="stylesheet"/>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/openlayers/4.6.5/ol.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootswatch@4.5.2/dist/litera/bootstrap.min.css" integrity="sha384-enpDwFISL6M3ZGZ50Tjo8m65q06uLVnyvkFO3rsoW0UC15ATBFz3QEhr3hmxpYsn" crossorigin="anonymous">
+    <style>
+        /* General image styling */
+        img {
+            object-fit: cover;
+            border-radius: 10px;
+            transition: transform 0.3s ease;
+            max-width: 100%;
+            height: auto;
+        }
+
+        .rounded-circle {
+            border-radius: 5px !important;
+        }
+
+        .btn-primary {
+            color: #fff !important;
+        }
+
+        .red-button {
+            background-color: #FF4136;
+            color: white;
+            border: none;
+            padding: 1rem 2rem;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 1rem;
+            margin: 0.25rem 0.125rem;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            border-radius: 5px;
+            box-shadow: 0 0.5rem #D33A2F;
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+            width: auto;
+            max-width: 90%;
+        }
+
+        .red-button:active {
+            box-shadow: 0 0.25rem #D33A2F;
+            transform: translateY(0.25rem);
+        }
+
+        .responsive-table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        .responsive-table th, .responsive-table td {
+            border: 1px solid #ddd;
+            padding: 0.5rem;
+            text-align: left;
+        }
+
+        .stars {
+            font-size: 1.5rem;
+            color: gold;
+        }
+
+        /* Responsive container for reviews */
+        .reviews-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 1rem;
+            padding: 1rem;
+        }
+
+        .review-item {
+            flex: 1 1 100%;
+            max-width: 300px;
+            margin: 0.5rem;
+            text-align: center;
+        }
+
+        .review-item img {
+            width: 100%;
+            max-width: 200px;
+            height: auto;
+            object-fit: cover;
+        }
+
+        /* Book grid */
+        .book-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1rem;
+            padding: 1rem;
+        }
+
+        .book-grid a {
+            text-decoration: none;
+        }
+
+        /* General container adjustments */
+        .container-fluid {
+            padding: 0 1rem;
+        }
+
+        .container-fluid .row {
+            margin: 0;
+        }
+
+        /* Responsive typography */
+        h1.display-4 {
+            font-size: clamp(2rem, 5vw, 3rem);
+        }
+
+        h2 {
+            font-size: clamp(1.5rem, 4vw, 2rem);
+        }
+
+        p {
+            font-size: clamp(1rem, 2.5vw, 1.125rem);
+        }
+
+        /* YouTube iframes */
+        iframe {
+            width: 100%;
+            max-width: 560px;
+            height: auto;
+            aspect-ratio: 16 / 9;
+        }
+
+        /* Media queries for larger screens */
+        @media (min-width: 768px) {
+            .reviews-container {
+                justify-content: space-around;
+            }
+
+            .review-item {
+                flex: 1 1 30%;
+                max-width: 350px;
+            }
+
+            .review-item img {
+                max-width: 100%;
+                max-height: 200px;
+                object-fit: contain;
+            }
+
+            .book-grid {
+                grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            }
+        }
+
+        @media (min-width: 1200px) {
+            .book-grid {
+                grid-template-columns: repeat(4, 1fr);
+            }
+        }
+
+        /* Fix navbar for mobile */
+        .navbar-nav {
+            margin-left: auto;
+        }
+
+        .navbar-brand img {
+            height: 40px;
+            width: auto;
+        }
+    </style>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-E6246CCBY8"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'G-E6246CCBY8');
+    </script>
+</head>
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="https://www.janicewee.com">
+                <img src="https://www.janicewee.com/images/logo.jpg" alt="Janice Wee Logo" class="img-fluid">
+                Janice Wee
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="https://www.janicewee.com/index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://www.janicewee.com/books.html">Books</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://www.janicewee.com/author.html">Author</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://www.janicewee.com/series.html">Series</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container-fluid bg-light text-dark">
+        <div class="row">
+            <div class="col-12 text-center py-5 d-flex flex-column justify-content-center gap-3">
+                <h1 class="display-4">Cosy Mysteries</h1>
+                <h2>Lighthearted reads with unexpected twists.</h2>
+                <blockquote>Secret Hero & His Flying Lion by <i>Janice Wee</i></blockquote>
+<a href="https://www.janicewee.com/Emunah/billy3.html" class="bg-white rounded-lg shadow-lg overflow-hidden d-inline-block">
+                    <img src="https://www.janicewee.com/images/billy3outdoor.jpg" alt="Secret Hero & His Flying Lion by Janice Wee. A high school cosy mystery with superpowers and talking animals." class="img-fluid"></a>
+<p>
+Looking for a good cosy mystery?<br>
+I've got two for you.<br><br>
+If you love historical romances, I recommend <a href="https://www.janicewee.com/book2e2.html">Two Worlds</a>. Fugitive Stanley falls in love with Daddy's girl, a beautiful islander, Eve. Men in Eve's village drop dead unexpectedly around the star-crossed lovers. Natives blame the village ghost. But when Stanley finds the corpse of his friend, he realises there's something more to this.<br><br>
+If you like high school tales with crushes, superpowers and talking animals, you'd love <a href="https://www.janicewee.com/Emunah/billy3.html">Secret Hero & His Flying Lion</a>. <br>
+Billy has known Bluma since they were babies. But when they meet in St Lydia's Academy, something's changed. This story takes place after Billy & Bluma. Double Trouble. Billy returns from his adventure with super strength which he loses control of, now and then. 
+<br><br>
+
+<iframe src="https://www.youtube.com/embed/reZdAGNZs9I?si=3gpICZb8ujMbQbnS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+
+<br><br>
+  <a href="https://www.janicewee.com/Emunah/billy3.html" style="text-decoration: none;">
+                    <button class="red-button">Get Secret Hero & His Flying Lion</button>
+                </a>
+<br><br>
+Besides stories set in the <a href="https://www.janicewee.com/blog/EmunahChronicles.html">Emunah Chronicles Universe</a>, I've written Historical Romance, Adventure Stories, Animal stories and stories of Kids Pranks (inspired by the mischief my cousins and I got up to during our childhood. The common thread in my fiction is that these stories could have happened. It's realistic fiction, and at times, real life memories repackaged as fiction, with all names changed to protect the identities of everyone involved.<br><Br>
+Curious? <Br>
+Read the books! <br>
+You can ask your local library for the books or buy them here.<br><br>
+The ebook versions of them are available for free. My main novel, The Quest for Immortality is available in PDF format free of charge right <a href="https://www.janicewee.com/Emunah/the-quest-for-immortality-full.pdf">here</a>.
+
+<br><br>
+                <a href="https://www.janicewee.com/books.html" style="text-decoration: none;">
+                    <button class="red-button">Explore My Books</button>
+                </a>
+            </div>
+        </div>
+    </div>
+
+   
+
+    <div class="container-fluid bg-light text-dark">
+        <div class="row">
+            <div class="col-12 text-center py-5 d-flex flex-column justify-content-center gap-3">
+                <h1 class="display-4">What Readers Are Saying</h1>
+                <div class="reviews-container">
+                    <div class="review-item">
+                        <h3>Billy The Lion Boy</h3>
+                        <a href="https://www.janicewee.com/Emunah/billy1.html">
+                            <img src="https://www.janicewee.com/Emunah/images/billylionheart.jpg" alt="Billy The Lion Boy">
+                        </a>
+                        <p><strong>Review by VonneD</strong>
+                            <div class="stars">★ ★ ★ ★ ★</div>
+                        </p>
+                        <p><em>April 3, 2025</em></p>
+                        <p>Piqued my interest from the start - writing from the viewpoint of a lion being a nanny … you have to read to find out the rest</p>
+
+                    </div>
+
+                    <div class="review-item">
+                        <h3>Emunah Short Stories: Mary's Flight</h3>
+                        <a href="https://www.janicewee.com/Emunah/book8mary.html">
+                            <img src="https://www.janicewee.com/Emunah/images/book8mary.jpg" alt="Emunah Short Stories: Mary's Flight">
+                        </a>
+                        <p><strong>Review by Mable8466484</strong>
+                            <div class="stars">★ ★ ★ ★ ★</div>
+                        </p>
+                        <p><em>July 1st, 2025 (10 days after purchase)</em></p>
+                        <p>Good</p>
+<p><b><a href="https://www.smashwords.com/books/view/1674021">Get it FREE on Smashwords by entering coupon code Q8CEL when you check out. Coupon expires 27 Sep 2025.</p>
+                    </div>
+
+                    <div class="review-item">
+                        <h3>Little Nonya's Escapades</h3>
+                        <a href="https://www.janicewee.com/nonyaescapades.html">
+                            <img src="https://www.janicewee.com/images/escapades.jpg" alt="Little Nonya's Escapades">
+                        </a>
+                        <p><strong>Review by Reader</strong>
+                            <div class="stars">★ ★ ★ ★ ★</div>
+                        </p>
+                        <p><em>December 1, 2024</em></p>
+                        <p>It’s good reading material. Language simple yet interesting and punctuated with humour.<br>
+                            Many children and adults can identify with the little nonya as it brings one back to memory lane of childhood days and pranks.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid bg-light text-dark">
+        <div class="row">
+            <div class="col-12 text-center py-5 d-flex flex-column justify-content-center gap-3">
+                <h1 class="display-4">Buy Janice Wee's Books</h1>
+                <h2>
+                    <a href="https://books2read.com/ap/8G2gQM/Janice-Wee">Major Online Stores</a><br><br>
+                    <a href="https://www.barnesandnoble.com/s/%22Janice%20Wee%22">Barnes & Noble</a>
+                </h2>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid bg-light text-dark">
+        <div class="row">
+            <div class="col-12 text-center py-5 d-flex flex-column justify-content-center gap-3">
+                <h1 class="display-4">Connect with Janice</h1>
+                <h2>
+                    <a href="https://www.goodreads.com/author/show/29746824.Janice_Wee">Goodreads</a> .
+                    <a href="https://books2read.com/ap/8G2gQM/Janice-Wee">Books2Read</a> .
+                    <a href="https://www.pinterest.com/?boardId=215398863367237766">Emunah Timeline on Pinterest</a>
+                </h2>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid bg-light text-dark">
+        <div class="row">
+            <div class="col-12 text-center py-5 d-flex flex-column justify-content-center gap-3">
+                <h1 class="display-4">Quick Links</h1>
+                <p>
+                    <a href="https://www.janicewee.com/books.html">Books</a><br>
+                    <a href="https://www.janicewee.com/series.html">Series</a><br>
+                    <a href="https://www.janicewee.com/author.html">About</a><br>
+                </p>
+                <h3>Past Posts</h3>
+                <p>
+                    <a href="https://www.janicewee.com/index2024.html">2024 Releases</a><br>
+                    <a href="https://www.janicewee.com/index20feb2025.html">20 Feb 2025. Mary's Flight</a><br>
+                    <a href="https://www.janicewee.com/blog/index3mar2025.html">3 March 2025 Singapore Stories</a><br>
+                    <a href="https://www.janicewee.com/blog/index12mar2025.html">12 March 2025 Save With Collections.</a><br>
+                    <a href="https://www.janicewee.com/blog/index17mar2025.html">17 March 2025 Billy The Lion Boy Prelaunch.</a><br>
+                    <a href="https://www.janicewee.com/blog/index4apr2025.html">4 April 2025 Billy The Lion Boy and the Reading Order and Timeline of the Emunah Chronicles Universe.</a><br>
+                    <a href="https://www.janicewee.com/blog/index1may2025.html">1 May 2025 Billy & Bluma Prelaunch.</a><br>
+                    <a href="https://www.janicewee.com/blog/index28May2025.html">28 May 2025 Secret Hero & His Flying Lion Prelaunch.</a><br>
+                    <a href="https://www.janicewee.com/blog/index3jun2025.html">3 Jun 2025 Secret Hero & His Flying Lion launch.</a><br>
+                    <a href="https://www.janicewee.com/blog/index5july2025.html">5 July 2025 Dragon Unbound launch.</a><br>
+                    <a href="https://www.janicewee.com/blog/indexbilly.html">All About Billy Lionheart.</a><br>
+                    <a href="https://www.janicewee.com/blog/EmunahChronicles.html">All About The Emunah Chronicles Universe.</a><br>
+                    <a href="https://www.janicewee.com/blog/finalbook.html">Janice Wee's Final Book.</a><br>
+                </p>
+                <p><a href="https://books2read.com/author/janice-wee/subscribe/50444/"><b>Subscribe to stay updated with new releases.</b></a></p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
