@@ -34,34 +34,201 @@
         body {
             background-color: #f8f9fa;
         }
+
+        /* General image styling */
+        img {
+            object-fit: cover;
+            border-radius: 10px;
+            transition: transform 0.3s ease;
+            max-width: 100%;
+            height: auto;
+        }
+
+        .rounded-circle {
+            border-radius: 5px !important;
+        }
+
+        .btn-primary {
+            color: #fff !important;
+        }
+
+        .red-button {
+            background-color: #FF4136;
+            color: white;
+            border: none;
+            padding: 1rem 2rem;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 1rem;
+            margin: 0.25rem 0.125rem;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            border-radius: 5px;
+            box-shadow: 0 0.5rem #D33A2F;
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+            width: auto;
+            max-width: 90%;
+        }
+
+        .red-button:active {
+            box-shadow: 0 0.25rem #D33A2F;
+            transform: translateY(0.25rem);
+        }
+
+        .responsive-table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        .responsive-table th, .responsive-table td {
+            border: 1px solid #ddd;
+            padding: 0.5rem;
+            text-align: left;
+        }
+
+        .stars {
+            font-size: 1.5rem;
+            color: gold;
+        }
+
+        /* Responsive container for reviews */
+        .reviews-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 1rem;
+            padding: 1rem;
+        }
+
+        .review-item {
+            flex: 1 1 100%;
+            max-width: 300px;
+            margin: 0.5rem;
+            text-align: center;
+        }
+
+        .review-item img {
+            width: 100%;
+            max-width: 200px;
+            height: auto;
+            object-fit: cover;
+        }
+
+        /* Book grid */
+        .book-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1rem;
+            padding: 1rem;
+        }
+
+        .book-grid a {
+            text-decoration: none;
+        }
+
+        /* General container adjustments */
+        .container-fluid {
+            padding: 0 1rem;
+        }
+
+        .container-fluid .row {
+            margin: 0;
+        }
+
+        /* Responsive typography */
+        h1.display-4 {
+            font-size: clamp(2rem, 5vw, 3rem);
+        }
+
+        h2 {
+            font-size: clamp(1.5rem, 4vw, 2rem);
+        }
+
+        p {
+            font-size: clamp(1rem, 2.5vw, 1.125rem);
+        }
+
+        /* YouTube iframes */
+        iframe {
+            width: 100%;
+            max-width: 560px;
+            height: auto;
+            aspect-ratio: 16 / 9;
+        }
+
+        /* Media queries for larger screens */
+        @media (min-width: 768px) {
+            .reviews-container {
+                justify-content: space-around;
+            }
+
+            .review-item {
+                flex: 1 1 30%;
+                max-width: 350px;
+            }
+
+            .review-item img {
+                max-width: 100%;
+                max-height: 200px;
+                object-fit: contain;
+            }
+
+            .book-grid {
+                grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            }
+        }
+
+        @media (min-width: 1200px) {
+            .book-grid {
+                grid-template-columns: repeat(4, 1fr);
+            }
+        }
+
+        /* Fix navbar for mobile */
+        .navbar-nav {
+            margin-left: auto;
+        }
+
+        .navbar-brand img {
+            height: 40px;
+            width: auto;
+        }
     </style>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-E6246CCBY8"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'G-E6246CCBY8');
+    </script>
 </head>
 <body>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
-    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
-            <a href="https://www.janicewee.com"><img src="https://www.janicewee.com/images/logo.jpg" width="100" alt="Janice Wee Author Logo"></a>
-            <a class="navbar-brand" href="https://www.janicewee.com">Janice Wee</a>
+            <a class="navbar-brand" href="https://www.janicewee.com">
+                <img src="https://www.janicewee.com/images/logo.jpg" alt="Janice Wee Logo" class="img-fluid">
+                Janice Wee
+            </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ml-auto">
+                <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        <a class="nav-link active" aria-current="page" href="https://www.janicewee.com/index.html">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="books.html">Books</a>
+                        <a class="nav-link" href="https://www.janicewee.com/books.html">Books</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="author.html">Author</a>
+                        <a class="nav-link" href="https://www.janicewee.com/author.html">Author</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="about.html">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="blog.html">Blog</a>
+                        <a class="nav-link" href="https://www.janicewee.com/series.html">Series</a>
                     </li>
                 </ul>
             </div>
