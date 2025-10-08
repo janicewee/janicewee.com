@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
+    <title>Janice Wee - Indie Author</title>
+    <script defer src="https://use.fontawesome.com/releases/v5.15.4/js/solid.js" integrity="sha384-/BxOvRagtVDn9dJ+JGCtcofNXgQO/CCCVKdMfL115s3gOgQxWaX/tSq5V8dRgsbc" crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.15.4/js/fontawesome.js" integrity="sha384-dPBGbj4Uoy1OOpM4+aRGfAOc0W37JkROT+3uynUgTHZCHZNMHfGXsmmvYTffZjYO" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/openlayers/4.6.5/ol.css" rel="stylesheet"/>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/openlayers/4.6.5/ol.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootswatch@4.5.2/dist/litera/bootstrap.min.css" integrity="sha384-enpDwFISL6M3ZGZ50Tjo8m65q06uLVnyvkFO3rsoW0UC15ATBFz3QEhr3hmxpYsn" crossorigin="anonymous">
+    <style>
+        /* General image styling */
+        img {
+            object-fit: cover;
+            border-radius: 10px;
+            transition: transform 0.3s ease;
+            max-width: 100%;
+            height: auto;
+        }
+
+        .rounded-circle {
+            border-radius: 5px !important;
+        }
+
+        .btn-primary {
+            color: #fff !important;
+        }
+
+        .red-button {
+            background-color: #FF4136;
+            color: white;
+            border: none;
+            padding: 1rem 2rem;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 1rem;
+            margin: 0.25rem 0.125rem;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            border-radius: 5px;
+            box-shadow: 0 0.5rem #D33A2F;
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+            width: auto;
+            max-width: 90%;
+        }
+
+        .red-button:active {
+            box-shadow: 0 0.25rem #D33A2F;
+            transform: translateY(0.25rem);
+        }
+
+        .responsive-table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        .responsive-table th, .responsive-table td {
+            border: 1px solid #ddd;
+            padding: 0.5rem;
+            text-align: left;
+        }
+
+        .stars {
+            font-size: 1.5rem;
+            color: gold;
+        }
+
+        /* Responsive container for reviews */
+        .reviews-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 1rem;
+            padding: 1rem;
+        }
+
+        .review-item {
+            flex: 1 1 100%;
+            max-width: 300px;
+            margin: 0.5rem;
+            text-align: center;
+        }
+
+        .review-item img {
+            width: 100%;
+            max-width: 200px;
+            height: auto;
+            object-fit: cover;
+        }
+
+        /* Book grid */
+        .book-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1rem;
+            padding: 1rem;
+        }
+
+        .book-grid a {
+            text-decoration: none;
+        }
+
+        /* General container adjustments */
+        .container-fluid {
+            padding: 0 1rem;
+        }
+
+        .container-fluid .row {
+            margin: 0;
+        }
+
+        /* Responsive typography */
+        h1.display-4 {
+            font-size: clamp(2rem, 5vw, 3rem);
+        }
+
+        h2 {
+            font-size: clamp(1.5rem, 4vw, 2rem);
+        }
+
+        p {
+            font-size: clamp(1rem, 2.5vw, 1.125rem);
+        }
+
+        /* YouTube iframes */
+        iframe {
+            width: 100%;
+            max-width: 560px;
+            height: auto;
+            aspect-ratio: 16 / 9;
+        }
+
+        /* Media queries for larger screens */
+        @media (min-width: 768px) {
+            .reviews-container {
+                justify-content: space-around;
+            }
+
+            .review-item {
+                flex: 1 1 30%;
+                max-width: 350px;
+            }
+
+            .review-item img {
+                max-width: 100%;
+                max-height: 200px;
+                object-fit: contain;
+            }
+
+            .book-grid {
+                grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            }
+        }
+
+        @media (min-width: 1200px) {
+            .book-grid {
+                grid-template-columns: repeat(4, 1fr);
+            }
+        }
+
+        /* Fix navbar for mobile */
+        .navbar-nav {
+            margin-left: auto;
+        }
+
+        .navbar-brand img {
+            height: 40px;
+            width: auto;
+        }
+    </style>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-E6246CCBY8"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'G-E6246CCBY8');
+    </script>
+</head>
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="https://www.janicewee.com">
+                <img src="https://www.janicewee.com/images/logo.jpg" alt="Janice Wee Logo" class="img-fluid">
+                Janice Wee
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="https://www.janicewee.com/index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://www.janicewee.com/books.html">Books</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://www.janicewee.com/author.html">Author</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://www.janicewee.com/series.html">Series</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://www.janicewee.com/blog/blog.html">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://www.janicewee.com/about.html">About</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container-fluid bg-light text-dark">
+        <div class="row">
+            <div class="col-12 text-center py-5 d-flex flex-column justify-content-center gap-3">
+                <h1 class="display-4">Janice Wee. Author. Chocolate Fanatic</h1>
+                <h2>My latest recipe - Banana scones with chocolate lava</h2>
+                <blockquote>Banana Scone Recipe by <i>Janice Wee</i></blockquote>
+                    <center><img src="https://www.janicewee.com/images/bananascone1.jpg" alt="Banana chocolate scone recipe." width="300" class="img-fluid"></center>
+
+
+<p>
+<h3>Home Made Scone Ingredients</h3>
+<b>Dry Ingredients</b>
+<ul>
+<li>2 cups ground almonds</li>
+<li>a pinch of salt</li>
+<li>a pinch of baking soda</li>
+</ul><br>
+<b>Wet Ingredients</b>
+<ul>
+<li>1 big egg</li>
+<li>1 teaspoon vanilla extract</li>
+<li>2 large bananas</li>
+</ul><br>
+<b>Optional (if you want chocolate lava)</b>
+<ul>
+<li>Dark chocolate couvecture buttons</li>
+<li>White chocolate couvecture buttons</li>
+</ul><br>
+<h3>Method to bake your own banana scones</h3>
+<ol>
+<li>Mix the dry ingredients in a bowl.</li>
+<li>Mash the bananas into a smooth liquid.</li>
+<li>Mix the bananas and the rest of the wet ingredients together.</li>
+<li>Stir the wet ingredients into the dry ingredients until you have a ball of dough.</li>
+<li>Line a baking tray with baking paper.</li>
+<li>Use two spoons to scoop and shape the dough into balls on the baking sheet.</li>
+<li>Preheat the oven to 190 degrees.</li>
+<li>If you want chocolate in your banana scones, stuff a white chocolate button into each ball and bury it. Then stuff a dark chocolate button into the ball.</li>
+<li>If you want your scones to ooze with lava, stack, stuff and bury a few chocolate buttons (white for white lava, dark chocolate for chocolate lava. Take your pick) into each ball. </li>
+<li>Bake for 14 minutes in a preheated oven.</li>
+<li>Take the tray out to cool on a wire rack for 5 minutes before serving.</li>
+</ol>
+Here's what the inside of my scone looks like. I stuffed in a white chocolate button, buried it, then stuffed a dark chocolate button.<br>
+<center><img src="https://www.janicewee.com/images/bananascone2.jpg" alt="Banana chocolate scone recipe." width="300" class="img-fluid"></center>
+<br>
+It's moist, with a hint of banana, enough chocolate for a scone, and yummy!
+
+<br><br>
+
+In my humble opinion, scones go perfectly with tea and a good read. I love books and have loads of stories to tell.<br>
+I ended up writing books which I enjoy reading time and again. <br>
+If you like stories with unexpected twists, a good laugh or a good cry, or something thought provoking that sticks in your mind long after you've read it, you'll love my <a href="https://www.janicewee.com/books.html"><b>books</b></a>.<br><br>
+
+<br><br>
+For fun lighthearted read, check out my latest series, <a href="https://www.janicewee.com/billyseries.html">The Adventures of Billy Lionheart.</a>
+<br>
+<center>
+<iframe src="https://www.youtube.com/embed/1eAlI2Vnbqg?si=N5vBASAAp4AXuxYn" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</center>
+
+<br><br>
+Curious what happens to Billy when he grows up?
+<Br>
+Check out Janice Wee's latest novel <a href="https://www.janicewee.com/Emunah/dragonunbound.html">Dragon Unbound.</a>
+<br><br>
+There's more.
+
+<br><br>
+                <a href="https://www.janicewee.com/books.html" style="text-decoration: none;">
+                    <button class="red-button">Explore My Books</button>
+                </a>
+            </div>
+        </div>
+    </div>
+
+   
+
+    <div class="container-fluid bg-light text-dark">
+        <div class="row">
+            <div class="col-12 text-center py-5 d-flex flex-column justify-content-center gap-3">
+                <h1 class="display-4">What Readers Are Saying</h1>
+                <div class="reviews-container">
+                    <div class="review-item">
+                        <h3>Dragon Unbound. By Janice Wee</h3>
+                        <a href="https://www.janicewee.com/Emunah/dragonunbound.html">
+                            <img src="https://www.janicewee.com/Emunah/images/dragonunbound.jpg" alt="Dragon Unbound">
+                        </a>
+                        <p><strong>Review by Ting Chin</strong>
+                            <div class="stars">★ ★ ★ ★ ★</div>
+                        </p>
+                        <p><em>September 8, 2025</em></p>
+                        <p>A must-read for fans of Christian speculative fiction, Janice Wee's Dragon Unbound plunges readers into a vibrant narrative set during the Millennial Kingdom, where biblical prophecy unfolds amidst the everyday lives of mortals and immortals alike.
+The story spans a thousand years, centering on the captivating journey of Billy Lionheart and Bluma, from childhood friends to patriarch and matriarch of a new nation. Their lives are intertwined with significant spiritual events, including the long-awaited release of Dragon (Satan) from his thousand-year prison, leading to widespread deception and spiritual warfare.
+Janice effectively portrays the challenges of faith and family in this post-Tribulation world, as characters grapple with spiritual attacks, personal struggles, and the consequences of deception, even within their own households. The inclusion of direct biblical passages and theological explanations enriches the narrative, offering clear spiritual insights that resonate deeply with Christian readers.
+While covering mature themes, the writing style is straightforward and accessible, ensuring that the complex overarching narrative remains easy to follow. This direct approach allows the story's powerful messages of God's sovereignty, redemption, and ultimate triumph over evil to shine through. The author, being a Straits Born Chinese from Singapore, brings a unique perspective to this epic tale, making it a compelling read.
+If you're looking for an allegorical story that blends action, family drama, and profound spiritual themes, Dragon Unbound will not disappoint. It's a journey of faith, perseverance, and the unwavering love of God in the face of ultimate evil.</p>
+
+                    </div>
+
+                    <div class="review-item">
+                        <h3>Billy The Lion Boy</h3>
+                        <a href="https://www.janicewee.com/Emunah/billy1.html">
+                            <img src="https://www.janicewee.com/Emunah/images/billylionheart.jpg" alt="The Adventures of Billy Lionheart. Billy The Lion Boy">
+                        </a>
+                        <p><strong>Review by Kindle Customer</strong>
+                            <div class="stars">★ ★ ★ ★ </div>
+                        </p>
+                        <p><em>May 6, 2025</em></p>
+                        <p>An entertaining and imaginative story. Fun to read with a gentle perspective on love and loss. Billy is an orphan who yearns to be reunited with his parents. His guardian is a lion who is his fierce protector despite the youngster's penchant for mischief. The tale maps their growing relationship and offers a little bit of a Narnia-like adventure for younger readers.</p>
+                    </div>
+
+                    <div class="review-item">
+                        <h3>The Quest For Immortality</h3>
+                        <a href="https://www.janicewee.com/Emunah/book3.html">
+                            <img src="https://www.janicewee.com/Emunah/images/book3k.jpg" alt="Little Nonya's Escapades">
+                        </a>
+                        <p><strong>Review by Miranda P. YEOH</strong>
+                            <div class="stars">★ ★ ★ ★ ★</div>
+                        </p>
+                        <p><em>January 1, 2024</em></p>
+                        <p>The book discusses disturbing applications of modern technology with Bible Prophecy. It is character-driven, seen through the eyes of the diverse cast as the transition from today’s setting into a world ruled by a global dictator, the Antichrist. This dictator goes by the moniker - Beast. The book is fast-paced; the twists and turns that keep you turning the pages. It transitions from modern-day to the dystopian rule of Beast into the Utopian millennial rule where immortals live alongside mortals in a peaceful world before the Dragon’s release. It’s an epic speculative science fiction novel that draws on prophetic events. I find the book highly entertaining, and I recommend it.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid bg-light text-dark">
+        <div class="row">
+            <div class="col-12 text-center py-5 d-flex flex-column justify-content-center gap-3">
+                <h1 class="display-4">Buy Janice Wee's Books</h1>
+                <h2>
+                    <a href="https://books2read.com/ap/8G2gQM/Janice-Wee">Major Online Stores</a><br><br>
+                    <a href="https://www.barnesandnoble.com/s/%22Janice%20Wee%22">Barnes & Noble</a>
+                </h2>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid bg-light text-dark">
+        <div class="row">
+            <div class="col-12 text-center py-5 d-flex flex-column justify-content-center gap-3">
+                <h1 class="display-4">Connect with Janice</h1>
+                <h2>
+                    <a href="https://www.goodreads.com/author/show/29746824.Janice_Wee">Goodreads</a> .
+                    <a href="https://books2read.com/ap/8G2gQM/Janice-Wee">Books2Read</a> .
+                    <a href="https://www.pinterest.com/?boardId=215398863367237766">Emunah Timeline on Pinterest</a>
+                </h2>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid bg-light text-dark">
+        <div class="row">
+            <div class="col-12 text-center py-5 d-flex flex-column justify-content-center gap-3">
+                <h1 class="display-4">Quick Links</h1>
+                <p>
+                    <a href="https://www.janicewee.com/books.html">Books</a><br>
+                    <a href="https://www.janicewee.com/series.html">Series</a><br>
+                    <a href="https://www.janicewee.com/author.html">About</a><br>
+                </p>
+                <h3>My Blogs</h3>
+                <p>
+                    <a href="https://www.janicewee.com/blog/blog.html">Past Posts</a><br>
+ <a href="https://www.goodreads.com/author/show/29746824.Janice_Wee/blog">Goodreads Blog</a><br>
+   <a href="https://www.tumblr.com/straitsbornchinese">My Tumblr Blog</a>             </p>
+                <p><a href="https://books2read.com/author/janice-wee/subscribe/50444/"><b>Subscribe to stay updated with new releases.</b></a></p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
