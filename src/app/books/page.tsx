@@ -16,8 +16,10 @@ const books = [
     title: "Dragon Unbound",
     slug: "dragon-unbound",
     description: "After a thousand years of captivity, a dragon awakens to find the world transformed. As ancient prophecies unfold, faith and courage must unite to face the darkness threatening both realms. This epic tale weaves themes of redemption, God's sovereignty, and the power of faith through a fantasy adventure that will captivate readers.",
-    coverUrl: "https://images.unsplash.com/photo-1589998059171-988d887df646?w=400&h=600&fit=crop",
-    review: "A breathtaking journey of faith and redemption that captivated me from the first page.",
+    coverUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/dragonunbound-1760074636345.jpg",
+    review: "A must-read for fans of Christian speculative fiction, Janice Wee's Dragon Unbound plunges readers into a vibrant narrative set during the Millennial Kingdom, where biblical prophecy unfolds amidst the everyday lives of mortals and immortals alike.",
+    reviewer: "Ting Chin",
+    stars: 5,
     buyLinks: [
       { name: "Books2Read", url: "https://books2read.com/ap/8G2gQM/Janice-Wee" },
       { name: "Barnes & Noble", url: "https://www.barnesandnoble.com" }
@@ -28,8 +30,10 @@ const books = [
     title: "Billy The Lion Boy",
     slug: "billy-the-lion-boy",
     description: "An orphan adventure with a lion guardian. Young Billy discovers his extraordinary destiny when he befriends a mystical lion who protects him through perilous journeys and magical encounters. This heartwarming tale explores themes of courage, family bonds, and divine protection through the eyes of a brave young boy.",
-    coverUrl: "https://images.unsplash.com/photo-1614027164847-1b28cfe1df60?w=400&h=600&fit=crop",
-    review: "Billy's courage and faith inspire readers of all ages. A beautiful story about divine guardianship.",
+    coverUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/billylionheart-1760074636207.jpg",
+    review: "An entertaining and imaginative story. Fun to read with a gentle perspective on love and loss. Billy is an orphan who yearns to be reunited with his parents. His guardian is a lion who is his fierce protector despite the youngster's penchant for mischief.",
+    reviewer: "Kindle Customer",
+    stars: 4,
     buyLinks: [
       { name: "Books2Read", url: "https://books2read.com/ap/8G2gQM/Janice-Wee" },
       { name: "Barnes & Noble", url: "https://www.barnesandnoble.com" }
@@ -41,7 +45,9 @@ const books = [
     slug: "quest-for-immortality",
     description: "A dystopian to utopian prophecy tale. In a world where death seems to reign supreme, one family's faith leads them on a quest that could change the fate of humanity forever. This powerful narrative explores God's ultimate plan for redemption and the hope that transcends even the darkest circumstances.",
     coverUrl: "https://images.unsplash.com/photo-1532012197267-da84d127e765?w=400&h=600&fit=crop",
-    review: "A prophetic journey that offers hope and showcases divine purpose. Truly transformative.",
+    review: "Fiction or Reality? Is this the future? A must read. The author is creative & insightful in weaving a story that grips you to the very end.",
+    reviewer: "Yvonne Sequerah",
+    stars: 5,
     buyLinks: [
       { name: "Books2Read", url: "https://books2read.com/ap/8G2gQM/Janice-Wee" },
       { name: "Barnes & Noble", url: "https://www.barnesandnoble.com" }
@@ -52,8 +58,10 @@ const books = [
     title: "Billy Lionheart Series",
     slug: "billy-lionheart-series",
     description: "Follow Billy's complete journey through this epic fantasy series where faith, family, and destiny intertwine. Experience the full saga of courage, redemption, and divine purpose as Billy grows from an orphan boy to a hero of legendary proportions. This comprehensive series explores the depths of God's love and the power of unwavering faith.",
-    coverUrl: "https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=400&h=600&fit=crop",
+    coverUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/billyhero-1760074637493.jpg",
     review: "An epic saga that will stay with you long after the final page. Masterfully crafted.",
+    reviewer: "Reader Review",
+    stars: 5,
     buyLinks: [
       { name: "Books2Read", url: "https://books2read.com/ap/8G2gQM/Janice-Wee" },
       { name: "Barnes & Noble", url: "https://www.barnesandnoble.com" }
@@ -86,18 +94,22 @@ export default function BooksPage() {
                   <div className="grid sm:grid-cols-5 gap-6 p-6">
                     {/* Book Cover */}
                     <div className="sm:col-span-2">
-                      <div className="relative aspect-[2/3] rounded-lg overflow-hidden shadow-lg">
-                        <img
-                          src={book.coverUrl}
-                          alt={book.title}
-                          className="w-full h-full object-cover"
-                        />
-                      </div>
+                      <a href={`/books/${book.slug}`}>
+                        <div className="relative aspect-[2/3] rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-shadow">
+                          <img
+                            src={book.coverUrl}
+                            alt={book.title}
+                            className="w-full h-full object-cover"
+                          />
+                        </div>
+                      </a>
                     </div>
 
                     {/* Book Info */}
                     <div className="sm:col-span-3 flex flex-col">
-                      <h2 className="text-2xl font-bold text-primary mb-3">{book.title}</h2>
+                      <a href={`/books/${book.slug}`}>
+                        <h2 className="text-2xl font-bold text-primary mb-3 hover:underline">{book.title}</h2>
+                      </a>
                       
                       <p className="text-foreground mb-4 leading-relaxed flex-grow">
                         {book.description}
@@ -107,10 +119,11 @@ export default function BooksPage() {
                       <div className="mb-4 p-3 bg-muted/50 rounded-lg">
                         <div className="flex mb-2">
                           {[...Array(5)].map((_, i) => (
-                            <Star key={i} className="h-4 w-4 fill-secondary text-secondary" />
+                            <Star key={i} className={`h-4 w-4 ${i < book.stars ? 'fill-secondary text-secondary' : 'text-secondary'}`} />
                           ))}
                         </div>
                         <p className="text-sm text-muted-foreground italic">"{book.review}"</p>
+                        <p className="text-xs text-muted-foreground mt-1">— {book.reviewer}</p>
                       </div>
 
                       {/* Buy Links */}

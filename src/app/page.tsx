@@ -70,27 +70,26 @@ export default function Home() {
                 ))}
               </div>
               <p className="text-foreground mb-4 italic">
-                "After a thousand years... this epic tale of faith and redemption captivated me from start to finish. 
-                The dragon's journey mirrors our own spiritual awakening."
+                "A must-read for fans of Christian speculative fiction, Janice Wee's Dragon Unbound plunges readers into a vibrant narrative set during the Millennial Kingdom, where biblical prophecy unfolds amidst the everyday lives of mortals and immortals alike."
               </p>
               <p className="text-sm text-muted-foreground font-semibold">
-                — Reader Review, Dragon Unbound
+                — Ting Chin, Dragon Unbound
               </p>
             </Card>
 
             {/* Billy The Lion Boy Review */}
             <Card className="p-6">
               <div className="flex mb-4">
-                {[...Array(5)].map((_, i) => (
+                {[...Array(4)].map((_, i) => (
                   <Star key={i} className="h-5 w-5 fill-secondary text-secondary" />
                 ))}
+                <Star className="h-5 w-5 text-secondary" />
               </div>
               <p className="text-foreground mb-4 italic">
-                "A heartwarming adventure that teaches courage and faith. Billy's bond with his lion guardian 
-                is beautifully written and will inspire young readers everywhere."
+                "An entertaining and imaginative story. Fun to read with a gentle perspective on love and loss. Billy is an orphan who yearns to be reunited with his parents. His guardian is a lion who is his fierce protector despite the youngster's penchant for mischief."
               </p>
               <p className="text-sm text-muted-foreground font-semibold">
-                — Reader Review, Billy The Lion Boy
+                — Kindle Customer, Billy The Lion Boy
               </p>
             </Card>
 
@@ -102,11 +101,10 @@ export default function Home() {
                 ))}
               </div>
               <p className="text-foreground mb-4 italic">
-                "A prophetic journey from darkness to light. This dystopian tale offers hope and showcases 
-                God's ultimate plan for humanity. Powerful and moving."
+                "Fiction or Reality? Is this the future? A must read. The author is creative & insightful in weaving a story that grips you to the very end."
               </p>
               <p className="text-sm text-muted-foreground font-semibold">
-                — Reader Review, The Quest For Immortality
+                — Yvonne Sequerah, The Quest For Immortality
               </p>
             </Card>
           </div>
