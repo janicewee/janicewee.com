@@ -7,7 +7,7 @@ import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
   title: "Dragon Unbound - Janice Wee",
-  description: "After a thousand years of captivity, a dragon awakens to find the world transformed. An epic tale of faith, redemption, and courage by Janice Wee.",
+  description: "After a thousand years of captivity, a dragon awakens to find the world transformed. A tale of redemption and faith.",
 }
 
 export default function DragonUnboundPage() {
@@ -16,99 +16,79 @@ export default function DragonUnboundPage() {
       <Navigation />
       
       <main className="min-h-screen bg-background">
-        <section className="py-16">
-          <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="grid md:grid-cols-2 gap-12">
-              {/* Book Cover */}
-              <div>
-                <div className="relative aspect-[2/3] rounded-lg overflow-hidden shadow-2xl mb-6">
-                  <img
-                    src="https://images.unsplash.com/photo-1589998059171-988d887df646?w=600&h=900&fit=crop"
-                    alt="Dragon Unbound"
-                    className="w-full h-full object-cover"
-                  />
-                </div>
+        <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+          {/* Book Header */}
+          <div className="grid md:grid-cols-3 gap-8 mb-12">
+            <div className="md:col-span-1">
+              <div className="relative aspect-[2/3] rounded-lg overflow-hidden shadow-2xl">
+                <img
+                  src="https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/dragonunbound-1760074636345.jpg"
+                  alt="Dragon Unbound"
+                  className="w-full h-full object-cover"
+                />
               </div>
+            </div>
 
-              {/* Book Info */}
-              <div>
-                <h1 className="text-5xl font-bold text-primary mb-6">Dragon Unbound</h1>
-                
-                <div className="flex mb-6">
-                  {[...Array(5)].map((_, i) => (
-                    <Star key={i} className="h-6 w-6 fill-secondary text-secondary" />
-                  ))}
-                  <span className="ml-2 text-muted-foreground">(5.0 - Reader Reviews)</span>
-                </div>
+            <div className="md:col-span-2">
+              <h1 className="text-4xl font-bold text-primary mb-4">Dragon Unbound</h1>
+              <p className="text-xl text-foreground mb-6 leading-relaxed">
+                After a thousand years of captivity, a dragon awakens to find the world transformed. 
+                As ancient prophecies unfold, faith and courage must unite to face the darkness threatening 
+                both realms. This epic tale weaves themes of redemption, God's sovereignty, and the power 
+                of faith through a fantasy adventure that will captivate readers.
+              </p>
 
-                <div className="prose prose-lg mb-8">
-                  <h2 className="text-2xl font-bold text-primary mb-4">Synopsis</h2>
-                  <p className="text-foreground leading-relaxed mb-4">
-                    After a thousand years of captivity, a dragon awakens to find the world transformed. 
-                    As ancient prophecies unfold, faith and courage must unite to face the darkness 
-                    threatening both realms.
-                  </p>
-                  <p className="text-foreground leading-relaxed mb-4">
-                    This epic tale explores themes of redemption and God's perfect timing, showing how 
-                    even the mightiest creatures must learn to trust in divine providence. The dragon's 
-                    journey mirrors our own spiritual awakening, as it discovers that true freedom comes 
-                    not from physical liberation, but from surrendering to a higher purpose.
-                  </p>
-                  <p className="text-foreground leading-relaxed">
-                    Through encounters with warriors, prophets, and unlikely allies, Dragon Unbound 
-                    weaves a tapestry of faith and adventure that will captivate readers who love 
-                    Christian fantasy with depth and meaning.
-                  </p>
-                </div>
-
-                {/* Purchase Buttons */}
-                <div className="space-y-3 mb-8">
-                  <Button asChild size="lg" className="w-full">
-                    <a href="https://books2read.com/ap/8G2gQM/Janice-Wee" target="_blank" rel="noopener noreferrer">
-                      Buy on Books2Read
-                      <ExternalLink className="ml-2 h-5 w-5" />
-                    </a>
-                  </Button>
-                  <Button asChild variant="outline" size="lg" className="w-full">
-                    <a href="https://www.barnesandnoble.com" target="_blank" rel="noopener noreferrer">
-                      Buy on Barnes & Noble
-                      <ExternalLink className="ml-2 h-5 w-5" />
-                    </a>
-                  </Button>
-                </div>
-
-                {/* Reader Reviews */}
-                <Card className="p-6 bg-muted/30">
-                  <h3 className="text-xl font-bold text-primary mb-4">What Readers Say</h3>
-                  <div className="space-y-4">
-                    <div>
-                      <div className="flex mb-2">
-                        {[...Array(5)].map((_, i) => (
-                          <Star key={i} className="h-4 w-4 fill-secondary text-secondary" />
-                        ))}
-                      </div>
-                      <p className="text-foreground italic">
-                        "A breathtaking journey of faith and redemption that captivated me from the first page. 
-                        The dragon's awakening mirrors our own spiritual transformation."
-                      </p>
-                    </div>
-                    <div>
-                      <div className="flex mb-2">
-                        {[...Array(5)].map((_, i) => (
-                          <Star key={i} className="h-4 w-4 fill-secondary text-secondary" />
-                        ))}
-                      </div>
-                      <p className="text-foreground italic">
-                        "After a thousand years... these opening words drew me into an epic tale that 
-                        beautifully illustrates God's sovereignty and perfect timing."
-                      </p>
-                    </div>
-                  </div>
-                </Card>
+              <div className="space-y-3">
+                <Button asChild size="lg" className="w-full md:w-auto">
+                  <a href="https://books2read.com/ap/8G2gQM/Janice-Wee" target="_blank" rel="noopener noreferrer">
+                    Buy on Books2Read
+                    <ExternalLink className="ml-2 h-4 w-4" />
+                  </a>
+                </Button>
+                <Button asChild variant="outline" size="lg" className="w-full md:w-auto md:ml-3">
+                  <a href="https://www.barnesandnoble.com" target="_blank" rel="noopener noreferrer">
+                    Buy on Barnes & Noble
+                    <ExternalLink className="ml-2 h-4 w-4" />
+                  </a>
+                </Button>
               </div>
             </div>
           </div>
-        </section>
+
+          {/* Video Trailer */}
+          <section className="mb-12">
+            <h2 className="text-3xl font-bold text-primary mb-6">Book Trailer</h2>
+            <div className="relative w-full aspect-video rounded-lg overflow-hidden shadow-lg">
+              <iframe
+                width="100%"
+                height="100%"
+                src="https://www.youtube.com/embed/--zUPERLPfY"
+                title="Dragon Unbound Book Trailer"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+                className="absolute inset-0"
+              />
+            </div>
+          </section>
+
+          {/* Reader Reviews */}
+          <section>
+            <h2 className="text-3xl font-bold text-primary mb-6">Reader Reviews</h2>
+            <Card className="p-6">
+              <div className="flex mb-4">
+                {[...Array(5)].map((_, i) => (
+                  <Star key={i} className="h-5 w-5 fill-secondary text-secondary" />
+                ))}
+              </div>
+              <p className="text-foreground mb-4 leading-relaxed">
+                "A must-read for fans of Christian speculative fiction, Janice Wee's Dragon Unbound plunges readers into a vibrant narrative set during the Millennial Kingdom, where biblical prophecy unfolds amidst the everyday lives of mortals and immortals alike. The story spans a thousand years, centering on the captivating journey of Billy Lionheart and Bluma, from childhood friends to patriarch and matriarch of a new nation. Their lives are intertwined with significant spiritual events, including the long-awaited release of Dragon (Satan) from his thousand-year prison, leading to widespread deception and spiritual warfare. Janice effectively portrays the challenges of faith and family in this post-Tribulation world, as characters grapple with spiritual attacks, personal struggles, and the consequences of deception, even within their own households. The inclusion of direct biblical passages and theological explanations enriches the narrative, offering clear spiritual insights that resonate deeply with Christian readers. While covering mature themes, the writing style is straightforward and accessible, ensuring that the complex overarching narrative remains easy to follow. This direct approach allows the story's powerful messages of God's sovereignty, redemption, and ultimate triumph over evil to shine through. The author, being a Straits Born Chinese from Singapore, brings a unique perspective to this epic tale, making it a compelling read. If you're looking for an allegorical story that blends action, family drama, and profound spiritual themes, Dragon Unbound will not disappoint. It's a journey of faith, perseverance, and the unwavering love of God in the face of ultimate evil."
+              </p>
+              <p className="text-sm text-muted-foreground font-semibold">
+                — Ting Chin
+              </p>
+            </Card>
+          </section>
+        </div>
       </main>
 
       <Footer />
