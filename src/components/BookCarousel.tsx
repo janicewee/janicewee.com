@@ -1,82 +1,107 @@
 "use client"
 
-import { useState, useEffect } from 'react'
+import { useState } from 'react'
+import { ChevronLeft, ChevronRight } from 'lucide-react'
 import { Button } from '@/components/ui/button'
-import { Card } from '@/components/ui/card'
-import { ChevronLeft, ChevronRight, ExternalLink } from 'lucide-react'
 
 const books = [
   {
+    id: 1,
     title: "Dragon Unbound",
     coverUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/dragonunbound-1760074636345.jpg",
     synopsis: "After a thousand years of captivity, a dragon awakens to find the world transformed.",
-    buyUrl: "https://books2read.com/ap/8G2gQM/Janice-Wee"
+    link: "/books/dragon-unbound"
   },
   {
+    id: 2,
+    title: "Emunah Book 1: Disturbing Dreams",
+    coverUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/book1-1760074871955.jpg",
+    synopsis: "A woman in a flowing red dress stands against a golden backdrop, as disturbing dreams begin to unveil ancient prophecies.",
+    link: "https://books2read.com/ap/8G2gQM/Janice-Wee"
+  },
+  {
+    id: 3,
+    title: "Emunah Book 2: The Beast's Mark",
+    coverUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/book2-1760074872281.jpg",
+    synopsis: "As flames and darkness rise, the Beast's Mark becomes the focal point of an epic spiritual battle.",
+    link: "https://books2read.com/ap/8G2gQM/Janice-Wee"
+  },
+  {
+    id: 4,
+    title: "The Quest For Immortality",
+    coverUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/book3k-1760074872135.jpg",
+    synopsis: "A dystopian to utopian prophecy tale exploring God's ultimate plan for redemption.",
+    link: "/books/quest-for-immortality"
+  },
+  {
+    id: 5,
     title: "Billy The Lion Boy",
     coverUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/billylionheart-1760074636207.jpg",
-    synopsis: "An orphan adventure with a lion guardian exploring themes of courage and divine protection.",
-    buyUrl: "https://books2read.com/ap/8G2gQM/Janice-Wee"
+    synopsis: "An orphan adventure with a lion guardian, exploring themes of courage and divine protection.",
+    link: "/books/billy-the-lion-boy"
   },
   {
-    title: "The Quest For Immortality",
-    coverUrl: "https://images.unsplash.com/photo-1532012197267-da84d127e765?w=400&h=600&fit=crop",
-    synopsis: "A dystopian to utopian prophecy tale exploring God's ultimate plan for redemption.",
-    buyUrl: "https://books2read.com/ap/8G2gQM/Janice-Wee"
-  },
-  {
+    id: 6,
     title: "Billy & Bluma: Double Trouble",
     coverUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/billybluma-1760074636547.jpg",
-    synopsis: "Billy and Bluma team up for twice the adventure in this exciting continuation.",
-    buyUrl: "https://books2read.com/ap/8G2gQM/Janice-Wee"
+    synopsis: "Billy's adventures continue with new challenges and double the excitement.",
+    link: "/books/billy-lionheart-series"
   },
   {
+    id: 7,
     title: "Secret Hero & His Flying Lion",
     coverUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/billyhero-1760074637493.jpg",
-    synopsis: "Billy discovers new powers as he and his lion companion soar to greater heights.",
-    buyUrl: "https://books2read.com/ap/8G2gQM/Janice-Wee"
+    synopsis: "A thrilling conclusion to Billy's journey as he discovers his true heroic destiny.",
+    link: "/books/billy-lionheart-series"
   },
   {
+    id: 8,
     title: "Emunah Short Stories Book 1: Abigail",
-    coverUrl: "https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=400&h=600&fit=crop",
-    synopsis: "A heroine anyone can relate to, exploring faith, relationships, and precious life lessons.",
-    buyUrl: "https://books2read.com/ap/8G2gQM/Janice-Wee"
+    coverUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/book1abigail-1760074872340.jpg",
+    synopsis: "A tender love story set in the Emunah Chronicles Universe during a gentle rain.",
+    link: "https://books2read.com/ap/8G2gQM/Janice-Wee"
   },
   {
-    title: "Mary's Flight",
-    coverUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/book8mary-1760074636928.jpg",
-    synopsis: "Emunah Short Stories Book 8 set in the Emunah Chronicles Universe.",
-    buyUrl: "https://books2read.com/ap/8G2gQM/Janice-Wee"
+    id: 9,
+    title: "Emunah Short Stories Book 2: Oliver",
+    coverUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/book2oliver-1760074871946.jpg",
+    synopsis: "Oliver's journey of discovery under purple twilight skies in the Emunah Universe.",
+    link: "https://books2read.com/ap/8G2gQM/Janice-Wee"
   },
   {
-    title: "Lydia's 12 Christmases",
-    coverUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/book7lydia-1760074637096.jpg",
-    synopsis: "Emunah Short Stories Book 7 set in the Emunah Chronicles Universe.",
-    buyUrl: "https://books2read.com/ap/8G2gQM/Janice-Wee"
+    id: 10,
+    title: "Emunah Short Stories Book 3: Emunah",
+    coverUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/book3emunah-1760074871748.jpg",
+    synopsis: "A passionate embrace in vibrant colors tells the story of faith and love.",
+    link: "https://books2read.com/ap/8G2gQM/Janice-Wee"
   },
   {
-    title: "Liam's Dark Secrets",
-    coverUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/book6liam-1760074637855.jpg",
-    synopsis: "Emunah Short Stories Book 6 set in the Emunah Chronicles Universe.",
-    buyUrl: "https://books2read.com/ap/8G2gQM/Janice-Wee"
+    id: 11,
+    title: "Little Nonya's Escapades",
+    coverUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/littlenonyaescapades-1760074983175.jpg",
+    synopsis: "Charming tales of a young Nonya girl's adventures in a colorful, heartwarming world.",
+    link: "https://books2read.com/ap/8G2gQM/Janice-Wee"
   },
   {
-    title: "Mei",
-    coverUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/book5mei-1760074638251.jpg",
-    synopsis: "Emunah Short Stories Book 5 set in the Emunah Chronicles Universe.",
-    buyUrl: "https://books2read.com/ap/8G2gQM/Janice-Wee"
+    id: 12,
+    title: "Naughty Little Nonya",
+    coverUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/naughtylittlenonya-1760074983238.jpeg",
+    synopsis: "Short stories by Janice Wee featuring the mischievous adventures of Little Nonya.",
+    link: "https://books2read.com/ap/8G2gQM/Janice-Wee"
   },
   {
-    title: "Before Harpazo",
-    coverUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/vol1-1760074637785.jpg",
-    synopsis: "Emunah Short Story Collection Vol 1 - Books 1 to 4 of Emunah Short Stories.",
-    buyUrl: "https://books2read.com/ap/8G2gQM/Janice-Wee"
+    id: 13,
+    title: "The Mark and The Martyr",
+    coverUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/markmartyr-1760074983014.jpg",
+    synopsis: "Emunah Short Story Collection Vol 2 - Books 5 to 8 exploring themes of sacrifice and faith.",
+    link: "https://books2read.com/ap/8G2gQM/Janice-Wee"
   },
   {
-    title: "John",
-    coverUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/book4john-1760074637719.jpg",
-    synopsis: "Emunah Short Stories Book 4 set in the Emunah Chronicles Universe.",
-    buyUrl: "https://books2read.com/ap/8G2gQM/Janice-Wee"
+    id: 14,
+    title: "Escape to Long Hill",
+    coverUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/Longhill12-1760074983066.jpg",
+    synopsis: "A short story featuring Chico & Yvette - includes Book 2 from Short Stories from Long Hill Book 1.",
+    link: "https://books2read.com/ap/8G2gQM/Janice-Wee"
   }
 ]
 
@@ -98,34 +123,32 @@ export default function BookCarousel() {
 
   return (
     <div className="relative max-w-4xl mx-auto">
-      <Card className="overflow-hidden">
-        <div className="grid md:grid-cols-2 gap-6 p-6">
-          {/* Book Cover */}
-          <div className="relative aspect-[2/3] rounded-lg overflow-hidden shadow-lg">
-            <img
-              src={books[currentIndex].coverUrl}
-              alt={books[currentIndex].title}
-              className="w-full h-full object-cover transition-opacity duration-500"
-            />
-          </div>
-
-          {/* Book Info */}
-          <div className="flex flex-col justify-center">
-            <h3 className="text-3xl font-bold text-primary mb-4">
-              {books[currentIndex].title}
-            </h3>
-            <p className="text-foreground mb-6 leading-relaxed">
-              {books[currentIndex].synopsis}
-            </p>
-            <Button asChild size="lg">
-              <a href={books[currentIndex].buyUrl} target="_blank" rel="noopener noreferrer">
-                Buy Now
-                <ExternalLink className="ml-2 h-4 w-4" />
-              </a>
-            </Button>
-          </div>
+      <div className="grid md:grid-cols-2 gap-6 p-6">
+        {/* Book Cover */}
+        <div className="relative aspect-[2/3] rounded-lg overflow-hidden shadow-lg">
+          <img
+            src={books[currentIndex].coverUrl}
+            alt={books[currentIndex].title}
+            className="w-full h-full object-cover transition-opacity duration-500"
+          />
         </div>
-      </Card>
+
+        {/* Book Info */}
+        <div className="flex flex-col justify-center">
+          <h3 className="text-3xl font-bold text-primary mb-4">
+            {books[currentIndex].title}
+          </h3>
+          <p className="text-foreground mb-6 leading-relaxed">
+            {books[currentIndex].synopsis}
+          </p>
+          <Button asChild size="lg">
+            <a href={books[currentIndex].link} target="_blank" rel="noopener noreferrer">
+              Buy Now
+              <ChevronRight className="ml-2 h-4 w-4" />
+            </a>
+          </Button>
+        </div>
+      </div>
 
       {/* Navigation Buttons */}
       <button
