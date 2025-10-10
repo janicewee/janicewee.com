@@ -1,103 +1,151 @@
-import Image from "next/image";
+"use client"
+
+import Navigation from '@/components/Navigation'
+import Footer from '@/components/Footer'
+import BookCarousel from '@/components/BookCarousel'
+import { Star, ExternalLink } from 'lucide-react'
+import { Button } from '@/components/ui/button'
+import { Card } from '@/components/ui/card'
 
 export default function Home() {
   return (
-    <div className="font-sans grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20">
-      <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol className="font-mono list-inside list-decimal text-sm/6 text-center sm:text-left">
-          <li className="mb-2 tracking-[-.01em]">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] font-mono font-semibold px-1 py-0.5 rounded">
-              src/app/page.tsx
-            </code>
-            .
-          </li>
-          <li className="tracking-[-.01em]">
-            Save and see your changes instantly.
-          </li>
-        </ol>
-
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:w-auto"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 w-full sm:w-auto md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Read our docs
-          </a>
+    <>
+      <Navigation />
+      
+      {/* Hero Section */}
+      <section className="relative bg-gradient-to-b from-primary/10 to-background py-20">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="grid md:grid-cols-2 gap-12 items-center">
+            <div>
+              <h1 className="text-5xl md:text-6xl font-bold text-primary mb-6">
+                Janice Wee
+              </h1>
+              <p className="text-xl text-foreground mb-4">
+                Indie Author of Christian Speculative Fiction
+              </p>
+              <p className="text-lg text-muted-foreground leading-relaxed">
+                Welcome to my world of fantasy novels woven with faith and family themes. 
+                As an indie author, I craft stories that explore God's sovereignty, redemption, 
+                and the power of family bonds through epic adventures filled with dragons, 
+                lions, and ancient prophecies.
+              </p>
+              <div className="mt-8 flex gap-4">
+                <Button asChild size="lg">
+                  <a href="/books">Explore My Books</a>
+                </Button>
+                <Button asChild variant="outline" size="lg">
+                  <a href="/about">About Me</a>
+                </Button>
+              </div>
+            </div>
+            <div className="relative aspect-square rounded-lg overflow-hidden shadow-2xl">
+              <img
+                src="https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=600&h=600&fit=crop"
+                alt="Fantasy books"
+                className="w-full h-full object-cover"
+              />
+            </div>
+          </div>
         </div>
-      </main>
-      <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
-    </div>
-  );
+      </section>
+
+      {/* Featured Books Carousel */}
+      <section className="py-16 bg-background">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h2 className="text-4xl font-bold text-center text-primary mb-12">Featured Books</h2>
+          <BookCarousel />
+        </div>
+      </section>
+
+      {/* What Readers Say */}
+      <section className="py-16 bg-muted/30">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h2 className="text-4xl font-bold text-center text-primary mb-12">What Readers Say</h2>
+          <div className="grid md:grid-cols-3 gap-8">
+            {/* Dragon Unbound Review */}
+            <Card className="p-6">
+              <div className="flex mb-4">
+                {[...Array(5)].map((_, i) => (
+                  <Star key={i} className="h-5 w-5 fill-secondary text-secondary" />
+                ))}
+              </div>
+              <p className="text-foreground mb-4 italic">
+                "After a thousand years... this epic tale of faith and redemption captivated me from start to finish. 
+                The dragon's journey mirrors our own spiritual awakening."
+              </p>
+              <p className="text-sm text-muted-foreground font-semibold">
+                — Reader Review, Dragon Unbound
+              </p>
+            </Card>
+
+            {/* Billy The Lion Boy Review */}
+            <Card className="p-6">
+              <div className="flex mb-4">
+                {[...Array(5)].map((_, i) => (
+                  <Star key={i} className="h-5 w-5 fill-secondary text-secondary" />
+                ))}
+              </div>
+              <p className="text-foreground mb-4 italic">
+                "A heartwarming adventure that teaches courage and faith. Billy's bond with his lion guardian 
+                is beautifully written and will inspire young readers everywhere."
+              </p>
+              <p className="text-sm text-muted-foreground font-semibold">
+                — Reader Review, Billy The Lion Boy
+              </p>
+            </Card>
+
+            {/* The Quest For Immortality Review */}
+            <Card className="p-6">
+              <div className="flex mb-4">
+                {[...Array(5)].map((_, i) => (
+                  <Star key={i} className="h-5 w-5 fill-secondary text-secondary" />
+                ))}
+              </div>
+              <p className="text-foreground mb-4 italic">
+                "A prophetic journey from darkness to light. This dystopian tale offers hope and showcases 
+                God's ultimate plan for humanity. Powerful and moving."
+              </p>
+              <p className="text-sm text-muted-foreground font-semibold">
+                — Reader Review, The Quest For Immortality
+              </p>
+            </Card>
+          </div>
+        </div>
+      </section>
+
+      {/* Recipe Teaser */}
+      <section className="py-16 bg-background">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="bg-card border border-border rounded-lg overflow-hidden shadow-lg">
+            <div className="grid md:grid-cols-2 gap-8">
+              <div className="relative aspect-video md:aspect-auto">
+                <img
+                  src="https://images.unsplash.com/photo-1464305795204-6f5bbfc7fb81?w=600&h=400&fit=crop"
+                  alt="Scones with tea"
+                  className="w-full h-full object-cover"
+                />
+              </div>
+              <div className="p-8 flex flex-col justify-center">
+                <h2 className="text-3xl font-bold text-primary mb-4">
+                  Scones with Tea and Reading
+                </h2>
+                <p className="text-foreground mb-6 leading-relaxed">
+                  What better way to enjoy a good fantasy novel than with freshly baked scones and a warm cup of tea? 
+                  Discover my favorite scone recipes that pair perfectly with an afternoon of reading.
+                </p>
+                <Button asChild className="w-full md:w-auto">
+                  <a href="/recipes">
+                    View Recipes
+                    <ExternalLink className="ml-2 h-4 w-4" />
+                  </a>
+                </Button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <Footer />
+    </>
+  )
 }
