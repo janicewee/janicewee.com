@@ -13,39 +13,21 @@ export const metadata: Metadata = {
 const blogPosts = [
   {
     id: 1,
-    title: "Banana Scone Recipe - Perfect for Reading Time",
-    date: "October 6, 2025",
+    title: "Billy's a superhero!",
+    date: "July 30, 2025",
     author: "Janice Wee",
-    excerpt: "There's nothing quite like enjoying a freshly baked banana scone while diving into a good fantasy novel. Today, I'm sharing my favorite recipe that combines the sweetness of ripe bananas with the buttery texture of traditional scones. These are perfect companions for your afternoon tea and reading sessions.",
-    imageUrl: "https://images.unsplash.com/photo-1464305795204-6f5bbfc7fb81?w=800&h=400&fit=crop",
-    link: "/blog/banana-scone-recipe"
+    excerpt: "Billy Lionheart received super strength in Billy & Bluma. Double Trouble. When Billy and Bluma return to St Lydia's Academy to start the new school term, Billy's strength goes wild! At the same time, Leonard Lion, the secret agent of Immortal King Jayden, receives a gadget upgrade: flying gloves! The problem is, the poor lion can't get a handle on his new flying power! While on a school trip, someone poisons Leonard Lion and tries to kill Billy and friends. Who is it? Can Billy, Bluma and their new buddies stop the killer? Find out in Secret Hero & His Flying Lion.",
+    imageUrl: "https://images.unsplash.com/photo-1516979187457-637abb4f9353?w=800&h=400&fit=crop",
+    link: "https://www.goodreads.com/author_blog_posts/24686627-billy-s-a-superhero"
   },
   {
     id: 2,
-    title: "Writing Faith into Fantasy: My Journey",
-    date: "September 15, 2025",
+    title: "Coming up next",
+    date: "April 28, 2025",
     author: "Janice Wee",
-    excerpt: "Many readers ask me how I weave Christian themes into fantasy fiction. In this post, I share my creative process and the biblical principles that inspire my stories. From Dragon Unbound to the Billy Lionheart Series, faith has always been the foundation of my storytelling.",
-    imageUrl: "https://images.unsplash.com/photo-1455390582262-044cdead277a?w=800&h=400&fit=crop",
-    link: "/blog/writing-faith-into-fantasy"
-  },
-  {
-    id: 3,
-    title: "The Inspiration Behind Dragon Unbound",
-    date: "August 22, 2025",
-    author: "Janice Wee",
-    excerpt: "After a thousand years... These opening words set the stage for an epic tale of redemption and awakening. In this post, I reveal the biblical themes and personal experiences that inspired Dragon Unbound, and how God's sovereignty shaped this powerful story.",
-    imageUrl: "https://images.unsplash.com/photo-1589998059171-988d887df646?w=800&h=400&fit=crop",
-    link: "/blog/inspiration-behind-dragon-unbound"
-  },
-  {
-    id: 4,
-    title: "Family Themes in Fantasy Fiction",
-    date: "July 10, 2025",
-    author: "Janice Wee",
-    excerpt: "Family drama and relationships are at the heart of all my novels. Whether it's Billy's bond with his lion guardian or the family dynamics in The Quest For Immortality, these themes resonate deeply with readers. Here's why family matters in fantasy.",
-    imageUrl: "https://images.unsplash.com/photo-1511895426328-dc8714191300?w=800&h=400&fit=crop",
-    link: "/blog/family-themes-in-fantasy"
+    excerpt: "I'm thrilled to share that Billy & Bluma: Double Trouble, Book 2 in The Adventures of Billy Lionheart series, is launching on May 2, 2025, and it's packed with heart-pounding fun for middle-grade readers! If you love Narnia-inspired tales, quirky characters, and faith-filled adventures, this one's for you. Picture this: Billy, a boy who chats with animals, reunites with his childhood friend Bluma, who's kneading bread dough when a mischievous monkey drops a glowing, indestructible orb into it! Their lion guardian, Leonard, chomps into the loaf and—ouch!—breaks a tooth. What follows is pure hilarity: the kids tie Leonard's tooth to a boulder, roll it downhill, and crash—the tooth's out, but so is a mysterious porcelain box with a map and a coin bearing Aunt Mathilda's face.",
+    imageUrl: "https://images.unsplash.com/photo-1544947950-fa07a98d237f?w=800&h=400&fit=crop",
+    link: "https://www.goodreads.com/author_blog_posts/24357896-coming-up-next"
   }
 ]
 
