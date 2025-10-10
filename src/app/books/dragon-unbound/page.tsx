@@ -7,7 +7,7 @@ import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
   title: "Dragon Unbound - Janice Wee",
-  description: "After a thousand years of captivity, a dragon awakens to find the world transformed. A tale of redemption and faith.",
+  description: "A Christian Epic Fantasy Novel - The first book in the Emunah Chronicles. Experience a saga of family, sacrifice, and an ancient evil.",
 }
 
 export default function DragonUnboundPage() {
@@ -32,21 +32,20 @@ export default function DragonUnboundPage() {
             <div className="md:col-span-2">
               <h1 className="text-4xl font-bold text-primary mb-4">Dragon Unbound</h1>
               <p className="text-xl text-foreground mb-6 leading-relaxed">
-                After a thousand years of captivity, a dragon awakens to find the world transformed. 
-                As ancient prophecies unfold, faith and courage must unite to face the darkness threatening 
-                both realms. This epic tale weaves themes of redemption, God's sovereignty, and the power 
-                of faith through a fantasy adventure that will captivate readers.
+                After a thousand years, the prophecy comes true. Dragon is released from his prison. 
+                With his band of fallen angels, he gathers the nations around the globe to wage war 
+                against the saints in the Holy City. The epic finale to the Emunah Chronicles.
               </p>
 
               <div className="space-y-3">
                 <Button asChild size="lg" className="w-full md:w-auto">
-                  <a href="https://books2read.com/ap/8G2gQM/Janice-Wee" target="_blank" rel="noopener noreferrer">
+                  <a href="https://books2read.com/dragonunbound" target="_blank" rel="noopener noreferrer">
                     Buy on Books2Read
                     <ExternalLink className="ml-2 h-4 w-4" />
                   </a>
                 </Button>
                 <Button asChild variant="outline" size="lg" className="w-full md:w-auto md:ml-3">
-                  <a href="https://www.barnesandnoble.com" target="_blank" rel="noopener noreferrer">
+                  <a href="https://www.barnesandnoble.com/s/dragon%20unbound%20janice%20wee" target="_blank" rel="noopener noreferrer">
                     Buy on Barnes & Noble
                     <ExternalLink className="ml-2 h-4 w-4" />
                   </a>
@@ -69,6 +68,37 @@ export default function DragonUnboundPage() {
                 className="absolute inset-0"
               />
             </div>
+          </section>
+
+          {/* Book Description */}
+          <section className="mb-12">
+            <Card className="p-8">
+              <h2 className="text-3xl font-bold text-primary mb-6">About This Book</h2>
+              <div className="prose prose-lg max-w-none">
+                <p className="text-foreground leading-relaxed mb-4">
+                  Billy Lionheart was a little orphan boy who became the patriarch of a new nation. 
+                  Bluma was his childhood sweetheart who became the matriarch. Together, they navigated 
+                  a millennium of trials and tribulations, raising children, teaching grandchildren, 
+                  and watching their family multiply into a mighty nation.
+                </p>
+                <p className="text-foreground leading-relaxed mb-4">
+                  Throughout the thousand years of peace, spiritual attacks came in many forms. The 
+                  enemy worked tirelessly to deceive Billy and Bluma's descendants, turning family 
+                  members against one another, sowing seeds of doubt and rebellion.
+                </p>
+                <p className="text-foreground leading-relaxed mb-4">
+                  When Dragon is finally released from his prison, he gathers the nations for one 
+                  final battle against the saints in the Holy City. This epic conclusion to the 
+                  Emunah Chronicles explores themes of faith, family, perseverance, and God's 
+                  ultimate victory over evil.
+                </p>
+                <p className="text-foreground leading-relaxed">
+                  Set during the Millennial Kingdom, <em>Dragon Unbound</em> offers a unique 
+                  perspective on biblical prophecy through the eyes of ordinary people living 
+                  extraordinary lives of faith.
+                </p>
+              </div>
+            </Card>
           </section>
 
           {/* Reader Reviews */}
