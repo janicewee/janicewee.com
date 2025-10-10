@@ -38,13 +38,16 @@ export default function Home() {
                 </Button>
               </div>
             </div>
-            <div className="relative aspect-square rounded-lg overflow-hidden shadow-2xl">
+            <a 
+              href="/books/dragon-unbound" 
+              className="relative aspect-[2/3] rounded-lg overflow-hidden shadow-2xl hover:shadow-3xl transition-shadow cursor-pointer group"
+            >
               <img
-                src="https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=600&h=600&fit=crop"
-                alt="Fantasy books"
-                className="w-full h-full object-cover"
+                src="https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/dragonunbound-1760074636345.jpg"
+                alt="Dragon Unbound book cover"
+                className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
               />
-            </div>
+            </a>
           </div>
         </div>
       </section>
