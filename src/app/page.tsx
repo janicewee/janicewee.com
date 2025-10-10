@@ -39,12 +39,12 @@ export default function Home() {
               </div>
             </div>
             <a 
-              href="/books/dragon-unbound" 
+              href="/books/secret-hero-flying-lion" 
               className="relative aspect-[2/3] rounded-lg overflow-hidden shadow-2xl hover:shadow-3xl transition-shadow cursor-pointer group"
             >
               <img
-                src="https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/dragonunbound-1760074636345.jpg"
-                alt="Dragon Unbound book cover"
+                src="https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/secretheroweb-1760080711670.jpg"
+                alt="Secret Hero & His Flying Lion book cover"
                 className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
               />
             </a>
