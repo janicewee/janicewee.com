@@ -17,14 +17,14 @@ const books = [
     title: "Emunah Book 1: Disturbing Dreams",
     coverUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/book1-1760074871955.jpg",
     synopsis: "A woman in a flowing red dress stands against a golden backdrop, as disturbing dreams begin to unveil ancient prophecies.",
-    link: "https://books2read.com/ap/8G2gQM/Janice-Wee"
+    link: "/books"
   },
   {
     id: 3,
     title: "Emunah Book 2: The Beast's Mark",
     coverUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/book2-1760074872281.jpg",
     synopsis: "As flames and darkness rise, the Beast's Mark becomes the focal point of an epic spiritual battle.",
-    link: "https://books2read.com/ap/8G2gQM/Janice-Wee"
+    link: "/books"
   },
   {
     id: 4,
@@ -59,49 +59,49 @@ const books = [
     title: "Emunah Short Stories Book 1: Abigail",
     coverUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/book1abigail-1760074872340.jpg",
     synopsis: "A tender love story set in the Emunah Chronicles Universe during a gentle rain.",
-    link: "https://books2read.com/ap/8G2gQM/Janice-Wee"
+    link: "/books"
   },
   {
     id: 9,
     title: "Emunah Short Stories Book 2: Oliver",
     coverUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/book2oliver-1760074871946.jpg",
     synopsis: "Oliver's journey of discovery under purple twilight skies in the Emunah Universe.",
-    link: "https://books2read.com/ap/8G2gQM/Janice-Wee"
+    link: "/books"
   },
   {
     id: 10,
     title: "Emunah Short Stories Book 3: Emunah",
     coverUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/book3emunah-1760074871748.jpg",
     synopsis: "A passionate embrace in vibrant colors tells the story of faith and love.",
-    link: "https://books2read.com/ap/8G2gQM/Janice-Wee"
+    link: "/books"
   },
   {
     id: 11,
     title: "Little Nonya's Escapades",
     coverUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/littlenonyaescapades-1760074983175.jpg",
     synopsis: "Charming tales of a young Nonya girl's adventures in a colorful, heartwarming world.",
-    link: "https://books2read.com/ap/8G2gQM/Janice-Wee"
+    link: "/books"
   },
   {
     id: 12,
     title: "Naughty Little Nonya",
     coverUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/naughtylittlenonya-1760074983238.jpeg",
     synopsis: "Short stories by Janice Wee featuring the mischievous adventures of Little Nonya.",
-    link: "https://books2read.com/ap/8G2gQM/Janice-Wee"
+    link: "/books"
   },
   {
     id: 13,
     title: "The Mark and The Martyr",
     coverUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/markmartyr-1760074983014.jpg",
     synopsis: "Emunah Short Story Collection Vol 2 - Books 5 to 8 exploring themes of sacrifice and faith.",
-    link: "https://books2read.com/ap/8G2gQM/Janice-Wee"
+    link: "/books"
   },
   {
     id: 14,
     title: "Escape to Long Hill",
     coverUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/Longhill12-1760074983066.jpg",
     synopsis: "A short story featuring Chico & Yvette - includes Book 2 from Short Stories from Long Hill Book 1.",
-    link: "https://books2read.com/ap/8G2gQM/Janice-Wee"
+    link: "/books"
   }
 ]
 
