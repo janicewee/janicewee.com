@@ -13,7 +13,7 @@ export default function Home() {
       <Navigation />
       
       {/* Hero Section */}
-      <section className="relative bg-gradient-to-b from-primary/10 to-background py-20">
+      <section className="relative bg-gradient-to-b from-primary/10 to-background min-h-[50vh] flex items-center py-12">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
