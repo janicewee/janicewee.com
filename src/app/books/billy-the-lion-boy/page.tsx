@@ -7,7 +7,7 @@ import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
   title: "Billy The Lion Boy - Janice Wee",
-  description: "An orphan adventure with a lion guardian. Young Billy discovers his extraordinary destiny in this heartwarming tale by Janice Wee.",
+  description: "An orphan adventure with a lion guardian. A heartwarming tale of courage and faith.",
 }
 
 export default function BillyTheLionBoyPage() {
@@ -16,98 +16,83 @@ export default function BillyTheLionBoyPage() {
       <Navigation />
       
       <main className="min-h-screen bg-background">
-        <section className="py-16">
-          <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="grid md:grid-cols-2 gap-12">
-              {/* Book Cover */}
-              <div>
-                <div className="relative aspect-[2/3] rounded-lg overflow-hidden shadow-2xl mb-6">
-                  <img
-                    src="https://images.unsplash.com/photo-1614027164847-1b28cfe1df60?w=600&h=900&fit=crop"
-                    alt="Billy The Lion Boy"
-                    className="w-full h-full object-cover"
-                  />
-                </div>
+        <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+          {/* Book Header */}
+          <div className="grid md:grid-cols-3 gap-8 mb-12">
+            <div className="md:col-span-1">
+              <div className="relative aspect-[2/3] rounded-lg overflow-hidden shadow-2xl">
+                <img
+                  src="https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/billylionheart-1760074636207.jpg"
+                  alt="Billy The Lion Boy"
+                  className="w-full h-full object-cover"
+                />
               </div>
+            </div>
 
-              {/* Book Info */}
-              <div>
-                <h1 className="text-5xl font-bold text-primary mb-6">Billy The Lion Boy</h1>
-                
-                <div className="flex mb-6">
-                  {[...Array(5)].map((_, i) => (
-                    <Star key={i} className="h-6 w-6 fill-secondary text-secondary" />
-                  ))}
-                  <span className="ml-2 text-muted-foreground">(5.0 - Reader Reviews)</span>
-                </div>
+            <div className="md:col-span-2">
+              <h1 className="text-4xl font-bold text-primary mb-4">Billy The Lion Boy</h1>
+              <p className="text-xl text-foreground mb-6 leading-relaxed">
+                An orphan adventure with a lion guardian. Young Billy discovers his extraordinary destiny 
+                when he befriends a mystical lion who protects him through perilous journeys and magical 
+                encounters. This heartwarming tale explores themes of courage, family bonds, and divine 
+                protection through the eyes of a brave young boy.
+              </p>
 
-                <div className="prose prose-lg mb-8">
-                  <h2 className="text-2xl font-bold text-primary mb-4">Synopsis</h2>
-                  <p className="text-foreground leading-relaxed mb-4">
-                    An orphan adventure with a lion guardian. Young Billy discovers his extraordinary destiny 
-                    when he befriends a mystical lion who protects him through perilous journeys and magical 
-                    encounters.
-                  </p>
-                  <p className="text-foreground leading-relaxed mb-4">
-                    This heartwarming tale explores themes of courage, family bonds, and divine protection 
-                    through the eyes of a brave young boy. Billy's journey from orphan to hero demonstrates 
-                    how God places guardians in our lives and reveals His purpose through unexpected friendships.
-                  </p>
-                  <p className="text-foreground leading-relaxed">
-                    Perfect for readers of all ages, Billy The Lion Boy combines adventure, faith, and the 
-                    timeless message that we are never truly alone when we trust in God's protection and plan 
-                    for our lives.
-                  </p>
-                </div>
-
-                {/* Purchase Buttons */}
-                <div className="space-y-3 mb-8">
-                  <Button asChild size="lg" className="w-full">
-                    <a href="https://books2read.com/ap/8G2gQM/Janice-Wee" target="_blank" rel="noopener noreferrer">
-                      Buy on Books2Read
-                      <ExternalLink className="ml-2 h-5 w-5" />
-                    </a>
-                  </Button>
-                  <Button asChild variant="outline" size="lg" className="w-full">
-                    <a href="https://www.barnesandnoble.com" target="_blank" rel="noopener noreferrer">
-                      Buy on Barnes & Noble
-                      <ExternalLink className="ml-2 h-5 w-5" />
-                    </a>
-                  </Button>
-                </div>
-
-                {/* Reader Reviews */}
-                <Card className="p-6 bg-muted/30">
-                  <h3 className="text-xl font-bold text-primary mb-4">What Readers Say</h3>
-                  <div className="space-y-4">
-                    <div>
-                      <div className="flex mb-2">
-                        {[...Array(5)].map((_, i) => (
-                          <Star key={i} className="h-4 w-4 fill-secondary text-secondary" />
-                        ))}
-                      </div>
-                      <p className="text-foreground italic">
-                        "A heartwarming adventure that teaches courage and faith. Billy's bond with his lion 
-                        guardian is beautifully written and will inspire young readers everywhere."
-                      </p>
-                    </div>
-                    <div>
-                      <div className="flex mb-2">
-                        {[...Array(5)].map((_, i) => (
-                          <Star key={i} className="h-4 w-4 fill-secondary text-secondary" />
-                        ))}
-                      </div>
-                      <p className="text-foreground italic">
-                        "Billy's courage and faith inspire readers of all ages. A beautiful story about 
-                        divine guardianship and finding your purpose."
-                      </p>
-                    </div>
-                  </div>
-                </Card>
+              <div className="space-y-3">
+                <Button asChild size="lg" className="w-full md:w-auto">
+                  <a href="https://books2read.com/ap/8G2gQM/Janice-Wee" target="_blank" rel="noopener noreferrer">
+                    Buy on Books2Read
+                    <ExternalLink className="ml-2 h-4 w-4" />
+                  </a>
+                </Button>
+                <Button asChild variant="outline" size="lg" className="w-full md:w-auto md:ml-3">
+                  <a href="https://www.barnesandnoble.com" target="_blank" rel="noopener noreferrer">
+                    Buy on Barnes & Noble
+                    <ExternalLink className="ml-2 h-4 w-4" />
+                  </a>
+                </Button>
               </div>
             </div>
           </div>
-        </section>
+
+          {/* Video Trailer */}
+          <section className="mb-12">
+            <h2 className="text-3xl font-bold text-primary mb-6">Book Trailer</h2>
+            <div className="relative w-full aspect-video rounded-lg overflow-hidden shadow-lg">
+              <iframe
+                width="100%"
+                height="100%"
+                src="https://www.youtube.com/embed/rjkZTe1RwhE"
+                title="Billy The Lion Boy Book Trailer"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+                className="absolute inset-0"
+              />
+            </div>
+          </section>
+
+          {/* Reader Reviews */}
+          <section>
+            <h2 className="text-3xl font-bold text-primary mb-6">Reader Reviews</h2>
+            <Card className="p-6">
+              <div className="flex mb-4">
+                {[...Array(4)].map((_, i) => (
+                  <Star key={i} className="h-5 w-5 fill-secondary text-secondary" />
+                ))}
+                <Star className="h-5 w-5 text-secondary" />
+              </div>
+              <p className="text-foreground mb-4 leading-relaxed">
+                An entertaining and imaginative story. Fun to read with a gentle perspective on love and loss. 
+                Billy is an orphan who yearns to be reunited with his parents. His guardian is a lion who is his 
+                fierce protector despite the youngster's penchant for mischief. The tale maps their growing 
+                relationship and offers a little bit of a Narnia-like adventure for younger readers.
+              </p>
+              <p className="text-sm text-muted-foreground font-semibold">
+                — Kindle Customer
+              </p>
+            </Card>
+          </section>
+        </div>
       </main>
 
       <Footer />
