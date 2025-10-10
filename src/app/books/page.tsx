@@ -44,7 +44,7 @@ const books = [
     title: "The Quest For Immortality",
     slug: "quest-for-immortality",
     description: "A dystopian to utopian prophecy tale. In a world where death seems to reign supreme, one family's faith leads them on a quest that could change the fate of humanity forever. This powerful narrative explores God's ultimate plan for redemption and the hope that transcends even the darkest circumstances.",
-    coverUrl: "https://images.unsplash.com/photo-1532012197267-da84d127e765?w=400&h=600&fit=crop",
+    coverUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/book3k-1760074872135.jpg",
     review: "Fiction or Reality? Is this the future? A must read. The author is creative & insightful in weaving a story that grips you to the very end.",
     reviewer: "Yvonne Sequerah",
     stars: 5,
