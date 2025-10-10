@@ -45,14 +45,14 @@ const books = [
     title: "Billy & Bluma: Double Trouble",
     coverUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/billybluma-1760074636547.jpg",
     synopsis: "Billy's adventures continue with new challenges and double the excitement.",
-    link: "/books/billy-lionheart-series"
+    link: "/books/billy-bluma-double-trouble"
   },
   {
     id: 7,
     title: "Secret Hero & His Flying Lion",
     coverUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/billyhero-1760074637493.jpg",
     synopsis: "A thrilling conclusion to Billy's journey as he discovers his true heroic destiny.",
-    link: "/books/billy-lionheart-series"
+    link: "/books/secret-hero-flying-lion"
   },
   {
     id: 8,
