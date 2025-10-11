@@ -2,7 +2,7 @@
 
 import Navigation from '@/components/Navigation'
 import Footer from '@/components/Footer'
-import { Mail, Send } from 'lucide-react'
+import { Send } from 'lucide-react'
 import { Button } from '@/components/ui/button'
 import { Input } from '@/components/ui/input'
 import { Textarea } from '@/components/ui/textarea'
@@ -62,41 +62,6 @@ export default function ContactPage() {
         {/* Contact Form */}
         <section className="py-16">
           <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="grid md:grid-cols-2 gap-8 mb-12">
-              {/* Contact Info */}
-              <Card className="p-6">
-                <div className="flex items-start gap-4">
-                  <Mail className="h-6 w-6 text-primary mt-1" />
-                  <div>
-                    <h3 className="text-xl font-bold text-primary mb-2">Email Me</h3>
-                    <p className="text-muted-foreground mb-2">
-                      For general inquiries, book questions, or just to say hello:
-                    </p>
-                    <a 
-                      href="mailto:info@janicewee.com" 
-                      className="text-primary hover:underline font-semibold"
-                    >
-                      info@janicewee.com
-                    </a>
-                  </div>
-                </div>
-              </Card>
-
-              {/* Response Time */}
-              <Card className="p-6">
-                <div className="flex items-start gap-4">
-                  <Send className="h-6 w-6 text-primary mt-1" />
-                  <div>
-                    <h3 className="text-xl font-bold text-primary mb-2">Response Time</h3>
-                    <p className="text-muted-foreground">
-                      I typically respond to messages within 2-3 business days. 
-                      Thank you for your patience!
-                    </p>
-                  </div>
-                </div>
-              </Card>
-            </div>
-
             {/* Form */}
             <Card className="p-8">
               <h2 className="text-2xl font-bold text-primary mb-6">Send a Message</h2>
