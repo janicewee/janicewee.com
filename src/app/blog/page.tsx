@@ -175,46 +175,51 @@ export default function BlogPage() {
 
         {/* Blog Posts */}
         <section className="py-16">
-          <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="space-y-8">
+          <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="space-y-12">
               {blogPosts.map((post) => (
-                <Card key={post.id} className="overflow-hidden hover:shadow-lg transition-shadow">
-                  <div className="grid md:grid-cols-3 gap-6">
+                <Card key={post.id} className="overflow-hidden shadow-xl hover:shadow-2xl transition-all duration-300 border-border/50">
+                  <div className="grid md:grid-cols-5 gap-0">
                     {/* Post Image */}
-                    <div className="md:col-span-1">
-                      <div className="relative aspect-video md:aspect-square">
+                    <div className="md:col-span-2 relative group">
+                      <div className="relative aspect-[4/3] md:aspect-auto md:h-full overflow-hidden">
                         <img
                           src={post.imageUrl}
                           alt={post.title}
-                          className="w-full h-full object-cover"
+                          className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                         />
+                        <div className="absolute inset-0 bg-gradient-to-t from-primary/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
                       </div>
                     </div>
 
                     {/* Post Content */}
-                    <div className="md:col-span-2 p-6 md:pl-0">
-                      <h2 className="text-2xl font-bold text-primary mb-3 hover:text-primary/80 transition-colors">
-                        {post.title}
-                      </h2>
-                      
-                      <div className="flex items-center gap-4 text-sm text-muted-foreground mb-4">
-                        <div className="flex items-center gap-1">
-                          <Calendar className="h-4 w-4" />
-                          <span>{post.date}</span>
+                    <div className="md:col-span-3 p-8 flex flex-col justify-between bg-card">
+                      <div>
+                        <h2 className="text-3xl font-bold text-primary mb-4 hover:text-secondary transition-colors leading-tight">
+                          <a href={post.link} className="block">
+                            {post.title}
+                          </a>
+                        </h2>
+                        
+                        <div className="flex items-center gap-6 text-sm text-muted-foreground mb-6 pb-4 border-b border-border/30">
+                          <div className="flex items-center gap-2">
+                            <Calendar className="h-4 w-4 text-secondary" />
+                            <span className="font-medium">{post.date}</span>
+                          </div>
+                          <div className="flex items-center gap-2">
+                            <User className="h-4 w-4 text-secondary" />
+                            <span className="font-medium">{post.author}</span>
+                          </div>
                         </div>
-                        <div className="flex items-center gap-1">
-                          <User className="h-4 w-4" />
-                          <span>{post.author}</span>
-                        </div>
+
+                        <p className="text-foreground/90 mb-6 leading-relaxed text-base line-clamp-4">
+                          {post.excerpt}
+                        </p>
                       </div>
 
-                      <p className="text-foreground mb-4 leading-relaxed">
-                        {post.excerpt}
-                      </p>
-
-                      <Button asChild variant="outline">
+                      <Button asChild size="lg" className="w-full md:w-auto">
                         <a href={post.link}>
-                          Read More
+                          Read Full Article
                           <ExternalLink className="ml-2 h-4 w-4" />
                         </a>
                       </Button>
