@@ -98,7 +98,7 @@ const blogPosts = [
     date: "May 2, 2025",
     author: "Janice Wee",
     excerpt: "Today marks the exciting release of Billy & Bluma: Double Trouble, the second book in The Adventures of Billy Lionheart series! Packed with heart-pounding action, divine miracles, and unbreakable friendship, this captivating tale is perfect for young readers and families who love stories of faith, courage, and adventure. Billy reunites with his childhood friend Bluma, and together they embark on a quest filled with danger, mystery, and divine intervention.",
-    imageUrl: "https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=800&h=400&fit=crop",
+    imageUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/billybluma-1760154780858.jpg",
     link: "https://www.janicewee.com/Emunah/billy2.html"
   },
   {
@@ -125,7 +125,7 @@ const blogPosts = [
     date: "April 4, 2025",
     author: "Janice Wee",
     excerpt: "Four adults and one lion aren't enough to restrain the tiny boy with a murky past. This story continues after Mary's Flight ends. The dystopian era has ended. It's a time of true peace and harmony throughout the earth. The earth is a virtual paradise. Mortals and immortals live alongside one another. Man and animals get along. (Most of the time. Billy and Leonard the lion bicker a lot). This is the first book in my latest fantasy adventure series: The Adventures of Billy Lionheart.",
-    imageUrl: "https://images.unsplash.com/photo-1519682337058-a94d519337bc?w=800&h=400&fit=crop",
+    imageUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/billylionheart-1760154828519.jpg",
     link: "https://www.janicewee.com/Emunah/billy1.html"
   },
   {
@@ -152,7 +152,7 @@ const blogPosts = [
     date: "March 3, 2025",
     author: "Janice Wee",
     excerpt: "Looking for novels that tackle life's twists with hope, grounded in Christian values, and free of smut or swearing? Step into Janice Wee's world of clean, faith-inspired fiction—stories that feel real, stir the soul, and keep it wholesome. From Singapore's Runaway to Two Worlds, Before Harpazo to Naughty Little Nonya, discover realistic tales of life's struggles met with faith and grit, clean fiction for all ages, and a Christian spirit with hope and grace in every line.",
-    imageUrl: "https://images.unsplash.com/photo-1512820790803-83ca734da794?w=800&h=400&fit=crop",
+    imageUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/vol1-1760154901659.jpg",
     link: "https://www.janicewee.com/books.html"
   }
 ]
