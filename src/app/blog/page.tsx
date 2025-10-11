@@ -80,7 +80,7 @@ const blogPosts = [
     date: "March 12, 2025",
     author: "Janice Wee",
     excerpt: "Emunah Short Story Collection Volume 2: The Mark and the Martyr plunges readers into the heart of Tribulation, where four face humanity's darkest hour. Collecting Books 5 to 8 of the Emunah Short Stories, this volume weaves a tapestry of suspense and salvation. From the sterile labs of Beast Corp to the smoldering ruins of survival camps, each tale pulses with thriller intensity. Save 57% on the ebook or 69% on the paperback for the last 4 books in the series!",
-    imageUrl: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&h=400&fit=crop",
+    imageUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/markmartyr-1760154246185.jpg",
     link: "https://www.janicewee.com/Emunah/vol2.html"
   },
   {
