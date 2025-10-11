@@ -73,7 +73,7 @@ const recipes = [
     id: 3,
     title: "Blueberry Lemon Scones",
     description: "Fresh blueberries and zesty lemon create a delightful flavor combination in these scones. The perfect refreshing treat for summer reading sessions in your favorite fantasy worlds.",
-    imageUrl: "https://images.unsplash.com/photo-1606313564558-fd1a4c7c5050?w=800&h=600&fit=crop",
+    imageUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/project-uploads/4e64cddb-88ff-496f-973b-fd14b6040d10/generated_images/close-up-photograph-of-freshly-baked-blu-79b90891-20251011033247.jpg",
     prepTime: "20 minutes",
     cookTime: "18 minutes",
     servings: "8 scones",
