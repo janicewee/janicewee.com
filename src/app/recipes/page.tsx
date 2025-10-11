@@ -43,6 +43,36 @@ const recipes = [
       "Take the tray out to cool on a wire rack for 5 minutes before serving.",
       "Enjoy while warm - they're moist, with a hint of banana, enough chocolate for a scone, and yummy!"
     ]
+  },
+  {
+    id: 2,
+    title: "Quick and Easy No Wheat Scones",
+    description: "Trying to cut down carbs, I baked my own breakfasts for a season, using ground almonds instead of flour. This has become my go to breakfast and my contribution for pot lucks because it's so quick and easy to bake. These are excellent as instant breakfasts too - freeze what you want to keep and heat up when you want to eat.",
+    imageUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/scones-1760153805875.jpg",
+    prepTime: "10 minutes",
+    cookTime: "11 minutes",
+    servings: "24-30 mini scones or 12-15 regular scones",
+    ingredients: [
+      "2 cups ground almonds",
+      "1 pinch of salt",
+      "1 pinch of baking soda",
+      "Chocolate chips (up to half cup)",
+      "Dried fruit (up to half cup)",
+      "2 large eggs",
+      "1 tablespoon maple syrup",
+      "1 teaspoon to 1 tablespoon vanilla extract, depending on how strong you want the vanilla to be"
+    ],
+    instructions: [
+      "Line your baking tray.",
+      "Preheat the oven at 190 degrees celsius (375°F).",
+      "Mix the dry ingredients in one bowl.",
+      "Mix the wet ingredients in one bowl.",
+      "Mix the wet mixture into the dry mixture.",
+      "Shape the batter into balls. You could do mini scones of half a tablespoon each or regular scones at a heaped tablespoon each.",
+      "Bake for 11 minutes.",
+      "Take it out of the oven and set aside for 5 minutes to let it continue cooking with the residual heat.",
+      "Enjoy! Freeze what you want to keep and heat up when you want to eat."
+    ]
   }
 ]
 
