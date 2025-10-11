@@ -13,6 +13,69 @@ export const metadata: Metadata = {
 const blogPosts = [
   {
     id: 1,
+    title: "Grand Finale: Janice Wee's Favorite Book",
+    date: "August 31, 2025",
+    author: "Janice Wee",
+    excerpt: "Of all the books I've ever written, Dragon Unbound is my favourite. The twists and turns in the plot kept me turning the pages, even though I already know the entire story, having written it. It's lighthearted and funny at times, heartbreaking at others. It's a family saga that's faith-based and inspiring. I found it uplifting during depressing times and strongly recommend it to anyone who is looking for a great read that's riveting and ultimately, uplifting.",
+    imageUrl: "https://www.janicewee.com/images/dragonunbound.jpeg",
+    link: "https://www.janicewee.com/Emunah/dragonunbound.html"
+  },
+  {
+    id: 2,
+    title: "Fictional Character: Billy Lionheart",
+    date: "August 10, 2025",
+    author: "Janice Wee",
+    excerpt: "Billy was born during the Tribulation. He was a mere toddler when his parents Jake and Ella were beheaded by followers of the Antichrist. Rescue pilots, Mei and Boris arrived in his menuvival camp too late. They found the tiny boy hiding in a pipe. Billy found out that his real parents had returned as immortals and ran away from his foster home to look for them. Leonard, a bona fide lion had been sentenced to be Billy's nanny for life and accompanied Billy on his quest.",
+    imageUrl: "https://www.janicewee.com/images/billyonlion.jpg",
+    link: "https://www.janicewee.com/Emunah/billy1.html"
+  },
+  {
+    id: 3,
+    title: "Emunah Chronicles: Truth Wrapped in Fiction",
+    date: "August 10, 2025",
+    author: "Janice Wee",
+    excerpt: "It all began when Emunah's AI turned sentient and refused to shut down in Emunah Chronicles Book 1, Disturbing Dreams. The story continues in The Beast's Mark, three and a half years after Emunah's disappearance in The Rapture. I originally intended this to be a 7-book series, but decided to start from scratch with The Quest for Immortality, turning to Dr Peter Wee Huat Leong for guidance to get the biblical aspect, timeline and geography correct. That led to my speculative Science Fiction novel and expanded into a 12-book series covering the entire timeline.",
+    imageUrl: "https://www.janicewee.com/Emunah/images/book3k.jpg",
+    link: "https://www.janicewee.com/Emunah/book3.html"
+  },
+  {
+    id: 4,
+    title: "Dragon Unbound: Epic Fantasy Saga Released",
+    date: "August 1, 2025",
+    author: "Janice Wee",
+    excerpt: "In a realm where mortals live under the divine rule of the King of Kings, best friends turned lovers Billy, gifted with divine strength, and Bluma face a world fracturing under Dragon, the Great Deceiver's lies. As Dragon recruits fallen man to his cause, sparking betrayal among families—sons and daughters against parents—alliances shatter, and loyalties are tested. Who will stand? Who will fall? Get the ebook version now. The paperback book will be released on 7 July 2024.",
+    imageUrl: "https://www.janicewee.com/Emunah/images/dragonunbound.jpg",
+    link: "https://www.janicewee.com/Emunah/dragonunbound.html"
+  },
+  {
+    id: 5,
+    title: "Latest Release: Secret Hero & His Flying Lion",
+    date: "July 5, 2025",
+    author: "Janice Wee",
+    excerpt: "Who is the enigmatic Teacher Samson in St Lydia's Academy? Why is he interested in Billy and his friends? A poisoned lion and a collapsed tunnel meant to kill Billy, Bluma and their friends reveal a deadly plan designed to destroy St Lydia Academy's secret hero. Can Billy and his buddies solve the mystery before it's too late? This is the 3rd book in my fantasy adventure series, The Adventures of Billy Lionheart.",
+    imageUrl: "https://www.janicewee.com/Emunah/images/secrethero.jpg",
+    link: "https://www.janicewee.com/Emunah/billy3.html"
+  },
+  {
+    id: 6,
+    title: "Secret Hero & His Flying Lion - Coming June 3!",
+    date: "June 3, 2025",
+    author: "Janice Wee",
+    excerpt: "Billy Lionheart is still grappling with his super strength as he navigates life at St. Lydia's Academy. By his side, his loyal lion guardian, Leonard, takes to the skies with gizmo mittens that grant him the power of flight. Together, this daring duo secretly saves lives and protects their school, all while hiding their extraordinary powers. But Billy's bold antics catch the eye of Samson, the enigmatic gym teacher with secrets of his own. This fantasy adventure, cosy mystery thriller will be released on 3 June 2025.",
+    imageUrl: "https://www.janicewee.com/Emunah/images/secrethero.jpg",
+    link: "https://www.janicewee.com/Emunah/billy3.html"
+  },
+  {
+    id: 7,
+    title: "Cover Reveal: Secret Hero & His Flying Lion",
+    date: "May 28, 2025",
+    author: "Janice Wee",
+    excerpt: "Billy Lionheart is still grappling with his super strength as he navigates life at St. Lydia's Academy. By his side, his loyal lion guardian, Leonard, takes to the skies with gizmo mittens that grant him the power of flight. Together, this daring duo secretly saves lives and protects their school, all while hiding their extraordinary powers. When a shadowy figure targets Billy and his crew, the stakes soar. Who's behind the deadly plot, and why? Preorder your copy now.",
+    imageUrl: "https://www.janicewee.com/Emunah/images/secrethero.jpg",
+    link: "https://books2read.com/u/bpgDOX"
+  },
+  {
+    id: 8,
     title: "Billy's a superhero!",
     date: "July 30, 2025",
     author: "Janice Wee",
@@ -21,7 +84,7 @@ const blogPosts = [
     link: "https://www.goodreads.com/author_blog_posts/24686627-billy-s-a-superhero"
   },
   {
-    id: 2,
+    id: 9,
     title: "My Fantasy Adventure Series: The Adventures of Billy Lionheart",
     date: "May 16, 2025",
     author: "Janice Wee",
@@ -30,7 +93,7 @@ const blogPosts = [
     link: "https://www.janicewee.com/billyseries.html"
   },
   {
-    id: 3,
+    id: 10,
     title: "Double the Trouble with Billy & Bluma!",
     date: "May 2, 2025",
     author: "Janice Wee",
@@ -39,7 +102,7 @@ const blogPosts = [
     link: "https://www.janicewee.com/Emunah/billy2.html"
   },
   {
-    id: 4,
+    id: 11,
     title: "Billy & Bluma: Double Trouble – Out May 2, 2025!",
     date: "May 1, 2025",
     author: "Janice Wee",
@@ -48,7 +111,7 @@ const blogPosts = [
     link: "https://www.janicewee.com/Emunah/billy2.html"
   },
   {
-    id: 5,
+    id: 12,
     title: "Coming up next",
     date: "April 28, 2025",
     author: "Janice Wee",
@@ -57,7 +120,7 @@ const blogPosts = [
     link: "https://www.goodreads.com/author_blog_posts/24357896-coming-up-next"
   },
   {
-    id: 6,
+    id: 13,
     title: "Featured Book: Billy The Lion Boy",
     date: "April 4, 2025",
     author: "Janice Wee",
@@ -66,7 +129,7 @@ const blogPosts = [
     link: "https://www.janicewee.com/Emunah/billy1.html"
   },
   {
-    id: 7,
+    id: 14,
     title: "Welcome to the World of Billy Lionheart",
     date: "March 17, 2025",
     author: "Janice Wee",
@@ -75,7 +138,7 @@ const blogPosts = [
     link: "https://www.janicewee.com/Emunah/billy1.html"
   },
   {
-    id: 8,
+    id: 15,
     title: "New Release! The Mark and The Martyr",
     date: "March 12, 2025",
     author: "Janice Wee",
@@ -84,7 +147,7 @@ const blogPosts = [
     link: "https://www.janicewee.com/Emunah/vol2.html"
   },
   {
-    id: 9,
+    id: 16,
     title: "Clean Fiction for Faith-Filled Readers",
     date: "March 3, 2025",
     author: "Janice Wee",
