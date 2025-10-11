@@ -116,7 +116,7 @@ const blogPosts = [
     date: "April 28, 2025",
     author: "Janice Wee",
     excerpt: "I'm thrilled to share that Billy & Bluma: Double Trouble, Book 2 in The Adventures of Billy Lionheart series, is launching on May 2, 2025, and it's packed with heart-pounding fun for middle-grade readers! If you love Narnia-inspired tales, quirky characters, and faith-filled adventures, this one's for you. Picture this: Billy, a boy who chats with animals, reunites with his childhood friend Bluma, who's kneading bread dough when a mischievous monkey drops a glowing, indestructible orb into it! Their lion guardian, Leonard, chomps into the loaf and—ouch!—breaks a tooth. What follows is pure hilarity: the kids tie Leonard's tooth to a boulder, roll it downhill, and crash—the tooth's out, but so is a mysterious porcelain box with a map and a coin bearing Aunt Mathilda's face.",
-    imageUrl: "https://images.unsplash.com/photo-1544947950-fa07a98d237f?w=800&h=400&fit=crop",
+    imageUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/billybluma-1760191457929.jpg",
     link: "https://www.goodreads.com/author_blog_posts/24357896-coming-up-next"
   },
   {
