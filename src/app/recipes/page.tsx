@@ -13,6 +13,39 @@ export const metadata: Metadata = {
 const recipes = [
   {
     id: 1,
+    title: "Janice's Banana Scones with Chocolate Lava",
+    description: "My signature recipe! These moist banana scones with hidden chocolate lava centers are perfect for afternoon tea. The combination of banana and chocolate creates a delightful treat that pairs wonderfully with a good book.",
+    imageUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/bananascone1-1760153643221.jpg",
+    prepTime: "15 minutes",
+    cookTime: "14 minutes",
+    servings: "12 scones",
+    ingredients: [
+      "2 cups ground almonds",
+      "A pinch of salt",
+      "A pinch of baking soda",
+      "1 big egg",
+      "1 teaspoon vanilla extract",
+      "2 large bananas",
+      "Dark chocolate couverture buttons (optional)",
+      "White chocolate couverture buttons (optional)"
+    ],
+    instructions: [
+      "Mix the dry ingredients in a bowl.",
+      "Mash the bananas into a smooth liquid.",
+      "Mix the bananas and the rest of the wet ingredients together.",
+      "Stir the wet ingredients into the dry ingredients until you have a ball of dough.",
+      "Line a baking tray with baking paper.",
+      "Use two spoons to scoop and shape the dough into balls on the baking sheet.",
+      "Preheat the oven to 190 degrees (375°F).",
+      "If you want chocolate in your banana scones, stuff a white chocolate button into each ball and bury it. Then stuff a dark chocolate button into the ball.",
+      "If you want your scones to ooze with lava, stack, stuff and bury a few chocolate buttons (white for white lava, dark chocolate for chocolate lava) into each ball.",
+      "Bake for 14 minutes in a preheated oven.",
+      "Take the tray out to cool on a wire rack for 5 minutes before serving.",
+      "Enjoy while warm - they're moist, with a hint of banana, enough chocolate for a scone, and yummy!"
+    ]
+  },
+  {
+    id: 2,
     title: "Classic Banana Scones",
     description: "These delightful banana scones are perfect for your afternoon tea and reading sessions. The sweetness of ripe bananas combined with buttery, flaky scones creates the perfect companion for any fantasy novel.",
     imageUrl: "https://images.unsplash.com/photo-1464305795204-6f5bbfc7fb81?w=800&h=600&fit=crop",
@@ -43,7 +76,7 @@ const recipes = [
     ]
   },
   {
-    id: 2,
+    id: 3,
     title: "Traditional English Scones",
     description: "A classic recipe for traditional English scones that pair beautifully with clotted cream and jam. Perfect for creating that cozy reading atmosphere while enjoying tales of dragons and lions.",
     imageUrl: "https://images.unsplash.com/photo-1519676867240-f03562e64548?w=800&h=600&fit=crop",
@@ -70,7 +103,7 @@ const recipes = [
     ]
   },
   {
-    id: 3,
+    id: 4,
     title: "Blueberry Lemon Scones",
     description: "Fresh blueberries and zesty lemon create a delightful flavor combination in these scones. The perfect refreshing treat for summer reading sessions in your favorite fantasy worlds.",
     imageUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/project-uploads/4e64cddb-88ff-496f-973b-fd14b6040d10/generated_images/close-up-photograph-of-freshly-baked-blu-79b90891-20251011033247.jpg",
