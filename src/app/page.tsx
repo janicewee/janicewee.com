@@ -13,7 +13,7 @@ export default function Home() {
       <Navigation />
       
       {/* Hero Section */}
-      <section className="relative bg-gradient-to-b from-primary/10 to-background min-h-[50vh] flex items-center py-12">
+      <section className="relative bg-gradient-to-b from-primary/10 to-background min-h-[33vh] flex items-center py-12">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
@@ -40,7 +40,7 @@ export default function Home() {
             </div>
             <a 
               href="/books/secret-hero-flying-lion" 
-              className="relative aspect-[2/3] rounded-lg overflow-hidden shadow-2xl hover:shadow-3xl transition-shadow cursor-pointer group"
+              className="relative aspect-[2/3] max-h-[33vh] rounded-lg overflow-hidden shadow-2xl hover:shadow-3xl transition-shadow cursor-pointer group"
             >
               <img
                 src="https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/secretheroweb-1760080711670.jpg"
