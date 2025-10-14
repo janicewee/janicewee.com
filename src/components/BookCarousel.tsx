@@ -99,9 +99,51 @@ const books = [
   {
     id: 14,
     title: "Escape to Long Hill",
-    coverUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/Longhill12-1760074983066.jpg",
+    coverUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/Longhill12-1760410284805.jpg",
     synopsis: "3 baby chicks evade predators and hidden dangers to find their way to Long Hill, to join their family in chicken paradise.",
     link: "/books/escape-to-long-hill"
+  },
+  {
+    id: 15,
+    title: "Singapore's Runaway",
+    coverUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/runaway-1760410193575.jpg",
+    synopsis: "A captivating tale set in Singapore, exploring themes of faith, family, and finding one's place in the world.",
+    link: "/books/singapores-runaway"
+  },
+  {
+    id: 16,
+    title: "Two Worlds",
+    coverUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/2worlds-1760410225289.jpg",
+    synopsis: "A story bridging two realms, where faith and reality intersect in unexpected ways.",
+    link: "/books/two-worlds"
+  },
+  {
+    id: 17,
+    title: "Sweetcorn Suzie",
+    coverUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/Suzie-1760410252107.jpg",
+    synopsis: "A sweet children's tale following Suzie's adventures and life lessons.",
+    link: "/books/sweetcorn-suzie"
+  },
+  {
+    id: 18,
+    title: "Chico & Yvette",
+    coverUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/chicoyvette-1760410316628.jpg",
+    synopsis: "A heartwarming story of friendship between Chico and Yvette as they navigate life's adventures together.",
+    link: "/books/chico-and-yvette"
+  },
+  {
+    id: 19,
+    title: "Max The Cat",
+    coverUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/maxthecat-1760410341047.jpg",
+    synopsis: "Join Max the Cat on his curious adventures filled with fun and valuable life lessons.",
+    link: "/books/max-the-cat"
+  },
+  {
+    id: 20,
+    title: "The Scouts",
+    coverUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/scouts-1760410358286.jpg",
+    synopsis: "An exciting tale of courage, teamwork, and faith as young scouts embark on their greatest adventure.",
+    link: "/books/the-scouts"
   }
 ]
 
