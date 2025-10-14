@@ -23,35 +23,35 @@ const books = [
     id: 3,
     title: "Emunah Book 2: The Beast's Mark",
     coverUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/book2-1760074872281.jpg",
-    synopsis: "As flames and darkness rise, the Beast's Mark becomes the focal point of an epic spiritual battle.",
+    synopsis: "Unravel the twisted web of intrigue, as a shadowy figure unleashes a chilling reign, where allegiance is branded by the Beast's Mark in this riveting dystopian saga.",
     link: "/books"
   },
   {
     id: 4,
     title: "The Quest For Immortality",
     coverUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/book3k-1760074872135.jpg",
-    synopsis: "A dystopian to utopian prophecy tale. In a world where death seems to reign supreme, one family's faith leads them on a quest that spans from the darkest tribulation to the brightest hope of eternity. This powerful narrative explores God's ultimate plan for redemption.",
+    synopsis: "A man dances with death. A woman pursues immortality. The two meet in pursuit of the ultimate truth. Technology is advancing at an accelerated speed. This novel explores what if this falls into the hands of a global dictator. The Quest for Immortality, an epic Science-Fiction-Fantasy novel, has been described by another reader as 'mind-blowing.' Yet another says it's 'captivating to read.'",
     link: "/books/quest-for-immortality"
   },
   {
     id: 5,
     title: "Billy The Lion Boy",
     coverUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/billylionheart-1760074636207.jpg",
-    synopsis: "Billy is an orphan who yearns to be reunited with his parents. His guardian is a lion who is his fierce protector despite the youngster's penchant for mischief. Follow their adventures in this heartwarming tale of courage, faith, and divine protection.",
+    synopsis: "Orphaned as a baby, Billy is raised by a fierce lion in the heart of the wild. Growing up wrestling with lion cubs and roaring alongside young lions, he learns their ways—and their language. But when a deadly threat stalks his pride, Billy must use his gift to save his family, both furry and human. Can a boy with a lion's heart bridge two worlds to stop the danger closing in?",
     link: "/books/billy-the-lion-boy"
   },
   {
     id: 6,
     title: "Billy & Bluma: Double Trouble",
     coverUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/billybluma-1760074636547.jpg",
-    synopsis: "Billy reunites with his childhood friend Bluma, and together they stumble upon a mysterious glowing orb that leads to their greatest adventure yet. With Leonard Lion by their side, the duo faces challenges that will test their friendship and faith.",
+    synopsis: "Billy and Bluma find a map and a coin with Aunt Mathilda's face, sparking a wild quest with Leonard, their talking lion. Trapped by the ruthless Junta, with Leonard shipped to a hunter's lair, can the pals outwit their foes and save their friend? A thrilling, funny adventure awaits!",
     link: "/books/billy-bluma-double-trouble"
   },
   {
     id: 7,
     title: "Secret Hero & His Flying Lion",
     coverUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/billyhero-1760074637493.jpg",
-    synopsis: "Billy's super strength goes wild at St Lydia's Academy, while Leonard Lion receives flying gloves he can't control. When someone poisons Leonard and tries to kill Billy and friends, can they stop the killer before it's too late?",
+    synopsis: "Freshman Billy and his flying lion guardian face danger at St. Lydia's Academy. When the lion is poisoned and a tunnel traps Billy and his buddy Bluma, they uncover a deadly plot. Guided by mysterious mentor Samson, can Billy master his super strength to stop a killer? A thrilling YA fantasy adventure with Christian themes.",
     link: "/books/secret-hero-flying-lion"
   },
   {
@@ -72,21 +72,21 @@ const books = [
     id: 10,
     title: "Emunah Short Stories Book 3: Emunah",
     coverUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/book3emunah-1760074871748.jpg",
-    synopsis: "Do aliens exist? What is the truth behind UFOs? A freshman's life spirals into a thrilling web of friendship, forbidden love, alien encounters, and dark conspiracies after a heroic senior saves her life.",
+    synopsis: "Do aliens exists? What is the truth behind UFOs? A freshman's life spirals into a thrilling web of friendship, forbidden love, alien encounters, and dark conspiracies after a heroic senior saves her life.",
     link: "/books/emunah-book-3-emunah"
   },
   {
     id: 11,
     title: "Little Nonya's Escapades",
     coverUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/littlenonyaescapades-1760074983175.jpg",
-    synopsis: "A delightful story exploring adventure and cultural heritage.",
+    synopsis: "Tammy's off to a bright start in her new school, but can she keep her embarassing secret from everyone? Join the naughty little nonya in her adventures in her new school, under the watchful eyes of her Daddy, a teacher there.",
     link: "/books/little-nonyas-escapades"
   },
   {
     id: 12,
     title: "Naughty Little Nonya",
     coverUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/naughtylittlenonya-1760074983238.jpeg",
-    synopsis: "A charming story exploring mischief and cultural traditions.",
+    synopsis: "Welcome to the world of Tammy, a vivacious seven-year-old Nonya girl with an endless imagination and an unbridled sense of adventure. This delightful collection of short stories, designed for a Grade 3 reading level, brings you along as Tammy transforms her everyday life into a realm of laughter, excitement, and discovery.",
     link: "/books/naughty-little-nonya"
   },
   {
@@ -100,7 +100,7 @@ const books = [
     id: 14,
     title: "Escape to Long Hill",
     coverUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/Longhill12-1760074983066.jpg",
-    synopsis: "An adventurous tale of courage and discovery.",
+    synopsis: "3 baby chicks evade predators and hidden dangers to find their way to Long Hill, to join their family in chicken paradise.",
     link: "/books/escape-to-long-hill"
   }
 ]
