@@ -20,7 +20,7 @@ export default function EmunahBookPage() {
   const bookData = {
     title: "Emunah Short Stories Book 3: Emunah",
     author: "Janice Wee",
-    image: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/book3emunah.jpg",
+    image: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/book3emunah-1760404534743.jpg",
     trailer: "https://youtu.be/nmUIBfMc_tg?si=3_l3rAQ3JJ3YKxfE",
     description: "Do aliens exists? What is the truth behind UFOs? A freshman's life spirals into a thrilling web of friendship, forbidden love, alien encounters, and dark conspiracies after a heroic senior saves her life.",
     excerpt: `Do beings from another reality exist?

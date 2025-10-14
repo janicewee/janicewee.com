@@ -11,6 +11,13 @@ export const metadata: Metadata = {
 }
 
 export default function BillyTheLionBoyPage() {
+  const bookData = {
+    title: "Billy The Lion Boy",
+    subtitle: "The Adventures of Billy Lionheart",
+    author: "Janice Wee",
+    image: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/billylionheart-1760404534476.jpg",
+  }
+
   return (
     <>
       <Navigation />
@@ -22,16 +29,16 @@ export default function BillyTheLionBoyPage() {
             <div className="md:col-span-1">
               <div className="relative aspect-[2/3] rounded-lg overflow-hidden shadow-2xl">
                 <img
-                  src="https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/billylionheart-1760074636207.jpg"
-                  alt="Billy The Lion Boy"
+                  src={bookData.image}
+                  alt={bookData.title}
                   className="w-full h-full object-cover"
                 />
               </div>
             </div>
 
             <div className="md:col-span-2">
-              <h1 className="text-4xl font-bold text-primary mb-2">Billy The Lion Boy</h1>
-              <p className="text-lg text-muted-foreground mb-4">The Adventures of Billy Lionheart - Book 1</p>
+              <h1 className="text-4xl font-bold text-primary mb-2">{bookData.title}</h1>
+              <p className="text-lg text-muted-foreground mb-4">{bookData.subtitle} - Book 1</p>
               <p className="text-xl text-foreground mb-6 leading-relaxed">
                 Billy is an orphan who yearns to be reunited with his parents. His guardian is a lion 
                 who is his fierce protector despite the youngster's penchant for mischief. Follow their 
