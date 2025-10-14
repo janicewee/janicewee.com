@@ -6,21 +6,21 @@ import { Card } from '@/components/ui/card'
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: "Emunah Short Stories Book 6: Liam's Dark Secrets - Love, Betrayal & Salvation | Janice Wee",
-  description: "Liam's dark secrets threaten to destroy those who dare to get too close. Caught between his childhood sweetheart and a dangerously seductive dark mistress. Can he outmanoeuvre the devil? Christian thriller by Janice Wee.",
-  keywords: "Liam's Dark Secrets, Emunah Short Stories, Christian fiction, thriller, betrayal, redemption, Janice Wee, apocalyptic fiction, biblical prophecy",
+  title: "Emunah Short Stories Book 6: Liam's Dark Secrets | Janice Wee",
+  description: "Liam's dark secrets threaten to destroy those who dare to get too close. Caught between his childhood sweetheart and a dangerously seductive dark mistress, Liam must make a choice with eternal consequences. Christian fiction by Janice Wee.",
+  keywords: "Liam's Dark Secrets, Emunah Short Stories, Christian fiction, betrayal, redemption, Janice Wee, biblical fiction, thriller",
   openGraph: {
     title: "Emunah Short Stories Book 6: Liam's Dark Secrets",
-    description: "Caught in a torturous tug-of-war between love and darkness. Can Liam outmanoeuvre the devil?",
+    description: "Can he outmanoeuvre the devil in a high-stakes game where betrayal and salvation hang in the balance?",
     type: "book",
   }
 }
 
-export default function LiamBookPage() {
+export default function LiamsBookPage() {
   const bookData = {
     title: "Emunah Short Stories Book 6: Liam's Dark Secrets",
     author: "Janice Wee",
-    image: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/book6liam.jpg",
+    image: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/book6liam-1760404535659.jpg",
     trailer: "https://youtu.be/PJ1EiNOuFUU?si=oJV2BnrmeiZNtqrn",
     description: "Liam's dark secrets threaten to destroy those who dare to get too close.\nCaught in a torturous tug-of-war between his childhood sweetheart and a dangerously seductive dark mistress, Liam has to make a choice that will have eternal consequences.\nOn one hand, Liam funds The Ark - a refuge for those defying the Antichrist; on the other, he strikes Faustian deals with Beast himself.\nCan he outmanoeuvre the devil in a high-stakes game where betrayal and salvation hang in the balance?",
     excerpt: `Is it possible to love someone too much?
@@ -50,8 +50,7 @@ The more you trust someone, the greater the pain of betrayal.`,
     "description": bookData.description,
     "isbn": bookData.isbn.ebook,
     "bookFormat": "EBook/Paperback",
-    "inLanguage": "en",
-    "numberOfPages": "Unknown"
+    "inLanguage": "en"
   }
 
   return (
@@ -63,11 +62,9 @@ The more you trust someone, the greater the pain of betrayal.`,
       <Navigation />
       
       <main className="min-h-screen bg-background">
-        {/* Hero Section */}
         <section className="bg-gradient-to-b from-primary/10 to-background py-12">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="grid md:grid-cols-2 gap-12 items-start">
-              {/* Book Cover */}
               <div className="sticky top-8">
                 <div className="relative aspect-[2/3] rounded-lg overflow-hidden shadow-2xl">
                   <img
@@ -77,7 +74,6 @@ The more you trust someone, the greater the pain of betrayal.`,
                   />
                 </div>
                 
-                {/* Buy Buttons */}
                 <div className="mt-6 space-y-3">
                   {bookData.buyLinks.map((link, index) => (
                     <Button key={index} asChild className="w-full" variant={index === 0 ? "default" : "outline"} size="lg">
@@ -89,7 +85,6 @@ The more you trust someone, the greater the pain of betrayal.`,
                   ))}
                 </div>
 
-                {/* ISBN Info */}
                 <div className="mt-6 p-4 bg-muted/50 rounded-lg">
                   <p className="text-sm text-muted-foreground">
                     <strong>eBook ISBN:</strong> {bookData.isbn.ebook}
@@ -100,7 +95,6 @@ The more you trust someone, the greater the pain of betrayal.`,
                 </div>
               </div>
 
-              {/* Book Details */}
               <div>
                 <h1 className="text-4xl md:text-5xl font-bold text-primary mb-4">
                   {bookData.title}
@@ -115,7 +109,6 @@ The more you trust someone, the greater the pain of betrayal.`,
                   </p>
                 </div>
 
-                {/* Book Trailer */}
                 {bookData.trailer && (
                   <Card className="p-6 mb-8">
                     <h2 className="text-2xl font-bold text-primary mb-4 flex items-center">
@@ -136,7 +129,6 @@ The more you trust someone, the greater the pain of betrayal.`,
                   </Card>
                 )}
 
-                {/* Book Excerpt */}
                 <Card className="p-6 mb-8 bg-muted/30">
                   <h2 className="text-2xl font-bold text-primary mb-4">Book Excerpt</h2>
                   <blockquote className="text-foreground leading-relaxed italic border-l-4 border-secondary pl-4 whitespace-pre-line">
@@ -144,7 +136,6 @@ The more you trust someone, the greater the pain of betrayal.`,
                   </blockquote>
                 </Card>
 
-                {/* Author's Notes */}
                 <Card className="p-6">
                   <h2 className="text-2xl font-bold text-primary mb-4">Author's Notes</h2>
                   <p className="text-foreground leading-relaxed">
