@@ -8,6 +8,32 @@ export default function Navigation() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
   const [booksDropdownOpen, setBooksDropdownOpen] = useState(false)
 
+  const bookLinks = [
+    { title: "Emunah Short Stories Book 1: Abigail", href: "/books/emunah-book-1-abigail" },
+    { title: "Emunah Short Stories Book 2: Oliver", href: "/books/emunah-book-2-oliver" },
+    { title: "Emunah Short Stories Book 3: Emunah", href: "/books/emunah-book-3-emunah" },
+    { title: "Emunah Short Stories Book 4: John", href: "/books/emunah-book-4-john" },
+    { title: "Before Harpazo", href: "/books/before-harpazo" },
+    { title: "Emunah Short Stories Book 5: Mei", href: "/books/emunah-book-5-mei" },
+    { title: "Emunah Short Stories Book 6: Liam's Dark Secrets", href: "/books/emunah-book-6-liams-dark-secrets" },
+    { title: "Emunah Short Stories Book 7: Lydia's 12 Christmases", href: "/books/emunah-book-7-lydias-12-christmases" },
+    { title: "Emunah Short Stories Book 8: Mary's Flight", href: "/books/emunah-book-8-marys-flight" },
+    { title: "The Mark and The Martyr", href: "/books/the-mark-and-the-martyr" },
+    { title: "Billy The Lion Boy", href: "/books/billy-the-lion-boy" },
+    { title: "Billy & Bluma: Double Trouble", href: "/books/billy-bluma-double-trouble" },
+    { title: "Secret Hero & His Flying Lion", href: "/books/secret-hero-flying-lion" },
+    { title: "Billy Lionheart Series", href: "/books/billy-lionheart-series" },
+    { title: "The Quest for Immortality", href: "/books/quest-for-immortality" },
+    { title: "Dragon Unbound", href: "/books/dragon-unbound" },
+    { title: "Two Worlds", href: "/books/two-worlds" },
+    { title: "Naughty Little Nonya", href: "/books/naughty-little-nonya" },
+    { title: "Little Nonya's Escapades", href: "/books/little-nonyas-escapades" },
+    { title: "Sweetcorn Suzie", href: "/books/sweetcorn-suzie" },
+    { title: "Escape to Long Hill", href: "/books/escape-to-long-hill" },
+    { title: "Max The Cat", href: "/books/max-the-cat" },
+    { title: "The Scouts", href: "/books/the-scouts" },
+  ]
+
   return (
     <nav className="bg-white/95 backdrop-blur-sm border-b border-border sticky top-0 z-50 shadow-sm">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -34,22 +60,19 @@ export default function Navigation() {
                 <ChevronDown className="ml-1 h-4 w-4" />
               </button>
               {booksDropdownOpen && (
-                <div className="absolute left-0 mt-2 w-56 bg-white rounded-md shadow-lg border border-border py-2">
-                  <Link href="/books/dragon-unbound" className="block px-4 py-2 text-sm text-foreground hover:bg-muted">
-                    Dragon Unbound
-                  </Link>
-                  <Link href="/books/billy-the-lion-boy" className="block px-4 py-2 text-sm text-foreground hover:bg-muted">
-                    Billy The Lion Boy
-                  </Link>
-                  <Link href="/books/quest-for-immortality" className="block px-4 py-2 text-sm text-foreground hover:bg-muted">
-                    The Quest For Immortality
-                  </Link>
-                  <Link href="/books/billy-lionheart-series" className="block px-4 py-2 text-sm text-foreground hover:bg-muted">
-                    Billy Lionheart Series
-                  </Link>
+                <div className="absolute left-0 mt-2 w-80 bg-white rounded-md shadow-lg border border-border py-2 max-h-[80vh] overflow-y-auto">
+                  {bookLinks.map((book) => (
+                    <Link 
+                      key={book.href} 
+                      href={book.href} 
+                      className="block px-4 py-2 text-sm text-foreground hover:bg-muted"
+                    >
+                      {book.title}
+                    </Link>
+                  ))}
                   <div className="border-t border-border my-2"></div>
                   <Link href="/books" className="block px-4 py-2 text-sm text-primary font-semibold hover:bg-muted">
-                    All Books
+                    View All Books
                   </Link>
                 </div>
               )}
@@ -93,21 +116,18 @@ export default function Navigation() {
                 <ChevronDown className={`h-4 w-4 transition-transform ${booksDropdownOpen ? 'rotate-180' : ''}`} />
               </button>
               {booksDropdownOpen && (
-                <div className="pl-4 mt-2 space-y-2">
-                  <Link href="/books/dragon-unbound" className="block py-1 text-sm text-foreground hover:text-primary">
-                    Dragon Unbound
-                  </Link>
-                  <Link href="/books/billy-the-lion-boy" className="block py-1 text-sm text-foreground hover:text-primary">
-                    Billy The Lion Boy
-                  </Link>
-                  <Link href="/books/quest-for-immortality" className="block py-1 text-sm text-foreground hover:text-primary">
-                    The Quest For Immortality
-                  </Link>
-                  <Link href="/books/billy-lionheart-series" className="block py-1 text-sm text-foreground hover:text-primary">
-                    Billy Lionheart Series
-                  </Link>
+                <div className="pl-4 mt-2 space-y-2 max-h-96 overflow-y-auto">
+                  {bookLinks.map((book) => (
+                    <Link 
+                      key={book.href} 
+                      href={book.href} 
+                      className="block py-1 text-sm text-foreground hover:text-primary"
+                    >
+                      {book.title}
+                    </Link>
+                  ))}
                   <Link href="/books" className="block py-1 text-sm text-primary font-semibold">
-                    All Books
+                    View All Books
                   </Link>
                 </div>
               )}

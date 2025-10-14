@@ -194,7 +194,7 @@ export default function AboutPage() {
               </div>
               <p className="text-sm text-muted-foreground mt-6">
                 Full List of Janice Wee's{' '}
-                <a href="https://www.janicewee.com/books.html" className="text-primary hover:underline font-semibold">
+                <a href="/books" className="text-primary hover:underline font-semibold">
                   Books
                 </a>{' '}
                 and where to get them.
