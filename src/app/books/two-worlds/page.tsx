@@ -20,13 +20,11 @@ export default function TwoWorldsPage() {
   const bookData = {
     title: "Two Worlds",
     author: "Janice Wee",
-    image: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/2worlds-1760404739179.jpg",
-    description: "A captivating tale bridging different worlds and cultures.",
+    image: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/2worlds-1760410225289.jpg",
+    description: "A story bridging two realms, where faith and reality intersect in unexpected ways.",
     buyLinks: [
-      { name: "Amazon", url: "#" },
-      { name: "Barnes & Noble", url: "#" },
-      { name: "Kobo", url: "#" },
-      { name: "Other Stores", url: "#" }
+      { name: "Books2Read", url: "https://books2read.com/ap/8G2gQM/Janice-Wee" },
+      { name: "Barnes & Noble", url: "https://www.barnesandnoble.com" }
     ]
   }
 
