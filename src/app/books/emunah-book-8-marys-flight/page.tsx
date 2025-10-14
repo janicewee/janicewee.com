@@ -20,7 +20,7 @@ export default function MarysFlightBookPage() {
   const bookData = {
     title: "Emunah Short Stories Book 8: Mary's Flight",
     author: "Janice Wee",
-    image: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/book8mary-1760404534659.jpg",
+    image: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/book8mary-1760410829856.jpg",
     trailer: "https://www.youtube.com/watch?v=Gw-E2VA-TSE",
     description: "When the mob strings up her people, Mary flees into a world unraveling. With Barry, her defiant landlord-turned-love, she clings to hope through the Tribulation's fire—haunted by a winged woman in her dreams. As Armageddon looms, their bond faces the ultimate test: survive the end, or rise with the King's return. A tale of love, faith, and the darkest hour.",
     excerpt: `Jim's half-empty cup sat on his desk. A half-eaten doughnut had fallen on the table, missing the plate. His seat was still warm.
