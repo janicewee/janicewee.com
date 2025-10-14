@@ -20,7 +20,7 @@ export default function JohnBookPage() {
   const bookData = {
     title: "Emunah Short Stories Book 4: John",
     author: "Janice Wee",
-    image: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/book4john.jpg",
+    image: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/book4john-1760404535976.jpg",
     trailer: "https://youtu.be/W0K1CUGwgw8?si=cySNr-oTA7Qwo5gi",
     description: "With his mother's health declining and ruthless Rabbi Caleb harassing them for money, John feels trapped. John learns of a weightlifting competition with a cash prize that could cover his mother's medical expenses and free them from Caleb. Can the frail young man conquer the odds and save his mother? This inspiring tale of perseverance and inner strength will leave you cheering for the underdog.",
     excerpt: `Samson killed a lion with his bare hands. He pulled up the gates of the city and carried them to the top of a hill at midnight as a prank. Samson, of the tribe of Dan, was John's great (a great many greats) grandfather's brother on his mother's side. John's father, and therefore John himself, was from the tribe of Benjamin. But hey, John still had Samson's DNA through mom, so that counts. Sort of.
