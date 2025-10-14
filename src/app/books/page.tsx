@@ -60,7 +60,7 @@ const books = [
     title: "Before Harpazo",
     slug: "before-harpazo",
     description: "A compilation of Emunah Short Stories Book 1 to Book 4. Four interconnected stories of faith, love, and divine intervention before the rapture.",
-    coverUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/vol1.jpg",
+    coverUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/vol1-1760410867752.jpg",
     buyLinks: [
       { name: "Amazon", url: "https://www.amazon.com/Before-Harpazo-Emunah-Short-Stories/dp/B0DDQYBKRD" },
       { name: "Barnes & Noble", url: "https://www.barnesandnoble.com/w/before-harpazo-janice-wee/1146264321" }
@@ -115,7 +115,7 @@ const books = [
     title: "The Mark and The Martyr",
     slug: "the-mark-and-the-martyr",
     description: "A compilation of Emunah Short Stories Book 5 to Book 8. Four powerful stories of faith, survival, and divine protection during the end times.",
-    coverUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/markmartyr.jpg",
+    coverUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/markmartyr-1760410897201.jpg",
     buyLinks: [
       { name: "Amazon", url: "https://www.amazon.com/Mark-Martyr-Emunah-Short-Stories/dp/B0DPBZD2YS" },
       { name: "Barnes & Noble", url: "https://www.barnesandnoble.com/w/the-mark-and-the-martyr-janice-wee/1146823779" }
@@ -162,7 +162,7 @@ const books = [
     title: "Emunah Book 1: Disturbing Dreams",
     slug: "emunah-book-1-disturbing-dreams",
     description: "The first full-length novel in the Emunah Chronicles. A young woman's disturbing dreams reveal a prophetic glimpse into the future.",
-    coverUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/book1k-1760074872135.jpg",
+    coverUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/book1-1760411021422.jpg",
     buyLinks: [
       { name: "Books2Read", url: "https://books2read.com/ap/8G2gQM/Janice-Wee" },
       { name: "Barnes & Noble", url: "https://www.barnesandnoble.com" }
@@ -173,7 +173,7 @@ const books = [
     title: "Emunah Book 2: The Beast's Mark",
     slug: "emunah-book-2-the-beasts-mark",
     description: "The second novel in the Emunah Chronicles. As prophecy unfolds, believers face the ultimate test of faith during the tribulation.",
-    coverUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/book2k-1760074872135.jpg",
+    coverUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/book2-1760411038422.jpg",
     buyLinks: [
       { name: "Books2Read", url: "https://books2read.com/ap/8G2gQM/Janice-Wee" },
       { name: "Barnes & Noble", url: "https://www.barnesandnoble.com" }
