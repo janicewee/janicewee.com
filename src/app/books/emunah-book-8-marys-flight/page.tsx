@@ -6,12 +6,12 @@ import { Card } from '@/components/ui/card'
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: "Emunah Short Stories Book 8: Mary's Flight - A Story of Courage and Faith | Janice Wee",
-  description: "Mary flees for her life when assassins try to murder her and her unborn baby. Will God save her?  Christian fiction by Janice Wee.",
-  keywords: "Mary's Flight, Emunah Short Stories, Christian fiction, survival story, faith-based fiction, Janice Wee, biblical fiction",
+  title: "Emunah Short Stories Book 8: Mary's Flight | Janice Wee",
+  description: "When the mob strings up her people, Mary flees into a world unraveling. With Barry, her defiant landlord-turned-love, she clings to hope through the Tribulation's fire. A tale of love, faith, and the darkest hour. Christian fiction by Janice Wee.",
+  keywords: "Mary's Flight, Emunah Short Stories, Christian fiction, Tribulation, prophecy, Janice Wee, biblical fiction, end times",
   openGraph: {
     title: "Emunah Short Stories Book 8: Mary's Flight",
-    description: "Mary flees for her life when assassins try to murder her and her unborn baby. Will God save her?",
+    description: "As Armageddon looms, their bond faces the ultimate test: survive the end, or rise with the King's return.",
     type: "book",
   }
 }
@@ -20,24 +20,28 @@ export default function MarysFlightBookPage() {
   const bookData = {
     title: "Emunah Short Stories Book 8: Mary's Flight",
     author: "Janice Wee",
-    image: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/book8mary.jpg",
-    trailer: "https://www.youtube.com/watch?v=dwGcWPDiFJA",
-    description: "Mary flees for her life when assassins try to murder her and her unborn baby. Will God save her?",
-    excerpt: `Why can't I remember anything? 
+    image: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/book8mary-1760404534659.jpg",
+    trailer: "https://www.youtube.com/watch?v=Gw-E2VA-TSE",
+    description: "When the mob strings up her people, Mary flees into a world unraveling. With Barry, her defiant landlord-turned-love, she clings to hope through the Tribulation's fire—haunted by a winged woman in her dreams. As Armageddon looms, their bond faces the ultimate test: survive the end, or rise with the King's return. A tale of love, faith, and the darkest hour.",
+    excerpt: `Jim's half-empty cup sat on his desk. A half-eaten doughnut had fallen on the table, missing the plate. His seat was still warm.
 
-Mary wondered as she groaned, blinking to focus in the pitch blackness. Where am I? What happened to me? Then she remembered.
+It was as if Jim vanished mid-bite.
 
-Assassins! They tried to kill me.`,
-    authorNotes: "I drew on my experiences fleeing from danger many years ago. When you don't have money, or a place to go, or anyone you can safely turn to for help—you hope God will provide. As He always does—in His own time, and in His own way, that is.",
+"This doesn't make any sense," Barry's brow furrowed.
+
+"I think Samantha is right. Jesus raptured his church." Freaking out, Mary couldn't stop the tremors that gripped her. "If Sam was right about the rapture, then what comes next…"
+
+Barry pulled Mary into a comforting hug, rubbing soothing circles on her back. "There must be some other explanation."`,
+    authorNotes: "When I first started writing these Bible Prophecy Fiction books, I tried to keep time and location as vague as possible so that the readers could relate to the stories. Having grown up with western media, I decided to set the tale in the West. I consulted my uncle, a Bible teacher and Bible Prophecy nerd, who pointed out that the Seven Year Tribulation is the time of Jacob's trouble and most of the action takes place in Israel. Hence Mary's Flight which covers the entire timeline, is about a Jewish woman who moves to Israel and experiences the events unfolding around her.",
     buyLinks: [
-      { name: "Amazon", url: "https://www.amazon.com/Marys-Flight-Emunah-Short-Stories-ebook/dp/B0DN9LFRFW" },
-      { name: "Barnes & Noble", url: "https://www.barnesandnoble.com/w/marys-flight-janice-wee/1146549876?ean=9798230409496" },
+      { name: "Amazon", url: "https://www.amazon.com.au/Marys-Flight-8-Janice-Wee/dp/B0DSK1X348" },
+      { name: "Barnes & Noble", url: "https://www.barnesandnoble.com/w/marys-flight-janice-wee/1146790785?ean=9798230595366" },
       { name: "Kobo", url: "https://www.kobo.com/sg/en/ebook/mary-s-flight" },
-      { name: "Hoopla & Other Stores", url: "https://books2read.com/u/4jqe8l" }
+      { name: "Hoopla & Other Stores", url: "https://books2read.com/u/4NNakJ" }
     ],
     isbn: {
-      ebook: "9798230409496",
-      paperback: "9798230408987"
+      ebook: "9798230826545",
+      paperback: "9798230595366"
     }
   }
 
@@ -52,8 +56,7 @@ Assassins! They tried to kill me.`,
     "description": bookData.description,
     "isbn": bookData.isbn.ebook,
     "bookFormat": "EBook/Paperback",
-    "inLanguage": "en",
-    "numberOfPages": "Unknown"
+    "inLanguage": "en"
   }
 
   return (
@@ -65,11 +68,9 @@ Assassins! They tried to kill me.`,
       <Navigation />
       
       <main className="min-h-screen bg-background">
-        {/* Hero Section */}
         <section className="bg-gradient-to-b from-primary/10 to-background py-12">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="grid md:grid-cols-2 gap-12 items-start">
-              {/* Book Cover */}
               <div className="sticky top-8">
                 <div className="relative aspect-[2/3] rounded-lg overflow-hidden shadow-2xl">
                   <img
@@ -79,7 +80,6 @@ Assassins! They tried to kill me.`,
                   />
                 </div>
                 
-                {/* Buy Buttons */}
                 <div className="mt-6 space-y-3">
                   {bookData.buyLinks.map((link, index) => (
                     <Button key={index} asChild className="w-full" variant={index === 0 ? "default" : "outline"} size="lg">
@@ -91,7 +91,6 @@ Assassins! They tried to kill me.`,
                   ))}
                 </div>
 
-                {/* ISBN Info */}
                 <div className="mt-6 p-4 bg-muted/50 rounded-lg">
                   <p className="text-sm text-muted-foreground">
                     <strong>eBook ISBN:</strong> {bookData.isbn.ebook}
@@ -102,7 +101,6 @@ Assassins! They tried to kill me.`,
                 </div>
               </div>
 
-              {/* Book Details */}
               <div>
                 <h1 className="text-4xl md:text-5xl font-bold text-primary mb-4">
                   {bookData.title}
@@ -117,7 +115,6 @@ Assassins! They tried to kill me.`,
                   </p>
                 </div>
 
-                {/* Book Trailer */}
                 {bookData.trailer && (
                   <Card className="p-6 mb-8">
                     <h2 className="text-2xl font-bold text-primary mb-4 flex items-center">
@@ -128,7 +125,7 @@ Assassins! They tried to kill me.`,
                       <iframe
                         width="100%"
                         height="100%"
-                        src={bookData.trailer.replace('youtu.be/', 'www.youtube.com/embed/').replace('watch?v=', 'embed/').split('?')[0]}
+                        src={bookData.trailer.replace('youtu.be/', 'www.youtube.com/embed/').split('?')[0]}
                         title="Book Trailer"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                         allowFullScreen
@@ -138,7 +135,6 @@ Assassins! They tried to kill me.`,
                   </Card>
                 )}
 
-                {/* Book Excerpt */}
                 <Card className="p-6 mb-8 bg-muted/30">
                   <h2 className="text-2xl font-bold text-primary mb-4">Book Excerpt</h2>
                   <blockquote className="text-foreground leading-relaxed italic border-l-4 border-secondary pl-4 whitespace-pre-line">
@@ -146,7 +142,6 @@ Assassins! They tried to kill me.`,
                   </blockquote>
                 </Card>
 
-                {/* Author's Notes */}
                 <Card className="p-6">
                   <h2 className="text-2xl font-bold text-primary mb-4">Author's Notes</h2>
                   <p className="text-foreground leading-relaxed">
