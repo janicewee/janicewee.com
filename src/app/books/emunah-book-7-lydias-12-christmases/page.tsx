@@ -6,21 +6,21 @@ import { Card } from '@/components/ui/card'
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: "Emunah Short Stories Book 7: Lydia's 12 Christmases - A Tale of Transformation | Janice Wee",
+  title: "Emunah Short Stories Book 7: Lydia's 12 Christmases | Janice Wee",
   description: "Peek into Lydia's private life as she transitions from a sheltered girl to a leader of the survivors and becomes their hero. Christian fiction by Janice Wee.",
-  keywords: "Lydia's 12 Christmases, Emunah Short Stories, Christian fiction, survival story, faith-based fiction, Janice Wee, biblical fiction",
+  keywords: "Lydia's 12 Christmases, Emunah Short Stories, Christian fiction, survival, leadership, Janice Wee, biblical fiction",
   openGraph: {
     title: "Emunah Short Stories Book 7: Lydia's 12 Christmases",
-    description: "Peek into Lydia's private life as she transitions from a sheltered girl to a leader of the survivors and becomes their hero.",
+    description: "Peek into Lydia's private life as she transitions from a sheltered girl to a leader of the survivors.",
     type: "book",
   }
 }
 
-export default function LydiasChristmasesBookPage() {
+export default function LydiasBookPage() {
   const bookData = {
     title: "Emunah Short Stories Book 7: Lydia's 12 Christmases",
     author: "Janice Wee",
-    image: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/book7lydia.jpg",
+    image: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/book7lydia-1760404535331.jpg",
     trailer: "https://www.youtube.com/watch?v=dvH0nguzr5w",
     description: "Peek into Lydia's private life as she transitions from a sheltered girl to a leader of the survivors and becomes their hero.",
     excerpt: `She scaled the ocean-facing mountain slope with practiced ease, perching on her favourite ledge to take in the majestic view. 
@@ -40,8 +40,8 @@ She closed her eyes, and blew out the candles of an imaginary cake.`,
       { name: "Hoopla & Other Stores", url: "https://books2read.com/u/3nkE2o" }
     ],
     isbn: {
-      ebook: "9798230251316",
-      paperback: "9798230250722"
+      ebook: "9798227708984",
+      paperback: "9798230251316"
     }
   }
 
@@ -56,8 +56,7 @@ She closed her eyes, and blew out the candles of an imaginary cake.`,
     "description": bookData.description,
     "isbn": bookData.isbn.ebook,
     "bookFormat": "EBook/Paperback",
-    "inLanguage": "en",
-    "numberOfPages": "Unknown"
+    "inLanguage": "en"
   }
 
   return (
@@ -69,11 +68,9 @@ She closed her eyes, and blew out the candles of an imaginary cake.`,
       <Navigation />
       
       <main className="min-h-screen bg-background">
-        {/* Hero Section */}
         <section className="bg-gradient-to-b from-primary/10 to-background py-12">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="grid md:grid-cols-2 gap-12 items-start">
-              {/* Book Cover */}
               <div className="sticky top-8">
                 <div className="relative aspect-[2/3] rounded-lg overflow-hidden shadow-2xl">
                   <img
@@ -83,7 +80,6 @@ She closed her eyes, and blew out the candles of an imaginary cake.`,
                   />
                 </div>
                 
-                {/* Buy Buttons */}
                 <div className="mt-6 space-y-3">
                   {bookData.buyLinks.map((link, index) => (
                     <Button key={index} asChild className="w-full" variant={index === 0 ? "default" : "outline"} size="lg">
@@ -95,7 +91,6 @@ She closed her eyes, and blew out the candles of an imaginary cake.`,
                   ))}
                 </div>
 
-                {/* ISBN Info */}
                 <div className="mt-6 p-4 bg-muted/50 rounded-lg">
                   <p className="text-sm text-muted-foreground">
                     <strong>eBook ISBN:</strong> {bookData.isbn.ebook}
@@ -106,7 +101,6 @@ She closed her eyes, and blew out the candles of an imaginary cake.`,
                 </div>
               </div>
 
-              {/* Book Details */}
               <div>
                 <h1 className="text-4xl md:text-5xl font-bold text-primary mb-4">
                   {bookData.title}
@@ -121,7 +115,6 @@ She closed her eyes, and blew out the candles of an imaginary cake.`,
                   </p>
                 </div>
 
-                {/* Book Trailer */}
                 {bookData.trailer && (
                   <Card className="p-6 mb-8">
                     <h2 className="text-2xl font-bold text-primary mb-4 flex items-center">
@@ -132,7 +125,7 @@ She closed her eyes, and blew out the candles of an imaginary cake.`,
                       <iframe
                         width="100%"
                         height="100%"
-                        src={bookData.trailer.replace('youtu.be/', 'www.youtube.com/embed/').replace('watch?v=', 'embed/').split('?')[0]}
+                        src={bookData.trailer.replace('youtu.be/', 'www.youtube.com/embed/').split('?')[0]}
                         title="Book Trailer"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                         allowFullScreen
@@ -142,7 +135,6 @@ She closed her eyes, and blew out the candles of an imaginary cake.`,
                   </Card>
                 )}
 
-                {/* Book Excerpt */}
                 <Card className="p-6 mb-8 bg-muted/30">
                   <h2 className="text-2xl font-bold text-primary mb-4">Book Excerpt</h2>
                   <blockquote className="text-foreground leading-relaxed italic border-l-4 border-secondary pl-4 whitespace-pre-line">
@@ -150,7 +142,6 @@ She closed her eyes, and blew out the candles of an imaginary cake.`,
                   </blockquote>
                 </Card>
 
-                {/* Author's Notes */}
                 <Card className="p-6">
                   <h2 className="text-2xl font-bold text-primary mb-4">Author's Notes</h2>
                   <p className="text-foreground leading-relaxed">
