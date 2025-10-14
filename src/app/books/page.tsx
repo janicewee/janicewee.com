@@ -203,7 +203,7 @@ const books = [
     reviewer: "Ting Chin",
     stars: 5,
     buyLinks: [
-      { name: "Books2Read", url: "https://books2read.com/dragonunbound" },
+      { name: "Books2Read", url: "https://books2read.com/u/4NJ9p9" },
       { name: "Barnes & Noble", url: "https://www.barnesandnoble.com/s/dragon%20unbound%20janice%20wee" }
     ]
   },
