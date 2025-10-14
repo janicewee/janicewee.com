@@ -175,8 +175,8 @@ const books = [
     description: "The second novel in the Emunah Chronicles. As prophecy unfolds, believers face the ultimate test of faith during the tribulation.",
     coverUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/book2-1760411038422.jpg",
     buyLinks: [
-      { name: "Books2Read", url: "https://books2read.com/ap/8G2gQM/Janice-Wee" },
-      { name: "Barnes & Noble", url: "https://www.barnesandnoble.com" }
+      { name: "Books2Read", url: "https://books2read.com/u/38Wwjr" },
+      { name: "Barnes & Noble", url: "https://www.barnesandnoble.com/w/the-beasts-mark-janice-wee/1143737088" }
     ]
   },
   {
