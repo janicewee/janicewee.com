@@ -41,7 +41,7 @@ export default function QuestForImmortalityPage() {
 
               <div className="space-y-3">
                 <Button asChild size="lg" className="w-full md:w-auto">
-                  <a href="https://books2read.com/questforimmortality" target="_blank" rel="noopener noreferrer">
+                  <a href="https://books2read.com/u/boXak1" target="_blank" rel="noopener noreferrer">
                     Buy on Books2Read
                     <ExternalLink className="ml-2 h-4 w-4" />
                   </a>
