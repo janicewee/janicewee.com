@@ -60,7 +60,7 @@ const books = [
     title: "Before Harpazo",
     slug: "before-harpazo",
     description: "A compilation of Emunah Short Stories Book 1 to Book 4. Four interconnected stories of faith, love, and divine intervention before the rapture.",
-    coverUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/beforeharpazo.jpg",
+    coverUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/vol1.jpg",
     buyLinks: [
       { name: "Amazon", url: "https://www.amazon.com/Before-Harpazo-Emunah-Short-Stories/dp/B0DDQYBKRD" },
       { name: "Barnes & Noble", url: "https://www.barnesandnoble.com/w/before-harpazo-janice-wee/1146264321" }
