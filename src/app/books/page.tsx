@@ -16,7 +16,7 @@ const books = [
     title: "Emunah Short Stories Book 1: Abigail",
     slug: "emunah-book-1-abigail",
     description: "A charming yet tragic love triangle explores true love, betrayal and hope through the eyes of Abigail Applewood.",
-    coverUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/book1abigail.jpg",
+    coverUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/book1abigail-1760410829274.jpg",
     buyLinks: [
       { name: "Amazon", url: "https://www.amazon.com/Abigail-Emunah-Short-Stories-Janice/dp/B0D4SYB3NF" },
       { name: "Barnes & Noble", url: "https://www.barnesandnoble.com/w/abigail-janice-wee/1145575901" }
@@ -27,7 +27,7 @@ const books = [
     title: "Emunah Short Stories Book 2: Oliver",
     slug: "emunah-book-2-oliver",
     description: "Grieving his brother's death, Oliver becomes an outlier in his pursuit of souls, but appearances are deceiving.",
-    coverUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/book1oliver.jpg",
+    coverUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/book2oliver-1760410830850.jpg",
     buyLinks: [
       { name: "Amazon", url: "https://www.amazon.com/Oliver-Emunah-Short-Stories-Janice/dp/B0D6Q65HHG" },
       { name: "Barnes & Noble", url: "https://www.barnesandnoble.com/w/oliver-janice-wee/1145730081" }
@@ -38,7 +38,7 @@ const books = [
     title: "Emunah Short Stories Book 3: Emunah",
     slug: "emunah-book-3-emunah",
     description: "Do aliens exists? What is the truth behind UFOs? A freshman's life spirals into a thrilling web of friendship, forbidden love, alien encounters, and dark conspiracies.",
-    coverUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/book3emunah.jpg",
+    coverUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/book3emunah-1760410828785.jpg",
     buyLinks: [
       { name: "Amazon", url: "https://www.amazon.com/Emunah-Short-Stories-Book-ebook/dp/B0D7GQDMKP" },
       { name: "Barnes & Noble", url: "https://www.barnesandnoble.com/w/emunah-janice-wee/1145846093" }
@@ -49,7 +49,7 @@ const books = [
     title: "Emunah Short Stories Book 4: John",
     slug: "emunah-book-4-john",
     description: "John Vanheusen, a pastor's son and investigative journalist, uncovers dark conspiracies that challenge his faith and courage.",
-    coverUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/book4john.jpg",
+    coverUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/book4john-1760410829487.jpg",
     buyLinks: [
       { name: "Amazon", url: "https://www.amazon.com/John-Emunah-Short-Stories-Book-ebook/dp/B0D8P5ZJHC" },
       { name: "Barnes & Noble", url: "https://www.barnesandnoble.com/w/john-janice-wee/1146018636" }
@@ -71,7 +71,7 @@ const books = [
     title: "Emunah Short Stories Book 5: Mei",
     slug: "emunah-book-5-mei",
     description: "Mei faces impossible choices during the tribulation period, where faith and survival collide in unexpected ways.",
-    coverUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/book5mei.jpg",
+    coverUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/book5mei-1760410829482.jpg",
     buyLinks: [
       { name: "Amazon", url: "https://www.amazon.com/Mei-Emunah-Short-Stories-Book-ebook/dp/B0DK1Q3GVK" },
       { name: "Barnes & Noble", url: "https://www.barnesandnoble.com/w/mei-janice-wee/1146367224" }
@@ -82,7 +82,7 @@ const books = [
     title: "Emunah Short Stories Book 6: Liam's Dark Secrets",
     slug: "emunah-book-6-liams-dark-secrets",
     description: "Liam's hidden past comes to light as he navigates dangerous choices during humanity's darkest hour.",
-    coverUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/book6liam.jpg",
+    coverUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/book6liam-1760410829493.jpg",
     buyLinks: [
       { name: "Amazon", url: "https://www.amazon.com/Liams-Dark-Secrets-Emunah-Stories-ebook/dp/B0DLJKN4JK" },
       { name: "Barnes & Noble", url: "https://www.barnesandnoble.com/w/liams-dark-secrets-janice-wee/1146442830" }
@@ -93,7 +93,7 @@ const books = [
     title: "Emunah Short Stories Book 7: Lydia's 12 Christmases",
     slug: "emunah-book-7-lydias-12-christmases",
     description: "Peek into Lydia's private life as she transitions from a sheltered girl to a leader of the survivors and becomes their hero.",
-    coverUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/book7lydia.jpg",
+    coverUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/book7lydia-1760410829051.jpg",
     buyLinks: [
       { name: "Amazon", url: "https://www.amazon.com.au/Lydias-12-Christmases-Janice-Wee/dp/B0DN3QDCWJ" },
       { name: "Barnes & Noble", url: "https://www.barnesandnoble.com/w/lydias-12-christmases-janice-wee/1146520842" }
@@ -104,7 +104,7 @@ const books = [
     title: "Emunah Short Stories Book 8: Mary's Flight",
     slug: "emunah-book-8-marys-flight",
     description: "Mary flees for her life when assassins try to murder her and her unborn baby. Will God save her?",
-    coverUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/book8mary.jpg",
+    coverUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/book8mary-1760410829856.jpg",
     buyLinks: [
       { name: "Amazon", url: "https://www.amazon.com/Marys-Flight-Emunah-Short-Stories-ebook/dp/B0DN9LFRFW" },
       { name: "Barnes & Noble", url: "https://www.barnesandnoble.com/w/marys-flight-janice-wee/1146549876" }
