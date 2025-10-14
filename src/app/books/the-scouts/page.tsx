@@ -7,11 +7,11 @@ import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
   title: "The Scouts | Janice Wee",
-  description: "An exciting adventure by Janice Wee.",
-  keywords: "The Scouts, Janice Wee, fiction",
+  description: "An exciting tale of courage, teamwork, and faith as young scouts embark on their greatest adventure.",
+  keywords: "The Scouts, Janice Wee, children's fiction, adventure, scouts",
   openGraph: {
     title: "The Scouts",
-    description: "An exciting adventure by Janice Wee.",
+    description: "An exciting tale of courage, teamwork, and faith as young scouts embark on their greatest adventure.",
     type: "book",
   }
 }
@@ -20,13 +20,11 @@ export default function TheScoutsPage() {
   const bookData = {
     title: "The Scouts",
     author: "Janice Wee",
-    image: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/scouts-1760404738637.jpg",
-    description: "An exciting adventure of courage and teamwork.",
+    image: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/scouts-1760410358286.jpg",
+    description: "An exciting tale of courage, teamwork, and faith as young scouts embark on their greatest adventure.",
     buyLinks: [
-      { name: "Amazon", url: "#" },
-      { name: "Barnes & Noble", url: "#" },
-      { name: "Kobo", url: "#" },
-      { name: "Other Stores", url: "#" }
+      { name: "Books2Read", url: "https://books2read.com/ap/8G2gQM/Janice-Wee" },
+      { name: "Barnes & Noble", url: "https://www.barnesandnoble.com" }
     ]
   }
 
