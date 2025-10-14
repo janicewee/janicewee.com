@@ -20,7 +20,7 @@ export default function LittleNonyasEscapadesPage() {
   const bookData = {
     title: "Little Nonya's Escapades",
     author: "Janice Wee",
-    image: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/littlenonyaescapades-1760404534946.jpg",
+    image: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/littlenonyaescapades-1760416064407.jpg",
     trailer: "https://youtu.be/GMnr_uOlUYM",
     description: "Tammy's off to a bright start in her new school, but can she keep her embarassing secret from everyone? Join the naughty little nonya in her adventures in her new school, under the watchful eyes of her Daddy, a teacher there.",
     excerpt: `An idle mind is a devil's playground. Tammy was bored. A piece of chalk on the ground beside her table caught her attention. How good's her aim?

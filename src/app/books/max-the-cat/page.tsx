@@ -7,11 +7,11 @@ import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
   title: "Max The Cat | Janice Wee",
-  description: "A heartwarming story by Janice Wee.",
-  keywords: "Max The Cat, Janice Wee, fiction",
+  description: "Join Max the Cat on his curious adventures filled with fun and valuable life lessons.",
+  keywords: "Max The Cat, Janice Wee, children's fiction, cat stories",
   openGraph: {
     title: "Max The Cat",
-    description: "A heartwarming story by Janice Wee.",
+    description: "Join Max the Cat on his curious adventures filled with fun and valuable life lessons.",
     type: "book",
   }
 }
@@ -20,13 +20,11 @@ export default function MaxTheCatPage() {
   const bookData = {
     title: "Max The Cat",
     author: "Janice Wee",
-    image: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/maxthecat-1760404738917.jpg",
-    description: "A heartwarming tale of friendship and adventure.",
+    image: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/maxthecat-1760410341047.jpg",
+    description: "Join Max the Cat on his curious adventures filled with fun and valuable life lessons.",
     buyLinks: [
-      { name: "Amazon", url: "#" },
-      { name: "Barnes & Noble", url: "#" },
-      { name: "Kobo", url: "#" },
-      { name: "Other Stores", url: "#" }
+      { name: "Books2Read", url: "https://books2read.com/ap/8G2gQM/Janice-Wee" },
+      { name: "Barnes & Noble", url: "https://www.barnesandnoble.com" }
     ]
   }
 

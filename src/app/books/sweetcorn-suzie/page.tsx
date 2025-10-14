@@ -7,11 +7,11 @@ import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
   title: "Sweetcorn Suzie | Janice Wee",
-  description: "A delightful story by Janice Wee.",
-  keywords: "Sweetcorn Suzie, Janice Wee, fiction",
+  description: "A sweet children's tale following Suzie's adventures and life lessons.",
+  keywords: "Sweetcorn Suzie, Janice Wee, children's fiction",
   openGraph: {
     title: "Sweetcorn Suzie",
-    description: "A delightful story by Janice Wee.",
+    description: "A sweet children's tale following Suzie's adventures and life lessons.",
     type: "book",
   }
 }
@@ -20,13 +20,11 @@ export default function SweetcornSuziePage() {
   const bookData = {
     title: "Sweetcorn Suzie",
     author: "Janice Wee",
-    image: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/Suzie-1760404738636.jpg",
-    description: "A delightful tale of joy and discovery.",
+    image: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/Suzie-1760410252107.jpg",
+    description: "A sweet children's tale following Suzie's adventures and life lessons.",
     buyLinks: [
-      { name: "Amazon", url: "#" },
-      { name: "Barnes & Noble", url: "#" },
-      { name: "Kobo", url: "#" },
-      { name: "Other Stores", url: "#" }
+      { name: "Books2Read", url: "https://books2read.com/ap/8G2gQM/Janice-Wee" },
+      { name: "Barnes & Noble", url: "https://www.barnesandnoble.com" }
     ]
   }
 
