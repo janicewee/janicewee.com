@@ -7,7 +7,7 @@ import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
   title: "About - Janice Wee",
-  description: "Get to know the person behind the books and fan fiction. Learn about Janice Wee, Singaporean author of adventure, romance, and fan fiction.",
+  description: "Get to know the person behind the books. Learn about Janice Wee, Singaporean author of adventure and romance.",
 }
 
 export default function AboutPage() {
@@ -23,7 +23,7 @@ export default function AboutPage() {
               <div>
                 <h1 className="text-5xl font-bold text-primary mb-6">About Janice Wee</h1>
                 <p className="text-xl text-foreground leading-relaxed">
-                  Author of adventure, romance, and fan fiction
+                  Author of adventure and romance
                 </p>
               </div>
               <div className="relative aspect-square rounded-lg overflow-hidden shadow-2xl">
@@ -45,9 +45,8 @@ export default function AboutPage() {
             <div className="prose prose-lg max-w-none">
               <p className="text-foreground leading-relaxed text-lg">
                 Janice Wee is a Singaporean author who has published several books across a variety of genres, 
-                including multicultural stories, kids stories, and DC Comics fan fiction centered around Billy 
-                Batson/Captain Marvel. She is known for her vivid descriptions of characters and settings, as 
-                well as her engaging and immersive writing style.
+                including multicultural stories and kids stories. She is known for her vivid descriptions of 
+                characters and settings, as well as her engaging and immersive writing style.
               </p>
             </div>
 
@@ -64,7 +63,7 @@ export default function AboutPage() {
                   and comics from an early age.
                 </p>
                 <p>
-                  She graduated from the National University of Singapore and now writes fiction and fan fiction, 
+                  She graduated from the National University of Singapore and now writes fiction, 
                   typically at grade 3 reading level, for the enjoyment of readers of all ages.
                 </p>
               </div>
