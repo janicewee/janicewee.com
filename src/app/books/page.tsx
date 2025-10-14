@@ -153,7 +153,7 @@ const books = [
     description: "Billy's super strength goes wild at St Lydia's Academy, while Leonard Lion receives flying gloves he can't control. Can they stop a killer before it's too late?",
     coverUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/billyhero-1760074637493.jpg",
     buyLinks: [
-      { name: "Books2Read", url: "https://books2read.com/secretheroflyinglion" },
+      { name: "Books2Read", url: "https://books2read.com/u/bpgDOX" },
       { name: "Barnes & Noble", url: "https://www.barnesandnoble.com/s/secret%20hero%20flying%20lion%20janice%20wee" }
     ]
   },
