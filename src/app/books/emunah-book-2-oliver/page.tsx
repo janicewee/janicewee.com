@@ -20,7 +20,7 @@ export default function OliverBookPage() {
   const bookData = {
     title: "Emunah Short Stories Book 2: Oliver",
     author: "Janice Wee",
-    image: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/book1oliver.jpg",
+    image: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/book2oliver-1760404534983.jpg",
     trailer: "https://youtu.be/3keYVfUeJTY?si=DEnWGIesdNZIIP2d",
     description: "Grieving his brother's death, Oliver becomes an outlier in his pursuit of souls, but appearances are deceiving.",
     excerpt: `Have you ever had the feeling that someone or something is watching you? You feel eyes boring through you, but when you look up, there's no one around.`,

@@ -20,7 +20,7 @@ export default function AbigailBookPage() {
   const bookData = {
     title: "Emunah Short Stories Book 1: Abigail",
     author: "Janice Wee",
-    image: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/book1abigail.jpg",
+    image: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/book1abigail-1760404534946.jpg",
     trailer: "https://youtu.be/PiBxmQxxSUY?si=ETQUTciXaM8A9X3e",
     description: "A charming yet tragic love triangle explores true love, betrayal and hope through the eyes of Abigail Applewood.",
     longDescription: `It's a tragedy when we fail to realise that what we longed for, has been with us all along….

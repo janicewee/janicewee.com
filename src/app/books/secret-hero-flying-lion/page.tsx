@@ -10,7 +10,14 @@ export const metadata: Metadata = {
   description: "The Adventures of Billy Lionheart Book 3 - Billy discovers superpowers and faces his greatest challenges yet at St Lydia's Academy.",
 }
 
-export default function SecretHeroFlyingLionPage() {
+export default function SecretHeroPage() {
+  const bookData = {
+    title: "Secret Hero & His Flying Lion",
+    subtitle: "The Adventures of Billy Lionheart",
+    author: "Janice Wee",
+    image: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/billyhero-1760404535888.jpg",
+  }
+
   return (
     <>
       <Navigation />
@@ -22,7 +29,7 @@ export default function SecretHeroFlyingLionPage() {
             <div className="md:col-span-1">
               <div className="relative aspect-[2/3] rounded-lg overflow-hidden shadow-2xl">
                 <img
-                  src="https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/billyhero-1760074637493.jpg"
+                  src="https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/billyhero-1760404535888.jpg"
                   alt="Secret Hero & His Flying Lion"
                   className="w-full h-full object-cover"
                 />

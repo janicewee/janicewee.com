@@ -11,6 +11,13 @@ export const metadata: Metadata = {
 }
 
 export default function DragonUnboundPage() {
+  const bookData = {
+    title: "Dragon Unbound",
+    subtitle: "Emunah Chronicles Universe Finale",
+    author: "Janice Wee",
+    image: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/dragonunbound-1760404534966.jpg",
+  }
+
   return (
     <>
       <Navigation />
@@ -22,15 +29,15 @@ export default function DragonUnboundPage() {
             <div className="md:col-span-1">
               <div className="relative aspect-[2/3] rounded-lg overflow-hidden shadow-2xl">
                 <img
-                  src="https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/dragonunbound-1760074636345.jpg"
-                  alt="Dragon Unbound"
+                  src={bookData.image}
+                  alt={bookData.title}
                   className="w-full h-full object-cover"
                 />
               </div>
             </div>
 
             <div className="md:col-span-2">
-              <h1 className="text-4xl font-bold text-primary mb-4">Dragon Unbound</h1>
+              <h1 className="text-4xl font-bold text-primary mb-4">{bookData.title}</h1>
               <p className="text-xl text-foreground mb-6 leading-relaxed">
                 After a thousand years, the prophecy comes true. Dragon is released from his prison. 
                 With his band of fallen angels, he gathers the nations around the globe to wage war 
