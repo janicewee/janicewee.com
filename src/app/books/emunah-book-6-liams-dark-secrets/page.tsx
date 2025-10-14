@@ -20,7 +20,7 @@ export default function LiamsBookPage() {
   const bookData = {
     title: "Emunah Short Stories Book 6: Liam's Dark Secrets",
     author: "Janice Wee",
-    image: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/book6liam-1760404535659.jpg",
+    image: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/book6liam-1760410829493.jpg",
     trailer: "https://youtu.be/PJ1EiNOuFUU?si=oJV2BnrmeiZNtqrn",
     description: "Liam's dark secrets threaten to destroy those who dare to get too close.\nCaught in a torturous tug-of-war between his childhood sweetheart and a dangerously seductive dark mistress, Liam has to make a choice that will have eternal consequences.\nOn one hand, Liam funds The Ark - a refuge for those defying the Antichrist; on the other, he strikes Faustian deals with Beast himself.\nCan he outmanoeuvre the devil in a high-stakes game where betrayal and salvation hang in the balance?",
     excerpt: `Is it possible to love someone too much?

@@ -20,7 +20,7 @@ export default function BeforeHarpazoPage() {
   const bookData = {
     title: "Before Harpazo",
     author: "Janice Wee",
-    image: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/vol1-1760404535112.jpg",
+    image: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/vol1-1760410867752.jpg",
     description: '"Before Harpazo" is a gripping collection of 4 short stories set before The Christian Rapture of The Church. Each tale explores love, faith, and the supernatural, with characters facing extraordinary challenges and personal dilemmas. From romantic choices and spiritual battles to alien encounters and heroic transformations, this collection promises to captivate. Includes Books 1 to 4 of Janice Wee\'s Emunah Short Stories.',
     excerpt: `"What the hell happened?!?" with utmost tenderness Ben caressed Penelope's cheek. He administered cardiopulmonary resuscitation but there was no response.
 "C'mon P. Breathe," he pleaded.
