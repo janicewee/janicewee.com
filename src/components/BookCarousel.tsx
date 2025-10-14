@@ -124,14 +124,17 @@ export default function BookCarousel() {
   return (
     <div className="relative max-w-4xl mx-auto">
       <div className="grid md:grid-cols-2 gap-6 p-6">
-        {/* Book Cover */}
-        <div className="relative aspect-[2/3] rounded-lg overflow-hidden shadow-lg">
+        {/* Book Cover - Now Clickable */}
+        <a 
+          href={books[currentIndex].link}
+          className="relative aspect-[2/3] rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-shadow cursor-pointer group"
+        >
           <img
             src={books[currentIndex].coverUrl}
             alt={books[currentIndex].title}
-            className="w-full h-full object-cover transition-opacity duration-500"
+            className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
           />
-        </div>
+        </a>
 
         {/* Book Info */}
         <div className="flex flex-col justify-center">
