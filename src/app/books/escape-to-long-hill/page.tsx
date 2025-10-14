@@ -7,11 +7,11 @@ import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
   title: "Escape to Long Hill | Janice Wee",
-  description: "An adventurous story by Janice Wee.",
-  keywords: "Escape to Long Hill, Janice Wee, fiction",
+  description: "A journey of escape and discovery leads to Long Hill, where new beginnings await.",
+  keywords: "Escape to Long Hill, Janice Wee, children's fiction, adventure",
   openGraph: {
     title: "Escape to Long Hill",
-    description: "An adventurous story by Janice Wee.",
+    description: "A journey of escape and discovery leads to Long Hill, where new beginnings await.",
     type: "book",
   }
 }
@@ -20,13 +20,11 @@ export default function EscapeToLongHillPage() {
   const bookData = {
     title: "Escape to Long Hill",
     author: "Janice Wee",
-    image: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/Longhill12-1760404738854.jpg",
-    description: "An adventurous tale of courage and discovery.",
+    image: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/Longhill12-1760410284805.jpg",
+    description: "A journey of escape and discovery leads to Long Hill, where new beginnings await.",
     buyLinks: [
-      { name: "Amazon", url: "#" },
-      { name: "Barnes & Noble", url: "#" },
-      { name: "Kobo", url: "#" },
-      { name: "Other Stores", url: "#" }
+      { name: "Books2Read", url: "https://books2read.com/ap/8G2gQM/Janice-Wee" },
+      { name: "Barnes & Noble", url: "https://www.barnesandnoble.com" }
     ]
   }
 
