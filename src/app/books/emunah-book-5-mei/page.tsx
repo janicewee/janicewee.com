@@ -7,11 +7,11 @@ import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
   title: "Emunah Short Stories Book 5: Mei - A Gripping Thriller | Janice Wee",
-  description: "Former clone handler for Beast Corp realises the truth behind the Immortality Project. She flees and finds new purpose with the rebels as a rescue pilot. Her past returns to haunt her. Christian thriller by Janice Wee.",
-  keywords: "Mei, Emunah Short Stories, Christian fiction, thriller, dystopian fiction, Janice Wee, apocalyptic fiction, biblical prophecy",
+  description: "Former clone handler for Beast Corp realises the truth behind the Immortality Project. She flees and finds new purpose with the rebels as a rescue pilot. A gripping thriller by Janice Wee.",
+  keywords: "Mei, Emunah Short Stories, Christian fiction, thriller, dystopian, persecution, Janice Wee, biblical fiction",
   openGraph: {
     title: "Emunah Short Stories Book 5: Mei",
-    description: "A gripping thriller about a former clone handler who discovers the dark truth and joins the rebellion.",
+    description: "Former clone handler flees Beast Corp and joins the rebels. Her past returns to haunt her.",
     type: "book",
   }
 }
@@ -20,7 +20,7 @@ export default function MeiBookPage() {
   const bookData = {
     title: "Emunah Short Stories Book 5: Mei",
     author: "Janice Wee",
-    image: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/book5mei.jpg",
+    image: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/book5mei-1760404534703.jpg",
     trailer: "https://youtu.be/bpASpLyaPj4?si=v75IACedaNkUWD_M",
     description: "Former clone handler for Beast Corp realises the truth behind the Immortality Project. She flees and finds new purpose with the rebels as a rescue pilot. Her past returns to haunt her, slaughtering those close to her. A gripping thriller that will keep you up at night.",
     excerpt: `"Class A Enhanced soldiers used their flames to raze this camp," she announced, estimating a dozen superhuman soldiers prowling the ruins.
@@ -60,8 +60,7 @@ In a single movement, she drew her gun and blasted a sphere at his forehead. His
     "description": bookData.description,
     "isbn": bookData.isbn.ebook,
     "bookFormat": "EBook/Paperback",
-    "inLanguage": "en",
-    "numberOfPages": "Unknown"
+    "inLanguage": "en"
   }
 
   return (
@@ -73,11 +72,9 @@ In a single movement, she drew her gun and blasted a sphere at his forehead. His
       <Navigation />
       
       <main className="min-h-screen bg-background">
-        {/* Hero Section */}
         <section className="bg-gradient-to-b from-primary/10 to-background py-12">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="grid md:grid-cols-2 gap-12 items-start">
-              {/* Book Cover */}
               <div className="sticky top-8">
                 <div className="relative aspect-[2/3] rounded-lg overflow-hidden shadow-2xl">
                   <img
@@ -87,7 +84,6 @@ In a single movement, she drew her gun and blasted a sphere at his forehead. His
                   />
                 </div>
                 
-                {/* Buy Buttons */}
                 <div className="mt-6 space-y-3">
                   {bookData.buyLinks.map((link, index) => (
                     <Button key={index} asChild className="w-full" variant={index === 0 ? "default" : "outline"} size="lg">
@@ -99,7 +95,6 @@ In a single movement, she drew her gun and blasted a sphere at his forehead. His
                   ))}
                 </div>
 
-                {/* ISBN Info */}
                 <div className="mt-6 p-4 bg-muted/50 rounded-lg">
                   <p className="text-sm text-muted-foreground">
                     <strong>eBook ISBN:</strong> {bookData.isbn.ebook}
@@ -110,7 +105,6 @@ In a single movement, she drew her gun and blasted a sphere at his forehead. His
                 </div>
               </div>
 
-              {/* Book Details */}
               <div>
                 <h1 className="text-4xl md:text-5xl font-bold text-primary mb-4">
                   {bookData.title}
@@ -125,7 +119,6 @@ In a single movement, she drew her gun and blasted a sphere at his forehead. His
                   </p>
                 </div>
 
-                {/* Book Trailer */}
                 {bookData.trailer && (
                   <Card className="p-6 mb-8">
                     <h2 className="text-2xl font-bold text-primary mb-4 flex items-center">
@@ -146,7 +139,6 @@ In a single movement, she drew her gun and blasted a sphere at his forehead. His
                   </Card>
                 )}
 
-                {/* Book Excerpt */}
                 <Card className="p-6 mb-8 bg-muted/30">
                   <h2 className="text-2xl font-bold text-primary mb-4">Book Excerpt</h2>
                   <blockquote className="text-foreground leading-relaxed italic border-l-4 border-secondary pl-4 whitespace-pre-line">
@@ -154,7 +146,6 @@ In a single movement, she drew her gun and blasted a sphere at his forehead. His
                   </blockquote>
                 </Card>
 
-                {/* Author's Notes */}
                 <Card className="p-6">
                   <h2 className="text-2xl font-bold text-primary mb-4">Author's Notes</h2>
                   <p className="text-foreground leading-relaxed">
