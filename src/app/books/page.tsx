@@ -13,25 +13,121 @@ export const metadata: Metadata = {
 const books = [
   {
     id: 1,
-    title: "Dragon Unbound",
-    slug: "dragon-unbound",
-    description: "After a thousand years, the prophecy comes true. Dragon is released from his prison. With his band of fallen angels, he gathers the nations around the globe to wage war against the saints in the Holy City. The epic finale to the Emunah Chronicles.",
-    coverUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/dragonunbound-1760074636345.jpg",
-    review: "A must-read for fans of Christian speculative fiction, Janice Wee's Dragon Unbound plunges readers into a vibrant narrative set during the Millennial Kingdom, where biblical prophecy unfolds amidst the everyday lives of mortals and immortals alike.",
-    reviewer: "Ting Chin",
-    stars: 5,
+    title: "Emunah Short Stories Book 1: Abigail",
+    slug: "emunah-book-1-abigail",
+    description: "A charming yet tragic love triangle explores true love, betrayal and hope through the eyes of Abigail Applewood.",
+    coverUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/book1abigail.jpg",
     buyLinks: [
-      { name: "Books2Read", url: "https://books2read.com/dragonunbound" },
-      { name: "Barnes & Noble", url: "https://www.barnesandnoble.com/s/dragon%20unbound%20janice%20wee" }
+      { name: "Amazon", url: "https://www.amazon.com/Abigail-Emunah-Short-Stories-Janice/dp/B0D4SYB3NF" },
+      { name: "Barnes & Noble", url: "https://www.barnesandnoble.com/w/abigail-janice-wee/1145575901" }
     ]
   },
   {
     id: 2,
+    title: "Emunah Short Stories Book 2: Oliver",
+    slug: "emunah-book-2-oliver",
+    description: "Grieving his brother's death, Oliver becomes an outlier in his pursuit of souls, but appearances are deceiving.",
+    coverUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/book1oliver.jpg",
+    buyLinks: [
+      { name: "Amazon", url: "https://www.amazon.com/Oliver-Emunah-Short-Stories-Janice/dp/B0D6Q65HHG" },
+      { name: "Barnes & Noble", url: "https://www.barnesandnoble.com/w/oliver-janice-wee/1145730081" }
+    ]
+  },
+  {
+    id: 3,
+    title: "Emunah Short Stories Book 3: Emunah",
+    slug: "emunah-book-3-emunah",
+    description: "Do aliens exists? What is the truth behind UFOs? A freshman's life spirals into a thrilling web of friendship, forbidden love, alien encounters, and dark conspiracies.",
+    coverUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/book3emunah.jpg",
+    buyLinks: [
+      { name: "Amazon", url: "https://www.amazon.com/Emunah-Short-Stories-Book-ebook/dp/B0D7GQDMKP" },
+      { name: "Barnes & Noble", url: "https://www.barnesandnoble.com/w/emunah-janice-wee/1145846093" }
+    ]
+  },
+  {
+    id: 4,
+    title: "Emunah Short Stories Book 4: John",
+    slug: "emunah-book-4-john",
+    description: "John Vanheusen, a pastor's son and investigative journalist, uncovers dark conspiracies that challenge his faith and courage.",
+    coverUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/book4john.jpg",
+    buyLinks: [
+      { name: "Amazon", url: "https://www.amazon.com/John-Emunah-Short-Stories-Book-ebook/dp/B0D8P5ZJHC" },
+      { name: "Barnes & Noble", url: "https://www.barnesandnoble.com/w/john-janice-wee/1146018636" }
+    ]
+  },
+  {
+    id: 5,
+    title: "Before Harpazo",
+    slug: "before-harpazo",
+    description: "A compilation of Emunah Short Stories Book 1 to Book 4. Four interconnected stories of faith, love, and divine intervention before the rapture.",
+    coverUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/beforeharpazo.jpg",
+    buyLinks: [
+      { name: "Amazon", url: "https://www.amazon.com/Before-Harpazo-Emunah-Short-Stories/dp/B0DDQYBKRD" },
+      { name: "Barnes & Noble", url: "https://www.barnesandnoble.com/w/before-harpazo-janice-wee/1146264321" }
+    ]
+  },
+  {
+    id: 6,
+    title: "Emunah Short Stories Book 5: Mei",
+    slug: "emunah-book-5-mei",
+    description: "Mei faces impossible choices during the tribulation period, where faith and survival collide in unexpected ways.",
+    coverUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/book5mei.jpg",
+    buyLinks: [
+      { name: "Amazon", url: "https://www.amazon.com/Mei-Emunah-Short-Stories-Book-ebook/dp/B0DK1Q3GVK" },
+      { name: "Barnes & Noble", url: "https://www.barnesandnoble.com/w/mei-janice-wee/1146367224" }
+    ]
+  },
+  {
+    id: 7,
+    title: "Emunah Short Stories Book 6: Liam's Dark Secrets",
+    slug: "emunah-book-6-liams-dark-secrets",
+    description: "Liam's hidden past comes to light as he navigates dangerous choices during humanity's darkest hour.",
+    coverUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/book6liam.jpg",
+    buyLinks: [
+      { name: "Amazon", url: "https://www.amazon.com/Liams-Dark-Secrets-Emunah-Stories-ebook/dp/B0DLJKN4JK" },
+      { name: "Barnes & Noble", url: "https://www.barnesandnoble.com/w/liams-dark-secrets-janice-wee/1146442830" }
+    ]
+  },
+  {
+    id: 8,
+    title: "Emunah Short Stories Book 7: Lydia's 12 Christmases",
+    slug: "emunah-book-7-lydias-12-christmases",
+    description: "Peek into Lydia's private life as she transitions from a sheltered girl to a leader of the survivors and becomes their hero.",
+    coverUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/book7lydia.jpg",
+    buyLinks: [
+      { name: "Amazon", url: "https://www.amazon.com.au/Lydias-12-Christmases-Janice-Wee/dp/B0DN3QDCWJ" },
+      { name: "Barnes & Noble", url: "https://www.barnesandnoble.com/w/lydias-12-christmases-janice-wee/1146520842" }
+    ]
+  },
+  {
+    id: 9,
+    title: "Emunah Short Stories Book 8: Mary's Flight",
+    slug: "emunah-book-8-marys-flight",
+    description: "Mary flees for her life when assassins try to murder her and her unborn baby. Will God save her?",
+    coverUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/book8mary.jpg",
+    buyLinks: [
+      { name: "Amazon", url: "https://www.amazon.com/Marys-Flight-Emunah-Short-Stories-ebook/dp/B0DN9LFRFW" },
+      { name: "Barnes & Noble", url: "https://www.barnesandnoble.com/w/marys-flight-janice-wee/1146549876" }
+    ]
+  },
+  {
+    id: 10,
+    title: "The Mark and The Martyr",
+    slug: "the-mark-and-the-martyr",
+    description: "A compilation of Emunah Short Stories Book 5 to Book 8. Four powerful stories of faith, survival, and divine protection during the end times.",
+    coverUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/markmartyr.jpg",
+    buyLinks: [
+      { name: "Amazon", url: "https://www.amazon.com/Mark-Martyr-Emunah-Short-Stories/dp/B0DPBZD2YS" },
+      { name: "Barnes & Noble", url: "https://www.barnesandnoble.com/w/the-mark-and-the-martyr-janice-wee/1146823779" }
+    ]
+  },
+  {
+    id: 11,
     title: "Billy The Lion Boy",
     slug: "billy-the-lion-boy",
-    description: "Billy is an orphan who yearns to be reunited with his parents. His guardian is a lion who is his fierce protector despite the youngster's penchant for mischief. Follow their adventures in this heartwarming tale of courage, faith, and divine protection.",
+    description: "Billy is an orphan who yearns to be reunited with his parents. His guardian is a lion who is his fierce protector despite the youngster's penchant for mischief.",
     coverUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/billylionheart-1760074636207.jpg",
-    review: "An entertaining and imaginative story. Fun to read with a gentle perspective on love and loss. Billy is an orphan who yearns to be reunited with his parents. His guardian is a lion who is his fierce protector despite the youngster's penchant for mischief.",
+    review: "An entertaining and imaginative story. Fun to read with a gentle perspective on love and loss.",
     reviewer: "Kindle Customer",
     stars: 4,
     buyLinks: [
@@ -40,10 +136,10 @@ const books = [
     ]
   },
   {
-    id: 3,
+    id: 12,
     title: "Billy & Bluma: Double Trouble",
     slug: "billy-bluma-double-trouble",
-    description: "Billy reunites with his childhood friend Bluma, and together they stumble upon a mysterious glowing orb that leads to their greatest adventure yet. With Leonard Lion by their side, the duo faces challenges that will test their friendship and faith.",
+    description: "Billy reunites with his childhood friend Bluma, and together they stumble upon a mysterious glowing orb that leads to their greatest adventure yet.",
     coverUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/billybluma-1760074636547.jpg",
     buyLinks: [
       { name: "Books2Read", url: "https://books2read.com/billyblumadoubletrouble" },
@@ -51,10 +147,10 @@ const books = [
     ]
   },
   {
-    id: 4,
+    id: 13,
     title: "Secret Hero & His Flying Lion",
     slug: "secret-hero-flying-lion",
-    description: "Billy's super strength goes wild at St Lydia's Academy, while Leonard Lion receives flying gloves he can't control. When someone poisons Leonard and tries to kill Billy and friends, can they stop the killer before it's too late?",
+    description: "Billy's super strength goes wild at St Lydia's Academy, while Leonard Lion receives flying gloves he can't control. Can they stop a killer before it's too late?",
     coverUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/billyhero-1760074637493.jpg",
     buyLinks: [
       { name: "Books2Read", url: "https://books2read.com/secretheroflyinglion" },
@@ -62,10 +158,32 @@ const books = [
     ]
   },
   {
-    id: 5,
-    title: "The Quest For Immortality",
+    id: 14,
+    title: "Emunah Book 1: Disturbing Dreams",
+    slug: "emunah-book-1-disturbing-dreams",
+    description: "The first full-length novel in the Emunah Chronicles. A young woman's disturbing dreams reveal a prophetic glimpse into the future.",
+    coverUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/book1k-1760074872135.jpg",
+    buyLinks: [
+      { name: "Books2Read", url: "https://books2read.com/ap/8G2gQM/Janice-Wee" },
+      { name: "Barnes & Noble", url: "https://www.barnesandnoble.com" }
+    ]
+  },
+  {
+    id: 15,
+    title: "Emunah Book 2: The Beast's Mark",
+    slug: "emunah-book-2-the-beasts-mark",
+    description: "The second novel in the Emunah Chronicles. As prophecy unfolds, believers face the ultimate test of faith during the tribulation.",
+    coverUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/book2k-1760074872135.jpg",
+    buyLinks: [
+      { name: "Books2Read", url: "https://books2read.com/ap/8G2gQM/Janice-Wee" },
+      { name: "Barnes & Noble", url: "https://www.barnesandnoble.com" }
+    ]
+  },
+  {
+    id: 16,
+    title: "The Quest for Immortality",
     slug: "quest-for-immortality",
-    description: "A dystopian to utopian prophecy tale. In a world where death seems to reign supreme, one family's faith leads them on a quest that spans from the darkest tribulation to the brightest hope of eternity. This powerful narrative explores God's ultimate plan for redemption.",
+    description: "A dystopian to utopian prophecy tale. One family's faith leads them on a quest that spans from the darkest tribulation to the brightest hope of eternity.",
     coverUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/book3k-1760074872135.jpg",
     review: "Fiction or Reality? Is this the future? A must read. The author is creative & insightful in weaving a story that grips you to the very end.",
     reviewer: "Yvonne Sequerah",
@@ -76,11 +194,113 @@ const books = [
     ]
   },
   {
-    id: 6,
-    title: "Billy Lionheart Series",
-    slug: "billy-lionheart-series",
-    description: "Follow Billy's complete journey through this epic fantasy series where faith, family, and destiny intertwine. Experience the full saga of courage, redemption, and divine purpose as Billy grows from an orphan boy to a hero of legendary proportions.",
-    coverUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/billyhero-1760074637493.jpg",
+    id: 17,
+    title: "Dragon Unbound",
+    slug: "dragon-unbound",
+    description: "After a thousand years, the prophecy comes true. Dragon is released from his prison. The epic finale to the Emunah Chronicles.",
+    coverUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/dragonunbound-1760074636345.jpg",
+    review: "A must-read for fans of Christian speculative fiction, Janice Wee's Dragon Unbound plunges readers into a vibrant narrative set during the Millennial Kingdom.",
+    reviewer: "Ting Chin",
+    stars: 5,
+    buyLinks: [
+      { name: "Books2Read", url: "https://books2read.com/dragonunbound" },
+      { name: "Barnes & Noble", url: "https://www.barnesandnoble.com/s/dragon%20unbound%20janice%20wee" }
+    ]
+  },
+  {
+    id: 18,
+    title: "Singapore's Runaway",
+    slug: "singapores-runaway",
+    description: "A captivating tale set in Singapore, exploring themes of faith, family, and finding one's place in the world.",
+    coverUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/placeholder-book.jpg",
+    buyLinks: [
+      { name: "Books2Read", url: "https://books2read.com/ap/8G2gQM/Janice-Wee" },
+      { name: "Barnes & Noble", url: "https://www.barnesandnoble.com" }
+    ]
+  },
+  {
+    id: 19,
+    title: "Two Worlds",
+    slug: "two-worlds",
+    description: "A story bridging two realms, where faith and reality intersect in unexpected ways.",
+    coverUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/placeholder-book.jpg",
+    buyLinks: [
+      { name: "Books2Read", url: "https://books2read.com/ap/8G2gQM/Janice-Wee" },
+      { name: "Barnes & Noble", url: "https://www.barnesandnoble.com" }
+    ]
+  },
+  {
+    id: 20,
+    title: "Naughty Little Nonya",
+    slug: "naughty-little-nonya",
+    description: "A charming children's story celebrating Peranakan culture with mischief and heart.",
+    coverUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/placeholder-book.jpg",
+    buyLinks: [
+      { name: "Books2Read", url: "https://books2read.com/ap/8G2gQM/Janice-Wee" },
+      { name: "Barnes & Noble", url: "https://www.barnesandnoble.com" }
+    ]
+  },
+  {
+    id: 21,
+    title: "Little Nonya's Escapades",
+    slug: "little-nonyas-escapades",
+    description: "More delightful adventures with Little Nonya as she explores her heritage and creates memorable moments.",
+    coverUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/placeholder-book.jpg",
+    buyLinks: [
+      { name: "Books2Read", url: "https://books2read.com/ap/8G2gQM/Janice-Wee" },
+      { name: "Barnes & Noble", url: "https://www.barnesandnoble.com" }
+    ]
+  },
+  {
+    id: 22,
+    title: "Sweetcorn Suzie",
+    slug: "sweetcorn-suzie",
+    description: "A sweet children's tale following Suzie's adventures and life lessons.",
+    coverUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/placeholder-book.jpg",
+    buyLinks: [
+      { name: "Books2Read", url: "https://books2read.com/ap/8G2gQM/Janice-Wee" },
+      { name: "Barnes & Noble", url: "https://www.barnesandnoble.com" }
+    ]
+  },
+  {
+    id: 23,
+    title: "Escape to Long Hill",
+    slug: "escape-to-long-hill",
+    description: "A journey of escape and discovery leads to Long Hill, where new beginnings await.",
+    coverUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/placeholder-book.jpg",
+    buyLinks: [
+      { name: "Books2Read", url: "https://books2read.com/ap/8G2gQM/Janice-Wee" },
+      { name: "Barnes & Noble", url: "https://www.barnesandnoble.com" }
+    ]
+  },
+  {
+    id: 24,
+    title: "Chico & Yvette",
+    slug: "chico-and-yvette",
+    description: "A heartwarming story of friendship between Chico and Yvette as they navigate life's adventures together.",
+    coverUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/placeholder-book.jpg",
+    buyLinks: [
+      { name: "Books2Read", url: "https://books2read.com/ap/8G2gQM/Janice-Wee" },
+      { name: "Barnes & Noble", url: "https://www.barnesandnoble.com" }
+    ]
+  },
+  {
+    id: 25,
+    title: "Max The Cat",
+    slug: "max-the-cat",
+    description: "Join Max the Cat on his curious adventures filled with fun and valuable life lessons.",
+    coverUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/placeholder-book.jpg",
+    buyLinks: [
+      { name: "Books2Read", url: "https://books2read.com/ap/8G2gQM/Janice-Wee" },
+      { name: "Barnes & Noble", url: "https://www.barnesandnoble.com" }
+    ]
+  },
+  {
+    id: 26,
+    title: "The Scouts",
+    slug: "the-scouts",
+    description: "An exciting tale of courage, teamwork, and faith as young scouts embark on their greatest adventure.",
+    coverUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/placeholder-book.jpg",
     buyLinks: [
       { name: "Books2Read", url: "https://books2read.com/ap/8G2gQM/Janice-Wee" },
       { name: "Barnes & Noble", url: "https://www.barnesandnoble.com" }
