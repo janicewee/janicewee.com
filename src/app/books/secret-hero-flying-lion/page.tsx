@@ -86,8 +86,7 @@ export default function SecretHeroPage() {
                 <p className="text-foreground leading-relaxed mb-4">
                   Billy Lionheart received super strength in his previous adventure, but now it's becoming 
                   a problem. As he and Bluma return to St Lydia's Academy for a new school term, Billy's 
-                  strength goes haywire at the worst possible moments. Breaking chairs, crushing doorknobs, 
-                  and accidentally launching objects across the room—Billy's losing control, and his secret 
+                  strength goes haywire at the worst possible moments. Billy's losing control, and his secret 
                   is in danger of being exposed.
                 </p>
                 <p className="text-foreground leading-relaxed mb-4">
