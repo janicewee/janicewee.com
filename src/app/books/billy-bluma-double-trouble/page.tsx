@@ -10,7 +10,14 @@ export const metadata: Metadata = {
   description: "The Adventures of Billy Lionheart Book 2 - Billy and Bluma team up for twice the adventure and twice the mischief.",
 }
 
-export default function BillyBlumaDoubleTroublePage() {
+export default function BillyBlumaPage() {
+  const bookData = {
+    title: "Billy & Bluma: Double Trouble",
+    subtitle: "The Adventures of Billy Lionheart",
+    author: "Janice Wee",
+    image: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/billybluma-1760404534699.jpg",
+  }
+
   return (
     <>
       <Navigation />
@@ -22,7 +29,7 @@ export default function BillyBlumaDoubleTroublePage() {
             <div className="md:col-span-1">
               <div className="relative aspect-[2/3] rounded-lg overflow-hidden shadow-2xl">
                 <img
-                  src="https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/billybluma-1760074636547.jpg"
+                  src="https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/billybluma-1760404534699.jpg"
                   alt="Billy & Bluma: Double Trouble"
                   className="w-full h-full object-cover"
                 />
