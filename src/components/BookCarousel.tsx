@@ -16,7 +16,7 @@ const books = [
     id: 2,
     title: "Emunah Book 1: Disturbing Dreams",
     coverUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/book1-1760074871955.jpg",
-    synopsis: "A woman in a flowing red dress stands against a golden backdrop, as disturbing dreams begin to unveil ancient prophecies.",
+    synopsis: "Meet Emunah, a spirited young woman whose life takes an eerie turn when ominous dreams seep into reality. Beast Corp, an enigmatic conglomerate, casts an increasingly monstrous shadow over their world. With each spine-tingling discovery, Emunah and her friends stumble further into a terrifying plot that threatens to fracture their existence. Artificial Intelligence, cloning and other emerging technologies converge as Christians around the world disappear in what some call The Rapture while others, The Vanishing. The resultant global chaos enables the rise of a one world dictator.",
     link: "/books"
   },
   {
