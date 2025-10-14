@@ -9,7 +9,7 @@ const books = [
     id: 1,
     title: "Dragon Unbound",
     coverUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/dragonunbound-1760074636345.jpg",
-    synopsis: "After a thousand years, the prophecy comes true. Dragon is released from his prison. With his band of fallen angels, he gathers the nations around the globe to wage war against the saints in the Holy City. The epic finale to the Emunah Chronicles.",
+    synopsis: "In a millennial world of mortals and immortals, best friends Billy and Bluma fall in love and marry. Billy, a teacher with super strength, serves alongside a flying lion under an immortal king, as Bluma raises their kids. When the Dragon deceives, sparking rebellion against the King of Kings, will their faith prevail? A Christian romance and saga of love, legacy, and apocalyptic spiritual warfare.",
     link: "/books/dragon-unbound"
   },
   {
@@ -93,7 +93,7 @@ const books = [
     id: 13,
     title: "The Mark and The Martyr",
     coverUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/markmartyr-1760074983014.jpg",
-    synopsis: "A compilation of Emunah Short Stories Book 5 to Book 8 combining four powerful stories of faith, survival, and divine protection during the end times.",
+    synopsis: "In 'The Mark and the Martyr,' four face the Great Tribulation. A clone handler flees the Antichrist's Beast Corp, a repentant Christian treads the fine balance between business with the Antichrist and providing for the survivors, a woman finds faith through twelve bleak Christmases, and a Jewish survivor endures until Christ's return. Emunah Short Stories (5-8) grip with deception and courage.",
     link: "/books/the-mark-and-the-martyr"
   },
   {
