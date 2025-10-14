@@ -234,7 +234,7 @@ const books = [
     title: "Naughty Little Nonya",
     slug: "naughty-little-nonya",
     description: "A charming children's story celebrating Peranakan culture with mischief and heart.",
-    coverUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/naughtylittlenonya-1760404534946.jpg",
+    coverUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/naughtylittlenonya-1760411118774.jpeg",
     buyLinks: [
       { name: "Books2Read", url: "https://books2read.com/ap/8G2gQM/Janice-Wee" },
       { name: "Barnes & Noble", url: "https://www.barnesandnoble.com" }
@@ -245,7 +245,7 @@ const books = [
     title: "Little Nonya's Escapades",
     slug: "little-nonyas-escapades",
     description: "More delightful adventures with Little Nonya as she explores her heritage and creates memorable moments.",
-    coverUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/littlenonyaescapades-1760404534946.jpg",
+    coverUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/littlenonyaescapades-1760411108648.jpg",
     buyLinks: [
       { name: "Books2Read", url: "https://books2read.com/ap/8G2gQM/Janice-Wee" },
       { name: "Barnes & Noble", url: "https://www.barnesandnoble.com" }
