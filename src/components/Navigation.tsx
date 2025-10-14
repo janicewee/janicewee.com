@@ -60,20 +60,22 @@ export default function Navigation() {
                 <ChevronDown className="ml-1 h-4 w-4" />
               </button>
               {booksDropdownOpen && (
-                <div className="absolute left-0 mt-2 w-80 bg-white rounded-md shadow-lg border border-border py-2 max-h-[80vh] overflow-y-auto">
-                  {bookLinks.map((book) => (
-                    <Link 
-                      key={book.href} 
-                      href={book.href} 
-                      className="block px-4 py-2 text-sm text-foreground hover:bg-muted"
-                    >
-                      {book.title}
+                <div className="absolute left-0 mt-0 pt-2 w-80">
+                  <div className="bg-white rounded-md shadow-lg border border-border py-2 max-h-[80vh] overflow-y-auto">
+                    {bookLinks.map((book) => (
+                      <Link 
+                        key={book.href} 
+                        href={book.href} 
+                        className="block px-4 py-2 text-sm text-foreground hover:bg-muted"
+                      >
+                        {book.title}
+                      </Link>
+                    ))}
+                    <div className="border-t border-border my-2"></div>
+                    <Link href="/books" className="block px-4 py-2 text-sm text-primary font-semibold hover:bg-muted">
+                      View All Books
                     </Link>
-                  ))}
-                  <div className="border-t border-border my-2"></div>
-                  <Link href="/books" className="block px-4 py-2 text-sm text-primary font-semibold hover:bg-muted">
-                    View All Books
-                  </Link>
+                  </div>
                 </div>
               )}
             </div>
