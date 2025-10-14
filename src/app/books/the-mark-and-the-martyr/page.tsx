@@ -20,7 +20,7 @@ export default function MarkAndMartyrBookPage() {
   const bookData = {
     title: "The Mark and The Martyr",
     author: "Janice Wee",
-    image: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/markmartyr.jpg",
+    image: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/markmartyr-1760404684204.jpg",
     trailer: "https://youtube.com/watch?v=Jx_QrYWgWg8&feature=youtu.be",
     description: "A compilation of Emunah Short Stories Book 5 to Book 8 combining four powerful stories of faith, survival, and divine protection during the end times.",
     longDescription: `This powerful compilation brings together four interconnected stories that explore themes of faith, courage, and divine intervention during the tribulation period:
