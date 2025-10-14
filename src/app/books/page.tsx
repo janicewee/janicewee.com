@@ -236,8 +236,8 @@ const books = [
     description: "A charming children's story celebrating Peranakan culture with mischief and heart.",
     coverUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/naughtylittlenonya-1760411118774.jpeg",
     buyLinks: [
-      { name: "Books2Read", url: "https://books2read.com/ap/8G2gQM/Janice-Wee" },
-      { name: "Barnes & Noble", url: "https://www.barnesandnoble.com" }
+      { name: "Books2Read", url: "https://books2read.com/u/bwNjzZ" },
+      { name: "Barnes & Noble", url: "https://www.barnesandnoble.com/w/naughty-little-nonya-janice-wee/1143421712" }
     ]
   },
   {
