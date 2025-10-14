@@ -247,8 +247,8 @@ const books = [
     description: "More delightful adventures with Little Nonya as she explores her heritage and creates memorable moments.",
     coverUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/littlenonyaescapades-1760411108648.jpg",
     buyLinks: [
-      { name: "Books2Read", url: "https://books2read.com/ap/8G2gQM/Janice-Wee" },
-      { name: "Barnes & Noble", url: "https://www.barnesandnoble.com" }
+      { name: "Books2Read", url: "https://books2read.com/u/3LjoN1" },
+      { name: "Barnes & Noble", url: "https://www.barnesandnoble.com/w/little-nonyas-escapades-janice-wee/1143816075" }
     ]
   },
   {
