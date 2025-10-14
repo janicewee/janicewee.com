@@ -189,7 +189,7 @@ const books = [
     reviewer: "Yvonne Sequerah",
     stars: 5,
     buyLinks: [
-      { name: "Books2Read", url: "https://books2read.com/questforimmortality" },
+      { name: "Books2Read", url: "https://books2read.com/u/boXak1" },
       { name: "Barnes & Noble", url: "https://www.barnesandnoble.com/s/quest%20for%20immortality%20janice%20wee" }
     ]
   },
