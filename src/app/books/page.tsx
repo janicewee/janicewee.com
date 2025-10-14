@@ -40,8 +40,8 @@ const books = [
     description: "Do aliens exists? What is the truth behind UFOs? A freshman's life spirals into a thrilling web of friendship, forbidden love, alien encounters, and dark conspiracies.",
     coverUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/book3emunah-1760410828785.jpg",
     buyLinks: [
-      { name: "Amazon", url: "https://www.amazon.com/Emunah-Short-Stories-Book-ebook/dp/B0D7GQDMKP" },
-      { name: "Barnes & Noble", url: "https://www.barnesandnoble.com/w/emunah-janice-wee/1145846093" }
+      { name: "Amazon", url: "https://www.amazon.com/Emunah-Short-Stories-Janice-Wee/dp/B0D7QR9CBJ" },
+      { name: "Barnes & Noble", url: "https://www.barnesandnoble.com/w/emunah-janice-wee/1145849359" }
     ]
   },
   {
@@ -51,8 +51,8 @@ const books = [
     description: "John Vanheusen, a pastor's son and investigative journalist, uncovers dark conspiracies that challenge his faith and courage.",
     coverUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/book4john-1760410829487.jpg",
     buyLinks: [
-      { name: "Amazon", url: "https://www.amazon.com/John-Emunah-Short-Stories-Book-ebook/dp/B0D8P5ZJHC" },
-      { name: "Barnes & Noble", url: "https://www.barnesandnoble.com/w/john-janice-wee/1146018636" }
+      { name: "Amazon", url: "https://www.amazon.com/John-Emunah-Short-Stories-Janice/dp/B0DB6DNSL4" },
+      { name: "Barnes & Noble", url: "https://www.barnesandnoble.com/w/john-janice-wee/1146057067" }
     ]
   },
   {
@@ -62,8 +62,8 @@ const books = [
     description: "A compilation of Emunah Short Stories Book 1 to Book 4. Four interconnected stories of faith, love, and divine intervention before the rapture.",
     coverUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/vol1-1760410867752.jpg",
     buyLinks: [
-      { name: "Amazon", url: "https://www.amazon.com/Before-Harpazo-Emunah-Short-Stories/dp/B0DDQYBKRD" },
-      { name: "Barnes & Noble", url: "https://www.barnesandnoble.com/w/before-harpazo-janice-wee/1146264321" }
+      { name: "Amazon", url: "https://www.amazon.com.au/Before-Harpazo-1-Janice-Wee/dp/B0DCHMCFDK" },
+      { name: "Barnes & Noble", url: "https://www.barnesandnoble.com/w/before-harpazo-janice-wee/1146133654" }
     ]
   },
   {
@@ -73,8 +73,8 @@ const books = [
     description: "Mei faces impossible choices during the tribulation period, where faith and survival collide in unexpected ways.",
     coverUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/book5mei-1760410829482.jpg",
     buyLinks: [
-      { name: "Amazon", url: "https://www.amazon.com/Mei-Emunah-Short-Stories-Book-ebook/dp/B0DK1Q3GVK" },
-      { name: "Barnes & Noble", url: "https://www.barnesandnoble.com/w/mei-janice-wee/1146367224" }
+      { name: "Amazon", url: "https://www.amazon.com.au/Mei-5-Janice-Wee/dp/B0DGDFTP31" },
+      { name: "Barnes & Noble", url: "https://www.barnesandnoble.com/w/mei-janice-wee/1146253390" }
     ]
   },
   {
@@ -84,8 +84,8 @@ const books = [
     description: "Liam's hidden past comes to light as he navigates dangerous choices during humanity's darkest hour.",
     coverUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/book6liam-1760410829493.jpg",
     buyLinks: [
-      { name: "Amazon", url: "https://www.amazon.com/Liams-Dark-Secrets-Emunah-Stories-ebook/dp/B0DLJKN4JK" },
-      { name: "Barnes & Noble", url: "https://www.barnesandnoble.com/w/liams-dark-secrets-janice-wee/1146442830" }
+      { name: "Amazon", url: "https://www.amazon.com.au/Liams-Dark-Secrets-Janice-Wee/dp/B0DJRXQCV4" },
+      { name: "Barnes & Noble", url: "https://www.barnesandnoble.com/w/liams-dark-secrets-janice-wee/1146394455" }
     ]
   },
   {
@@ -106,8 +106,8 @@ const books = [
     description: "Mary flees for her life when assassins try to murder her and her unborn baby. Will God save her?",
     coverUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/book8mary-1760410829856.jpg",
     buyLinks: [
-      { name: "Amazon", url: "https://www.amazon.com/Marys-Flight-Emunah-Short-Stories-ebook/dp/B0DN9LFRFW" },
-      { name: "Barnes & Noble", url: "https://www.barnesandnoble.com/w/marys-flight-janice-wee/1146549876" }
+      { name: "Amazon", url: "https://www.amazon.com.au/Marys-Flight-8-Janice-Wee/dp/B0DSK1X348" },
+      { name: "Barnes & Noble", url: "https://www.barnesandnoble.com/w/marys-flight-janice-wee/1146790785" }
     ]
   },
   {
