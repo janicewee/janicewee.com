@@ -20,7 +20,7 @@ export default function MeiBookPage() {
   const bookData = {
     title: "Emunah Short Stories Book 5: Mei",
     author: "Janice Wee",
-    image: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/book5mei-1760404534703.jpg",
+    image: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/book5mei-1760410829482.jpg",
     trailer: "https://youtu.be/bpASpLyaPj4?si=v75IACedaNkUWD_M",
     description: "Former clone handler for Beast Corp realises the truth behind the Immortality Project. She flees and finds new purpose with the rebels as a rescue pilot. Her past returns to haunt her, slaughtering those close to her. A gripping thriller that will keep you up at night.",
     excerpt: `"Class A Enhanced soldiers used their flames to raze this camp," she announced, estimating a dozen superhuman soldiers prowling the ruins.
