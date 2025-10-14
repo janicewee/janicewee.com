@@ -20,7 +20,7 @@ export default function NaughtyLittleNonyaPage() {
   const bookData = {
     title: "Naughty Little Nonya",
     author: "Janice Wee",
-    image: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/naughtylittlenonya-1760404534946.jpg",
+    image: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/nonya-1760416290723.jpg",
     trailer: "https://youtu.be/xMCOmPrSdEo?si=cr7CNY87PkNf3Lcw",
     description: "Welcome to the world of Tammy, a vivacious seven-year-old Nonya girl with an endless imagination and an unbridled sense of adventure. This delightful collection of short stories, designed for a Grade 3 reading level, brings you along as Tammy transforms her everyday life into a realm of laughter, excitement, and discovery.",
     excerpt: `"Let's forget the snowstorm," Casey picked a jumbo tube of talcum powder.
