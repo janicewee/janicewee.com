@@ -142,7 +142,7 @@ const books = [
     description: "Billy reunites with his childhood friend Bluma, and together they stumble upon a mysterious glowing orb that leads to their greatest adventure yet.",
     coverUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/billybluma-1760074636547.jpg",
     buyLinks: [
-      { name: "Books2Read", url: "https://books2read.com/billyblumadoubletrouble" },
+      { name: "Books2Read", url: "https://books2read.com/u/mYeeQP" },
       { name: "Barnes & Noble", url: "https://www.barnesandnoble.com/s/billy%20bluma%20double%20trouble%20janice%20wee" }
     ]
   },
