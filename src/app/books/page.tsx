@@ -131,7 +131,7 @@ const books = [
     reviewer: "Kindle Customer",
     stars: 4,
     buyLinks: [
-      { name: "Books2Read", url: "https://books2read.com/billythelionboy" },
+      { name: "Books2Read", url: "https://books2read.com/u/mdxKd5" },
       { name: "Barnes & Noble", url: "https://www.barnesandnoble.com/s/billy%20the%20lion%20boy%20janice%20wee" }
     ]
   },
