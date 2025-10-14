@@ -20,7 +20,7 @@ export default function MarkMartyrPage() {
   const bookData = {
     title: "The Mark and The Martyr",
     author: "Janice Wee",
-    image: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/markmartyr-1760404535429.jpg",
+    image: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/markmartyr-1760410897201.jpg",
     description: "In 'The Mark and the Martyr,' four face the Great Tribulation. A clone handler flees the Antichrist's Beast Corp, a repentant Christian treads the fine balance between business with the Antichrist and providing for the survivors, a woman finds faith through twelve bleak Christmases, and a Jewish survivor endures until Christ's return. Emunah Short Stories (5-8) grip with deception and courage.",
     excerpt: `Manifesting inhuman, demonic power, a giant emerged from the bottomless pit.
 
@@ -35,10 +35,8 @@ Fangs protruded from his menacing grin.
 What terrified Liam most was the eerie shadow looming behind Beast. Shaped like a dragon, it mirrored Beast's movements.`,
     authorNotes: "4 gripping tales of faith, rebellion, and sacrifice. These martyrs reject Beast's Mark of eternal damnation, choosing instead to face certain death with unwavering faith in Christ's return.",
     buyLinks: [
-      { name: "Amazon", url: "#" },
-      { name: "Barnes & Noble", url: "#" },
-      { name: "Kobo", url: "#" },
-      { name: "Other Stores", url: "#" }
+      { name: "Amazon", url: "https://www.amazon.com/Mark-Martyr-Emunah-Short-Stories/dp/B0DPBZD2YS" },
+      { name: "Barnes & Noble", url: "https://www.barnesandnoble.com/w/the-mark-and-the-martyr-janice-wee/1146823779" }
     ]
   }
 
