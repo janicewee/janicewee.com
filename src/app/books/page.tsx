@@ -117,8 +117,8 @@ const books = [
     description: "A compilation of Emunah Short Stories Book 5 to Book 8. Four powerful stories of faith, survival, and divine protection during the end times.",
     coverUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/markmartyr-1760410897201.jpg",
     buyLinks: [
-      { name: "Amazon", url: "https://www.amazon.com/Mark-Martyr-Emunah-Short-Stories/dp/B0DPBZD2YS" },
-      { name: "Barnes & Noble", url: "https://www.barnesandnoble.com/w/the-mark-and-the-martyr-janice-wee/1146823779" }
+      { name: "Amazon", url: "https://www.amazon.com.au/Mark-Martyr-2-Janice-Wee/dp/B0DZN43SH7" },
+      { name: "Barnes & Noble", url: "https://www.barnesandnoble.com/w/the-mark-and-the-martyr-janice-wee/1147095024" }
     ]
   },
   {
