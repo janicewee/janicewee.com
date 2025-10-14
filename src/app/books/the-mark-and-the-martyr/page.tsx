@@ -35,8 +35,8 @@ Fangs protruded from his menacing grin.
 What terrified Liam most was the eerie shadow looming behind Beast. Shaped like a dragon, it mirrored Beast's movements.`,
     authorNotes: "4 gripping tales of faith, rebellion, and sacrifice. These martyrs reject Beast's Mark of eternal damnation, choosing instead to face certain death with unwavering faith in Christ's return.",
     buyLinks: [
-      { name: "Amazon", url: "https://www.amazon.com/Mark-Martyr-Emunah-Short-Stories/dp/B0DPBZD2YS" },
-      { name: "Barnes & Noble", url: "https://www.barnesandnoble.com/w/the-mark-and-the-martyr-janice-wee/1146823779" }
+      { name: "Amazon", url: "https://www.amazon.com.au/Mark-Martyr-2-Janice-Wee/dp/B0DZN43SH7" },
+      { name: "Barnes & Noble", url: "https://www.barnesandnoble.com/w/the-mark-and-the-martyr-janice-wee/1147095024" }
     ]
   }
 
