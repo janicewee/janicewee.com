@@ -6,11 +6,11 @@ import { Card } from '@/components/ui/card'
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: "The Scouts - Janice Wee",
-  description: "A delightful bedtime story about a hen, a squirrel and a mongoose who set off to find hope for their friends and family in Long Hill.",
+  title: "Chico & Yvette - Janice Wee",
+  description: "Enemies as baby chicks, Chico and Yvette see each other in different light when they grow up, but the path of true love is never smooth.",
 }
 
-export default function TheScoutsPage() {
+export default function ChicoAndYvettePage() {
   return (
     <>
       <Navigation />
@@ -22,42 +22,42 @@ export default function TheScoutsPage() {
             <div className="md:col-span-1">
               <div className="relative aspect-[2/3] rounded-lg overflow-hidden shadow-2xl">
                 <img
-                  src="https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/scouts-1760410358286.jpg"
-                  alt="The Scouts"
+                  src="https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/chicoyvette-1760410316628.jpg"
+                  alt="Chico & Yvette"
                   className="w-full h-full object-cover"
                 />
               </div>
             </div>
 
             <div className="md:col-span-2">
-              <h1 className="text-4xl font-bold text-primary mb-2">The Scouts</h1>
+              <h1 className="text-4xl font-bold text-primary mb-2">Chico & Yvette</h1>
               <p className="text-lg text-muted-foreground mb-6">Short Stories From Long Hill Series</p>
               
               <p className="text-xl text-foreground mb-6 leading-relaxed">
-                A delightful bedtime story about a hen, a squirrel and a mongoose who set off to find hope for their friends and family in Long Hill. It's a delightful tale of friendship, misunderstandings and sacrifice.
+                Enemies as baby chicks, Chico and Yvette see each other in different light when they grow up, but the path of true love is never smooth.
               </p>
 
               <div className="flex flex-wrap gap-3">
                 <Button asChild size="lg">
-                  <a href="https://books2read.com/u/bMEzja" target="_blank" rel="noopener noreferrer">
+                  <a href="https://books2read.com/u/mVY6gP" target="_blank" rel="noopener noreferrer">
                     Buy on Books2Read
                     <ExternalLink className="ml-2 h-4 w-4" />
                   </a>
                 </Button>
                 <Button asChild variant="outline" size="lg">
-                  <a href="https://www.barnesandnoble.com/w/the-scouts-janice-wee/1145466473" target="_blank" rel="noopener noreferrer">
+                  <a href="https://www.barnesandnoble.com/w/escape-to-long-hill-janice-wee/1144828376" target="_blank" rel="noopener noreferrer">
                     Barnes & Noble
                     <ExternalLink className="ml-2 h-4 w-4" />
                   </a>
                 </Button>
                 <Button asChild variant="outline" size="lg">
-                  <a href="https://www.kobo.com/sg/en/ebook/the-scouts-3" target="_blank" rel="noopener noreferrer">
+                  <a href="https://www.kobo.com/sg/en/ebook/escape-to-long-hill" target="_blank" rel="noopener noreferrer">
                     Kobo
                     <ExternalLink className="ml-2 h-4 w-4" />
                   </a>
                 </Button>
                 <Button asChild variant="outline" size="lg">
-                  <a href="https://www.amazon.com.au/Scouts-4-Janice-Wee/dp/B0D2GZ1DL1" target="_blank" rel="noopener noreferrer">
+                  <a href="https://www.amazon.com.au/Escape-Long-Hill-Janice-Wee/dp/B0CZGNN7KD" target="_blank" rel="noopener noreferrer">
                     Amazon
                     <ExternalLink className="ml-2 h-4 w-4" />
                   </a>
@@ -72,7 +72,7 @@ export default function TheScoutsPage() {
               <h2 className="text-3xl font-bold text-primary mb-6">About This Book</h2>
               <div className="prose prose-lg max-w-none">
                 <p className="text-foreground leading-relaxed">
-                  A delightful bedtime story about a hen, a squirrel and a mongoose who set off to find hope for their friends and family in Long Hill. It's a delightful tale of friendship, misunderstandings and sacrifice.
+                  Enemies as baby chicks, Chico and Yvette see each other in different light when they grow up, but the path of true love is never smooth.
                 </p>
               </div>
             </Card>
@@ -87,19 +87,22 @@ export default function TheScoutsPage() {
               </div>
               <div className="prose prose-lg max-w-none">
                 <p className="text-foreground leading-relaxed italic">
-                  "Monroe, old buddy!" A big bluebird hopped out of a cavern. That had to be where the bluebird community built their nests.
+                  The whole gang was home but where's Chico?
                 </p>
                 <p className="text-foreground leading-relaxed italic mt-4">
-                  "Blake! It's been too long," Monroe hugged his friend. "My friends and I are on a life-saving mission."
+                  "Yvette?" A rooster trilled. The sun's golden rays lit the newcomer's stunning plumage. A gorgeous young rooster, majestic and beautiful stood at the doorway staring at her.
                 </p>
                 <p className="text-foreground leading-relaxed italic mt-4">
-                  "Do tell," Blake gestured the trio towards his home.
+                  Yvette blinked. It couldn't be him. She stared at his face – Chico's face.
                 </p>
                 <p className="text-foreground leading-relaxed italic mt-4">
-                  A sudden rush of air made Hannah's feathers stand.
+                  "I've been waiting for you to return." The rooster crowed, bobbing his head to show off his impressive comb and wattle.
                 </p>
                 <p className="text-foreground leading-relaxed italic mt-4">
-                  Without warning, eagle swooped from the sky. Its outstretch talons grabbed Simon.
+                  Yvette couldn't take her eyes off her old friend. He'd grown into the finest rooster she had ever seen.
+                </p>
+                <p className="text-foreground leading-relaxed italic mt-4">
+                  Two new hens clucked as they flanked Chico with expectant look in their eyes. "Yvette, this is Bambi and that's Hattie."
                 </p>
               </div>
             </Card>
@@ -113,7 +116,7 @@ export default function TheScoutsPage() {
                 <h2 className="text-3xl font-bold text-primary">Author's Notes</h2>
               </div>
               <p className="text-foreground leading-relaxed">
-                Monroe Mongoose is the hero of this story. He's fearless and fights off the snakes that want the trio dead. More than that. He's prepared to sacrifice himself for the sake of his friends, so that his beloved community at Long Hill can survive.
+                This is a standalone ebook at Amazon but I suggest you get the Escape To Long Hill paperback with the small print "includes book 2 Chico & Yvette" as that book contains both books 1 and 2 in a single volume.
               </p>
             </Card>
           </section>
@@ -124,10 +127,10 @@ export default function TheScoutsPage() {
               <h3 className="text-lg font-semibold text-primary mb-3">Publication Details</h3>
               <div className="grid md:grid-cols-2 gap-4 text-sm text-muted-foreground">
                 <div>
-                  <span className="font-semibold">Ebook ISBN:</span> 9798224401710
+                  <span className="font-semibold">Ebook ISBN:</span> 9798224828647
                 </div>
                 <div>
-                  <span className="font-semibold">Paperback ISBN:</span> 9798224313747
+                  <span className="font-semibold">Paperback ISBN:</span> 9798224748020
                 </div>
               </div>
             </Card>
