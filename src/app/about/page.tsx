@@ -1,13 +1,13 @@
 import Navigation from '@/components/Navigation'
 import Footer from '@/components/Footer'
-import { BookOpen, Heart, Sparkles } from 'lucide-react'
+import { BookOpen, Coffee, Heart, Book, Sparkles, Home } from 'lucide-react'
 import { Button } from '@/components/ui/button'
 import { Card } from '@/components/ui/card'
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
   title: "About - Janice Wee",
-  description: "Learn more about Janice Wee, indie author of Christian speculative fiction featuring fantasy novels with faith and family themes.",
+  description: "Get to know the person behind the books and fan fiction. Learn about Janice Wee, Singaporean author of adventure, romance, and fan fiction.",
 }
 
 export default function AboutPage() {
@@ -23,7 +23,7 @@ export default function AboutPage() {
               <div>
                 <h1 className="text-5xl font-bold text-primary mb-6">About Janice Wee</h1>
                 <p className="text-xl text-foreground leading-relaxed">
-                  Indie Author of Christian Speculative Fiction
+                  Author of adventure, romance, and fan fiction
                 </p>
               </div>
               <div className="relative aspect-square rounded-lg overflow-hidden shadow-2xl">
@@ -39,127 +39,167 @@ export default function AboutPage() {
 
         {/* Main Content */}
         <section className="py-16">
-          <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 space-y-12">
+            
+            {/* Introduction */}
             <div className="prose prose-lg max-w-none">
-              <h2 className="text-3xl font-bold text-primary mb-6">My Journey as an Author</h2>
-              <p className="text-foreground leading-relaxed mb-6">
-                Welcome to my world of fantasy and faith. I am Janice Wee, an indie author passionate about 
-                crafting Christian speculative fiction that explores the depths of God's sovereignty, 
-                the power of redemption, and the beauty of family bonds. Through my novels, I weave epic 
-                adventures featuring dragons, lions, and ancient prophecies with timeless biblical truths.
-              </p>
-
-              <p className="text-foreground leading-relaxed mb-6">
-                My writing journey began with a simple question: How can fantasy fiction illuminate 
-                spiritual truths? This question led me to create stories where the supernatural intersects 
-                with faith, where mythical creatures become vehicles for exploring God's character, and 
-                where family drama reflects our relationship with our Heavenly Father.
-              </p>
-
-              <h2 className="text-3xl font-bold text-primary mb-6 mt-12">Themes in My Writing</h2>
-              
-              <div className="grid md:grid-cols-3 gap-6 my-8">
-                <Card className="p-6 text-center">
-                  <BookOpen className="h-12 w-12 text-primary mx-auto mb-4" />
-                  <h3 className="text-xl font-bold text-primary mb-2">God's Sovereignty</h3>
-                  <p className="text-muted-foreground text-sm">
-                    Every story explores how God's perfect plan unfolds even in the midst of chaos and uncertainty.
-                  </p>
-                </Card>
-
-                <Card className="p-6 text-center">
-                  <Heart className="h-12 w-12 text-primary mx-auto mb-4" />
-                  <h3 className="text-xl font-bold text-primary mb-2">Redemption</h3>
-                  <p className="text-muted-foreground text-sm">
-                    Characters journey from darkness to light, discovering hope and transformation through faith.
-                  </p>
-                </Card>
-
-                <Card className="p-6 text-center">
-                  <Sparkles className="h-12 w-12 text-primary mx-auto mb-4" />
-                  <h3 className="text-xl font-bold text-primary mb-2">Family Drama</h3>
-                  <p className="text-muted-foreground text-sm">
-                    Complex family relationships mirror our spiritual journey and connection with God.
-                  </p>
-                </Card>
-              </div>
-
-              <h2 className="text-3xl font-bold text-primary mb-6 mt-12">My Books</h2>
-              <p className="text-foreground leading-relaxed mb-6">
-                <strong>Dragon Unbound</strong> tells the story of a dragon awakening after a thousand years 
-                of captivity to find a world transformed. This epic tale explores themes of redemption and 
-                God's timing, showing how faith and courage must unite to face darkness.
-              </p>
-
-              <p className="text-foreground leading-relaxed mb-6">
-                <strong>Billy The Lion Boy</strong> follows an orphan who discovers his extraordinary destiny 
-                when befriended by a mystical lion guardian. This heartwarming adventure explores divine 
-                protection and the courage that comes from trusting in God's plan.
-              </p>
-
-              <p className="text-foreground leading-relaxed mb-6">
-                <strong>The Quest For Immortality</strong> presents a dystopian to utopian prophecy tale 
-                where one family's faith leads them on a quest that could change humanity's fate. This 
-                powerful narrative showcases God's ultimate plan for redemption and eternal life.
-              </p>
-
-              <p className="text-foreground leading-relaxed mb-6">
-                <strong>The Billy Lionheart Series</strong> encompasses Billy's complete journey as he grows 
-                from an orphan boy to a hero of legendary proportions. This comprehensive saga explores the 
-                depths of God's love and the power of unwavering faith across multiple adventures.
-              </p>
-
-              <h2 className="text-3xl font-bold text-primary mb-6 mt-12">Why Christian Fantasy?</h2>
-              <p className="text-foreground leading-relaxed mb-6">
-                Fantasy fiction has a unique power to illuminate spiritual truths in fresh, imaginative ways. 
-                When C.S. Lewis wrote The Chronicles of Narnia, he showed how mythical creatures and magical 
-                worlds could point readers to Christ. I follow in this tradition, using dragons to symbolize 
-                transformation, lions to represent divine protection, and epic quests to mirror our spiritual 
-                journey toward God.
-              </p>
-
-              <p className="text-foreground leading-relaxed mb-6">
-                In my novels, family drama isn't just conflict—it's a reflection of our relationship with 
-                our Heavenly Father. Every character's struggle with faith, every moment of doubt and triumph, 
-                echoes the spiritual battles we all face. Through fantasy, I can explore these themes with 
-                wonder and imagination while staying true to biblical principles.
-              </p>
-
-              <h2 className="text-3xl font-bold text-primary mb-6 mt-12">Beyond Writing</h2>
-              <p className="text-foreground leading-relaxed mb-6">
-                When I'm not writing, you'll find me baking scones for afternoon tea, experimenting with 
-                recipes that pair perfectly with reading time. I believe that the simple pleasures—a warm 
-                scone, a cup of tea, a good book—are gifts from God to be savored and shared. That's why 
-                I include recipes on this site, creating a complete experience for my readers.
-              </p>
-
-              <p className="text-foreground leading-relaxed mb-6">
-                I'm passionate about encouraging other indie authors, especially those called to write 
-                faith-based fiction. The publishing journey isn't always easy, but seeing how stories 
-                can touch hearts and point readers to Christ makes every challenge worthwhile.
+              <p className="text-foreground leading-relaxed text-lg">
+                Janice Wee is a Singaporean author who has published several books across a variety of genres, 
+                including multicultural stories, kids stories, and DC Comics fan fiction centered around Billy 
+                Batson/Captain Marvel. She is known for her vivid descriptions of characters and settings, as 
+                well as her engaging and immersive writing style.
               </p>
             </div>
+
+            {/* Background */}
+            <Card className="p-8">
+              <div className="flex items-center gap-3 mb-6">
+                <Home className="h-8 w-8 text-primary" />
+                <h2 className="text-3xl font-bold text-primary">Background</h2>
+              </div>
+              <div className="space-y-4 text-foreground leading-relaxed">
+                <p>
+                  A Straits Born Chinese from Singapore, Janice is the daughter of English teachers, with her 
+                  father being the school librarian. Growing up in Rambai Road, she developed a love for books 
+                  and comics from an early age.
+                </p>
+                <p>
+                  She graduated from the National University of Singapore and now writes fiction and fan fiction, 
+                  typically at grade 3 reading level, for the enjoyment of readers of all ages.
+                </p>
+              </div>
+            </Card>
+
+            {/* Childhood Memories */}
+            <Card className="p-8 bg-gradient-to-br from-secondary/10 to-primary/5">
+              <div className="flex items-center gap-3 mb-6">
+                <Sparkles className="h-8 w-8 text-primary" />
+                <h2 className="text-3xl font-bold text-primary">Naughty Little Nonya</h2>
+              </div>
+              <div className="space-y-4 text-foreground leading-relaxed">
+                <p>
+                  She was a naughty Little Nonya growing up. She and her cousin Ray have fond memories of talcum 
+                  powder shenanigans. They would powder their uncle's workout bench to turn it into a slide. They 
+                  powdered the floor to make an ice skating rink which inspired a short story in her book{' '}
+                  <a href="https://www.janicewee.com/nonya.html" className="text-primary hover:underline font-semibold">
+                    Naughty Little Nonya
+                  </a>.
+                </p>
+                <p>
+                  Janice studied in Guillemard East Primary School where her late father worked as a teacher. She 
+                  spent six wonderfully memorable years there.
+                </p>
+                <p>
+                  Her book{' '}
+                  <a href="https://books2read.com/u/3LjoN1" className="text-primary hover:underline font-semibold">
+                    Little Nonya's Escapades
+                  </a>{' '}
+                  is a work of fiction (more or less) based on her six years there, written in memory of her late 
+                  Daddy, Mr Anthony Wee. Tammy's story is based on Janice's personal experience—fragments of precious 
+                  childhood memories wrapped in fiction.
+                </p>
+              </div>
+            </Card>
+
+            {/* Food & Health */}
+            <Card className="p-8">
+              <div className="flex items-center gap-3 mb-6">
+                <Coffee className="h-8 w-8 text-primary" />
+                <h2 className="text-3xl font-bold text-primary">Food as Medicine</h2>
+              </div>
+              <div className="space-y-4 text-foreground leading-relaxed">
+                <p>
+                  Janice enjoys eating Buah Keluak and is a foodie who loves a good cup of tea with scones. Here's her 
+                  favourite{' '}
+                  <a href="https://www.janicewee.com/scones.html" className="text-primary hover:underline font-semibold">
+                    scone recipe
+                  </a>.
+                </p>
+                <p>
+                  Due to weight problems and arthritis, in her new season in life as a full time author, she uses food 
+                  as her medicine, cooking her meals with the health properties of the ingredients in mind. Her favourite 
+                  daily protein source is her{' '}
+                  <a href="https://www.janicewee.com/chickenbreast.html" className="text-primary hover:underline font-semibold">
+                    Anti-inflammatory oven baked chicken breast
+                  </a>. Done right, it's tender and juicy and totally yummy.
+                </p>
+                <p>
+                  She also has high cholesterol, which led her to experiment with overnight oats. Here's her favourite:{' '}
+                  <a href="https://www.janicewee.com/fruitoats.html" className="text-primary hover:underline font-semibold">
+                    Mango Avocado Chocolate Overnight Oats Recipe
+                  </a>.
+                </p>
+              </div>
+            </Card>
+
+            {/* Chronicles of Emunah */}
+            <Card className="p-8 bg-gradient-to-br from-primary/10 to-secondary/10">
+              <div className="flex items-center gap-3 mb-6">
+                <BookOpen className="h-8 w-8 text-primary" />
+                <h2 className="text-3xl font-bold text-primary">About The Chronicles of Emunah</h2>
+              </div>
+              <div className="space-y-4 text-foreground leading-relaxed">
+                <p>
+                  Growing up, the highlight of my school holidays was staying with my cousin Ray. Sometimes she'd stay 
+                  at our home. Other times, I'd stay in her home.
+                </p>
+                <p>
+                  I remember those holidays in Siglap. Her dad, Dr Peter Wee HL was passionate about eschatology. He, 
+                  my dad and all their brothers were huge comic book fans. My uncle has a library with decades worth of 
+                  carefully preserved comic books. One of my favourite things then was to raid his collection. We'd get 
+                  stacks of comics and spend the afternoons in the fantasy world of DC comics.
+                </p>
+                <p>
+                  Meals were memorable with lively discourse on eschatology and comic book storylines. The book of 
+                  Revelation was often a dinner topic which brought endless fascination although at that tender age, 
+                  I struggled to follow their discussions.
+                </p>
+                <p>
+                  That was decades ago.
+                </p>
+                <p>
+                  Now, I feel a strong calling to write this epic. It's too difficult a project for me to do alone. My 
+                  uncle, Dr Peter Wee has been amazing in guiding me through the difficult bits of Revelation and 
+                  Eschatology so that I could write the novel,{' '}
+                  <a href="https://books2read.com/u/mB8WLO" className="text-primary hover:underline font-semibold">
+                    The Quest for Immortality
+                  </a>, the main story for this series.
+                </p>
+                <p>
+                  I have a sense that it is for someone I don't know, whom I may never meet, but whom I'd meet in 
+                  eternity one day. Whoever you are, I hope this book, though a work of fiction, would encourage and 
+                  bless you.
+                </p>
+              </div>
+            </Card>
 
             {/* Call to Action */}
-            <div className="mt-12">
-              <Card className="p-8 bg-gradient-to-br from-primary/10 to-secondary/10 text-center">
-                <h3 className="text-2xl font-bold text-primary mb-4">
-                  Ready to Begin Your Adventure?
-                </h3>
-                <p className="text-foreground mb-6 max-w-2xl mx-auto">
-                  Explore my collection of fantasy novels and discover stories that will challenge your faith, 
-                  warm your heart, and transport you to worlds where God's love shines through every page.
-                </p>
-                <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                  <Button asChild size="lg">
-                    <a href="/books">Explore My Books</a>
-                  </Button>
-                  <Button asChild variant="outline" size="lg">
-                    <a href="/contact">Get in Touch</a>
-                  </Button>
-                </div>
-              </Card>
-            </div>
+            <Card className="p-8 bg-gradient-to-br from-primary/10 to-secondary/10 text-center">
+              <div className="flex items-center justify-center gap-3 mb-4">
+                <Book className="h-8 w-8 text-primary" />
+                <h3 className="text-2xl font-bold text-primary">Stay Connected</h3>
+              </div>
+              <p className="text-foreground mb-6 max-w-2xl mx-auto">
+                Get notified every time Janice Wee releases a new book.
+              </p>
+              <div className="flex flex-col sm:flex-row gap-4 justify-center">
+                <Button asChild size="lg">
+                  <a href="https://books2read.com/author/janice-wee/subscribe/50444/" target="_blank" rel="noopener noreferrer">
+                    Subscribe for Updates
+                  </a>
+                </Button>
+                <Button asChild variant="outline" size="lg">
+                  <a href="/books">View All Books</a>
+                </Button>
+              </div>
+              <p className="text-sm text-muted-foreground mt-6">
+                Full List of Janice Wee's{' '}
+                <a href="https://www.janicewee.com/books.html" className="text-primary hover:underline font-semibold">
+                  Books
+                </a>{' '}
+                and where to get them.
+              </p>
+            </Card>
           </div>
         </section>
       </main>
