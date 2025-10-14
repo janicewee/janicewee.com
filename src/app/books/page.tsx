@@ -214,8 +214,8 @@ const books = [
     description: "A captivating tale set in Singapore, exploring themes of faith, family, and finding one's place in the world.",
     coverUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/runaway-1760410193575.jpg",
     buyLinks: [
-      { name: "Books2Read", url: "https://books2read.com/ap/8G2gQM/Janice-Wee" },
-      { name: "Barnes & Noble", url: "https://www.barnesandnoble.com" }
+      { name: "Books2Read", url: "https://books2read.com/u/mV0WoM" },
+      { name: "Barnes & Noble", url: "https://www.barnesandnoble.com/w/singapores-runaway-janice-wee/1143158544" }
     ]
   },
   {
@@ -225,8 +225,8 @@ const books = [
     description: "A story bridging two realms, where faith and reality intersect in unexpected ways.",
     coverUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/2worlds-1760410225289.jpg",
     buyLinks: [
-      { name: "Books2Read", url: "https://books2read.com/ap/8G2gQM/Janice-Wee" },
-      { name: "Barnes & Noble", url: "https://www.barnesandnoble.com" }
+      { name: "Books2Read", url: "https://books2read.com/u/bWYxA1" },
+      { name: "Barnes & Noble", url: "https://www.barnesandnoble.com/w/two-worlds-janice-wee/1144978614" }
     ]
   },
   {
@@ -258,8 +258,8 @@ const books = [
     description: "A sweet children's tale following Suzie's adventures and life lessons.",
     coverUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/Suzie-1760410252107.jpg",
     buyLinks: [
-      { name: "Books2Read", url: "https://books2read.com/ap/8G2gQM/Janice-Wee" },
-      { name: "Barnes & Noble", url: "https://www.barnesandnoble.com" }
+      { name: "Books2Read", url: "https://books2read.com/u/mg5XDq" },
+      { name: "Barnes & Noble", url: "https://www.barnesandnoble.com/w/sweetcorn-suzie-janice-wee/1144699682" }
     ]
   },
   {
@@ -269,8 +269,8 @@ const books = [
     description: "A journey of escape and discovery leads to Long Hill, where new beginnings await.",
     coverUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/Longhill12-1760410284805.jpg",
     buyLinks: [
-      { name: "Books2Read", url: "https://books2read.com/ap/8G2gQM/Janice-Wee" },
-      { name: "Barnes & Noble", url: "https://www.barnesandnoble.com" }
+      { name: "Books2Read", url: "https://books2read.com/u/mVY6gP" },
+      { name: "Barnes & Noble", url: "https://www.barnesandnoble.com/w/escape-to-long-hill-janice-wee/1144828376" }
     ]
   },
   {
@@ -280,8 +280,8 @@ const books = [
     description: "A heartwarming story of friendship between Chico and Yvette as they navigate life's adventures together.",
     coverUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/chicoyvette-1760410316628.jpg",
     buyLinks: [
-      { name: "Books2Read", url: "https://books2read.com/ap/8G2gQM/Janice-Wee" },
-      { name: "Barnes & Noble", url: "https://www.barnesandnoble.com" }
+      { name: "Books2Read", url: "https://books2read.com/u/mVY6gP" },
+      { name: "Barnes & Noble", url: "https://www.barnesandnoble.com/w/escape-to-long-hill-janice-wee/1144828376" }
     ]
   },
   {
@@ -291,8 +291,8 @@ const books = [
     description: "Join Max the Cat on his curious adventures filled with fun and valuable life lessons.",
     coverUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/maxthecat-1760410341047.jpg",
     buyLinks: [
-      { name: "Books2Read", url: "https://books2read.com/ap/8G2gQM/Janice-Wee" },
-      { name: "Barnes & Noble", url: "https://www.barnesandnoble.com" }
+      { name: "Books2Read", url: "https://books2read.com/u/m2Kklr" },
+      { name: "Barnes & Noble", url: "https://www.barnesandnoble.com/w/max-the-cat-janice-wee/1145041009" }
     ]
   },
   {
@@ -302,8 +302,8 @@ const books = [
     description: "An exciting tale of courage, teamwork, and faith as young scouts embark on their greatest adventure.",
     coverUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/scouts-1760410358286.jpg",
     buyLinks: [
-      { name: "Books2Read", url: "https://books2read.com/ap/8G2gQM/Janice-Wee" },
-      { name: "Barnes & Noble", url: "https://www.barnesandnoble.com" }
+      { name: "Books2Read", url: "https://books2read.com/u/bMEzja" },
+      { name: "Barnes & Noble", url: "https://www.barnesandnoble.com/w/the-scouts-janice-wee/1145466473" }
     ]
   }
 ]
