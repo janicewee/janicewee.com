@@ -81,7 +81,7 @@ export default function AboutPage() {
                   She was a naughty Little Nonya growing up. She and her cousin Ray have fond memories of talcum 
                   powder shenanigans. They would powder their uncle's workout bench to turn it into a slide. They 
                   powdered the floor to make an ice skating rink which inspired a short story in her book{' '}
-                  <a href="https://www.janicewee.com/nonya.html" className="text-primary hover:underline font-semibold">
+                  <a href="/books/naughty-little-nonya" className="text-primary hover:underline font-semibold">
                     Naughty Little Nonya
                   </a>.
                 </p>
@@ -91,7 +91,7 @@ export default function AboutPage() {
                 </p>
                 <p>
                   Her book{' '}
-                  <a href="https://books2read.com/u/3LjoN1" className="text-primary hover:underline font-semibold">
+                  <a href="/books/little-nonyas-escapades" className="text-primary hover:underline font-semibold">
                     Little Nonya's Escapades
                   </a>{' '}
                   is a work of fiction (more or less) based on her six years there, written in memory of her late 
@@ -111,7 +111,7 @@ export default function AboutPage() {
                 <p>
                   Janice enjoys eating Buah Keluak and is a foodie who loves a good cup of tea with scones. Here's her 
                   favourite{' '}
-                  <a href="https://www.janicewee.com/scones.html" className="text-primary hover:underline font-semibold">
+                  <a href="/recipes" className="text-primary hover:underline font-semibold">
                     scone recipe
                   </a>.
                 </p>
@@ -119,13 +119,13 @@ export default function AboutPage() {
                   Due to weight problems and arthritis, in her new season in life as a full time author, she uses food 
                   as her medicine, cooking her meals with the health properties of the ingredients in mind. Her favourite 
                   daily protein source is her{' '}
-                  <a href="https://www.janicewee.com/chickenbreast.html" className="text-primary hover:underline font-semibold">
+                  <a href="/recipes/chicken-breast" className="text-primary hover:underline font-semibold">
                     Anti-inflammatory oven baked chicken breast
                   </a>. Done right, it's tender and juicy and totally yummy.
                 </p>
                 <p>
                   She also has high cholesterol, which led her to experiment with overnight oats. Here's her favourite:{' '}
-                  <a href="https://www.janicewee.com/fruitoats.html" className="text-primary hover:underline font-semibold">
+                  <a href="/recipes/overnight-oats" className="text-primary hover:underline font-semibold">
                     Mango Avocado Chocolate Overnight Oats Recipe
                   </a>.
                 </p>
@@ -161,7 +161,7 @@ export default function AboutPage() {
                   Now, I feel a strong calling to write this epic. It's too difficult a project for me to do alone. My 
                   uncle, Dr Peter Wee has been amazing in guiding me through the difficult bits of Revelation and 
                   Eschatology so that I could write the novel,{' '}
-                  <a href="https://books2read.com/u/mB8WLO" className="text-primary hover:underline font-semibold">
+                  <a href="/books/quest-for-immortality" className="text-primary hover:underline font-semibold">
                     The Quest for Immortality
                   </a>, the main story for this series.
                 </p>
