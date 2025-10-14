@@ -65,15 +65,16 @@ export default function SecretHeroPage() {
           {/* Video Trailer */}
           <section className="mb-12">
             <h2 className="text-3xl font-bold text-primary mb-6">Book Trailer</h2>
-            <div className="relative w-full aspect-video rounded-lg overflow-hidden shadow-lg bg-muted flex items-center justify-center">
-              <a 
-                href="https://www.tiktok.com/@janicewee07/video/7520151600225144071" 
-                target="_blank" 
-                rel="noopener noreferrer"
-                className="text-primary hover:underline text-lg font-semibold"
-              >
-                Watch Trailer on TikTok →
-              </a>
+            <div className="aspect-video rounded-lg overflow-hidden shadow-lg">
+              <iframe
+                width="100%"
+                height="100%"
+                src="https://www.youtube.com/embed/reZdAGNZs9I"
+                title="Book Trailer"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+                className="w-full h-full"
+              ></iframe>
             </div>
           </section>
 

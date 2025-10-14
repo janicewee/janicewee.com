@@ -20,7 +20,7 @@ export default function LydiasBookPage() {
   const bookData = {
     title: "Emunah Short Stories Book 7: Lydia's 12 Christmases",
     author: "Janice Wee",
-    image: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/book7lydia-1760404535331.jpg",
+    image: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/book7lydia-1760410829051.jpg",
     trailer: "https://www.youtube.com/watch?v=dvH0nguzr5w",
     description: "Peek into Lydia's private life as she transitions from a sheltered girl to a leader of the survivors and becomes their hero.",
     excerpt: `She scaled the ocean-facing mountain slope with practiced ease, perching on her favourite ledge to take in the majestic view. 
