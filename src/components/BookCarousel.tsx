@@ -9,7 +9,7 @@ const books = [
     id: 1,
     title: "Dragon Unbound",
     coverUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/dragonunbound-1760074636345.jpg",
-    synopsis: "After a thousand years of captivity, a dragon awakens to find the world transformed.",
+    synopsis: "After a thousand years, the prophecy comes true. Dragon is released from his prison. With his band of fallen angels, he gathers the nations around the globe to wage war against the saints in the Holy City. The epic finale to the Emunah Chronicles.",
     link: "/books/dragon-unbound"
   },
   {
@@ -30,78 +30,78 @@ const books = [
     id: 4,
     title: "The Quest For Immortality",
     coverUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/book3k-1760074872135.jpg",
-    synopsis: "A dystopian to utopian prophecy tale exploring God's ultimate plan for redemption.",
+    synopsis: "A dystopian to utopian prophecy tale. In a world where death seems to reign supreme, one family's faith leads them on a quest that spans from the darkest tribulation to the brightest hope of eternity. This powerful narrative explores God's ultimate plan for redemption.",
     link: "/books/quest-for-immortality"
   },
   {
     id: 5,
     title: "Billy The Lion Boy",
     coverUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/billylionheart-1760074636207.jpg",
-    synopsis: "An orphan adventure with a lion guardian, exploring themes of courage and divine protection.",
+    synopsis: "Billy is an orphan who yearns to be reunited with his parents. His guardian is a lion who is his fierce protector despite the youngster's penchant for mischief. Follow their adventures in this heartwarming tale of courage, faith, and divine protection.",
     link: "/books/billy-the-lion-boy"
   },
   {
     id: 6,
     title: "Billy & Bluma: Double Trouble",
     coverUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/billybluma-1760074636547.jpg",
-    synopsis: "Billy's adventures continue with new challenges and double the excitement.",
+    synopsis: "Billy reunites with his childhood friend Bluma, and together they stumble upon a mysterious glowing orb that leads to their greatest adventure yet. With Leonard Lion by their side, the duo faces challenges that will test their friendship and faith.",
     link: "/books/billy-bluma-double-trouble"
   },
   {
     id: 7,
     title: "Secret Hero & His Flying Lion",
     coverUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/billyhero-1760074637493.jpg",
-    synopsis: "A thrilling conclusion to Billy's journey as he discovers his true heroic destiny.",
+    synopsis: "Billy's super strength goes wild at St Lydia's Academy, while Leonard Lion receives flying gloves he can't control. When someone poisons Leonard and tries to kill Billy and friends, can they stop the killer before it's too late?",
     link: "/books/secret-hero-flying-lion"
   },
   {
     id: 8,
     title: "Emunah Short Stories Book 1: Abigail",
     coverUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/book1abigail-1760074872340.jpg",
-    synopsis: "A tender love story set in the Emunah Chronicles Universe during a gentle rain.",
-    link: "/books"
+    synopsis: "A charming yet tragic love triangle explores true love, betrayal and hope through the eyes of Abigail Applewood.",
+    link: "/books/emunah-book-1-abigail"
   },
   {
     id: 9,
     title: "Emunah Short Stories Book 2: Oliver",
     coverUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/book2oliver-1760074871946.jpg",
-    synopsis: "Oliver's journey of discovery under purple twilight skies in the Emunah Universe.",
-    link: "/books"
+    synopsis: "Grieving his brother's death, Oliver becomes an outlier in his pursuit of souls, but appearances are deceiving.",
+    link: "/books/emunah-book-2-oliver"
   },
   {
     id: 10,
     title: "Emunah Short Stories Book 3: Emunah",
     coverUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/book3emunah-1760074871748.jpg",
-    synopsis: "A passionate embrace in vibrant colors tells the story of faith and love.",
-    link: "/books"
+    synopsis: "Do aliens exist? What is the truth behind UFOs? A freshman's life spirals into a thrilling web of friendship, forbidden love, alien encounters, and dark conspiracies after a heroic senior saves her life.",
+    link: "/books/emunah-book-3-emunah"
   },
   {
     id: 11,
     title: "Little Nonya's Escapades",
     coverUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/littlenonyaescapades-1760074983175.jpg",
-    synopsis: "Charming tales of a young Nonya girl's adventures in a colorful, heartwarming world.",
-    link: "/books"
+    synopsis: "A delightful story exploring adventure and cultural heritage.",
+    link: "/books/little-nonyas-escapades"
   },
   {
     id: 12,
     title: "Naughty Little Nonya",
     coverUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/naughtylittlenonya-1760074983238.jpeg",
-    synopsis: "Short stories by Janice Wee featuring the mischievous adventures of Little Nonya.",
-    link: "/books"
+    synopsis: "A charming story exploring mischief and cultural traditions.",
+    link: "/books/naughty-little-nonya"
   },
   {
     id: 13,
     title: "The Mark and The Martyr",
     coverUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/markmartyr-1760074983014.jpg",
-    synopsis: "Emunah Short Story Collection Vol 2 - Books 5 to 8 exploring themes of sacrifice and faith.",
-    link: "/books"
+    synopsis: "A compilation of Emunah Short Stories Book 5 to Book 8 combining four powerful stories of faith, survival, and divine protection during the end times.",
+    link: "/books/the-mark-and-the-martyr"
   },
   {
     id: 14,
     title: "Escape to Long Hill",
     coverUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/Longhill12-1760074983066.jpg",
-    synopsis: "A short story featuring Chico & Yvette - includes Book 2 from Short Stories from Long Hill Book 1.",
-    link: "/books"
+    synopsis: "An adventurous tale of courage and discovery.",
+    link: "/books/escape-to-long-hill"
   }
 ]
 
