@@ -128,7 +128,7 @@ const books = [
     id: 18,
     title: "Chico & Yvette",
     coverUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/chicoyvette-1760410316628.jpg",
-    synopsis: "A heartwarming story of friendship between Chico and Yvette as they navigate life's adventures together.",
+    synopsis: "A very short, chicken tale of love triangles, and laughter, with heart melting moments.",
     link: "/books/chico-and-yvette"
   },
   {
