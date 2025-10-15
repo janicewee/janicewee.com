@@ -114,7 +114,7 @@ const books = [
     id: 16,
     title: "Two Worlds",
     coverUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/2worlds-1760410225289.jpg",
-    synopsis: "A story bridging two realms, where faith and reality intersect in unexpected ways.",
+    synopsis: "Star-crossed lovers. The mystery man is a fugitive from the island city Singapore, while Daddy's girl is a kampong girl in Indonesia.",
     link: "/books/two-worlds"
   },
   {
