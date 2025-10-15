@@ -255,7 +255,7 @@ const books = [
     id: 22,
     title: "Sweetcorn Suzie",
     slug: "sweetcorn-suzie",
-    description: "A sweet children's tale following Suzie's adventures and life lessons.",
+    description: "Seven short stories, each depicting real life memories that are too wild to believe.",
     coverUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/Suzie-1760410252107.jpg",
     buyLinks: [
       { name: "Books2Read", url: "https://books2read.com/u/mg5XDq" },
