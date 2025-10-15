@@ -121,7 +121,7 @@ const books = [
     id: 17,
     title: "Sweetcorn Suzie",
     coverUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/Suzie-1760410252107.jpg",
-    synopsis: "A sweet children's tale following Suzie's adventures and life lessons.",
+    synopsis: "Seven short stories, each depicting real life memories that are too wild to believe.",
     link: "/books/sweetcorn-suzie"
   },
   {
