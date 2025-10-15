@@ -161,7 +161,7 @@ const books = [
     id: 14,
     title: "Emunah Book 1: Disturbing Dreams",
     slug: "emunah-book-1-disturbing-dreams",
-    description: "The first full-length novel in the Emunah Chronicles. A young woman's disturbing dreams reveal a prophetic glimpse into the future.",
+    description: "The first novelette in the Emunah Chronicles. A young woman's disturbing dreams reveal a prophetic glimpse into the future.",
     coverUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/book1-1760411021422.jpg",
     buyLinks: [
       { name: "Books2Read", url: "https://books2read.com/ap/8G2gQM/Janice-Wee" },
@@ -172,7 +172,7 @@ const books = [
     id: 15,
     title: "Emunah Book 2: The Beast's Mark",
     slug: "emunah-book-2-the-beasts-mark",
-    description: "The second novel in the Emunah Chronicles. As prophecy unfolds, believers face the ultimate test of faith during the tribulation.",
+    description: "The second novelette in the Emunah Chronicles. As prophecy unfolds, believers face the ultimate test of faith during the tribulation.",
     coverUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/book2-1760411038422.jpg",
     buyLinks: [
       { name: "Books2Read", url: "https://books2read.com/u/38Wwjr" },
