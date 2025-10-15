@@ -233,7 +233,7 @@ const books = [
     id: 20,
     title: "Naughty Little Nonya",
     slug: "naughty-little-nonya",
-    description: "A charming children's story celebrating Peranakan culture with mischief and heart.",
+    description: "A charming collection of children's short stories celebrating Peranakan culture with mischief and heart.",
     coverUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/naughtylittlenonya-1760411118774.jpeg",
     buyLinks: [
       { name: "Books2Read", url: "https://books2read.com/u/bwNjzZ" },
