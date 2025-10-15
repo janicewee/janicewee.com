@@ -277,7 +277,7 @@ const books = [
     id: 24,
     title: "Chico & Yvette",
     slug: "chico-and-yvette",
-    description: "A heartwarming story of friendship between Chico and Yvette as they navigate life's adventures together.",
+    description: "A very short, chicken tale of love triangles, and laughter, with heart melting moments.",
     coverUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/chicoyvette-1760410316628.jpg",
     buyLinks: [
       { name: "Books2Read", url: "https://books2read.com/u/mVY6gP" },
