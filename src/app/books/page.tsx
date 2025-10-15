@@ -103,7 +103,7 @@ const books = [
     id: 9,
     title: "Emunah Short Stories Book 8: Mary's Flight",
     slug: "emunah-book-8-marys-flight",
-    description: "Mary flees for her life when assassins try to murder her and her unborn baby. Will God save her?",
+    description: "Who is the mysterious woman with eagle's wings, who visits Mary in her dreams?",
     coverUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/book8mary-1760410829856.jpg",
     buyLinks: [
       { name: "Amazon", url: "https://www.amazon.com.au/Marys-Flight-8-Janice-Wee/dp/B0DSK1X348" },
