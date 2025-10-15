@@ -107,7 +107,7 @@ const books = [
     id: 15,
     title: "Singapore's Runaway",
     coverUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/runaway-1760410193575.jpg",
-    synopsis: "A captivating tale set in Singapore, exploring themes of faith, family, and finding one's place in the world.",
+    synopsis: "A captivating tale set in Singapore, exploring themes of friendship, freedom and finding one's place in the world.",
     link: "/books/singapores-runaway"
   },
   {
