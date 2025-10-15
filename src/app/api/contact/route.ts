@@ -45,7 +45,7 @@ export async function POST(request: NextRequest) {
         'Authorization': `Bearer ${resendApiKey}`,
       },
       body: JSON.stringify({
-        from: 'Contact Form <noreply@janicewee.com>',
+        from: 'Janice Wee Contact <onboarding@resend.dev>',
         to: 'info@janicewee.com',
         reply_to: email,
         subject: `Contact Form: ${subject}`,
