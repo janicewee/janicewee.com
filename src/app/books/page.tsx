@@ -183,7 +183,7 @@ const books = [
     id: 16,
     title: "The Quest for Immortality",
     slug: "quest-for-immortality",
-    description: "A dystopian to utopian prophecy tale. One family's faith leads them on a quest that spans from the darkest tribulation to the brightest hope of eternity.",
+    description: "A dystopian to utopian prophecy tale. Is transhumanism the key to immortality? One path leads to death while another to the brightest hope of eternity.",
     coverUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/book3k-1760074872135.jpg",
     review: "Fiction or Reality? Is this the future? A must read. The author is creative & insightful in weaving a story that grips you to the very end.",
     reviewer: "Yvonne Sequerah",
