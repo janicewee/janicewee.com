@@ -288,7 +288,7 @@ const books = [
     id: 25,
     title: "Max The Cat",
     slug: "max-the-cat",
-    description: "Join Max the Cat on his curious adventures filled with fun and valuable life lessons.",
+    description: "Join Max the Cat and his sleuth buddy Monroe Mongoose as they solve the mystery - who kidnapped Max's human?",
     coverUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/maxthecat-1760410341047.jpg",
     buyLinks: [
       { name: "Books2Read", url: "https://books2read.com/u/m2Kklr" },
