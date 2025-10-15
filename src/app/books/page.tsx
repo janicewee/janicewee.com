@@ -48,7 +48,7 @@ const books = [
     id: 4,
     title: "Emunah Short Stories Book 4: John",
     slug: "emunah-book-4-john",
-    description: "John Vanheusen, a pastor's son and investigative journalist, uncovers dark conspiracies that challenge his faith and courage.",
+    description: "John, a penniless widow's son and 97-pound weakling, must win a weightlifting competition to save his mother's life.",
     coverUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/book4john-1760410829487.jpg",
     buyLinks: [
       { name: "Amazon", url: "https://www.amazon.com/John-Emunah-Short-Stories-Janice/dp/B0DB6DNSL4" },
