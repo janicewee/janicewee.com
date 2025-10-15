@@ -222,7 +222,7 @@ const books = [
     id: 19,
     title: "Two Worlds",
     slug: "two-worlds",
-    description: "A story bridging two realms, where faith and reality intersect in unexpected ways.",
+    description: "Star-crossed lovers. The mystery man is a fugitive from the island city Singapore, while Daddy's girl is a kampong girl in Indonesia.",
     coverUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/2worlds-1760410225289.jpg",
     buyLinks: [
       { name: "Books2Read", url: "https://books2read.com/u/bWYxA1" },
