@@ -18,22 +18,40 @@ export default function ContactPage() {
     message: ''
   })
   const [submitted, setSubmitted] = useState(false)
+  const [isSubmitting, setIsSubmitting] = useState(false)
+  const [error, setError] = useState('')
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault()
+    setIsSubmitting(true)
+    setError('')
     
-    // Create mailto link with form data
-    const mailtoLink = `mailto:info@janicewee.com?subject=${encodeURIComponent(formData.subject)}&body=${encodeURIComponent(
-      `Name: ${formData.name}\nEmail: ${formData.email}\n\nMessage:\n${formData.message}`
-    )}`
-    
-    window.location.href = mailtoLink
-    
-    setSubmitted(true)
-    setTimeout(() => {
-      setSubmitted(false)
+    try {
+      const response = await fetch('/api/contact', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(formData),
+      })
+
+      const data = await response.json()
+
+      if (!response.ok) {
+        throw new Error(data.error || 'Failed to submit form')
+      }
+
+      setSubmitted(true)
       setFormData({ name: '', email: '', subject: '', message: '' })
-    }, 3000)
+      
+      setTimeout(() => {
+        setSubmitted(false)
+      }, 5000)
+    } catch (err) {
+      setError(err instanceof Error ? err.message : 'An error occurred')
+    } finally {
+      setIsSubmitting(false)
+    }
   }
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
@@ -68,7 +86,13 @@ export default function ContactPage() {
               
               {submitted && (
                 <div className="mb-6 p-4 bg-secondary/20 border border-secondary rounded-lg text-foreground">
-                  Thank you for your message! Your email client should open shortly.
+                  Thank you for your message! I'll get back to you soon.
+                </div>
+              )}
+
+              {error && (
+                <div className="mb-6 p-4 bg-destructive/20 border border-destructive rounded-lg text-foreground">
+                  {error}
                 </div>
               )}
 
@@ -83,6 +107,7 @@ export default function ContactPage() {
                       onChange={handleChange}
                       required
                       placeholder="Your name"
+                      disabled={isSubmitting}
                     />
                   </div>
 
@@ -96,6 +121,7 @@ export default function ContactPage() {
                       onChange={handleChange}
                       required
                       placeholder="your.email@example.com"
+                      disabled={isSubmitting}
                     />
                   </div>
                 </div>
@@ -109,6 +135,7 @@ export default function ContactPage() {
                     onChange={handleChange}
                     required
                     placeholder="What is your message about?"
+                    disabled={isSubmitting}
                   />
                 </div>
 
@@ -122,16 +149,17 @@ export default function ContactPage() {
                     required
                     placeholder="Write your message here..."
                     rows={8}
+                    disabled={isSubmitting}
                   />
                 </div>
 
-                <Button type="submit" size="lg" className="w-full">
-                  Send Message
+                <Button type="submit" size="lg" className="w-full" disabled={isSubmitting}>
+                  {isSubmitting ? 'Sending...' : 'Send Message'}
                   <Send className="ml-2 h-4 w-4" />
                 </Button>
 
                 <p className="text-sm text-muted-foreground text-center">
-                  * Required fields. Your message will be sent via your default email client.
+                  * Required fields
                 </p>
               </form>
             </Card>
