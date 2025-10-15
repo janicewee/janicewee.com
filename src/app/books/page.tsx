@@ -244,7 +244,7 @@ const books = [
     id: 21,
     title: "Little Nonya's Escapades",
     slug: "little-nonyas-escapades",
-    description: "More delightful adventures with Little Nonya as she explores her heritage and creates memorable moments.",
+    description: "A true life tale about a girl who might have dyslexia, certainly has two left feet, and somehow tops the class every year.",
     coverUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/littlenonyaescapades-1760411108648.jpg",
     buyLinks: [
       { name: "Books2Read", url: "https://books2read.com/u/3LjoN1" },
