@@ -1,5 +1,4 @@
 import { NextRequest, NextResponse } from 'next/server'
-import { google } from 'googleapis'
 
 export async function POST(request: NextRequest) {
   try {
@@ -14,80 +13,81 @@ export async function POST(request: NextRequest) {
       )
     }
 
-    // Parse Google Service Account credentials from environment variable
-    const credentials = JSON.parse(process.env.GOOGLE_SERVICE_ACCOUNT_KEY || '{}')
+    // Validate email format
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/
+    if (!emailRegex.test(email)) {
+      return NextResponse.json(
+        { error: 'Invalid email address' },
+        { status: 400 }
+      )
+    }
+
+    // Send email to info@janicewee.com using Resend
+    const resendApiKey = process.env.RESEND_API_KEY
     
-    if (!credentials.client_email || !credentials.private_key) {
-      console.error('Missing Google Service Account credentials')
+    if (!resendApiKey) {
+      console.error('Missing RESEND_API_KEY environment variable')
       return NextResponse.json(
         { error: 'Server configuration error' },
         { status: 500 }
       )
     }
 
-    // Initialize Google Sheets API
-    const auth = new google.auth.GoogleAuth({
-      credentials,
-      scopes: ['https://www.googleapis.com/auth/spreadsheets'],
+    const timestamp = new Date().toLocaleString('en-US', {
+      dateStyle: 'full',
+      timeStyle: 'long'
     })
 
-    const sheets = google.sheets({ version: 'v4', auth })
-
-    // Append data to Google Sheets
-    const spreadsheetId = process.env.GOOGLE_SHEET_ID
-    const timestamp = new Date().toISOString()
-    
-    await sheets.spreadsheets.values.append({
-      spreadsheetId,
-      range: 'Sheet1!A:E', // Adjust range as needed
-      valueInputOption: 'USER_ENTERED',
-      requestBody: {
-        values: [[timestamp, name, email, subject, message]],
+    const response = await fetch('https://api.resend.com/emails', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'Authorization': `Bearer ${resendApiKey}`,
       },
+      body: JSON.stringify({
+        from: 'Contact Form <noreply@janicewee.com>',
+        to: 'info@janicewee.com',
+        reply_to: email,
+        subject: `Contact Form: ${subject}`,
+        html: `
+          <div style="font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto;">
+            <h2 style="color: #5B21B6; border-bottom: 2px solid #5B21B6; padding-bottom: 10px;">
+              New Contact Form Submission
+            </h2>
+            
+            <div style="background-color: #f9fafb; padding: 20px; border-radius: 8px; margin: 20px 0;">
+              <p style="margin: 10px 0;"><strong>From:</strong> ${name}</p>
+              <p style="margin: 10px 0;"><strong>Email:</strong> ${email}</p>
+              <p style="margin: 10px 0;"><strong>Subject:</strong> ${subject}</p>
+            </div>
+            
+            <div style="margin: 20px 0;">
+              <h3 style="color: #374151;">Message:</h3>
+              <div style="background-color: #ffffff; padding: 20px; border-left: 4px solid #5B21B6; border-radius: 4px;">
+                ${message.replace(/\n/g, '<br>')}
+              </div>
+            </div>
+            
+            <div style="margin-top: 30px; padding-top: 20px; border-top: 1px solid #e5e7eb; color: #6b7280; font-size: 12px;">
+              <p>Submitted on: ${timestamp}</p>
+              <p>You can reply directly to this email to respond to ${name}.</p>
+            </div>
+          </div>
+        `,
+      }),
     })
 
-    // Send email notification to info@janicewee.com
-    // Using a simple fetch to a notification service or email API
-    // For now, we'll log it (you can integrate with SendGrid, Resend, etc.)
-    console.log('New contact form submission:', {
-      timestamp,
-      name,
-      email,
-      subject,
-      message,
-    })
-
-    // Optional: Send email notification
-    // You can integrate with services like Resend, SendGrid, or Nodemailer
-    try {
-      await fetch('https://api.resend.com/emails', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-          'Authorization': `Bearer ${process.env.RESEND_API_KEY}`,
-        },
-        body: JSON.stringify({
-          from: 'noreply@janicewee.com',
-          to: 'info@janicewee.com',
-          subject: `New Contact Form: ${subject}`,
-          html: `
-            <h2>New Contact Form Submission</h2>
-            <p><strong>Name:</strong> ${name}</p>
-            <p><strong>Email:</strong> ${email}</p>
-            <p><strong>Subject:</strong> ${subject}</p>
-            <p><strong>Message:</strong></p>
-            <p>${message.replace(/\n/g, '<br>')}</p>
-            <p><em>Submitted at: ${timestamp}</em></p>
-          `,
-        }),
-      })
-    } catch (emailError) {
-      console.warn('Email notification failed:', emailError)
-      // Don't fail the request if email fails
+    if (!response.ok) {
+      const errorData = await response.json()
+      console.error('Resend API error:', errorData)
+      return NextResponse.json(
+        { error: 'Failed to send email. Please try again.' },
+        { status: 500 }
+      )
     }
 
     return NextResponse.json(
-      { success: true, message: 'Form submitted successfully' },
+      { success: true, message: 'Message sent successfully!' },
       { status: 200 }
     )
   } catch (error) {
