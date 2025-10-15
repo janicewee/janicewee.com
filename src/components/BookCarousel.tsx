@@ -135,7 +135,7 @@ const books = [
     id: 19,
     title: "Max The Cat",
     coverUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/maxthecat-1760410341047.jpg",
-    synopsis: "Join Max the Cat on his curious adventures filled with fun and valuable life lessons.",
+    synopsis: "Join Max the Cat and his sleuth buddy Monroe Mongoose as they solve the mystery - who kidnapped Max's human?",
     link: "/books/max-the-cat"
   },
   {
