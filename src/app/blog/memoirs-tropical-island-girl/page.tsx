@@ -141,7 +141,7 @@ export default function BlogPost() {
             </p>
 
             <p className="mt-12">
-              If you want a fun lighthearted read, check out my latest series, <Link href="https://www.janicewee.com/billyseries.html" className="text-primary hover:underline">The Adventures of Billy Lionheart.</Link>
+              If you want a fun lighthearted read, check out my latest series, <Link href="/books/billy-lionheart-series" className="text-primary hover:underline">The Adventures of Billy Lionheart.</Link>
             </p>
 
             <div className="my-12">
