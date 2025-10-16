@@ -58,7 +58,7 @@ Billy's story explores themes of loss, hope, and the unbreakable bonds of family
 
 This character has become one of my favorites to write, blending childlike wonder with genuine heroism in a world that's both dangerous and magical.
 
-[Discover Billy's adventures](https://www.janicewee.com/Emunah/billy1.html) in Billy The Lion Boy, the first book in the series.
+[Discover Billy's adventures](https://books/billy-the-lion-boy) in Billy The Lion Boy, the first book in the series.
     `
   },
   'emunah-chronicles-truth-in-fiction': {
