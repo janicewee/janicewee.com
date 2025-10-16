@@ -131,7 +131,7 @@ export default function BlogPost() {
             </p>
 
             <p>
-              If you want more fiction mixed with memories, check out my collection of short stories, <Link href="https://www.janicewee.com/nonya.html" className="text-primary hover:underline">Naughty Little Nonya</Link>. Some of these are true, some are figments of my imagination.
+              If you want more fiction mixed with memories, check out my collection of short stories, <Link href="/books/naughty-little-nonya" className="text-primary hover:underline">Naughty Little Nonya</Link>. Some of these are true, some are figments of my imagination.
             </p>
 
             <p>
