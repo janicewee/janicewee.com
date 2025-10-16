@@ -72,7 +72,7 @@ I believe what my dad told me. That God created the universe in six days and res
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="grid md:grid-cols-2 gap-12 items-start">
               {/* Book Cover */}
-              <div className="sticky top-8">
+              <div className="md:sticky md:top-8">
                 <div className="relative aspect-[2/3] rounded-lg overflow-hidden shadow-2xl">
                   <img
                     src={bookData.image}
