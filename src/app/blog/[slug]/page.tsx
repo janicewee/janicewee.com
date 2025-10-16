@@ -33,7 +33,7 @@ This Christian romance and saga explores love, legacy, and apocalyptic spiritual
 
 Whether you're looking for a compelling family saga, a faith-based adventure, or simply a story that will keep you turning pages late into the night, Dragon Unbound delivers on all fronts.
 
-[Get your copy today](https://www.janicewee.com/Emunah/dragonunbound.html) and discover why this is my favorite book I've ever written.
+[Get your copy today](/books/dragon-unbound) and discover why this is my favorite book I've ever written.
     `
   },
   'fictional-character-billy-lionheart': {
