@@ -71,7 +71,7 @@ She closed her eyes, and blew out the candles of an imaginary cake.`,
         <section className="bg-gradient-to-b from-primary/10 to-background py-12">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="grid md:grid-cols-2 gap-12 items-start">
-              <div className="sticky top-8">
+              <div className="md:sticky md:top-8">
                 <div className="relative aspect-[2/3] rounded-lg overflow-hidden shadow-2xl">
                   <img
                     src={bookData.image}
