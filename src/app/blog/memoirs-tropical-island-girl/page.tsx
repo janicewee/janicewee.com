@@ -46,7 +46,7 @@ export default function BlogPost() {
 
           {/* Featured Image */}
           <div className="mb-12">
-            <Link href="https://www.janicewee.com/nonyaescapades.html">
+            <Link href="/books/little-nonyas-escapades">
               <img
                 src="https://www.janicewee.com/images/littlenonyaescapades.jpg"
                 alt="Little Nonya Escapades by Janice Wee"
@@ -79,7 +79,7 @@ export default function BlogPost() {
             </div>
 
             <p>
-              When I first wrote Little Nonya Escapades, I intended to write a fictional story, using my own childhood memories as an initial draft.
+              When I first wrote <Link href="/books/little-nonyas-escapades" className="text-primary hover:underline">Little Nonya Escapades</Link>, I intended to write a fictional story, using my own childhood memories as an initial draft.
             </p>
 
             <p>
@@ -111,7 +111,7 @@ export default function BlogPost() {
             </p>
 
             <p>
-              After I published <Link href="https://www.janicewee.com/nonyaescapades.html" className="text-primary hover:underline"><strong>Little Nonya Escapades</strong></Link>, I asked my mother about her. Teacher Elizabeth disappeared because she had joined OMF and had become a missionary in India. She had just retired and was finally back in Singapore after all these decades. I got her number from my mother.
+              After I published <Link href="/books/little-nonyas-escapades" className="text-primary hover:underline"><strong>Little Nonya Escapades</strong></Link>, I asked my mother about her. Teacher Elizabeth disappeared because she had joined OMF and had become a missionary in India. She had just retired and was finally back in Singapore after all these decades. I got her number from my mother.
             </p>
 
             <p>
@@ -123,7 +123,7 @@ export default function BlogPost() {
             </p>
 
             <p className="text-center my-12">
-              <Link href="https://www.janicewee.com/nonyaescapades.html">
+              <Link href="/books/little-nonyas-escapades">
                 <Button size="lg" className="text-lg">
                   Read Little Nonya Escapades now!
                 </Button>
