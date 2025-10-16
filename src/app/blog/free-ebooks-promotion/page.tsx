@@ -52,7 +52,7 @@ export default function BlogPost() {
 
             {/* Featured Image */}
             <div className="mb-12">
-              <Link href="https://www.janicewee.com/Emunah/the-quest-for-immortality-full.pdf">
+              <Link href="/books/the-quest-for-immortality.pdf">
                 <img
                   src="https://www.janicewee.com/images/TQFI.jpeg"
                   alt="The Quest For Immortality by Janice Wee"
@@ -68,7 +68,7 @@ export default function BlogPost() {
             </p>
 
             <p className="text-center my-12">
-              <Link href="https://www.janicewee.com/Emunah/the-quest-for-immortality-full.pdf">
+              <Link href="/books/the-quest-for-immortality.pdf">
                 <Button size="lg" className="text-lg">
                   Get the Free Ebook, the complete PDF version of The Quest For Immortality
                 </Button>
