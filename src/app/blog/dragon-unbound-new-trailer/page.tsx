@@ -104,7 +104,7 @@ export default function BlogPost() {
 
               <p className="text-lg leading-relaxed mb-6">
                 Do you have overripe bananas to rescue? Turn them into scones. Here's the{' '}
-                <Link href="https://www.janicewee.com/blog/index6oct2025.html" className="text-secondary hover:underline">
+                <Link href="/recipes" className="text-secondary hover:underline">
                   Banana scone recipe
                 </Link>{' '}
                 I developed. The scones are moist, with a hint of banana, enough chocolate for a scone, and yummy!
