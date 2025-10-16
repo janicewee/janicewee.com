@@ -46,7 +46,7 @@ export default function BlogPost() {
 
           {/* Featured Image */}
           <div className="mb-12">
-            <Link href="https://www.janicewee.com/Emunah/book8mary.html">
+            <Link href="/books/emunah-book-8-marys-flight">
               <img
                 src="https://www.janicewee.com/images/marysflight.jpeg"
                 alt="Mary's Flight by Janice Wee"
@@ -80,7 +80,7 @@ export default function BlogPost() {
             </div>
 
             <p className="text-center my-12">
-              <Link href="https://www.janicewee.com/Emunah/book8mary.html">
+              <Link href="/books/emunah-book-8-marys-flight">
                 <Button size="lg" className="text-lg">
                   <strong>Read it now!</strong>
                 </Button>
@@ -92,7 +92,7 @@ export default function BlogPost() {
             </p>
 
             <p className="mt-12">
-              If you want a fun lighthearted read, check out my latest series, <Link href="https://www.janicewee.com/billyseries.html" className="text-primary hover:underline">The Adventures of Billy Lionheart.</Link>
+              If you want a fun lighthearted read, check out my latest series, <Link href="/books/billy-lionheart-series" className="text-primary hover:underline">The Adventures of Billy Lionheart.</Link>
             </p>
 
             <div className="my-12">
@@ -111,7 +111,7 @@ export default function BlogPost() {
 
             <p>
               Curious what happens to Billy when he grows up?<br />
-              Check out Janice Wee's latest novel <Link href="https://www.janicewee.com/Emunah/dragonunbound.html" className="text-primary hover:underline">Dragon Unbound.</Link>
+              Check out Janice Wee's latest novel <Link href="/books/dragon-unbound" className="text-primary hover:underline">Dragon Unbound.</Link>
             </p>
 
             <p>
