@@ -22,6 +22,42 @@ const blogPosts = [
     slug: "dragon-unbound-new-trailer"
   },
   {
+    id: 18,
+    title: "Memoirs of a Tropical Island Girl",
+    date: "October 1, 2025",
+    author: "Janice Wee",
+    excerpt: "Numbers switch places and letters confuse Tammy when she's tired. She's probably dyslexic. Who knows? She was never diagnosed. No one ever suspected. Who could ever guess that the girl who topped the entire cohort year after year might have a learning disability! When I first wrote Little Nonya Escapades, I intended to write a fictional story, using my own childhood memories as an initial draft.",
+    imageUrl: "https://www.janicewee.com/images/littlenonyaescapades.jpg",
+    slug: "memoirs-tropical-island-girl"
+  },
+  {
+    id: 19,
+    title: "Flights of Fantasy with Janice Wee",
+    date: "September 23, 2025",
+    author: "Janice Wee",
+    excerpt: "Mary flees from her birth home to her ancestral land. She falls in love with her gorgeous landlord. Then global chaos hits. A charismatic leader promises peace, but things are not what they seem. This gripping fantasy adventure is grounded in reality, exploring themes of faith, family, and the eternal battle between good and evil.",
+    imageUrl: "https://www.janicewee.com/images/marysflight.jpeg",
+    slug: "flights-of-fantasy"
+  },
+  {
+    id: 20,
+    title: "Free Ebooks: Current Promotions",
+    date: "September 19, 2025",
+    author: "Janice Wee",
+    excerpt: "Craving an Epic Adventure? Grab The Quest for Immortality FREE Now! Looking for a thrilling read at zero cost? My must-read Emunah Chronicles novel, The Quest for Immortality, is yours FREE in PDF format—normally $9.99 on online stores! This limited-time offer is my thank-you to you for your amazing support. Dive into a world of mystery and eternal quests before this exclusive giveaway ends without any prior warning!",
+    imageUrl: "https://www.janicewee.com/images/TQFI.jpeg",
+    slug: "free-ebooks-promotion"
+  },
+  {
+    id: 21,
+    title: "Cosy Mysteries: Lighthearted Reads with Unexpected Twists",
+    date: "September 1, 2025",
+    author: "Janice Wee",
+    excerpt: "Looking for a good cosy mystery? I've got two for you. If you love historical romances, I recommend Two Worlds. If you like high school tales with crushes, superpowers and talking animals, you'd love Secret Hero & His Flying Lion. Billy has known Bluma since they were babies. But when they meet in St Lydia's Academy, something's changed.",
+    imageUrl: "https://www.janicewee.com/images/billy3outdoor.jpg",
+    slug: "cosy-mysteries-unexpected-twists"
+  },
+  {
     id: 1,
     title: "Grand Finale: Janice Wee's Favorite Book",
     date: "August 31, 2025",
