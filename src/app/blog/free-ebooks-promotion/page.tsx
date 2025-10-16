@@ -68,7 +68,7 @@ export default function BlogPost() {
             </p>
 
             <p className="text-center my-12">
-              <Link href="/books/the-quest-for-immortality.pdf">
+              <Link href="https://www.janicewee.com/books/the-quest-for-immortality-full.pdf">
                 <Button size="lg" className="text-lg">
                   Get the Free Ebook, the complete PDF version of The Quest For Immortality
                 </Button>
