@@ -26,7 +26,7 @@ const seriesBooks = [
   {
     title: "Secret Hero & His Flying Lion",
     coverUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/billyhero-1760074637493.jpg",
-    videoUrl: "https://www.tiktok.com/@janicewee07/video/7520151600225144071?_r=1&_t=ZS-8xWP5liVTb2",
+    videoUrl: "https://www.youtube.com/embed/_25vtHegnl4",
     description: "Billy discovers new powers as he and his lion companion soar to greater heights in their most thrilling adventure yet."
   }
 ]
