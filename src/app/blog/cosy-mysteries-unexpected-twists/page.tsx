@@ -108,7 +108,7 @@ export default function BlogPost() {
             </p>
 
             <p>
-              The ebook versions of them are available for free. My main novel, The Quest for Immortality is available in PDF format free of charge right <Link href="/books/the-quest-for-immortality.pdf" className="text-primary hover:underline">here</Link>.
+              The ebook versions of them are available for free. My main novel, The Quest for Immortality is available in PDF format free of charge right <Link href="https://www.janicewee.com/books/the-quest-for-immortality-full.pdf" className="text-primary hover:underline">here</Link>.
             </p>
 
             <p className="text-center my-12">
