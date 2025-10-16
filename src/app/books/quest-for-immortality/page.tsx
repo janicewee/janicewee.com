@@ -53,7 +53,7 @@ export default function QuestForImmortalityPage() {
                   </a>
                 </Button>
                 <Button asChild variant="secondary" size="lg" className="w-full md:w-auto md:ml-3">
-                  <a href="https://www.janicewee.com/Emunah/the-quest-for-immortality-full.pdf" target="_blank" rel="noopener noreferrer">
+                  <a href="https://www.janicewee.com/books/the-quest-for-immortality-full.pdf" target="_blank" rel="noopener noreferrer">
                     Download Free PDF
                     <ExternalLink className="ml-2 h-4 w-4" />
                   </a>

@@ -60,6 +60,12 @@ export default function BillyLionheartSeriesPage() {
                   <ExternalLink className="ml-2 h-4 w-4" />
                 </a>
               </Button>
+              <Button asChild variant="secondary" size="lg" className="md:ml-3">
+                <a href="https://www.janicewee.com/books/BookclubKitTheAdventuresofBillyLionheart.pdf" target="_blank" rel="noopener noreferrer">
+                  Download Book Club Kit (PDF)
+                  <ExternalLink className="ml-2 h-4 w-4" />
+                </a>
+              </Button>
             </div>
           </div>
 
