@@ -36,7 +36,7 @@ const blogPosts = [
     date: "September 23, 2025",
     author: "Janice Wee",
     excerpt: "Mary flees from her birth home to her ancestral land. She falls in love with her gorgeous landlord. Then global chaos hits. A charismatic leader promises peace, but things are not what they seem. This gripping fantasy adventure is grounded in reality, exploring themes of faith, family, and the eternal battle between good and evil.",
-    imageUrl: "https://www.janicewee.com/images/marysflight.jpeg",
+    imageUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/IMG_0194-1760677132993.jpeg",
     slug: "flights-of-fantasy"
   },
   {
