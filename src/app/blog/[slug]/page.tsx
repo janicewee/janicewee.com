@@ -40,7 +40,7 @@ Whether you're looking for a compelling family saga, a faith-based adventure, or
     title: "Fictional Character: Billy Lionheart",
     date: "August 10, 2025",
     author: "Janice Wee",
-    imageUrl: "https://www.janicewee.com/images/billyonlion.jpg",
+    imageUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/billyonlion-1760677442780.jpg",
     content: `
 Billy was born during the Tribulation. He was a mere toddler when his parents Jake and Ella were beheaded by followers of the Antichrist. Rescue pilots, Mei and Boris arrived in his menuvival camp too late. They found the tiny boy hiding in a pipe.
 
