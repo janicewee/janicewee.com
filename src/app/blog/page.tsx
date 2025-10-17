@@ -18,7 +18,7 @@ const blogPosts = [
     date: "October 15, 2025",
     author: "Janice Wee",
     excerpt: "I just created a new trailer for my latest book, Dragon Unbound. After a thousand years of paradise on earth, Dragon is released, driving a wedge between Billy and his family. In a realm where mortals live under the divine rule of the King of Kings, best friends turned lovers Billy, gifted with divine strength, and Bluma face a world fracturing under Dragon, the Great Deceiver's lies. As Dragon recruits fallen man to his cause, sparking betrayal among families—sons and daughters against parents—alliances shatter, and loyalties are tested. Who will stand? Who will fall?",
-    imageUrl: "https://www.janicewee.com/Emunah/images/dragonunbound.jpg",
+    imageUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/dragonunboundwhite-1760676617965.jpg",
     slug: "dragon-unbound-new-trailer"
   },
   {
