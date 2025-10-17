@@ -45,7 +45,7 @@ const blogPosts = [
     date: "September 19, 2025",
     author: "Janice Wee",
     excerpt: "Craving an Epic Adventure? Grab The Quest for Immortality FREE Now! Looking for a thrilling read at zero cost? My must-read Emunah Chronicles novel, The Quest for Immortality, is yours FREE in PDF format—normally $9.99 on online stores! This limited-time offer is my thank-you to you for your amazing support. Dive into a world of mystery and eternal quests before this exclusive giveaway ends without any prior warning!",
-    imageUrl: "https://www.janicewee.com/images/TQFI.jpeg",
+    imageUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/questforimmortality-1760677198452.jpg",
     slug: "free-ebooks-promotion"
   },
   {
