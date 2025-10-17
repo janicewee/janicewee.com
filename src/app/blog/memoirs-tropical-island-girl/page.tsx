@@ -3,6 +3,7 @@ import Footer from '@/components/Footer'
 import { Calendar, User, ArrowLeft } from 'lucide-react'
 import { Button } from '@/components/ui/button'
 import Link from 'next/link'
+import Image from 'next/image'
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
@@ -47,10 +48,13 @@ export default function BlogPost() {
           {/* Featured Image */}
           <div className="mb-12">
             <Link href="/books/little-nonyas-escapades">
-              <img
+              <Image
                 src="https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/nonya-escapades-1760677006633.jpg"
                 alt="Little Nonya Escapades by Janice Wee"
+                width={800}
+                height={1200}
                 className="w-full max-w-md mx-auto rounded-lg shadow-2xl"
+                priority
               />
             </Link>
           </div>
