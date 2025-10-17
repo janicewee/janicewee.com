@@ -99,7 +99,7 @@ const blogPosts = [
     date: "July 5, 2025",
     author: "Janice Wee",
     excerpt: "Who is the enigmatic Teacher Samson in St Lydia's Academy? Why is he interested in Billy and his friends? A poisoned lion and a collapsed tunnel meant to kill Billy, Bluma and their friends reveal a deadly plan designed to destroy St Lydia Academy's secret hero. Can Billy and his buddies solve the mystery before it's too late? This is the 3rd book in my fantasy adventure series, The Adventures of Billy Lionheart.",
-    imageUrl: "https://www.janicewee.com/Emunah/images/secrethero.jpg",
+    imageUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/Secret-Hero-1760677950813.jpg",
     slug: "latest-release-secret-hero-flying-lion"
   },
   {
@@ -108,7 +108,7 @@ const blogPosts = [
     date: "June 3, 2025",
     author: "Janice Wee",
     excerpt: "Billy Lionheart is still grappling with his super strength as he navigates life at St. Lydia's Academy. By his side, his loyal lion guardian, Leonard, takes to the skies with gizmo mittens that grant him the power of flight. Together, this daring duo secretly saves lives and protects their school, all while hiding their extraordinary powers. But Billy's bold antics catch the eye of Samson, the enigmatic gym teacher with secrets of his own. This fantasy adventure, cosy mystery thriller will be released on 3 June 2025.",
-    imageUrl: "https://www.janicewee.com/Emunah/images/secrethero.jpg",
+    imageUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/Secret-Hero-1760677950813.jpg",
     slug: "secret-hero-coming-june-3"
   },
   {
@@ -117,7 +117,7 @@ const blogPosts = [
     date: "May 28, 2025",
     author: "Janice Wee",
     excerpt: "Billy Lionheart is still grappling with his super strength as he navigates life at St. Lydia's Academy. By his side, his loyal lion guardian, Leonard, takes to the skies with gizmo mittens that grant him the power of flight. Together, this daring duo secretly saves lives and protects their school, all while hiding their extraordinary powers. When a shadowy figure targets Billy and his crew, the stakes soar. Who's behind the deadly plot, and why? Preorder your copy now.",
-    imageUrl: "https://www.janicewee.com/Emunah/images/secrethero.jpg",
+    imageUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/Secret-Hero-1760677950813.jpg",
     slug: "cover-reveal-secret-hero"
   },
   {
