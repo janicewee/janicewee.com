@@ -48,7 +48,7 @@ export default function BlogPost() {
           <div className="mb-12">
             <Link href="/books/emunah-book-8-marys-flight">
               <img
-                src="https://www.janicewee.com/images/marysflight.jpeg"
+                src="https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/IMG_0194-1760677132993.jpeg"
                 alt="Mary's Flight by Janice Wee"
                 className="w-full max-w-md mx-auto rounded-lg shadow-2xl"
               />
