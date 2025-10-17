@@ -114,6 +114,23 @@ export default function QuestForImmortalityPage() {
             </Card>
           </section>
 
+          {/* Emunah Chronicles Timeline Link */}
+          <section className="mb-12">
+            <Card className="p-8 bg-gradient-to-br from-primary/5 to-secondary/5 border-2 border-primary/20">
+              <h2 className="text-3xl font-bold text-primary mb-4">Explore the Full Timeline</h2>
+              <p className="text-foreground leading-relaxed mb-6">
+                Discover how <em>The Quest for Immortality</em> fits into the complete Emunah Chronicles saga. 
+                Follow the journey from before the Rapture through the Tribulation to the Millennial Kingdom.
+              </p>
+              <Button asChild size="lg">
+                <a href="/emunah-timeline">
+                  View Emunah Chronicles Timeline
+                  <ExternalLink className="ml-2 h-4 w-4" />
+                </a>
+              </Button>
+            </Card>
+          </section>
+
           {/* Reader Reviews */}
           <section>
             <h2 className="text-3xl font-bold text-primary mb-6">Reader Reviews</h2>
