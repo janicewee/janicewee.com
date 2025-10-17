@@ -63,7 +63,7 @@ const blogPosts = [
     date: "August 31, 2025",
     author: "Janice Wee",
     excerpt: "Of all the books I've ever written, Dragon Unbound is my favourite. The twists and turns in the plot kept me turning the pages, even though I already know the entire story, having written it. It's lighthearted and funny at times, heartbreaking at others. It's a family saga that's faith-based and inspiring. I found it uplifting during depressing times and strongly recommend it to anyone who is looking for a great read that's riveting and ultimately, uplifting.",
-    imageUrl: "https://www.janicewee.com/images/dragonunbound.jpeg",
+    imageUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/dragonunbound-1760677388114.jpg",
     slug: "grand-finale-favorite-book"
   },
   {
