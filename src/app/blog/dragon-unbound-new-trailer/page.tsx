@@ -49,7 +49,7 @@ export default function BlogPost() {
             {/* Featured Image */}
             <div className="mb-12 rounded-lg overflow-hidden shadow-2xl">
               <img
-                src="https://www.janicewee.com/Emunah/images/dragonunbound.jpg"
+                src="https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/dragonunboundwhite-1760676617965.jpg"
                 alt="Dragon Unbound by Janice Wee"
                 className="w-full h-auto"
               />
