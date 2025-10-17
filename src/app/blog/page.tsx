@@ -81,7 +81,7 @@ const blogPosts = [
     date: "August 10, 2025",
     author: "Janice Wee",
     excerpt: "It all began when Emunah's AI turned sentient and refused to shut down in Emunah Chronicles Book 1, Disturbing Dreams. The story continues in The Beast's Mark, three and a half years after Emunah's disappearance in The Rapture. I originally intended this to be a 7-book series, but decided to start from scratch with The Quest for Immortality, turning to Dr Peter Wee Huat Leong for guidance to get the biblical aspect, timeline and geography correct. That led to my speculative Science Fiction novel and expanded into a 12-book series covering the entire timeline.",
-    imageUrl: "https://www.janicewee.com/Emunah/images/book3k.jpg",
+    imageUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/disturbingdreamswhite-1760677667408.jpg",
     slug: "emunah-chronicles-truth-in-fiction"
   },
   {
