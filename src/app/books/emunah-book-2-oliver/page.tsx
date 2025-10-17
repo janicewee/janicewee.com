@@ -113,6 +113,21 @@ export default function OliverBookPage() {
                   </p>
                 </div>
 
+                {/* Emunah Chronicles Timeline Link */}
+                <Card className="p-6 mb-8 bg-gradient-to-br from-primary/5 to-secondary/5 border-2 border-primary/20">
+                  <h2 className="text-2xl font-bold text-primary mb-3">Part of the Emunah Chronicles</h2>
+                  <p className="text-foreground leading-relaxed mb-4">
+                    See where Oliver's story fits in the complete timeline from the Pre-Tribulation Rapture 
+                    through the Millennial Kingdom.
+                  </p>
+                  <Button asChild>
+                    <a href="/emunah-timeline">
+                      View Full Timeline
+                      <ExternalLink className="ml-2 h-4 w-4" />
+                    </a>
+                  </Button>
+                </Card>
+
                 {/* Book Trailer */}
                 {bookData.trailer && (
                   <Card className="p-6 mb-8">
