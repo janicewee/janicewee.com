@@ -40,12 +40,12 @@ export default function Home() {
               </div>
             </div>
             <a 
-              href="/books/secret-hero-flying-lion" 
-              className="relative aspect-[2/3] max-h-[33vh] rounded-lg overflow-hidden shadow-2xl hover:shadow-3xl transition-shadow cursor-pointer group"
+              href="/books" 
+              className="relative aspect-[16/9] md:aspect-[3/2] rounded-lg overflow-hidden shadow-2xl hover:shadow-3xl transition-shadow cursor-pointer group"
             >
               <Image
-                src="https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/secretheroweb-1760080711670.jpg"
-                alt="Secret Hero & His Flying Lion book cover"
+                src="https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/desktophero-1760679630130.png"
+                alt="Featured book covers collection"
                 fill
                 className="object-cover group-hover:scale-105 transition-transform duration-300"
                 priority
