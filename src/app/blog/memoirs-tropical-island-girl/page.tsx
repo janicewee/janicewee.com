@@ -48,7 +48,7 @@ export default function BlogPost() {
           <div className="mb-12">
             <Link href="/books/little-nonyas-escapades">
               <img
-                src="https://www.janicewee.com/images/littlenonyaescapades.jpg"
+                src="https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/nonya-escapades-1760677006633.jpg"
                 alt="Little Nonya Escapades by Janice Wee"
                 className="w-full max-w-md mx-auto rounded-lg shadow-2xl"
               />
