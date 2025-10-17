@@ -46,10 +46,10 @@ export default function BlogPost() {
 
           {/* Featured Image */}
           <div className="mb-12">
-            <Link href="https://www.janicewee.com/Emunah/billy3.html">
+            <Link href="https://www.janicewee.com/book2e2.html">
               <img
-                src="https://www.janicewee.com/images/billy3outdoor.jpg"
-                alt="Secret Hero & His Flying Lion by Janice Wee"
+                src="https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/twoworlds-1760677286238.jpg"
+                alt="Two Worlds by Janice Wee"
                 className="w-full max-w-md mx-auto rounded-lg shadow-2xl"
               />
             </Link>
