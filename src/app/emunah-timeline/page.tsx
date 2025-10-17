@@ -45,50 +45,50 @@ export default function EmunahTimelinePage() {
             <TimelineItem
               align="left"
               title="Disturbing Dreams"
-              imageUrl="https://www.janicewee.com/Emunah/images/book1.jpg"
+              imageUrl="https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/book1-1760411021422.jpg"
               description="A sentient AI named Access fights to save Emunah, uncovering a chilling corporate conspiracy involving aliens and the supernatural. As her world spirals, an eerie truth emerges—one that might just be our near future."
-              link="https://www.janicewee.com/Emunah/book1.html"
-              linkText="Get it now!"
+              link="/books/emunah-book-1-disturbing-dreams"
+              linkText="Read more"
             />
 
             {/* Abigail */}
             <TimelineItem
               align="right"
               title="Abigail"
-              imageUrl="https://www.janicewee.com/Emunah/images/book1abigail.jpg"
+              imageUrl="https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/book1abigail-1760404534946.jpg"
               description="Abigail Applewood's tragic tale unfolds as a mysterious, gorgeous stranger sweeps her off her feet. Is he her true love, or something more sinister? A story of longing and loss that hits close to home."
-              link="https://www.janicewee.com/Emunah/book1abigail.html"
-              linkText="Discover her fate!"
+              link="/books/emunah-book-1-abigail"
+              linkText="Discover her fate"
             />
 
             {/* Oliver */}
             <TimelineItem
               align="left"
               title="Oliver"
-              imageUrl="https://www.janicewee.com/Emunah/images/book2oliver.jpg"
+              imageUrl="https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/book2oliver-1760404534983.jpg"
               description="Oliver, a soul-winner, catches the eye of an ancient evil. As he uncovers his sister's talks with their parents' ghosts and rescues his family, a deeper spiritual battle brews. Will he stand firm?"
-              link="https://www.janicewee.com/Emunah/book2oliver.html"
-              linkText="Find out!"
+              link="/books/emunah-book-2-oliver"
+              linkText="Find out"
             />
 
             {/* Emunah */}
             <TimelineItem
               align="right"
               title="Emunah"
-              imageUrl="https://www.janicewee.com/Emunah/images/book3emunah.jpg"
+              imageUrl="https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/book3emunah-1760404534743.jpg"
               description="Emunah's new life on a different continent takes a wild turn—friendship, romance, and an existential crisis collide with alien obsessions and strange visions. Overlaps with *Disturbing Dreams*—don't miss her story!"
-              link="https://www.janicewee.com/Emunah/book3emunah.html"
-              linkText="Grab it here!"
+              link="/books/emunah-book-3-emunah"
+              linkText="Grab it here"
             />
 
             {/* John */}
             <TimelineItem
               align="left"
               title="John"
-              imageUrl="https://www.janicewee.com/Emunah/images/book4john.jpg"
+              imageUrl="https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/book4john-1760404535976.jpg"
               description="Scrawny bookworm John must become a weightlifting champion to save his dying mother from a ruthless enemy. A short, thrilling tale of family, friendship, and faith."
-              link="https://www.janicewee.com/Emunah/book4john.html"
-              linkText="Read it now!"
+              link="/books/emunah-book-4-john"
+              linkText="Read it now"
             />
           </div>
 
@@ -100,50 +100,50 @@ export default function EmunahTimelinePage() {
             <TimelineItem
               align="right"
               title="Mei"
-              imageUrl="https://www.janicewee.com/Emunah/images/book5mei.jpg"
+              imageUrl="https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/book5mei-1760410829482.jpg"
               description="A former Beast Corp scientist uncovers a terrifying secret behind their super clone program. Fleeing persecution, she trains as a pilot to save outcasts in a chaotic, post-Rapture world."
-              link="https://www.janicewee.com/Emunah/book5mei.html"
-              linkText="Join her fight!"
+              link="/books/emunah-book-5-mei"
+              linkText="Join her fight"
             />
 
             {/* The Beast's Mark */}
             <TimelineItem
               align="left"
               title="The Beast's Mark"
-              imageUrl="https://www.janicewee.com/Emunah/images/book2.jpg"
+              imageUrl="https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/book2-1760411038422.jpg"
               description="After *The Vanishing*, an enigmatic figure promises global Utopia amid chaos and disasters. Is he mankind's savior or the Antichrist? A gripping post-Rapture mystery awaits!"
-              link="https://www.janicewee.com/Emunah/book2.html"
-              linkText="Get it today!"
+              link="/books/emunah-book-2-the-beasts-mark"
+              linkText="Get it today"
             />
 
             {/* Liam's Dark Secrets */}
             <TimelineItem
               align="right"
               title="Liam's Dark Secrets"
-              imageUrl="https://www.janicewee.com/Emunah/images/book6liam.jpg"
+              imageUrl="https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/book6liam-1760410829493.jpg"
               description="Liam, a cunning billionaire and church leader, thrives on trust—until the rules change. Can you dance with the devil and escape? A tale of love, betrayal, and reckoning."
-              link="https://www.janicewee.com/Emunah/book6liam.html"
-              linkText="Uncover his secrets!"
+              link="/books/emunah-book-6-liams-dark-secrets"
+              linkText="Uncover his secrets"
             />
 
             {/* Lydia's 12 Christmases */}
             <TimelineItem
               align="left"
               title="Lydia's 12 Christmases"
-              imageUrl="https://www.janicewee.com/Emunah/images/book7lydia.jpg"
+              imageUrl="https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/book7lydia-1760410829051.jpg"
               description="Lydia's journey through loss and love molds her into a hero in a post-Rapture world. A heartfelt saga of growth and destiny."
-              link="https://www.janicewee.com/Emunah/book7lydia.html"
-              linkText="Experience her story!"
+              link="/books/emunah-book-7-lydias-12-christmases"
+              linkText="Experience her story"
             />
 
             {/* Mary's Flight */}
             <TimelineItem
               align="right"
               title="Mary's Flight"
-              imageUrl="https://www.janicewee.com/Emunah/images/book8mary.jpg"
+              imageUrl="https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/book8mary-1760410829856.jpg"
               description="Saved from a lynching, Mary finds love and fulfills an ancient prophecy in a turbulent, post-Rapture era. A story of hope and redemption."
-              link="https://www.janicewee.com/Emunah/book8mary.html"
-              linkText="Take flight with her!"
+              link="/books/emunah-book-8-marys-flight"
+              linkText="Take flight with her"
             />
           </div>
 
@@ -155,40 +155,40 @@ export default function EmunahTimelinePage() {
             <TimelineItem
               align="left"
               title="Billy The Lion Boy"
-              imageUrl="https://www.janicewee.com/Emunah/images/billylionheart.jpg"
+              imageUrl="https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/billylionheart-1760404534476.jpg"
               description="In Christ's 1000-year reign, orphan Billy discovers his parents have returned as immortal priests. A heartwarming adventure in a redeemed world!"
-              link="https://www.janicewee.com/Emunah/billy1.html"
-              linkText="Meet Billy!"
+              link="/books/billy-the-lion-boy"
+              linkText="Meet Billy"
             />
 
             {/* Billy & Bluma: Double Trouble */}
             <TimelineItem
               align="right"
               title="Billy & Bluma: Double Trouble"
-              imageUrl="https://www.janicewee.com/Emunah/images/billybluma.jpg"
+              imageUrl="https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/billybluma-1760404534699.jpg"
               description="Billy & Bluma who were inseparable as toddlers during the Great Tribulation, moved to different cities during the Millennial Reign of Christ. They are reunited, thanks to Leonard Lion. Billy and Bluma join forces to double the lion's headache in a thrilling, fun filled, heartwarming caper!"
-              link="https://www.janicewee.com/Emunah/billy2.html"
-              linkText="Join the adventure!"
+              link="/books/billy-bluma-double-trouble"
+              linkText="Join the adventure"
             />
 
             {/* Secret Hero & His Lion Guardian */}
             <TimelineItem
               align="left"
               title="Secret Hero & His Lion Guardian"
-              imageUrl="https://www.janicewee.com/Emunah/images/secrethero.jpg"
+              imageUrl="https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/billyhero-1760404535888.jpg"
               description="Billy & Bluma enrol in St Lydia's Academy. Together with their flying lion Poppa Leonard, they unravel a deadly conspiracy threatening their friends at St. Lydia's Academy in the thrilling Secret Hero & His Flying Lion! St Lydia's Academy has heroes in training!"
-              link="https://www.janicewee.com/Emunah/billy3.html"
-              linkText="Enroll now!"
+              link="/books/secret-hero-flying-lion"
+              linkText="Enroll now"
             />
 
             {/* Dragon Unbound */}
             <TimelineItem
               align="right"
               title="Dragon Unbound"
-              imageUrl="https://www.janicewee.com/Emunah/images/dragonunbound.jpg"
+              imageUrl="https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/dragonunbound-1760404534966.jpg"
               description="In a realm of immortals and lions, mortals Billy and Bluma cling to their love as ancient dragons stir and prophetic destinies unfold. An epic tale of faith, family, and the final battle."
-              link="https://www.janicewee.com/Emunah/dragonunbound.html"
-              linkText="Unleash the dragon!"
+              link="/books/dragon-unbound"
+              linkText="Unleash the dragon"
             />
           </div>
         </div>
@@ -218,17 +218,17 @@ function TimelineItem({ align, title, imageUrl, description, link, linkText }: T
       <div className="bg-card border border-border rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow">
         <div className="p-6">
           <h3 className="text-2xl font-bold text-primary mb-4">{title}</h3>
-          <div className="relative aspect-[2/3] w-48 mx-auto mb-4">
+          <a href={link} className="block relative aspect-[2/3] w-48 mx-auto mb-4 hover:opacity-80 transition-opacity">
             <Image
               src={imageUrl}
               alt={`${title} Cover`}
               fill
               className="object-cover rounded"
             />
-          </div>
+          </a>
           <p className="text-foreground mb-4 leading-relaxed">{description}</p>
           <Button asChild variant="default" className="w-full">
-            <a href={link} target="_blank" rel="noopener noreferrer">
+            <a href={link}>
               {linkText}
             </a>
           </Button>
