@@ -4,6 +4,7 @@ import { Calendar, User, ExternalLink } from 'lucide-react'
 import { Button } from '@/components/ui/button'
 import { Card } from '@/components/ui/card'
 import Link from 'next/link'
+import Image from 'next/image'
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
@@ -229,10 +230,12 @@ export default function BlogPage() {
                     {/* Post Image */}
                     <div className="md:col-span-2 relative group">
                       <div className="relative aspect-[4/3] md:aspect-auto md:h-full overflow-hidden">
-                        <img
+                        <Image
                           src={post.imageUrl}
                           alt={post.title}
-                          className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                          fill
+                          className="object-cover group-hover:scale-105 transition-transform duration-500"
+                          sizes="(max-width: 768px) 100vw, 40vw"
                         />
                         <div className="absolute inset-0 bg-gradient-to-t from-primary/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
                       </div>

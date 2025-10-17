@@ -3,6 +3,7 @@
 import { useState, useEffect } from 'react'
 import { ChevronLeft, ChevronRight } from 'lucide-react'
 import { Button } from '@/components/ui/button'
+import Image from 'next/image'
 
 const books = [
   {
@@ -171,10 +172,13 @@ export default function BookCarousel() {
           href={books[currentIndex].link}
           className="relative aspect-[2/3] rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-shadow cursor-pointer group"
         >
-          <img
+          <Image
             src={books[currentIndex].coverUrl}
             alt={books[currentIndex].title}
-            className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
+            fill
+            className="object-cover transition-transform duration-300 group-hover:scale-105"
+            priority
+            sizes="(max-width: 768px) 100vw, 50vw"
           />
         </a>
 
