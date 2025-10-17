@@ -6,6 +6,7 @@ import BookCarousel from '@/components/BookCarousel'
 import { Star, ExternalLink } from 'lucide-react'
 import { Button } from '@/components/ui/button'
 import { Card } from '@/components/ui/card'
+import Image from 'next/image'
 
 export default function Home() {
   return (
@@ -42,10 +43,12 @@ export default function Home() {
               href="/books/secret-hero-flying-lion" 
               className="relative aspect-[2/3] max-h-[33vh] rounded-lg overflow-hidden shadow-2xl hover:shadow-3xl transition-shadow cursor-pointer group"
             >
-              <img
+              <Image
                 src="https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/secretheroweb-1760080711670.jpg"
                 alt="Secret Hero & His Flying Lion book cover"
-                className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                fill
+                className="object-cover group-hover:scale-105 transition-transform duration-300"
+                priority
               />
             </a>
           </div>
@@ -120,10 +123,11 @@ export default function Home() {
           <div className="bg-card border border-border rounded-lg overflow-hidden shadow-lg">
             <div className="grid md:grid-cols-2 gap-8">
               <div className="relative aspect-video md:aspect-auto">
-                <img
+                <Image
                   src="https://images.unsplash.com/photo-1464305795204-6f5bbfc7fb81?w=600&h=400&fit=crop"
                   alt="Scones with tea"
-                  className="w-full h-full object-cover"
+                  fill
+                  className="object-cover"
                 />
               </div>
               <div className="p-8 flex flex-col justify-center">
