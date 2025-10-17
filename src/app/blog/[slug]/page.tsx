@@ -127,7 +127,7 @@ Billy's supernatural strength and Bluma's unwavering faith form the foundation o
     title: "Latest Release: Secret Hero & His Flying Lion",
     date: "July 5, 2025",
     author: "Janice Wee",
-    imageUrl: "https://www.janicewee.com/Emunah/images/secrethero.jpg",
+    imageUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/Secret-Hero-1760677950813.jpg",
     content: `
 Who is the enigmatic Teacher Samson in St Lydia's Academy? Why is he interested in Billy and his friends?
 
@@ -162,7 +162,7 @@ The relationship between Billy and his flying lion guardian Leonard deepens as t
     title: "Secret Hero & His Flying Lion - Coming June 3!",
     date: "June 3, 2025",
     author: "Janice Wee",
-    imageUrl: "https://www.janicewee.com/Emunah/images/secrethero.jpg",
+    imageUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/Secret-Hero-1760677950813.jpg",
     content: `
 Billy Lionheart is still grappling with his super strength as he navigates life at St. Lydia's Academy. By his side, his loyal lion guardian, Leonard, takes to the skies with gizmo mittens that grant him the power of flight.
 
@@ -197,7 +197,7 @@ Pre-order your copy now and be among the first to discover what secrets lurk in 
     title: "Cover Reveal: Secret Hero & His Flying Lion",
     date: "May 28, 2025",
     author: "Janice Wee",
-    imageUrl: "https://www.janicewee.com/Emunah/images/secrethero.jpg",
+    imageUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/Secret-Hero-1760677950813.jpg",
     content: `
 Billy Lionheart is still grappling with his super strength as he navigates life at St. Lydia's Academy. By his side, his loyal lion guardian, Leonard, takes to the skies with gizmo mittens that grant him the power of flight.
 
