@@ -54,7 +54,7 @@ const blogPosts = [
     date: "September 1, 2025",
     author: "Janice Wee",
     excerpt: "Looking for a good cosy mystery? I've got two for you. If you love historical romances, I recommend Two Worlds. If you like high school tales with crushes, superpowers and talking animals, you'd love Secret Hero & His Flying Lion. Billy has known Bluma since they were babies. But when they meet in St Lydia's Academy, something's changed.",
-    imageUrl: "https://www.janicewee.com/images/billy3outdoor.jpg",
+    imageUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/twoworlds-1760677286238.jpg",
     slug: "cosy-mysteries-unexpected-twists"
   },
   {
