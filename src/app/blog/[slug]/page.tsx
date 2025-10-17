@@ -97,7 +97,7 @@ These aren't just adventure stories—they're explorations of faith, identity, a
     title: "Dragon Unbound: Epic Fantasy Saga Released",
     date: "August 1, 2025",
     author: "Janice Wee",
-    imageUrl: "https://www.janicewee.com/Emunah/images/dragonunbound.jpg",
+    imageUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/dragonunbound-1760677823269.jpg",
     content: `
 In a realm where mortals live under the divine rule of the King of Kings, best friends turned lovers Billy, gifted with divine strength, and Bluma face a world fracturing under Dragon, the Great Deceiver's lies.
 
