@@ -27,7 +27,7 @@ const blogPosts = [
     date: "October 1, 2025",
     author: "Janice Wee",
     excerpt: "Numbers switch places and letters confuse Tammy when she's tired. She's probably dyslexic. Who knows? She was never diagnosed. No one ever suspected. Who could ever guess that the girl who topped the entire cohort year after year might have a learning disability! When I first wrote Little Nonya Escapades, I intended to write a fictional story, using my own childhood memories as an initial draft.",
-    imageUrl: "https://www.janicewee.com/images/littlenonyaescapades.jpg",
+    imageUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/nonya-escapades-1760677006633.jpg",
     slug: "memoirs-tropical-island-girl"
   },
   {
