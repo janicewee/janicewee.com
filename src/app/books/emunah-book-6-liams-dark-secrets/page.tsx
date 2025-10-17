@@ -109,6 +109,20 @@ The more you trust someone, the greater the pain of betrayal.`,
                   </p>
                 </div>
 
+                <Card className="p-6 mb-8 bg-gradient-to-br from-primary/5 to-secondary/5 border-2 border-primary/20">
+                  <h2 className="text-2xl font-bold text-primary mb-3">Part of the Emunah Chronicles</h2>
+                  <p className="text-foreground leading-relaxed mb-4">
+                    Liam's story takes place after the Rapture during the Tribulation. See where it fits in the 
+                    complete timeline from the Pre-Tribulation Rapture through the Millennial Kingdom.
+                  </p>
+                  <Button asChild>
+                    <a href="/emunah-timeline">
+                      View Full Timeline
+                      <ExternalLink className="ml-2 h-4 w-4" />
+                    </a>
+                  </Button>
+                </Card>
+
                 {bookData.trailer && (
                   <Card className="p-6 mb-8">
                     <h2 className="text-2xl font-bold text-primary mb-4 flex items-center">
