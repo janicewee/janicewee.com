@@ -217,7 +217,9 @@ function TimelineItem({ align, title, imageUrl, description, link, linkText }: T
       {/* Content Card */}
       <div className="bg-card border border-border rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow">
         <div className="p-6">
-          <h3 className="text-2xl font-bold text-primary mb-4">{title}</h3>
+          <a href={link} className="block">
+            <h3 className="text-2xl font-bold text-primary mb-4 hover:underline">{title}</h3>
+          </a>
           <a href={link} className="block relative aspect-[2/3] w-48 mx-auto mb-4 hover:opacity-80 transition-opacity">
             <Image
               src={imageUrl}
