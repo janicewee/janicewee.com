@@ -54,7 +54,7 @@ export default function BlogPost() {
             <div className="mb-12">
               <Link href="/books/the-quest-for-immortality.pdf">
                 <img
-                  src="https://www.janicewee.com/images/TQFI.jpeg"
+                  src="https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/questforimmortality-1760677198452.jpg"
                   alt="The Quest For Immortality by Janice Wee"
                   className="w-full max-w-md mx-auto rounded-lg shadow-2xl"
                 />
