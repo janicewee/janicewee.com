@@ -72,6 +72,9 @@ export default function Navigation() {
                       </Link>
                     ))}
                     <div className="border-t border-border my-2"></div>
+                    <Link href="/emunah-timeline" className="block px-4 py-2 text-sm text-secondary font-semibold hover:bg-muted">
+                      📖 Emunah Chronicles Timeline
+                    </Link>
                     <Link href="/books" className="block px-4 py-2 text-sm text-primary font-semibold hover:bg-muted">
                       View All Books
                     </Link>
@@ -128,6 +131,9 @@ export default function Navigation() {
                       {book.title}
                     </Link>
                   ))}
+                  <Link href="/emunah-timeline" className="block py-1 text-sm text-secondary font-semibold">
+                    📖 Emunah Chronicles Timeline
+                  </Link>
                   <Link href="/books" className="block py-1 text-sm text-primary font-semibold">
                     View All Books
                   </Link>
