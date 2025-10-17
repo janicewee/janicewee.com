@@ -46,7 +46,7 @@ export default function EmunahTimelinePage() {
               align="left"
               title="Disturbing Dreams"
               imageUrl="https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/book1-1760411021422.jpg"
-              description="A sentient AI named Access fights to save Emunah, uncovering a chilling corporate conspiracy involving aliens and the supernatural. As her world spirals, an eerie truth emerges—one that might just be our near future."
+              description="A sentient AI named Asher fights to save Emunah, uncovering a chilling corporate conspiracy involving aliens and the supernatural. As her world spirals, an eerie truth emerges—one that might just be our near future."
               link="/books/emunah-book-1-disturbing-dreams"
               linkText="Read more"
             />
