@@ -108,6 +108,23 @@ export default function DragonUnboundPage() {
             </Card>
           </section>
 
+          {/* Emunah Chronicles Timeline Link */}
+          <section className="mb-12">
+            <Card className="p-8 bg-gradient-to-br from-primary/5 to-secondary/5 border-2 border-primary/20">
+              <h2 className="text-3xl font-bold text-primary mb-4">Explore the Full Timeline</h2>
+              <p className="text-foreground leading-relaxed mb-6">
+                <em>Dragon Unbound</em> is the epic finale to the Emunah Chronicles. Discover how the entire 
+                saga unfolds from the Pre-Tribulation Rapture through the Millennial Kingdom to this climactic conclusion.
+              </p>
+              <Button asChild size="lg">
+                <a href="/emunah-timeline">
+                  View Emunah Chronicles Timeline
+                  <ExternalLink className="ml-2 h-4 w-4" />
+                </a>
+              </Button>
+            </Card>
+          </section>
+
           {/* Reader Reviews */}
           <section>
             <h2 className="text-3xl font-bold text-primary mb-6">Reader Reviews</h2>
