@@ -3,6 +3,7 @@ import Footer from '@/components/Footer'
 import { Star, ExternalLink } from 'lucide-react'
 import { Button } from '@/components/ui/button'
 import { Card } from '@/components/ui/card'
+import Script from 'next/script'
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
@@ -20,6 +21,50 @@ export default function DragonUnboundPage() {
 
   return (
     <>
+      {/* Structured Data for Book */}
+      <Script id="schema-book" type="application/ld+json">
+        {JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "Book",
+          "name": "Dragon Unbound",
+          "author": {
+            "@type": "Person",
+            "name": "Janice Wee"
+          },
+          "description": "After a thousand years, the prophecy comes true. Dragon is released from his prison. With his band of fallen angels, he gathers the nations around the globe to wage war against the saints in the Holy City. The epic finale to the Emunah Chronicles.",
+          "genre": ["Christian Fiction", "Fantasy", "Speculative Fiction", "Epic Fantasy"],
+          "about": ["Millennial Kingdom", "Biblical Prophecy", "Spiritual Warfare", "Family Saga", "Faith"],
+          "image": bookData.image,
+          "url": "https://janicewee.com/books/dragon-unbound",
+          "bookFormat": "https://schema.org/EBook",
+          "inLanguage": "en",
+          "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "5",
+            "reviewCount": "1",
+            "bestRating": "5"
+          },
+          "review": {
+            "@type": "Review",
+            "reviewRating": {
+              "@type": "Rating",
+              "ratingValue": "5",
+              "bestRating": "5"
+            },
+            "author": {
+              "@type": "Person",
+              "name": "Ting Chin"
+            },
+            "reviewBody": "A must-read for fans of Christian speculative fiction, Janice Wee's Dragon Unbound plunges readers into a vibrant narrative set during the Millennial Kingdom, where biblical prophecy unfolds amidst the everyday lives of mortals and immortals alike."
+          },
+          "offers": {
+            "@type": "Offer",
+            "availability": "https://schema.org/InStock",
+            "url": "https://books2read.com/u/4NJ9p9"
+          }
+        })}
+      </Script>
+
       <Navigation />
       
       <main className="min-h-screen bg-background">
@@ -30,7 +75,7 @@ export default function DragonUnboundPage() {
               <div className="relative aspect-[2/3] rounded-lg overflow-hidden shadow-2xl">
                 <img
                   src={bookData.image}
-                  alt={bookData.title}
+                  alt="Dragon Unbound book cover featuring epic fantasy artwork of the Millennial Kingdom by Janice Wee"
                   className="w-full h-full object-cover"
                 />
               </div>
@@ -129,7 +174,7 @@ export default function DragonUnboundPage() {
           <section>
             <h2 className="text-3xl font-bold text-primary mb-6">Reader Reviews</h2>
             <Card className="p-6">
-              <div className="flex mb-4">
+              <div className="flex mb-4" aria-label="5 star rating">
                 {[...Array(5)].map((_, i) => (
                   <Star key={i} className="h-5 w-5 fill-secondary text-secondary" />
                 ))}
