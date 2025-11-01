@@ -29,7 +29,7 @@ export default function OliverBookPage() {
       { name: "Amazon", url: "https://www.amazon.com/Oliver-Emunah-Short-Stories-Janice/dp/B0D6Q65HHG" },
       { name: "Barnes & Noble", url: "https://www.barnesandnoble.com/w/oliver-janice-wee/1145730081" },
       { name: "Kobo", url: "https://www.kobo.com/sg/en/ebook/oliver-47" },
-      { name: "Hoopla & Other Stores", url: "https://www.janicewee.com/Emunah/book2oliver.html" }
+      { name: "Hoopla & Other Stores", url: "https://books2read.com/u/bP8zod" }
     ],
     isbn: {
       ebook: "9798227805324",
