@@ -7,10 +7,46 @@ import { Star, ExternalLink } from 'lucide-react'
 import { Button } from '@/components/ui/button'
 import { Card } from '@/components/ui/card'
 import Image from 'next/image'
+import Script from 'next/script'
 
 export default function Home() {
   return (
     <>
+      {/* Structured Data for Author and Website */}
+      <Script id="schema-author" type="application/ld+json">
+        {JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "Person",
+          "name": "Janice Wee",
+          "url": "https://janicewee.com",
+          "jobTitle": "Author",
+          "description": "Indie Author of Christian Speculative Fiction",
+          "genre": ["Christian Fiction", "Fantasy", "Speculative Fiction", "Children's Literature"],
+          "nationality": "Singaporean",
+          "alumniOf": {
+            "@type": "Organization",
+            "name": "National University of Singapore"
+          },
+          "sameAs": [
+            "https://books2read.com/author/janice-wee"
+          ]
+        })}
+      </Script>
+
+      <Script id="schema-website" type="application/ld+json">
+        {JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "WebSite",
+          "name": "Janice Wee - Author Website",
+          "url": "https://janicewee.com",
+          "description": "Official website of Janice Wee, indie author of Christian speculative fiction and fantasy novels featuring faith, family themes, dragons, lions, and biblical prophecy.",
+          "author": {
+            "@type": "Person",
+            "name": "Janice Wee"
+          }
+        })}
+      </Script>
+
       <Navigation />
       
       {/* Hero Section */}
@@ -45,7 +81,7 @@ export default function Home() {
             >
               <Image
                 src="https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/desktophero-1760679630130.png"
-                alt="Featured book covers collection"
+                alt="Collection of Janice Wee's fantasy book covers featuring Dragon Unbound, Billy Lionheart series, and Emunah Chronicles"
                 fill
                 className="object-cover group-hover:scale-105 transition-transform duration-300"
                 priority
@@ -70,7 +106,7 @@ export default function Home() {
           <div className="grid md:grid-cols-3 gap-8">
             {/* Dragon Unbound Review */}
             <Card className="p-6">
-              <div className="flex mb-4">
+              <div className="flex mb-4" aria-label="5 star rating">
                 {[...Array(5)].map((_, i) => (
                   <Star key={i} className="h-5 w-5 fill-secondary text-secondary" />
                 ))}
@@ -85,7 +121,7 @@ export default function Home() {
 
             {/* Billy The Lion Boy Review */}
             <Card className="p-6">
-              <div className="flex mb-4">
+              <div className="flex mb-4" aria-label="4 star rating">
                 {[...Array(4)].map((_, i) => (
                   <Star key={i} className="h-5 w-5 fill-secondary text-secondary" />
                 ))}
@@ -101,7 +137,7 @@ export default function Home() {
 
             {/* The Quest For Immortality Review */}
             <Card className="p-6">
-              <div className="flex mb-4">
+              <div className="flex mb-4" aria-label="5 star rating">
                 {[...Array(5)].map((_, i) => (
                   <Star key={i} className="h-5 w-5 fill-secondary text-secondary" />
                 ))}
@@ -125,7 +161,7 @@ export default function Home() {
               <div className="relative aspect-video md:aspect-auto">
                 <Image
                   src="https://images.unsplash.com/photo-1464305795204-6f5bbfc7fb81?w=600&h=400&fit=crop"
-                  alt="Scones with tea"
+                  alt="Freshly baked scones served with tea on elegant china, perfect for reading"
                   fill
                   className="object-cover"
                 />
