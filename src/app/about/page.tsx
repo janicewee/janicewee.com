@@ -3,6 +3,7 @@ import Footer from '@/components/Footer'
 import { BookOpen, Coffee, Heart, Book, Sparkles, Home } from 'lucide-react'
 import { Button } from '@/components/ui/button'
 import { Card } from '@/components/ui/card'
+import Script from 'next/script'
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
@@ -13,6 +14,41 @@ export const metadata: Metadata = {
 export default function AboutPage() {
   return (
     <>
+      {/* Structured Data for Author Profile */}
+      <Script id="schema-author-profile" type="application/ld+json">
+        {JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "ProfilePage",
+          "mainEntity": {
+            "@type": "Person",
+            "name": "Janice Wee",
+            "url": "https://janicewee.com",
+            "jobTitle": "Author",
+            "description": "Singaporean indie author of Christian speculative fiction, fantasy novels, and children's stories",
+            "nationality": "Singaporean",
+            "alumniOf": {
+              "@type": "Organization",
+              "name": "National University of Singapore"
+            },
+            "knowsAbout": [
+              "Christian Fiction",
+              "Fantasy Literature",
+              "Speculative Fiction",
+              "Biblical Prophecy",
+              "Eschatology",
+              "Children's Literature",
+              "Peranakan Culture",
+              "Singapore Literature"
+            ],
+            "mentor": {
+              "@type": "Person",
+              "name": "Dr. Peter Wee Huat Leong",
+              "description": "Eschatology expert who guides theological accuracy in Emunah Chronicles"
+            }
+          }
+        })}
+      </Script>
+
       <Navigation />
       
       <main className="min-h-screen bg-background">
@@ -29,7 +65,7 @@ export default function AboutPage() {
               <div className="relative aspect-square rounded-lg overflow-hidden shadow-2xl">
                 <img
                   src="https://images.unsplash.com/photo-1516979187457-637abb4f9353?w=600&h=600&fit=crop"
-                  alt="Writing desk with books"
+                  alt="Writer's desk with vintage typewriter, open books, and tea cup creating an author's workspace"
                   className="w-full h-full object-cover"
                 />
               </div>
