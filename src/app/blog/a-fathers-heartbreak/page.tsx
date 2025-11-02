@@ -49,8 +49,8 @@ export default function BlogPost() {
             {/* Featured Image - Placeholder for attached image */}
             <div className="mb-12 rounded-lg overflow-hidden shadow-2xl">
               <img
-                src="https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/dragonunboundwhite-1760676617965.jpg"
-                alt="A Father's Heartbreak - Leia's story from Dragon Unbound by Janice Wee"
+                src="https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/render/image/public/document-uploads/dragonunboundcurtain-1762090791130.jpg?width=8000&height=8000&resize=contain"
+                alt="Dragon Unbound book cover by Janice Wee featuring ethereal forest scene with glowing lights and the Emunah Chronicles Universe Finale subtitle"
                 className="w-full h-auto"
               />
             </div>
