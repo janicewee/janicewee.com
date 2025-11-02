@@ -19,7 +19,7 @@ const blogPosts = [
     date: "November 1, 2025",
     author: "Janice Wee",
     excerpt: "When I wrote Dragon Unbound, Leia's story stuck in my mind, haunting me. It's too real, how one could be so busy chasing life's pursuits, even noble causes, that one neglects one's kids. Misunderstandings can lead to bitterness, which can be exploited by wolves in sheep's clothing.",
-    imageUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/dragonunboundwhite-1760676617965.jpg",
+    imageUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/render/image/public/document-uploads/dragonunboundcurtain-1762090791130.jpg?width=8000&height=8000&resize=contain",
     slug: "a-fathers-heartbreak"
   },
   {
