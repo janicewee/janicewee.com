@@ -187,6 +187,11 @@
   
   <!-- Blog Posts -->
   <url>
+    <loc>https://janicewee.com/blog/a-fathers-heartbreak</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://janicewee.com/blog/dragon-unbound-new-trailer</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
