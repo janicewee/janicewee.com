@@ -49,8 +49,8 @@ export default function BlogPost() {
             {/* Featured Image - Placeholder for attached image */}
             <div className="mb-12 rounded-lg overflow-hidden shadow-2xl">
               <img
-                src="/placeholder-fathers-heartbreak.jpg"
-                alt="A Father's Heartbreak - Leia's story from Dragon Unbound"
+                src="https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/dragonunboundwhite-1760676617965.jpg"
+                alt="A Father's Heartbreak - Leia's story from Dragon Unbound by Janice Wee"
                 className="w-full h-auto"
               />
             </div>
