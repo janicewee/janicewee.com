@@ -275,6 +275,16 @@ const books = [
   },
   {
     id: 24,
+    title: "Escape",
+    slug: "escape",
+    description: "When the Japanese occupied Singapore during World War 2, they selected our stronger men, had them dig their own graves and killed them. My grandfather was one of those rounded up to be slaughtered. By God's grace, he escaped.",
+    coverUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/render/image/public/document-uploads/Escape-2-1762605567370.jpg?width=8000&height=8000&resize=contain",
+    buyLinks: [
+      { name: "Books2Read", url: "https://books2read.com/u/m2QQjk" }
+    ]
+  },
+  {
+    id: 25,
     title: "Chico & Yvette",
     slug: "chico-and-yvette",
     description: "A very short, chicken tale of love triangles, and laughter, with heart melting moments.",
@@ -285,7 +295,7 @@ const books = [
     ]
   },
   {
-    id: 25,
+    id: 26,
     title: "Max The Cat",
     slug: "max-the-cat",
     description: "Join Max the Cat and his sleuth buddy Monroe Mongoose as they solve the mystery - who kidnapped Max's human?",
@@ -296,7 +306,7 @@ const books = [
     ]
   },
   {
-    id: 26,
+    id: 27,
     title: "The Scouts",
     slug: "the-scouts",
     description: "An exciting tale of courage, teamwork, and faith as young scouts embark on their greatest adventure.",
