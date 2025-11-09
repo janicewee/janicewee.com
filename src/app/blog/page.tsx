@@ -14,6 +14,15 @@ export const metadata: Metadata = {
 
 const blogPosts = [
   {
+    id: 23,
+    title: "In Memory of Ah Kong",
+    date: "November 8, 2025",
+    author: "Janice Wee",
+    excerpt: "When Daddy was alive, he told me many stories of his late Dad's youth. My grandfather, Ah Kong, was incredibly strong. He could do all the stunts performed by circus strongmen. His signature feat was to lift 4 body builders off the ground in a reverse pushup. Ah Kong was a hero who once swam out in the open sea to save a stranger from drowning.",
+    imageUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/render/image/public/document-uploads/ahkong-1762693225545.jpg?width=8000&height=8000&resize=contain",
+    slug: "in-memory-of-ah-kong"
+  },
+  {
     id: 22,
     title: "A Father's Heartbreak",
     date: "November 1, 2025",
