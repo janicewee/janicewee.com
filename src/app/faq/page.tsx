@@ -19,7 +19,7 @@ const faqData = [
             <Card className="overflow-hidden hover:shadow-lg transition-shadow">
               <div className="relative aspect-[2/3]">
                 <Image
-                  src="https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/Little%20Nonya%27s%20Escapades.jpg"
+                  src="https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/littlenonyaescapades-1760416064407.jpg"
                   alt="Little Nonya's Escapades book cover"
                   fill
                   className="object-cover group-hover:scale-105 transition-transform duration-300"
@@ -35,7 +35,7 @@ const faqData = [
             <Card className="overflow-hidden hover:shadow-lg transition-shadow">
               <div className="relative aspect-[2/3]">
                 <Image
-                  src="https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/sweetcorn-suzie.jpg"
+                  src="https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/Suzie-1760410252107.jpg"
                   alt="Sweetcorn Suzie book cover"
                   fill
                   className="object-cover group-hover:scale-105 transition-transform duration-300"
@@ -71,7 +71,7 @@ const faqData = [
               <Card className="overflow-hidden hover:shadow-lg transition-shadow h-full">
                 <div className="relative aspect-[2/3]">
                   <Image
-                    src="https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/emunah-short-stories.jpg"
+                    src="https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/book1abigail-1760404534946.jpg"
                     alt="Emunah Short Stories"
                     fill
                     className="object-cover group-hover:scale-105 transition-transform duration-300"
@@ -86,7 +86,7 @@ const faqData = [
               <Card className="overflow-hidden hover:shadow-lg transition-shadow h-full">
                 <div className="relative aspect-[2/3]">
                   <Image
-                    src="https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/billy-lionheart-series.jpg"
+                    src="https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/billylionheart-1760074636207.jpg"
                     alt="The Adventures of Billy Lionheart"
                     fill
                     className="object-cover group-hover:scale-105 transition-transform duration-300"
@@ -101,7 +101,7 @@ const faqData = [
               <Card className="overflow-hidden hover:shadow-lg transition-shadow h-full">
                 <div className="relative aspect-[2/3]">
                   <Image
-                    src="https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/dragon-unbound.jpg"
+                    src="https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/dragonunbound-1760404534966.jpg"
                     alt="Dragon Unbound"
                     fill
                     className="object-cover group-hover:scale-105 transition-transform duration-300"
@@ -116,7 +116,7 @@ const faqData = [
               <Card className="overflow-hidden hover:shadow-lg transition-shadow h-full">
                 <div className="relative aspect-[2/3]">
                   <Image
-                    src="https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/the-quest-for-immortality.jpg"
+                    src="https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/book3k-1760074872135.jpg"
                     alt="The Quest for Immortality"
                     fill
                     className="object-cover group-hover:scale-105 transition-transform duration-300"
@@ -141,7 +141,7 @@ const faqData = [
             <Card className="overflow-hidden hover:shadow-lg transition-shadow">
               <div className="relative aspect-[2/3]">
                 <Image
-                  src="https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/singapore-runaway.jpg"
+                  src="https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/runaway-1760410193575.jpg"
                   alt="Singapore's Runaway book cover"
                   fill
                   className="object-cover group-hover:scale-105 transition-transform duration-300"
@@ -159,7 +159,7 @@ const faqData = [
             <Card className="overflow-hidden hover:shadow-lg transition-shadow">
               <div className="relative aspect-[2/3]">
                 <Image
-                  src="https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/two-worlds.jpg"
+                  src="https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/2worlds-1760410225289.jpg"
                   alt="Two Worlds book cover"
                   fill
                   className="object-cover group-hover:scale-105 transition-transform duration-300"
