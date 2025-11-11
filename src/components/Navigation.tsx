@@ -149,6 +149,9 @@ export default function Navigation() {
             <Link href="/recipes" className="block py-2 text-foreground hover:text-primary">
               Recipes
             </Link>
+            <Link href="/faq" className="block py-2 text-foreground hover:text-primary">
+              FAQ
+            </Link>
             <Link href="/about" className="block py-2 text-foreground hover:text-primary">
               About
             </Link>
