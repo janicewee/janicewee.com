@@ -14,6 +14,15 @@ export const metadata: Metadata = {
 
 const blogPosts = [
   {
+    id: 24,
+    title: "Guillemard East Primary School",
+    date: "November 16, 2025",
+    author: "Janice Wee",
+    excerpt: "Guillemard East Primary School was located behind Singapore Badminton Hall. Sadly, it closed in 1987 due to low enrollment. That school held fond childhood memories for me. It's also where my father worked as a teacher. Fiction inspired by fragments of the Author's memories from decades ago, Little Nonya's Escapades is set in this cherished old school.",
+    imageUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/render/image/public/document-uploads/geps-1763381011250.jpg?width=8000&height=8000&resize=contain",
+    slug: "guillemard-east-primary-school"
+  },
+  {
     id: 23,
     title: "In Memory of Ah Kong",
     date: "November 8, 2025",
