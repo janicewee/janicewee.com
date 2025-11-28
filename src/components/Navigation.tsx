@@ -75,6 +75,9 @@ export default function Navigation() {
                       </Link>
                     ))}
                     <div className="border-t border-border my-2"></div>
+                    <Link href="/books/quest-for-immortality/characters" className="block px-4 py-2 text-sm text-secondary font-semibold hover:bg-muted">
+                      📚 Characters in The Quest for Immortality
+                    </Link>
                     <Link href="/emunah-timeline" className="block px-4 py-2 text-sm text-secondary font-semibold hover:bg-muted">
                       📖 Emunah Chronicles Timeline
                     </Link>
@@ -137,6 +140,9 @@ export default function Navigation() {
                       {book.title}
                     </Link>
                   ))}
+                  <Link href="/books/quest-for-immortality/characters" className="block py-1 text-sm text-secondary font-semibold">
+                    📚 Characters in The Quest for Immortality
+                  </Link>
                   <Link href="/emunah-timeline" className="block py-1 text-sm text-secondary font-semibold">
                     📖 Emunah Chronicles Timeline
                   </Link>
