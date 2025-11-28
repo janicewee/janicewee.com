@@ -4,6 +4,7 @@ import { Card } from '@/components/ui/card'
 import { Button } from '@/components/ui/button'
 import { ExternalLink, BookOpen } from 'lucide-react'
 import Link from 'next/link'
+import Image from 'next/image'
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
@@ -38,6 +39,17 @@ interface Character {
   name: string
   description: string
   books: string[]
+  image?: string
+}
+
+const characterImages: Record<string, string> = {
+  "Jayden": "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/render/image/public/document-uploads/jayden-1764313053711.jpg?width=8000&height=8000&resize=contain",
+  "Ava": "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/render/image/public/document-uploads/ava-1764313068804.jpg?width=8000&height=8000&resize=contain",
+  "Emunah": "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/render/image/public/document-uploads/emunah-1764313097699.jpg?width=8000&height=8000&resize=contain",
+  "Leo": "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/render/image/public/document-uploads/leo-1764313114235.jpg?width=8000&height=8000&resize=contain",
+  "Penelope": "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/render/image/public/document-uploads/penelope-1764313156021.jpg?width=8000&height=8000&resize=contain",
+  "Oliver": "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/render/image/public/document-uploads/oliver-1764313156611.jpg?width=8000&height=8000&resize=contain",
+  "Emma": "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/render/image/public/document-uploads/emma1-1764313274201.jpg?width=8000&height=8000&resize=contain"
 }
 
 const characters: Character[] = [
@@ -506,11 +518,24 @@ const characters: Character[] = [
     description: "A young woman born in the East. Mei's friend. A devout Christian who was raptured.",
     books: ["The Quest for Immortality"]
   }
-]
+].map(char => ({
+  ...char,
+  image: characterImages[char.name]
+}))
 
 function CharacterCard({ character }: { character: Character }) {
   return (
     <Card className="p-6 hover:shadow-lg transition-shadow">
+      {character.image && (
+        <div className="relative w-full aspect-square mb-4 rounded-lg overflow-hidden">
+          <Image
+            src={character.image}
+            alt={character.name}
+            fill
+            className="object-cover"
+          />
+        </div>
+      )}
       <h3 className="text-xl font-bold text-primary mb-3">{character.name}</h3>
       <p className="text-foreground leading-relaxed mb-4">{character.description}</p>
       {character.books.length > 0 && (
