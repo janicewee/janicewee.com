@@ -49,7 +49,15 @@ const characterImages: Record<string, string> = {
   "Leo": "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/render/image/public/document-uploads/leo-1764313114235.jpg?width=8000&height=8000&resize=contain",
   "Penelope": "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/render/image/public/document-uploads/penelope-1764313156021.jpg?width=8000&height=8000&resize=contain",
   "Oliver": "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/render/image/public/document-uploads/oliver-1764313156611.jpg?width=8000&height=8000&resize=contain",
-  "Emma": "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/render/image/public/document-uploads/emma1-1764313274201.jpg?width=8000&height=8000&resize=contain"
+  "Emma": "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/render/image/public/document-uploads/emma1-1764313274201.jpg?width=8000&height=8000&resize=contain",
+  "Liam": "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/render/image/public/document-uploads/liam-1764314035363.jpg?width=8000&height=8000&resize=contain",
+  "Logan": "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/render/image/public/document-uploads/logan-1764314036164.jpg?width=8000&height=8000&resize=contain",
+  "Ethan": "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/render/image/public/document-uploads/ethan-1764314066461.jpg?width=8000&height=8000&resize=contain",
+  "Abigail": "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/render/image/public/document-uploads/abigail-1764314068143.jpg?width=8000&height=8000&resize=contain",
+  "Beast": "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/render/image/public/document-uploads/beast-1764314124751.jpg?width=8000&height=8000&resize=contain",
+  "Jezebel": "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/render/image/public/document-uploads/jezebel-1764314123488.jpg?width=8000&height=8000&resize=contain",
+  "Ben": "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/render/image/public/document-uploads/ben-1764314186541.jpg?width=8000&height=8000&resize=contain",
+  "Stella": "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/render/image/public/document-uploads/stella-1764314213026.jpg?width=8000&height=8000&resize=contain"
 }
 
 const characters: Character[] = [
