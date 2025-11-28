@@ -114,6 +114,24 @@ export default function QuestForImmortalityPage() {
             </Card>
           </section>
 
+          {/* Characters Section Link */}
+          <section className="mb-12">
+            <Card className="p-8 bg-gradient-to-br from-secondary/10 to-primary/10 border-2 border-secondary/30">
+              <h2 className="text-3xl font-bold text-primary mb-4">Meet the Characters</h2>
+              <p className="text-foreground leading-relaxed mb-6">
+                Discover the complete cast of characters who bring this epic story to life. From Leo and Mei 
+                to Jayden, Billy, and the many others whose lives intertwine across the Tribulation and the 
+                Millennial Kingdom. Each character page includes links to the books where they appear.
+              </p>
+              <Button asChild size="lg">
+                <a href="/books/quest-for-immortality/characters">
+                  Explore All Characters
+                  <ExternalLink className="ml-2 h-4 w-4" />
+                </a>
+              </Button>
+            </Card>
+          </section>
+
           {/* Emunah Chronicles Timeline Link */}
           <section className="mb-12">
             <Card className="p-8 bg-gradient-to-br from-primary/5 to-secondary/5 border-2 border-primary/20">
