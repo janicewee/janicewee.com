@@ -65,7 +65,7 @@ export default function EmunahTimelinePage() {
               title="Disturbing Dreams"
               imageUrl="https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/book1-1760411021422.jpg"
               imageAlt="Disturbing Dreams book cover - pre-rapture thriller featuring sentient AI Asher and corporate conspiracy"
-              description="A sentient AI named Asher fights to save Emunah, uncovering a chilling corporate conspiracy involving aliens and the supernatural. As her world spirals, an eerie truth emerges—one that might just be our near future."
+              description="Disturbing haunt Emunah and her friends. Are these products of overactive imaginations or are they prophetic?"
               link="/books/emunah-book-1-disturbing-dreams"
               linkText="Read more"
             />
@@ -220,7 +220,7 @@ export default function EmunahTimelinePage() {
               imageAlt="Dragon Unbound book cover - epic finale featuring final battle between good and evil in Millennial Kingdom"
               description="In a realm of immortals and lions, mortals Billy and Bluma cling to their love as ancient dragons stir and prophetic destinies unfold. An epic tale of faith, family, and the final battle."
               link="/books/dragon-unbound"
-              linkText="Unleash the dragon"
+              linkText="Join the Adventure"
             />
           </div>
         </div>
