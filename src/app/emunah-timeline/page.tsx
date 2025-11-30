@@ -65,7 +65,7 @@ export default function EmunahTimelinePage() {
               title="Disturbing Dreams"
               imageUrl="https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/book1-1760411021422.jpg"
               imageAlt="Disturbing Dreams book cover - pre-rapture thriller featuring sentient AI Asher and corporate conspiracy"
-              description="Disturbing haunt Emunah and her friends. Are these products of overactive imaginations or are they prophetic?"
+              description="Disturbing Dreams haunt Emunah and her friends. Are these products of overactive imaginations or are they prophetic?"
               link="/books/emunah-book-1-disturbing-dreams"
               linkText="Read more"
             />
