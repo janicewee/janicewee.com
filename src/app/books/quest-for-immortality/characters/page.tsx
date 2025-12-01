@@ -53,7 +53,7 @@ const characterImages: Record<string, string> = {
   "Liam": "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/render/image/public/document-uploads/liam-1764314035363.jpg?width=8000&height=8000&resize=contain",
   "Logan": "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/render/image/public/document-uploads/logan-1764314036164.jpg?width=8000&height=8000&resize=contain",
   "Ethan": "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/render/image/public/document-uploads/ethan-1764314066461.jpg?width=8000&height=8000&resize=contain",
-  "Abigail": "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/render/image/public/document-uploads/abigail-1764314068143.jpg?width=8000&height=8000&resize=contain",
+  "Amelia": "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/render/image/public/document-uploads/abigail-1764314068143.jpg?width=8000&height=8000&resize=contain",
   "Beast": "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/render/image/public/document-uploads/beast-1764314124751.jpg?width=8000&height=8000&resize=contain",
   "Jezebel": "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/render/image/public/document-uploads/jezebel-1764314123488.jpg?width=8000&height=8000&resize=contain",
   "Ben": "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/render/image/public/document-uploads/ben-1764314186541.jpg?width=8000&height=8000&resize=contain",
@@ -61,11 +61,6 @@ const characterImages: Record<string, string> = {
 }
 
 const characters: Character[] = [
-  {
-    name: "Abigail",
-    description: "A woman in her twenties. The main protagonist of Emunah Short Stories.",
-    books: ["Emunah Short Stories Book 1: Abigail", "Emunah Short Stories Book 2: Oliver"]
-  },
   {
     name: "Adonis",
     description: "A beautiful man. Follower of The Antichrist. He has superhuman enhancements.",
