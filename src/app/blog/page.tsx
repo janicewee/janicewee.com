@@ -14,6 +14,15 @@ export const metadata: Metadata = {
 
 const blogPosts = [
   {
+    id: 25,
+    title: "The Romeo and Juliet of The Quest for Immortality",
+    date: "December 1, 2025",
+    author: "Janice Wee",
+    excerpt: "Of all the lovebirds in the Emunah Chronicles novel: The Quest For Immortality, the most memorable pair to me is the tragic couple, Jayden and Ava. Their story is akin to Romeo and Juliet meets Titanic. Although they are secondary characters, their love story spans several books.",
+    imageUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/render/image/public/document-uploads/jaydenavainlove-1764590221153.png?width=8000&height=8000&resize=contain",
+    slug: "romeo-juliet-quest-for-immortality"
+  },
+  {
     id: 24,
     title: "Guillemard East Primary School",
     date: "November 16, 2025",
