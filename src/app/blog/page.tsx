@@ -14,6 +14,15 @@ export const metadata: Metadata = {
 
 const blogPosts = [
   {
+    id: 26,
+    title: "Flourless Chocolate Scone Recipe",
+    date: "December 3, 2025",
+    author: "Janice Wee",
+    excerpt: "These flourless chocolate scones are a chocolate lover's dream! Made with ground almonds instead of flour, they're perfect for those looking for a wheat-free treat. Rich cocoa powder combined with both regular and white chocolate chips creates layers of chocolate flavor in every bite.",
+    imageUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/render/image/public/document-uploads/chocolatescones-1764742693118.jpg?width=8000&height=8000&resize=contain",
+    slug: "flourless-chocolate-scone"
+  },
+  {
     id: 25,
     title: "The Romeo and Juliet of The Quest for Immortality",
     date: "December 1, 2025",
