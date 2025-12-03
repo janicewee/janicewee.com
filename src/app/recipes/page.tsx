@@ -12,6 +12,40 @@ export const metadata: Metadata = {
 
 const recipes = [
   {
+    id: 3,
+    title: "Flourless Chocolate Scone",
+    description: "These flourless chocolate scones are a chocolate lover's dream! Made with ground almonds instead of flour, they're perfect for those looking for a wheat-free treat. Rich cocoa powder combined with both regular and white chocolate chips creates layers of chocolate flavor in every bite.",
+    imageUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/render/image/public/document-uploads/chocolatescones-1764742693118.jpg?width=8000&height=8000&resize=contain",
+    prepTime: "15 minutes",
+    cookTime: "11 minutes",
+    servings: "12-15 scones",
+    ingredients: [
+      "1 1/2 cup ground almonds",
+      "3/4 to 1/2 cup cocoa powder, depending on how chocolatey you want it to be",
+      "1/3 to 1/2 cup regular baking chocolate chips",
+      "1/3 cup white chocolate chips",
+      "1/4 teaspoon baking soda",
+      "A pinch of salt",
+      "2 large eggs or 3 regular eggs",
+      "1 tablespoon honey",
+      "1 teaspoon vanilla extract"
+    ],
+    instructions: [
+      "Preheat the oven at 190 degrees Celsius.",
+      "Mix the dry ingredients together in a large bowl.",
+      "Beat the wet ingredients.",
+      "Make a well in the dry mixture.",
+      "Pour the wet ingredients into the well and stir the wet ingredients into the dry ingredients to make a big lump of dough.",
+      "Line a baking tray with baking paper.",
+      "Scoop and drop spoonfuls of dough on the baking paper.",
+      "Shape each spoonful of dough into a ball.",
+      "Bake these chocolate balls in the oven for 11 minutes.",
+      "Let it cool for 5 minutes.",
+      "Enjoy!"
+    ],
+    blogLink: "/blog/flourless-chocolate-scone"
+  },
+  {
     id: 1,
     title: "Janice's Banana Scones with Chocolate Lava",
     description: "My signature recipe! These moist banana scones with hidden chocolate lava centers are perfect for afternoon tea. The combination of banana and chocolate creates a delightful treat that pairs wonderfully with a good book.",
