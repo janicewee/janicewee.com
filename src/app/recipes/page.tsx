@@ -182,6 +182,18 @@ export default function RecipesPage() {
                           ))}
                         </ol>
                       </div>
+
+                      {/* Blog Link */}
+                      {recipe.blogLink && (
+                        <div className="mt-6">
+                          <Button asChild size="lg" className="w-full">
+                            <a href={recipe.blogLink}>
+                              Read Full Blog Post
+                              <ExternalLink className="ml-2 h-4 w-4" />
+                            </a>
+                          </Button>
+                        </div>
+                      )}
                     </div>
                   </div>
                 </Card>
