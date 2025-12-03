@@ -58,6 +58,12 @@ export default function BillyBlumaPage() {
                     <ExternalLink className="ml-2 h-4 w-4" />
                   </a>
                 </Button>
+                <Button asChild variant="secondary" size="lg" className="w-full md:w-auto md:ml-3">
+                  <a href="https://www.billylionheart.com" target="_blank" rel="noopener noreferrer">
+                    Join Book Community
+                    <ExternalLink className="ml-2 h-4 w-4" />
+                  </a>
+                </Button>
               </div>
             </div>
           </div>
