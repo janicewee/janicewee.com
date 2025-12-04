@@ -58,7 +58,17 @@ const characterImages: Record<string, string> = {
   "Jezebel": "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/render/image/public/document-uploads/jezebel-1764314123488.jpg?width=8000&height=8000&resize=contain",
   "Ben": "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/render/image/public/document-uploads/ben-1764314186541.jpg?width=8000&height=8000&resize=contain",
   "Stella": "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/render/image/public/document-uploads/stella-1764314213026.jpg?width=8000&height=8000&resize=contain",
-  "Billy": "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/render/image/public/document-uploads/littlebilly-1764588211992.png?width=8000&height=8000&resize=contain"
+  "Billy": "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/render/image/public/document-uploads/littlebilly-1764588211992.png?width=8000&height=8000&resize=contain",
+  "Boris": "https://www.janicewee.com/images/Boris.png",
+  "Mei": "https://www.janicewee.com/images/Mei.png",
+  "Jacob": "https://www.janicewee.com/images/Jacob.png",
+  "Joseph": "https://www.janicewee.com/images/Joseph.png",
+  "Lydia": "https://www.janicewee.com/images/Lydia.png",
+  "Leonard": "https://www.janicewee.com/images/Leonard.png",
+  "Seng": "https://www.janicewee.com/images/Seng.png",
+  "Tobey": "https://www.janicewee.com/images/Tobey.png",
+  "Snowball": "https://www.janicewee.com/images/Snowball.png",
+  "Titan": "https://www.janicewee.com/images/Titan.png"
 }
 
 const characters: Character[] = [
