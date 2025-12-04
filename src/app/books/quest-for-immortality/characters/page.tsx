@@ -254,8 +254,8 @@ const characters: Character[] = [
   },
   {
     name: "John (Pastor John)",
-    description: "A descendant of Samson's brother. A student in a Yeshiva. After the Rapture, he is chosen to be one of the 144,000 Jewish Witnesses. During the 7 Year Tribulation, he leads a group of new believers who call him Pastor John.",
-    books: ["Emunah Short Stories : John", "Emunah Short Stories : Mei", "Emunah Short Stories : Mary's Flight"]
+    description: "A Jewish man from Israel and a descendant of Samson's brother. He starts off as a nerdy student in a yeshiva whose family friend cheated his family of their inheritance. He needs money to pay for his ailing mother's medical treatments and trains for a weight lifting competition, hoping to win prize money to pay the bills. His trainer is a Messianic Jew. After the Rapture, John realises that Yeshua is the Messiah and turns to Christianity. He becomes one of the hundred and forty-four thousand Jewish witnesses. With God's mark, he travels around the world evangelising, protecting his flock as they follow him back to Israel. During the 7 Year Tribulation, he leads a group of new believers who call him Pastor John.",
+    books: ["The Quest for Immortality", "Emunah Short Stories : John", "Emunah Short Stories : Mei", "Emunah Short Stories : Mary's Flight"]
   },
   {
     name: "Joseph",
