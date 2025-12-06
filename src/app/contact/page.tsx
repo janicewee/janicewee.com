@@ -9,6 +9,7 @@ import { Textarea } from '@/components/ui/textarea'
 import { Label } from '@/components/ui/label'
 import { Card } from '@/components/ui/card'
 import { useState } from 'react'
+import Link from 'next/link'
 
 export default function ContactPage() {
   const [formData, setFormData] = useState({
@@ -176,7 +177,7 @@ export default function ContactPage() {
                 </p>
                 <div className="flex justify-center gap-4">
                   <Button asChild variant="outline">
-                    <a href="/blog">Read My Blog</a>
+                    <Link href="/blog">Read My Blog</Link>
                   </Button>
                   <Button asChild variant="outline">
                     <a href="/books">Browse My Books</a>
