@@ -921,7 +921,6 @@ export default function HoverReceiver() {
            */
           imgEl.removeAttribute("srcset");
           imgEl.srcset = "";
-
           imgEl.src = src;
 
           // Update baseline src so flush doesn't treat this as pending change
