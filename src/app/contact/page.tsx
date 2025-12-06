@@ -180,7 +180,7 @@ export default function ContactPage() {
                     <Link href="/blog">Read My Blog</Link>
                   </Button>
                   <Button asChild variant="outline">
-                    <a href="/books">Browse My Books</a>
+                    <Link href="/books">Browse My Books</a>
                   </Button>
                 </div>
               </Card>
