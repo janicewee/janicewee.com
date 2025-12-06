@@ -26,7 +26,7 @@ export default function ContactPage() {
     e.preventDefault()
     setIsSubmitting(true)
     setError('')
-    
+     
     try {
       const response = await fetch('/api/contact', {
         method: 'POST',
