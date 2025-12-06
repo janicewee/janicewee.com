@@ -13,6 +13,399 @@ const blogPosts: Record<string, {
   content: string
   imageUrl: string
 }> = {
+  'billy-lionheart-christmas': {
+    title: "Billy Lionheart: The Lion Boy Who'll Steal Your Kids' Hearts This Christmas (And Yours Too)",
+    date: "December 6, 2025",
+    author: "Janice Wee",
+    imageUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/render/image/public/document-uploads/BillyLionheart-1765016057490.png?width=8000&height=8000&resize=contain",
+    content: `
+Remember curling up to Narnia when you were a kid? Bring that joy and wonder into your child's life this Christmas with The Adventures of Billy Lionheart.
+
+## A Series Kids of All Ages Will Love
+
+[It's a series of 3 novels](/books/billy-lionheart-series) that kids of all ages will love!
+
+## The Adventures Await
+
+### Billy The Lion Boy
+Imagine learning to fly a plane when you are only seven. How about exploring a world with your lion guardian, living in a beautiful fantasy forest with talking animals while you frolic among lion cubs as the only human cub in your adoptive lion family.
+
+Join Billy in his journey from orphan raised by lions to royalty as the only son of immortal parents.
+
+[Discover Billy The Lion Boy](https://www.billylionheart.com/books/4)
+
+### Billy & Bluma: Double Trouble
+Experience wonder with Billy and Bluma as they sneak out of school to search for their aunt Mathilda, exploring the brave new world where they meet a mysterious new friend, who turns foe.
+
+[Read Billy & Bluma: Double Trouble](https://www.billylionheart.com/books/5)
+
+### Secret Hero & His Flying Lion
+Returning with super strength, Billy's new power goes wild in this action-packed adventure!
+
+[Explore Secret Hero & His Flying Lion](https://www.billylionheart.com/books/6)
+
+## More Billy Lionheart Resources
+
+**Book Club Resources:** Get fun-filled activities at the [book club resources page](http://www.billylionheart.com/book-club)!
+
+**Join the Community:** Read, connect with fellow friends of Billy and discuss these books at [BillyLionheart.com](http://www.billylionheart.com)!
+
+Give your children the gift of adventure, faith, and friendship this Christmas!
+    `
+  },
+  'flourless-chocolate-scone': {
+    title: "Flourless Chocolate Scone Recipe",
+    date: "December 3, 2025",
+    author: "Janice Wee",
+    imageUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/render/image/public/document-uploads/chocolatescones-1764742693118.jpg?width=8000&height=8000&resize=contain",
+    content: `
+These flourless chocolate scones are a chocolate lover's dream! Made with ground almonds instead of flour, they're perfect for those looking for a wheat-free treat.
+
+## Ingredients
+
+Rich cocoa powder combined with both regular and white chocolate chips creates layers of chocolate flavor in every bite.
+
+## The Perfect Texture
+
+The ground almonds give these scones a wonderful texture that's both tender and satisfying. They're perfect with a cup of tea or coffee while reading your favorite book.
+
+## Baking Tips
+
+- Use high-quality cocoa powder for the best flavor
+- Don't overmix the dough
+- Let them cool slightly before serving for the perfect texture
+
+These scones are ideal for cozy afternoons with a good book. Try them with your next reading session!
+    `
+  },
+  'romeo-juliet-quest-for-immortality': {
+    title: "The Romeo and Juliet of The Quest for Immortality",
+    date: "December 1, 2025",
+    author: "Janice Wee",
+    imageUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/render/image/public/document-uploads/jaydenavainlove-1764590221153.png?width=8000&height=8000&resize=contain",
+    content: `
+Of all the lovebirds in the Emunah Chronicles novel: The Quest For Immortality, the most memorable pair to me is the tragic couple, Jayden and Ava.
+
+## A Tragic Love Story
+
+Their story is akin to Romeo and Juliet meets Titanic. Although they are secondary characters, their love story spans several books.
+
+## Why They're Memorable
+
+What makes Jayden and Ava special is the depth of their connection despite the obstacles they face. Their relationship explores themes of:
+
+- Love in impossible circumstances
+- Sacrifice and devotion
+- Faith tested by tragedy
+- The eternal nature of true love
+
+## Spanning Multiple Books
+
+While not the main characters, Jayden and Ava's story weaves through the Emunah Chronicles, adding emotional depth and showing how love persists even through the darkest times.
+
+Their story reminds us that sometimes the most powerful love stories are the ones we don't expect—the secondary characters who steal our hearts.
+
+[Read their story](/books/quest-for-immortality) in The Quest For Immortality.
+    `
+  },
+  'guillemard-east-primary-school': {
+    title: "Guillemard East Primary School",
+    date: "November 16, 2025",
+    author: "Janice Wee",
+    imageUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/render/image/public/document-uploads/geps-1763381011250.jpg?width=8000&height=8000&resize=contain",
+    content: `
+Guillemard East Primary School was located behind Singapore Badminton Hall. Sadly, it closed in 1987 due to low enrollment.
+
+## Fond Memories
+
+That school held fond childhood memories for me. It's also where my father worked as a teacher.
+
+## Inspiration for Fiction
+
+Fiction inspired by fragments of the Author's memories from decades ago, Little Nonya's Escapades is set in this cherished old school.
+
+## A Piece of Singapore History
+
+The school represents a piece of Singapore's educational history that's now gone. Through my writing, I preserve these memories and share what life was like in a simpler time.
+
+## Personal Connection
+
+Having my father work there as a teacher made the school even more special to me. The halls, classrooms, and playground became the backdrop for many childhood adventures—some real, some imagined, and some that became the foundation for Little Nonya's Escapades.
+
+[Explore Little Nonya's world](/books/little-nonyas-escapades) and discover the school through her eyes.
+    `
+  },
+  'in-memory-of-ah-kong': {
+    title: "In Memory of Ah Kong",
+    date: "November 8, 2025",
+    author: "Janice Wee",
+    imageUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/render/image/public/document-uploads/ahkong-1762693225545.jpg?width=8000&height=8000&resize=contain",
+    content: `
+When Daddy was alive, he told me many stories of his late Dad's youth. My grandfather, Ah Kong, was incredibly strong.
+
+## A Real-Life Strongman
+
+He could do all the stunts performed by circus strongmen. His signature feat was to lift 4 body builders off the ground in a reverse pushup.
+
+## A True Hero
+
+Ah Kong was a hero who once swam out in the open sea to save a stranger from drowning.
+
+## Preserving His Legacy
+
+These stories my father told me have shaped who I am and influenced my writing. The themes of strength, courage, and selfless heroism that appear in my books are inspired by Ah Kong's real-life example.
+
+## More Than Physical Strength
+
+What made Ah Kong truly remarkable wasn't just his physical abilities—it was his character. He used his strength to help others, never to intimidate or show off. That's the kind of hero worth remembering and writing about.
+
+His legacy lives on in the characters I create and the values I try to convey through my stories.
+    `
+  },
+  'a-fathers-heartbreak': {
+    title: "A Father's Heartbreak",
+    date: "November 1, 2025",
+    author: "Janice Wee",
+    imageUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/render/image/public/document-uploads/dragonunboundcurtain-1762090791130.jpg?width=8000&height=8000&resize=contain",
+    content: `
+When I wrote Dragon Unbound, Leia's story stuck in my mind, haunting me.
+
+## Too Real
+
+It's too real, how one could be so busy chasing life's pursuits, even noble causes, that one neglects one's kids.
+
+## The Danger of Misunderstanding
+
+Misunderstandings can lead to bitterness, which can be exploited by wolves in sheep's clothing.
+
+## A Warning in Fiction
+
+Dragon Unbound explores this painful reality through Leia's relationship with her father. He's pursuing noble goals, serving the King, doing "important" work—but in the process, he's losing his daughter.
+
+## Universal Themes
+
+This isn't just a fantasy story. It's a reflection of real-life struggles many families face:
+
+- Work-life balance
+- Prioritizing relationships over achievements
+- The consequences of emotional neglect
+- How the enemy uses our weaknesses
+
+## Why It Haunts Me
+
+Leia's story haunts me because I've seen it play out in real life. Good people, doing good things, but missing what matters most—their children's hearts.
+
+[Read Dragon Unbound](/books/dragon-unbound) and discover how this father's heartbreak unfolds—and whether reconciliation is possible.
+    `
+  },
+  'dragon-unbound-new-trailer': {
+    title: "Dragon Unbound: New Book Trailer Unveiled",
+    date: "October 15, 2025",
+    author: "Janice Wee",
+    imageUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/dragonunboundwhite-1760676617965.jpg",
+    content: `
+I just created a new trailer for my latest book, Dragon Unbound.
+
+## The Story
+
+After a thousand years of paradise on earth, Dragon is released, driving a wedge between Billy and his family.
+
+## A World Divided
+
+In a realm where mortals live under the divine rule of the King of Kings, best friends turned lovers Billy, gifted with divine strength, and Bluma face a world fracturing under Dragon, the Great Deceiver's lies.
+
+## The Ultimate Test
+
+As Dragon recruits fallen man to his cause, sparking betrayal among families—sons and daughters against parents—alliances shatter, and loyalties are tested.
+
+## The Question
+
+Who will stand? Who will fall?
+
+## Watch the Trailer
+
+The new trailer captures the epic scope of this story, showing the beauty of the millennial kingdom before Dragon's release and the chaos that follows.
+
+## What Readers Are Saying
+
+Readers have called Dragon Unbound my best work yet—a perfect blend of family drama, spiritual warfare, and faith-based adventure.
+
+[Get your copy today](/books/dragon-unbound) and experience the story that's captivating readers worldwide.
+    `
+  },
+  'memoirs-tropical-island-girl': {
+    title: "Memoirs of a Tropical Island Girl",
+    date: "October 1, 2025",
+    author: "Janice Wee",
+    imageUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/nonya-escapades-1760677006633.jpg",
+    content: `
+Numbers switch places and letters confuse Tammy when she's tired. She's probably dyslexic. Who knows? She was never diagnosed. No one ever suspected.
+
+## Hidden Struggles
+
+Who could ever guess that the girl who topped the entire cohort year after year might have a learning disability!
+
+## From Memory to Fiction
+
+When I first wrote Little Nonya Escapades, I intended to write a fictional story, using my own childhood memories as an initial draft.
+
+## A Personal Connection
+
+The character of Tammy reflects some of my own experiences—the struggle with letters and numbers that nobody saw, the pressure to perform, the hidden challenges that shaped who I became.
+
+## More Than Just a Story
+
+Little Nonya Escapades became more than fiction. It became a way to process my childhood, to celebrate the resilience of children who face hidden challenges, and to honor the experience of growing up as a Straits Born Chinese in Singapore.
+
+## Themes Explored
+
+- Hidden learning differences
+- Cultural identity
+- Childhood resilience
+- The pressure to succeed
+- Finding your place in the world
+
+## Why It Matters
+
+By sharing Tammy's story, I hope to encourage children (and adults) who struggle in ways others don't see. You're not alone. Your challenges don't define you. And sometimes, the greatest successes come from those who had to work hardest.
+
+[Read Little Nonya's Escapades](/books/little-nonyas-escapades) and discover Tammy's world.
+    `
+  },
+  'flights-of-fantasy': {
+    title: "Flights of Fantasy with Janice Wee",
+    date: "September 23, 2025",
+    author: "Janice Wee",
+    imageUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/IMG_0194-1760677132993.jpeg",
+    content: `
+Mary flees from her birth home to her ancestral land. She falls in love with her gorgeous landlord. Then global chaos hits.
+
+## A Charismatic Leader
+
+A charismatic leader promises peace, but things are not what they seem.
+
+## Grounded in Reality
+
+This gripping fantasy adventure is grounded in reality, exploring themes of faith, family, and the eternal battle between good and evil.
+
+## The World of Mary's Flight
+
+Mary's Flight takes readers on a journey through:
+
+- Romance in turbulent times
+- The rise of global deception
+- Faith tested by fear
+- The choice between comfort and truth
+- Love in the midst of apocalypse
+
+## Why This Story Matters
+
+While fantastical in many ways, Mary's Flight asks relevant questions: What would you do if the world fell apart? Who would you trust? How far would you go to protect those you love?
+
+## Part of the Emunah Chronicles
+
+Mary's Flight is part of the larger Emunah Chronicles series, showing one woman's journey through the end times with faith, courage, and love.
+
+[Explore Mary's world](/books/emunah-book-8-marys-flight) and discover what happens when fantasy meets reality.
+    `
+  },
+  'free-ebooks-promotion': {
+    title: "Free Ebooks: Current Promotions",
+    date: "September 19, 2025",
+    author: "Janice Wee",
+    imageUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/questforimmortality-1760677198452.jpg",
+    content: `
+Craving an Epic Adventure? Grab The Quest for Immortality FREE Now!
+
+## Limited Time Offer
+
+Looking for a thrilling read at zero cost? My must-read Emunah Chronicles novel, The Quest for Immortality, is yours FREE in PDF format—normally $9.99 on online stores!
+
+## My Thank You
+
+This limited-time offer is my thank-you to you for your amazing support.
+
+## Don't Miss Out
+
+Dive into a world of mystery and eternal quests before this exclusive giveaway ends without any prior warning!
+
+## What You'll Get
+
+The Quest for Immortality is a complete novel featuring:
+
+- Dystopian to utopian transformation
+- Biblical prophecy wrapped in fiction
+- Compelling characters you'll care about
+- Fast-paced action and adventure
+- Themes of faith, hope, and redemption
+
+## Why This Book?
+
+This is one of my most popular novels, beloved by readers for its unique take on end-times prophecy and its hopeful message about God's ultimate victory.
+
+## How to Get Your Free Copy
+
+Visit [my website](https://www.janicewee.com) to download your free PDF copy before this offer expires!
+
+Don't wait—this promotion could end at any time!
+    `
+  },
+  'cosy-mysteries-unexpected-twists': {
+    title: "Cosy Mysteries: Lighthearted Reads with Unexpected Twists",
+    date: "September 1, 2025",
+    author: "Janice Wee",
+    imageUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/twoworlds-1760677286238.jpg",
+    content: `
+Looking for a good cosy mystery? I've got two for you.
+
+## For Historical Romance Lovers
+
+If you love historical romances, I recommend Two Worlds.
+
+## For High School Adventures
+
+If you like high school tales with crushes, superpowers and talking animals, you'd love Secret Hero & His Flying Lion.
+
+## Billy and Bluma's Story
+
+Billy has known Bluma since they were babies. But when they meet in St Lydia's Academy, something's changed.
+
+## What Makes These Cosy Mysteries?
+
+These books combine:
+
+- Gentle suspense (no graphic violence)
+- Character-driven plots
+- Satisfying mysteries
+- Clean content suitable for all ages
+- Unexpected twists that surprise without shocking
+
+## Two Worlds
+
+A historical romance with mystery elements, Two Worlds takes you on a journey through time and love, exploring:
+
+- Cross-cultural connections
+- Historical settings
+- Romantic tension
+- A mystery that spans generations
+
+## Secret Hero & His Flying Lion
+
+This contemporary fantasy cosy mystery features:
+
+- A high school setting
+- Supernatural abilities
+- Talking animals
+- Young romance
+- A mystery threatening the school
+
+## Perfect for Cozy Reading
+
+Both books are perfect for curling up with a cup of tea on a quiet afternoon. They'll keep you guessing without keeping you up at night!
+
+[Explore Two Worlds](/books/two-worlds) or [discover Secret Hero](/books/secret-hero-flying-lion) today!
+    `
+  },
   'grand-finale-favorite-book': {
     title: "Grand Finale: Janice Wee's Favorite Book",
     date: "August 31, 2025",
