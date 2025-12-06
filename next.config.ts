@@ -20,14 +20,13 @@ const nextConfig: NextConfig = {
   typescript: {
     ignoreBuildErrors: true,
   },
-  // Temporarily disable turbopack loader to debug
-  // turbopack: {
-  //   rules: {
-  //     "*.{jsx,tsx}": {
-  //       loaders: [LOADER]
-  //     }
-  //   }
-  // }
+  turbopack: {
+    rules: {
+      "*.{jsx,tsx}": {
+        loaders: [LOADER]
+      }
+    }
+  }
 };
 
 export default nextConfig;
