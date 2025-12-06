@@ -913,24 +913,22 @@ export default function HoverReceiver() {
         if ((element as HTMLElement).tagName.toLowerCase() === "img") {
           const imgEl = element as HTMLImageElement;
 
-          {
-            /*
-             * Clear any existing responsive sources so the newly uploaded image
-             * always displays.  Some frameworks (e.g. Next.js) add a `srcset`
-             * attribute which can override `src` in certain viewport/device
-             * scenarios, so we strip it out before setting the new source.
-             */
-            imgEl.removeAttribute("srcset");
-            imgEl.srcset = "";
+          /*
+           * Clear any existing responsive sources so the newly uploaded image
+           * always displays.  Some frameworks (e.g. Next.js) add a `srcset`
+           * attribute which can override `src` in certain viewport/device
+           * scenarios, so we strip it out before setting the new source.
+           */
+          imgEl.removeAttribute("srcset");
+          imgEl.srcset = "";
 
-            imgEl.src = src;
+          imgEl.src = src;
 
-            // Update baseline src so flush doesn't treat this as pending change
-            originalSrcRef.current = normalizeImageSrc(src);
-            focusedImageElementRef.current = imgEl;
+          // Update baseline src so flush doesn't treat this as pending change
+          originalSrcRef.current = normalizeImageSrc(src);
+          focusedImageElementRef.current = imgEl;
 
-            imgEl.onload = () => updateFocusBox();
-          }
+          imgEl.onload = () => updateFocusBox();
         }
       } else if (e.data?.type === "RESIZE_ELEMENT") {
         const { elementId, width, height } = e.data;
