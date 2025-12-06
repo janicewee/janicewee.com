@@ -14,6 +14,15 @@ export const metadata: Metadata = {
 
 const blogPosts = [
   {
+    id: 27,
+    title: "Billy Lionheart: The Lion Boy Who'll Steal Your Kids' Hearts This Christmas (And Yours Too)",
+    date: "December 6, 2025",
+    author: "Janice Wee",
+    excerpt: "Remember curling up to Narnia when you were a kid? Bring that joy and wonder into your child's life this Christmas with The Adventures of Billy Lionheart. It's a series of 3 novels that kids of all ages will love! Imagine learning to fly a plane when you are only seven, exploring a world with your lion guardian, and living in a beautiful fantasy forest with talking animals.",
+    imageUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/render/image/public/document-uploads/BillyLionheart-1765016057490.png?width=8000&height=8000&resize=contain",
+    slug: "billy-lionheart-christmas"
+  },
+  {
     id: 26,
     title: "Flourless Chocolate Scone Recipe",
     date: "December 3, 2025",
