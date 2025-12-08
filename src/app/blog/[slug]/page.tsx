@@ -37,6 +37,8 @@ Join Billy in his journey from orphan raised by lions to royalty as the only son
 ### Billy & Bluma: Double Trouble
 Experience wonder with Billy and Bluma as they sneak out of school to search for their aunt Mathilda, exploring the brave new world where they meet a mysterious new friend, who turns foe.
 
+Billy's parents gave him a glowing orb which comes in useful as a floating lamp, lighting the way for Bluma and Billy, while they sneak away under Leonard Lion's watch. Expect squabbles, shenanigans and unbreakable friendship as this unlikely trio stumbles into Junta's clutches. This is the adventure where Billy gains super strength.
+
 [Read Billy & Bluma: Double Trouble](https://www.billylionheart.com/books/5)
 
 ### Secret Hero & His Flying Lion
