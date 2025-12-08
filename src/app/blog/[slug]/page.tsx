@@ -44,6 +44,8 @@ Billy's parents gave him a glowing orb which comes in useful as a floating lamp,
 ### Secret Hero & His Flying Lion
 Returning with super strength, Billy's new power goes wild in this action-packed adventure!
 
+Mentored by their mysterious gym teacher, Samson, Billy and his friends train to be the new generation of super heroes, while they solve the mystery as to who poisoned Leonard Lion.
+
 [Explore Secret Hero & His Flying Lion](https://www.billylionheart.com/books/6)
 
 ## More Billy Lionheart Resources
