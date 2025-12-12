@@ -96,6 +96,12 @@ export default function DragonUnboundPage() {
                     <ExternalLink className="ml-2 h-4 w-4" />
                   </a>
                 </Button>
+                <Button asChild size="lg" className="w-full md:w-auto md:ml-3">
+                  <a href="https://www.amazon.com/Dragon-Unbound-Janice-Wee/dp/B0FGGHY6GS" target="_blank" rel="noopener noreferrer">
+                    Buy on Amazon
+                    <ExternalLink className="ml-2 h-4 w-4" />
+                  </a>
+                </Button>
                 <Button asChild variant="outline" size="lg" className="w-full md:w-auto md:ml-3">
                   <a href="https://www.barnesandnoble.com/s/dragon%20unbound%20janice%20wee" target="_blank" rel="noopener noreferrer">
                     Buy on Barnes & Noble
