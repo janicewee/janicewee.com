@@ -13,6 +13,52 @@ const blogPosts: Record<string, {
   content: string
   imageUrl: string
 }> = {
+  'emunah-chronicles-universe': {
+    title: "The Emunah Chronicles universe",
+    date: "December 15, 2025",
+    author: "Janice Wee",
+    imageUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/render/image/public/document-uploads/abigailbook-1765759457851.jpg?width=8000&height=8000&resize=contain",
+    content: `
+One project I've been procrastinating for way too long is to give readers a full character list of the entire Emunah Chronicles universe, comprising of the original Emunah Chronicles books and The Quest for Immortality, all 8 books of Emunah Short Stories, The Adventures of Billy Lionheart and Dragon Unbound, so that you can see how the stories connect and the story arcs of your favourite characters across the books.
+
+## A Comprehensive View
+
+I wrote the content for this new website, with nuggets from each book and tidbits about each character, put together in what I hope is a comprehensive view of this fictional world I created.
+
+## Bible Prophecy Fiction
+
+It's Bible prophecy fiction based on our real world, so it's realistic fiction? I honestly have no idea how to categorise my work.
+
+## Inspired by Real People
+
+These fictional characters are inspired multiple aspects of many real people, mixed and matched like rojak so that none of the people who inspired these characters can be identified.
+
+## Explore the Universe
+
+I'll stop rambling. Presenting The Emunah Chronicles Universe.
+
+[Visit emunahchronicles.com](https://emunahchronicles.com) to explore the full character list, story connections, and character arcs across all the books in this fictional universe.
+
+## What You'll Find
+
+The website includes:
+
+- Complete character lists from all books
+- How the stories interconnect
+- Character story arcs spanning multiple books
+- Details from the original Emunah Chronicles
+- The Quest for Immortality connections
+- All 8 Emunah Short Stories characters
+- The Adventures of Billy Lionheart universe
+- Dragon Unbound characters and their journeys
+
+## A World Built Over Time
+
+This universe has grown organically over years of writing, with characters appearing across multiple books and storylines weaving together in unexpected ways. Now you can finally see the big picture!
+
+Enjoy exploring the Emunah Chronicles Universe!
+    `
+  },
   'billy-lionheart-christmas': {
     title: "Billy Lionheart: The Lion Boy Who'll Steal Your Kids' Hearts This Christmas (And Yours Too)",
     date: "December 6, 2025",

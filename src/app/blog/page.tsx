@@ -14,6 +14,15 @@ export const metadata: Metadata = {
 
 const blogPosts = [
   {
+    id: 28,
+    title: "The Emunah Chronicles universe",
+    date: "December 15, 2025",
+    author: "Janice Wee",
+    excerpt: "One project I've been procrastinating for way too long is to give readers a full character list of the entire Emunah Chronicles universe, comprising of the original Emunah Chronicles books and The Quest for Immortality, all 8 books of Emunah Short Stories, The Adventures of Billy Lionheart and Dragon Unbound, so that you can see how the stories connect and the story arcs of your favourite characters across the books.",
+    imageUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/render/image/public/document-uploads/abigailbook-1765759457851.jpg?width=8000&height=8000&resize=contain",
+    slug: "emunah-chronicles-universe"
+  },
+  {
     id: 27,
     title: "Billy Lionheart: The Lion Boy Who'll Steal Your Kids' Hearts This Christmas (And Yours Too)",
     date: "December 6, 2025",
