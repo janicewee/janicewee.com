@@ -10,6 +10,62 @@ export const metadata: Metadata = {
   description: "Explore all fantasy novels by Janice Wee: Dragon Unbound, Billy The Lion Boy, The Quest For Immortality, and the Billy Lionheart Series.",
 }
 
+const featuredBooks = [
+  {
+    id: 17,
+    title: "Dragon Unbound",
+    slug: "dragon-unbound",
+    description: "After a thousand years, the prophecy comes true. Dragon is released from his prison. The epic finale to the Emunah Chronicles. Set during the Millennial Kingdom, where biblical prophecy unfolds amidst the everyday lives of mortals and immortals alike.",
+    coverUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/dragonunbound-1760074636345.jpg",
+    review: "A must-read for fans of Christian speculative fiction, Janice Wee's Dragon Unbound plunges readers into a vibrant narrative set during the Millennial Kingdom.",
+    reviewer: "Ting Chin",
+    stars: 5,
+    buyLinks: [
+      { name: "Books2Read", url: "https://books2read.com/u/4NJ9p9" },
+      { name: "Barnes & Noble", url: "https://www.barnesandnoble.com/s/dragon%20unbound%20janice%20wee" }
+    ]
+  },
+  {
+    id: 11,
+    title: "Billy The Lion Boy",
+    slug: "billy-the-lion-boy",
+    description: "Billy is an orphan who yearns to be reunited with his parents. His guardian is a lion who is his fierce protector despite the youngster's penchant for mischief. An imaginative story with a gentle perspective on love and loss.",
+    coverUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/billylionheart-1760074636207.jpg",
+    review: "An entertaining and imaginative story. Fun to read with a gentle perspective on love and loss.",
+    reviewer: "Kindle Customer",
+    stars: 4,
+    buyLinks: [
+      { name: "Books2Read", url: "https://books2read.com/u/mdxKd5" },
+      { name: "Barnes & Noble", url: "https://www.barnesandnoble.com/s/billy%20the%20lion%20boy%20janice%20wee" }
+    ]
+  },
+  {
+    id: 16,
+    title: "The Quest for Immortality",
+    slug: "quest-for-immortality",
+    description: "A dystopian to utopian prophecy tale. Is transhumanism the key to immortality? One path leads to death while another to the brightest hope of eternity. The main story for the Emunah Chronicles series.",
+    coverUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/book3k-1760074872135.jpg",
+    review: "Fiction or Reality? Is this the future? A must read. The author is creative & insightful in weaving a story that grips you to the very end.",
+    reviewer: "Yvonne Sequerah",
+    stars: 5,
+    buyLinks: [
+      { name: "Books2Read", url: "https://books2read.com/u/boXak1" },
+      { name: "Barnes & Noble", url: "https://www.barnesandnoble.com/s/quest%20for%20immortality%20janice%20wee" }
+    ]
+  },
+  {
+    id: 100,
+    title: "The Adventures of Billy Lionheart Series",
+    slug: "billy-lionheart-series",
+    description: "The complete series featuring Billy, an orphan with super strength, and his flying lion guardian Leonard. Includes Billy The Lion Boy, Billy & Bluma: Double Trouble, and Secret Hero & His Flying Lion.",
+    coverUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/render/image/public/document-uploads/BillyLionheart-1765016057490.png?width=8000&height=8000&resize=contain",
+    buyLinks: [
+      { name: "Books2Read", url: "https://books2read.com/ap/8G2gQM/Janice-Wee" },
+      { name: "Barnes & Noble", url: "https://www.barnesandnoble.com" }
+    ]
+  }
+]
+
 const books = [
   {
     id: 1,
