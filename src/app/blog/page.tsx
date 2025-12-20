@@ -77,6 +77,15 @@ const blogPosts = [
     slug: "a-fathers-heartbreak"
   },
   {
+    id: 18,
+    title: "Banana Scone Recipe",
+    date: "October 6, 2025",
+    author: "Janice Wee",
+    excerpt: "What better way to enjoy a good fantasy novel than with freshly baked scones and a warm cup of tea? Discover my favorite banana scone recipe that pairs perfectly with an afternoon of reading. These moist treats with hidden chocolate lava centers are my signature bake.",
+    imageUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/bananascone1-1760153643221.jpg",
+    slug: "banana-scone-recipe"
+  },
+  {
     id: 17,
     title: "Dragon Unbound: New Book Trailer Unveiled",
     date: "October 15, 2025",
