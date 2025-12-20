@@ -379,22 +379,82 @@ export default function BooksPage() {
     <>
       <Navigation />
       
-      <main className="min-h-screen bg-background">
-        {/* Header */}
-        <section className="bg-gradient-to-b from-primary/10 to-background py-16">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-            <h1 className="text-5xl font-bold text-primary mb-4">My Books</h1>
-            <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-              Explore my collection of fantasy novels woven with faith and family themes
-            </p>
-          </div>
-        </section>
+        <main className="min-h-screen bg-background">
+          {/* Header */}
+          <section className="bg-gradient-to-b from-primary/10 to-background py-16">
+            <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+              <h1 className="text-5xl font-bold text-primary mb-4">My Books</h1>
+              <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
+                Explore my collection of fantasy novels woven with faith and family themes
+              </p>
+            </div>
+          </section>
 
-        {/* Books Grid */}
-        <section className="py-16">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="grid md:grid-cols-2 gap-8">
-              {books.map((book) => (
+          {/* Featured Books Grid */}
+          <section className="py-16 bg-muted/30">
+            <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+              <h2 className="text-4xl font-bold text-primary mb-12 text-center">The Main Collection</h2>
+              <div className="grid md:grid-cols-2 gap-8">
+                {featuredBooks.map((book) => (
+                  <Card key={book.id} className="overflow-hidden border-2 border-primary/20 shadow-xl">
+                    <div className="grid sm:grid-cols-5 gap-6 p-6">
+                      <div className="sm:col-span-2">
+                        <a href={`/books/${book.slug}`}>
+                          <div className="relative aspect-[2/3] rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-shadow">
+                            <img
+                              src={book.coverUrl}
+                              alt={book.title}
+                              className="w-full h-full object-cover"
+                            />
+                          </div>
+                        </a>
+                      </div>
+
+                      <div className="sm:col-span-3 flex flex-col">
+                        <a href={`/books/${book.slug}`}>
+                          <h2 className="text-2xl font-bold text-primary mb-3 hover:underline leading-tight">{book.title}</h2>
+                        </a>
+                        
+                        <p className="text-foreground mb-4 leading-relaxed flex-grow">
+                          {book.description}
+                        </p>
+
+                        {book.review && (
+                          <div className="mb-4 p-4 bg-primary/5 rounded-lg border border-primary/10">
+                            <div className="flex mb-2">
+                              {[...Array(5)].map((_, i) => (
+                                <Star key={i} className={`h-4 w-4 ${i < (book.stars || 0) ? 'fill-secondary text-secondary' : 'text-secondary'}`} />
+                              ))}
+                            </div>
+                            <p className="text-sm text-foreground italic">"{book.review}"</p>
+                            <p className="text-xs text-muted-foreground mt-2 font-semibold">— {book.reviewer}</p>
+                          </div>
+                        )}
+
+                        <div className="space-y-2 mt-auto">
+                          {book.buyLinks.map((link, index) => (
+                            <Button key={index} asChild className="w-full" variant={index === 0 ? "default" : "outline"}>
+                              <a href={link.url} target="_blank" rel="noopener noreferrer">
+                                Buy on {link.name}
+                                <ExternalLink className="ml-2 h-4 w-4" />
+                              </a>
+                            </Button>
+                          ))}
+                        </div>
+                      </div>
+                    </div>
+                  </Card>
+                ))}
+              </div>
+            </div>
+          </section>
+
+          {/* Full Collection Section */}
+          <section className="py-16">
+            <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+              <h2 className="text-3xl font-bold text-primary mb-12">Full Collection</h2>
+              <div className="grid md:grid-cols-2 gap-8">
+                {books.map((book) => (
                 <Card key={book.id} className="overflow-hidden">
                   <div className="grid sm:grid-cols-5 gap-6 p-6">
                     {/* Book Cover */}
