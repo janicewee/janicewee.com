@@ -169,42 +169,28 @@ const books = [
       { name: "Barnes & Noble", url: "https://www.barnesandnoble.com/w/marys-flight-janice-wee/1146790785" }
     ]
   },
-  {
-    id: 10,
-    title: "The Mark and The Martyr",
-    slug: "the-mark-and-the-martyr",
-    description: "A compilation of Emunah Short Stories Book 5 to Book 8. Four powerful stories of faith, survival, and divine protection during the end times.",
-    coverUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/markmartyr-1760410897201.jpg",
-    buyLinks: [
-      { name: "Amazon", url: "https://www.amazon.com.au/Mark-Martyr-2-Janice-Wee/dp/B0DZN43SH7" },
-      { name: "Barnes & Noble", url: "https://www.barnesandnoble.com/w/the-mark-and-the-martyr-janice-wee/1147095024" }
-    ]
-  },
-  {
-    id: 11,
-    title: "Billy The Lion Boy",
-    slug: "billy-the-lion-boy",
-    description: "Billy is an orphan who yearns to be reunited with his parents. His guardian is a lion who is his fierce protector despite the youngster's penchant for mischief.",
-    coverUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/billylionheart-1760074636207.jpg",
-    review: "An entertaining and imaginative story. Fun to read with a gentle perspective on love and loss.",
-    reviewer: "Kindle Customer",
-    stars: 4,
-    buyLinks: [
-      { name: "Books2Read", url: "https://books2read.com/u/mdxKd5" },
-      { name: "Barnes & Noble", url: "https://www.barnesandnoble.com/s/billy%20the%20lion%20boy%20janice%20wee" }
-    ]
-  },
-  {
-    id: 12,
-    title: "Billy & Bluma: Double Trouble",
-    slug: "billy-bluma-double-trouble",
-    description: "Billy reunites with his childhood friend Bluma, and together they stumble upon a mysterious glowing orb that leads to their greatest adventure yet.",
-    coverUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/billybluma-1760074636547.jpg",
-    buyLinks: [
-      { name: "Books2Read", url: "https://books2read.com/u/mYeeQP" },
-      { name: "Barnes & Noble", url: "https://www.barnesandnoble.com/s/billy%20bluma%20double%20trouble%20janice%20wee" }
-    ]
-  },
+    {
+      id: 10,
+      title: "The Mark and The Martyr",
+      slug: "the-mark-and-the-martyr",
+      description: "A compilation of Emunah Short Stories Book 5 to Book 8. Four powerful stories of faith, survival, and divine protection during the end times.",
+      coverUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/markmartyr-1760410897201.jpg",
+      buyLinks: [
+        { name: "Amazon", url: "https://www.amazon.com.au/Mark-Martyr-2-Janice-Wee/dp/B0DZN43SH7" },
+        { name: "Barnes & Noble", url: "https://www.barnesandnoble.com/w/the-mark-and-the-martyr-janice-wee/1147095024" }
+      ]
+    },
+    {
+      id: 12,
+      title: "Billy & Bluma: Double Trouble",
+      slug: "billy-bluma-double-trouble",
+      description: "Billy reunites with his childhood friend Bluma, and together they stumble upon a mysterious glowing orb that leads to their greatest adventure yet.",
+      coverUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/billybluma-1760074636547.jpg",
+      buyLinks: [
+        { name: "Books2Read", url: "https://books2read.com/u/mYeeQP" },
+        { name: "Barnes & Noble", url: "https://www.barnesandnoble.com/s/billy%20bluma%20double%20trouble%20janice%20wee" }
+      ]
+    },
   {
     id: 13,
     title: "Secret Hero & His Flying Lion",
