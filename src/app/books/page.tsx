@@ -53,17 +53,20 @@ const featuredBooks = [
       { name: "Barnes & Noble", url: "https://www.barnesandnoble.com/s/quest%20for%20immortality%20janice%20wee" }
     ]
   },
-  {
-    id: 100,
-    title: "The Adventures of Billy Lionheart Series",
-    slug: "billy-lionheart-series",
-    description: "The complete series featuring Billy, an orphan with super strength, and his flying lion guardian Leonard. Includes Billy The Lion Boy, Billy & Bluma: Double Trouble, and Secret Hero & His Flying Lion.",
-    coverUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/render/image/public/document-uploads/BillyLionheart-1765016057490.png?width=8000&height=8000&resize=contain",
-    buyLinks: [
-      { name: "Books2Read", url: "https://books2read.com/ap/8G2gQM/Janice-Wee" },
-      { name: "Barnes & Noble", url: "https://www.barnesandnoble.com" }
-    ]
-  }
+    {
+      id: 100,
+      title: "The Adventures of Billy Lionheart Series",
+      slug: "billy-lionheart-series",
+      description: "The complete series featuring Billy, an orphan with super strength, and his flying lion guardian Leonard. Includes Billy The Lion Boy, Billy & Bluma: Double Trouble, and Secret Hero & His Flying Lion.",
+      coverUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/render/image/public/document-uploads/BillyLionheart-1765016057490.png?width=8000&height=8000&resize=contain",
+      review: "An entertaining and imaginative story. Fun to read with a gentle perspective on love and loss. Billy is an orphan who yearns to be reunited with his parents. His guardian is a lion who is his fierce protector despite the youngster's penchant for mischief.",
+      reviewer: "Kindle Customer",
+      stars: 4,
+      buyLinks: [
+        { name: "Books2Read", url: "https://books2read.com/ap/8G2gQM/Janice-Wee" },
+        { name: "Barnes & Noble", url: "https://www.barnesandnoble.com" }
+      ]
+    }
 ]
 
 const books = [
