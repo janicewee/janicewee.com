@@ -56,12 +56,12 @@ export default function AboutPage() {
         <section className="bg-gradient-to-b from-primary/10 to-background py-16">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="grid md:grid-cols-2 gap-12 items-center">
-              <div>
-                <h1 className="text-5xl font-bold text-primary mb-6">About Janice Wee</h1>
-                <p className="text-xl text-foreground leading-relaxed">
-                  Author of adventure and romance
-                </p>
-              </div>
+                <div>
+                  <h1 className="text-5xl font-bold text-primary mb-6">About Janice Wee</h1>
+                  <p className="text-xl text-foreground leading-relaxed">
+                    Indie Author of Christian Speculative Fiction & Fantasy
+                  </p>
+                </div>
               <div className="relative aspect-square rounded-lg overflow-hidden shadow-2xl">
                 <img
                   src="https://images.unsplash.com/photo-1516979187457-637abb4f9353?w=600&h=600&fit=crop"
