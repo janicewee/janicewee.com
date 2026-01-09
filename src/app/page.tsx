@@ -79,9 +79,9 @@ export default function Home() {
               href="/books" 
               className="relative aspect-[16/9] md:aspect-[3/2] rounded-lg overflow-hidden shadow-2xl hover:shadow-3xl transition-shadow cursor-pointer group"
             >
-              <Image
-                src="https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/render/image/public/document-uploads/web-banner-1762611823263.png?width=8000&height=8000&resize=contain"
-                alt="Collection of Janice Wee's book covers featuring Secret Hero & His Flying Lion, Little Nonya's Escapades, and Emunah Book 1: Disturbing Dreams"
+                <Image
+                  src="https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/render/image/public/document-uploads/web-banner-1762611823263.png?width=1200&height=1200&resize=contain"
+                  alt="Collection of Janice Wee's book covers featuring Secret Hero & His Flying Lion, Little Nonya's Escapades, and Emunah Book 1: Disturbing Dreams"
                 fill
                 className="object-cover group-hover:scale-105 transition-transform duration-300"
                 priority
