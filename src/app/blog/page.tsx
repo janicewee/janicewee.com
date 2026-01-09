@@ -19,7 +19,7 @@ const blogPosts = [
     date: "December 15, 2025",
     author: "Janice Wee",
     excerpt: "One project I've been procrastinating for way too long is to give readers a full character list of the entire Emunah Chronicles universe, comprising of the original Emunah Chronicles books and The Quest for Immortality, all 8 books of Emunah Short Stories, The Adventures of Billy Lionheart and Dragon Unbound, so that you can see how the stories connect and the story arcs of your favourite characters across the books.",
-    imageUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/render/image/public/document-uploads/abigailbook-1765759457851.jpg?width=8000&height=8000&resize=contain",
+    imageUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/render/image/public/document-uploads/abigailbook-1765759457851.jpg?width=1200&height=1200&resize=contain",
     slug: "emunah-chronicles-universe"
   },
   {
@@ -28,7 +28,7 @@ const blogPosts = [
     date: "December 6, 2025",
     author: "Janice Wee",
     excerpt: "Remember curling up to Narnia when you were a kid? Bring that joy and wonder into your child's life this Christmas with The Adventures of Billy Lionheart. It's a series of 3 novels that kids of all ages will love! Imagine learning to fly a plane when you are only seven, exploring a world with your lion guardian, and living in a beautiful fantasy forest with talking animals.",
-    imageUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/render/image/public/document-uploads/BillyLionheart-1765016057490.png?width=8000&height=8000&resize=contain",
+    imageUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/render/image/public/document-uploads/BillyLionheart-1765016057490.png?width=1200&height=1200&resize=contain",
     slug: "billy-lionheart-christmas"
   },
   {
@@ -37,7 +37,7 @@ const blogPosts = [
     date: "December 3, 2025",
     author: "Janice Wee",
     excerpt: "These flourless chocolate scones are a chocolate lover's dream! Made with ground almonds instead of flour, they're perfect for those looking for a wheat-free treat. Rich cocoa powder combined with both regular and white chocolate chips creates layers of chocolate flavor in every bite.",
-    imageUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/render/image/public/document-uploads/chocolatescones-1764742693118.jpg?width=8000&height=8000&resize=contain",
+    imageUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/render/image/public/document-uploads/chocolatescones-1764742693118.jpg?width=1200&height=1200&resize=contain",
     slug: "flourless-chocolate-scone"
   },
   {
@@ -46,7 +46,7 @@ const blogPosts = [
     date: "December 1, 2025",
     author: "Janice Wee",
     excerpt: "Of all the lovebirds in the Emunah Chronicles novel: The Quest For Immortality, the most memorable pair to me is the tragic couple, Jayden and Ava. Their story is akin to Romeo and Juliet meets Titanic. Although they are secondary characters, their love story spans several books.",
-    imageUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/render/image/public/document-uploads/jaydenavainlove-1764590221153.png?width=8000&height=8000&resize=contain",
+    imageUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/render/image/public/document-uploads/jaydenavainlove-1764590221153.png?width=1200&height=1200&resize=contain",
     slug: "romeo-juliet-quest-for-immortality"
   },
   {
@@ -55,7 +55,7 @@ const blogPosts = [
     date: "November 16, 2025",
     author: "Janice Wee",
     excerpt: "Guillemard East Primary School was located behind Singapore Badminton Hall. Sadly, it closed in 1987 due to low enrollment. That school held fond childhood memories for me. It's also where my father worked as a teacher. Fiction inspired by fragments of the Author's memories from decades ago, Little Nonya's Escapades is set in this cherished old school.",
-    imageUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/render/image/public/document-uploads/geps-1763381011250.jpg?width=8000&height=8000&resize=contain",
+    imageUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/render/image/public/document-uploads/geps-1763381011250.jpg?width=1200&height=1200&resize=contain",
     slug: "guillemard-east-primary-school"
   },
   {
@@ -64,7 +64,7 @@ const blogPosts = [
     date: "November 8, 2025",
     author: "Janice Wee",
     excerpt: "When Daddy was alive, he told me many stories of his late Dad's youth. My grandfather, Ah Kong, was incredibly strong. He could do all the stunts performed by circus strongmen. His signature feat was to lift 4 body builders off the ground in a reverse pushup. Ah Kong was a hero who once swam out in the open sea to save a stranger from drowning.",
-    imageUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/render/image/public/document-uploads/ahkong-1762693225545.jpg?width=8000&height=8000&resize=contain",
+    imageUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/render/image/public/document-uploads/ahkong-1762693225545.jpg?width=1200&height=1200&resize=contain",
     slug: "in-memory-of-ah-kong"
   },
   {
@@ -73,7 +73,7 @@ const blogPosts = [
     date: "November 1, 2025",
     author: "Janice Wee",
     excerpt: "When I wrote Dragon Unbound, Leia's story stuck in my mind, haunting me. It's too real, how one could be so busy chasing life's pursuits, even noble causes, that one neglects one's kids. Misunderstandings can lead to bitterness, which can be exploited by wolves in sheep's clothing.",
-    imageUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/render/image/public/document-uploads/dragonunboundcurtain-1762090791130.jpg?width=8000&height=8000&resize=contain",
+    imageUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/render/image/public/document-uploads/dragonunboundcurtain-1762090791130.jpg?width=1200&height=1200&resize=contain",
     slug: "a-fathers-heartbreak"
   },
   {
