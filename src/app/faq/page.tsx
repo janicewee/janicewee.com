@@ -18,12 +18,14 @@ const faqData = [
           <Link href="/books/little-nonyas-escapades" className="group">
             <Card className="overflow-hidden hover:shadow-lg transition-shadow">
               <div className="relative aspect-[2/3]">
-                <Image
-                  src="https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/littlenonyaescapades-1760416064407.jpg"
-                  alt="Little Nonya's Escapades book cover"
-                  fill
-                  className="object-cover group-hover:scale-105 transition-transform duration-300"
-                />
+                  <Image
+                    unoptimized
+                    src="https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/littlenonyaescapades-1760416064407.jpg"
+                    alt="Little Nonya's Escapades book cover"
+                    fill
+                    unoptimized
+                    className="object-cover group-hover:scale-105 transition-transform duration-300"
+                  />
               </div>
               <div className="p-4">
                 <h4 className="font-semibold text-primary">Little Nonya's Escapades</h4>
@@ -35,6 +37,7 @@ const faqData = [
             <Card className="overflow-hidden hover:shadow-lg transition-shadow">
               <div className="relative aspect-[2/3]">
                 <Image
+                    unoptimized
                   src="https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/Suzie-1760410252107.jpg"
                   alt="Sweetcorn Suzie book cover"
                   fill
@@ -71,6 +74,7 @@ const faqData = [
               <Card className="overflow-hidden hover:shadow-lg transition-shadow h-full">
                 <div className="relative aspect-[2/3]">
                   <Image
+                    unoptimized
                     src="https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/book1abigail-1760404534946.jpg"
                     alt="Emunah Short Stories"
                     fill
@@ -86,6 +90,7 @@ const faqData = [
               <Card className="overflow-hidden hover:shadow-lg transition-shadow h-full">
                 <div className="relative aspect-[2/3]">
                   <Image
+                    unoptimized
                     src="https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/billylionheart-1760074636207.jpg"
                     alt="The Adventures of Billy Lionheart"
                     fill
@@ -101,6 +106,7 @@ const faqData = [
               <Card className="overflow-hidden hover:shadow-lg transition-shadow h-full">
                 <div className="relative aspect-[2/3]">
                   <Image
+                    unoptimized
                     src="https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/dragonunbound-1760404534966.jpg"
                     alt="Dragon Unbound"
                     fill
@@ -116,6 +122,7 @@ const faqData = [
               <Card className="overflow-hidden hover:shadow-lg transition-shadow h-full">
                 <div className="relative aspect-[2/3]">
                   <Image
+                    unoptimized
                     src="https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/book3k-1760074872135.jpg"
                     alt="The Quest for Immortality"
                     fill
@@ -141,6 +148,7 @@ const faqData = [
             <Card className="overflow-hidden hover:shadow-lg transition-shadow">
               <div className="relative aspect-[2/3]">
                 <Image
+                    unoptimized
                   src="https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/runaway-1760410193575.jpg"
                   alt="Singapore's Runaway book cover"
                   fill
@@ -159,6 +167,7 @@ const faqData = [
             <Card className="overflow-hidden hover:shadow-lg transition-shadow">
               <div className="relative aspect-[2/3]">
                 <Image
+                    unoptimized
                   src="https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/2worlds-1760410225289.jpg"
                   alt="Two Worlds book cover"
                   fill
@@ -189,6 +198,7 @@ const faqData = [
             <Card className="overflow-hidden hover:shadow-lg transition-shadow">
               <div className="relative aspect-[2/3]">
                 <Image
+                    unoptimized
                   src="https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/book3emunah-1760404534743.jpg"
                   alt="Emunah Book 3: Emunah"
                   fill
@@ -204,6 +214,7 @@ const faqData = [
             <Card className="overflow-hidden hover:shadow-lg transition-shadow">
               <div className="relative aspect-[2/3]">
                 <Image
+                    unoptimized
                   src="https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/book8mary-1760410829856.jpg"
                   alt="Emunah Book 8: Mary's Flight"
                   fill
@@ -234,6 +245,7 @@ const faqData = [
             <Card className="overflow-hidden hover:shadow-lg transition-shadow">
               <div className="relative aspect-[2/3]">
                 <Image
+                    unoptimized
                   src="https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/2worlds-1760410225289.jpg"
                   alt="Two Worlds"
                   fill
@@ -250,6 +262,7 @@ const faqData = [
             <Card className="overflow-hidden hover:shadow-lg transition-shadow">
               <div className="relative aspect-[2/3]">
                 <Image
+                    unoptimized
                   src="https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/book1abigail-1760404534946.jpg"
                   alt="Abigail"
                   fill
@@ -266,6 +279,7 @@ const faqData = [
             <Card className="overflow-hidden hover:shadow-lg transition-shadow">
               <div className="relative aspect-[2/3]">
                 <Image
+                    unoptimized
                   src="https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/dragonunbound-1760404534966.jpg"
                   alt="Dragon Unbound"
                   fill
@@ -328,6 +342,7 @@ const faqData = [
             <Card className="overflow-hidden hover:shadow-lg transition-shadow">
               <div className="relative aspect-[2/3]">
                 <Image
+                    unoptimized
                   src="https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/nonya-1760416290723.jpg"
                   alt="Naughty Little Nonya"
                   fill
@@ -355,6 +370,7 @@ const faqData = [
             <Card className="overflow-hidden hover:shadow-lg transition-shadow">
               <div className="relative aspect-[2/3]">
                 <Image
+                    unoptimized
                   src="https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/runaway-1760410193575.jpg"
                   alt="Singapore's Runaway"
                   fill
@@ -382,6 +398,7 @@ const faqData = [
             <Card className="overflow-hidden hover:shadow-lg transition-shadow">
               <div className="relative aspect-[2/3]">
                 <Image
+                    unoptimized
                   src="https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/2worlds-1760410225289.jpg"
                   alt="Two Worlds"
                   fill
@@ -415,6 +432,7 @@ const faqData = [
             <Card className="overflow-hidden hover:shadow-lg transition-shadow">
               <div className="relative aspect-[2/3]">
                 <Image
+                    unoptimized
                   src="https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/nonya-1760416290723.jpg"
                   alt="Naughty Little Nonya"
                   fill
@@ -442,6 +460,7 @@ const faqData = [
             <Card className="overflow-hidden hover:shadow-lg transition-shadow">
               <div className="relative aspect-[2/3]">
                 <Image
+                    unoptimized
                   src="https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/littlenonyaescapades-1760416064407.jpg"
                   alt="Little Nonya's Escapades"
                   fill
@@ -469,6 +488,7 @@ const faqData = [
             <Card className="overflow-hidden hover:shadow-lg transition-shadow">
               <div className="relative aspect-[2/3]">
                 <Image
+                    unoptimized
                   src="https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/Suzie-1760410252107.jpg"
                   alt="Sweetcorn Suzie"
                   fill
@@ -496,6 +516,7 @@ const faqData = [
             <Card className="overflow-hidden hover:shadow-lg transition-shadow">
               <div className="relative aspect-[2/3]">
                 <Image
+                    unoptimized
                   src="https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/Longhill12-1760410284805.jpg"
                   alt="Escape to Long Hill"
                   fill
@@ -523,6 +544,7 @@ const faqData = [
             <Card className="overflow-hidden hover:shadow-lg transition-shadow">
               <div className="relative aspect-[2/3]">
                 <Image
+                    unoptimized
                   src="https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/book3k-1760074872135.jpg"
                   alt="The Quest for Immortality"
                   fill
@@ -558,6 +580,7 @@ const faqData = [
             <Card className="overflow-hidden hover:shadow-lg transition-shadow">
               <div className="relative aspect-[2/3]">
                 <Image
+                    unoptimized
                   src="https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/book3k-1760074872135.jpg"
                   alt="The Quest for Immortality"
                   fill
@@ -585,6 +608,7 @@ const faqData = [
             <Card className="overflow-hidden hover:shadow-lg transition-shadow">
               <div className="relative aspect-[2/3]">
                 <Image
+                    unoptimized
                   src="https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/emunah-book-1-disturbing-dreams.jpg"
                   alt="Disturbing Dreams"
                   fill
@@ -615,6 +639,7 @@ const faqData = [
             <Card className="overflow-hidden hover:shadow-lg transition-shadow">
               <div className="relative aspect-[2/3]">
                 <Image
+                    unoptimized
                   src="https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/emunah-book-2-beasts-mark.jpg"
                   alt="Beast's Mark"
                   fill
@@ -642,6 +667,7 @@ const faqData = [
             <Card className="overflow-hidden hover:shadow-lg transition-shadow">
               <div className="relative aspect-[2/3]">
                 <Image
+                    unoptimized
                   src="https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/book1abigail-1760404534946.jpg"
                   alt="Abigail"
                   fill
@@ -669,6 +695,7 @@ const faqData = [
             <Card className="overflow-hidden hover:shadow-lg transition-shadow">
               <div className="relative aspect-[2/3]">
                 <Image
+                    unoptimized
                   src="https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/emunah-book-2-oliver.jpg"
                   alt="Oliver"
                   fill
@@ -696,6 +723,7 @@ const faqData = [
             <Card className="overflow-hidden hover:shadow-lg transition-shadow">
               <div className="relative aspect-[2/3]">
                 <Image
+                    unoptimized
                   src="https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/emunah-book-3.jpg"
                   alt="Emunah"
                   fill
@@ -723,6 +751,7 @@ const faqData = [
             <Card className="overflow-hidden hover:shadow-lg transition-shadow">
               <div className="relative aspect-[2/3]">
                 <Image
+                    unoptimized
                   src="https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/emunah-book-4-john.jpg"
                   alt="John"
                   fill

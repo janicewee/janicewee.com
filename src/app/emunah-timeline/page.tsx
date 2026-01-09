@@ -258,6 +258,7 @@ function TimelineItem({ align, title, imageUrl, imageAlt, description, link, lin
               src={imageUrl}
               alt={imageAlt}
               fill
+              unoptimized
               className="object-cover rounded"
             />
           </a>

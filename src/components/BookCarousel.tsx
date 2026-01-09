@@ -192,14 +192,15 @@ export default function BookCarousel() {
           href={books[currentIndex].link}
           className="relative aspect-[2/3] rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-shadow cursor-pointer group"
         >
-          <Image
-            src={books[currentIndex].coverUrl}
-            alt={books[currentIndex].altText}
-            fill
-            className="object-cover transition-transform duration-300 group-hover:scale-105"
-            priority
-            sizes="(max-width: 768px) 100vw, 50vw"
-          />
+            <Image
+              src={books[currentIndex].coverUrl}
+              alt={books[currentIndex].altText}
+              fill
+              className="object-cover transition-transform duration-300 group-hover:scale-105"
+              priority
+              unoptimized
+              sizes="(max-width: 768px) 100vw, 50vw"
+            />
         </a>
 
         {/* Book Info */}

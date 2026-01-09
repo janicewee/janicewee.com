@@ -540,16 +540,17 @@ const characters: Character[] = [
 function CharacterCard({ character }: { character: Character }) {
   return (
     <Card className="p-6 hover:shadow-lg transition-shadow">
-      {character.image && (
-        <div className="relative w-full aspect-square mb-4 rounded-lg overflow-hidden">
-          <Image
-            src={character.image}
-            alt={character.name}
-            fill
-            className="object-cover"
-          />
-        </div>
-      )}
+        {character.image && (
+          <div className="relative w-full aspect-square mb-4 rounded-lg overflow-hidden">
+            <Image
+              src={character.image}
+              alt={character.name}
+              fill
+              unoptimized
+              className="object-cover"
+            />
+          </div>
+        )}
       <h3 className="text-xl font-bold text-primary mb-3">{character.name}</h3>
       <p className="text-foreground leading-relaxed mb-4">{character.description}</p>
       {character.books.length > 0 && (
