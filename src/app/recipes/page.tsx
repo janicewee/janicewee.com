@@ -15,7 +15,7 @@ const recipes = [
     id: 3,
     title: "Flourless Chocolate Scone",
     description: "These flourless chocolate scones are a chocolate lover's dream! Made with ground almonds instead of flour, they're perfect for those looking for a wheat-free treat. Rich cocoa powder combined with both regular and white chocolate chips creates layers of chocolate flavor in every bite.",
-    imageUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/render/image/public/document-uploads/chocolatescones-1764742693118.jpg?width=8000&height=8000&resize=contain",
+    imageUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/render/image/public/document-uploads/chocolatescones-1764742693118.jpg?width=1200&height=1200&resize=contain",
     prepTime: "15 minutes",
     cookTime: "11 minutes",
     servings: "12-15 scones",
