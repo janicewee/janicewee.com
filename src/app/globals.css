@@ -1,114 +1,3 @@
-/* Updated: 2025-12-20T10:09:56.184Z */
-/* Updated: 2025-12-20T10:05:39.398Z */
-/* Updated: 2025-12-08T07:11:49.062Z */
-/* Updated: 2025-12-08T05:14:19.923Z */
-/* Updated: 2025-12-08T02:12:03.846Z */
-/* Updated: 2025-12-08T01:43:11.225Z */
-/* Updated: 2025-12-06T12:31:31.508Z */
-/* Updated: 2025-12-06T09:57:16.857Z */
-/* Updated: 2025-12-04T08:37:18.726Z */
-/* Updated: 2025-12-04T08:33:37.981Z */
-/* Updated: 2025-12-04T08:14:57.829Z */
-/* Updated: 2025-12-03T10:04:24.775Z */
-/* Updated: 2025-12-03T05:51:20.489Z */
-/* Updated: 2025-12-01T11:23:09.470Z */
-/* Updated: 2025-12-01T09:04:09.871Z */
-/* Updated: 2025-11-30T06:27:39.862Z */
-/* Updated: 2025-11-28T08:19:34.862Z */
-/* Updated: 2025-11-28T06:44:49.893Z */
-/* Updated: 2025-11-28T03:48:51.640Z */
-/* Updated: 2025-11-17T12:03:03.973Z */
-/* Updated: 2025-11-17T08:47:25.458Z */
-/* Updated: 2025-11-12T14:26:05.197Z */
-/* Updated: 2025-11-11T13:54:26.857Z */
-/* Updated: 2025-11-11T12:46:05.669Z */
-/* Updated: 2025-11-10T10:00:34.221Z */
-/* Updated: 2025-11-09T12:59:06.353Z */
-/* Updated: 2025-11-08T14:05:13.574Z */
-/* Updated: 2025-11-08T12:38:21.150Z */
-/* Updated: 2025-11-08T12:32:52.481Z */
-/* Updated: 2025-11-02T13:39:15.048Z */
-/* Updated: 2025-11-02T12:25:56.026Z */
-/* Updated: 2025-11-01T12:38:17.752Z */
-/* Updated: 2025-10-18T14:15:20.622Z */
-/* Updated: 2025-10-17T08:19:55.834Z */
-/* Updated: 2025-10-17T08:19:17.315Z */
-/* Updated: 2025-10-17T08:07:48.581Z */
-/* Updated: 2025-10-17T08:07:10.002Z */
-/* Updated: 2025-10-17T08:06:31.664Z */
-/* Updated: 2025-10-17T08:05:33.424Z */
-/* Updated: 2025-10-17T08:04:55.317Z */
-/* Updated: 2025-10-17T08:03:35.225Z */
-/* Updated: 2025-10-17T08:02:57.551Z */
-/* Updated: 2025-10-17T08:02:20.297Z */
-/* Updated: 2025-10-17T07:59:59.800Z */
-/* Updated: 2025-10-17T07:58:04.446Z */
-/* Updated: 2025-10-17T07:57:39.154Z */
-/* Updated: 2025-10-17T07:57:14.934Z */
-/* Updated: 2025-10-17T07:56:51.272Z */
-/* Updated: 2025-10-17T07:56:26.142Z */
-/* Updated: 2025-10-17T07:55:57.446Z */
-/* Updated: 2025-10-17T07:55:07.230Z */
-/* Updated: 2025-10-17T07:54:42.967Z */
-/* Updated: 2025-10-17T07:54:18.867Z */
-/* Updated: 2025-10-17T07:53:53.132Z */
-/* Updated: 2025-10-17T07:53:27.680Z */
-/* Updated: 2025-10-17T07:53:04.600Z */
-/* Updated: 2025-10-17T06:35:35.366Z */
-/* Updated: 2025-10-17T06:35:26.730Z */
-/* Updated: 2025-10-17T06:34:45.329Z */
-/* Updated: 2025-10-17T06:34:19.038Z */
-/* Updated: 2025-10-17T06:33:55.113Z */
-/* Updated: 2025-10-17T06:33:30.794Z */
-/* Updated: 2025-10-17T06:32:48.067Z */
-/* Updated: 2025-10-17T06:31:07.292Z */
-/* Updated: 2025-10-17T06:30:29.296Z */
-/* Updated: 2025-10-17T06:29:50.601Z */
-/* Updated: 2025-10-17T06:29:11.609Z */
-/* Updated: 2025-10-17T06:28:43.807Z */
-/* Updated: 2025-10-17T06:28:19.459Z */
-/* Updated: 2025-10-17T06:27:56.055Z */
-/* Updated: 2025-10-17T06:27:30.744Z */
-/* Updated: 2025-10-17T06:27:07.157Z */
-/* Updated: 2025-10-17T06:26:43.365Z */
-/* Updated: 2025-10-17T06:03:31.985Z */
-/* Updated: 2025-10-17T04:27:38.663Z */
-/* Updated: 2025-10-16T13:18:09.178Z */
-/* Updated: 2025-10-16T12:11:15.427Z */
-/* Updated: 2025-10-16T12:02:43.183Z */
-/* Updated: 2025-10-16T10:56:59.264Z */
-/* Updated: 2025-10-16T07:03:01.157Z */
-/* Updated: 2025-10-16T06:38:20.450Z */
-/* Updated: 2025-10-16T06:38:18.972Z */
-/* Updated: 2025-10-16T05:33:51.162Z */
-/* Updated: 2025-10-15T06:38:04.112Z */
-/* Updated: 2025-10-15T05:59:01.855Z */
-/* Updated: 2025-10-15T03:34:58.725Z */
-/* Updated: 2025-10-14T12:13:16.841Z */
-/* Updated: 2025-10-14T09:44:24.770Z */
-/* Updated: 2025-10-14T09:43:09.638Z */
-/* Updated: 2025-10-14T09:41:48.906Z */
-/* Updated: 2025-10-14T09:41:10.768Z */
-/* Updated: 2025-10-14T09:39:52.115Z */
-/* Updated: 2025-10-14T09:39:14.781Z */
-/* Updated: 2025-10-14T09:37:53.575Z */
-/* Updated: 2025-10-14T09:37:15.118Z */
-/* Updated: 2025-10-14T09:35:37.348Z */
-/* Updated: 2025-10-14T09:34:58.060Z */
-/* Updated: 2025-10-14T09:33:20.068Z */
-/* Updated: 2025-10-14T07:12:40.220Z */
-/* Updated: 2025-10-14T04:24:17.299Z */
-/* Updated: 2025-10-14T00:56:38.233Z */
-/* Updated: 2025-10-11T13:13:59.743Z */
-/* Updated: 2025-10-11T08:11:09.760Z */
-/* Updated: 2025-10-11T04:06:48.373Z */
-/* Updated: 2025-10-11T03:28:14.912Z */
-/* Updated: 2025-10-10T07:14:40.696Z */
-/* Updated: 2025-10-10T06:09:37.934Z */
-/* Updated: 2025-10-10T05:58:45.705Z */
-/* Updated: 2025-10-10T05:14:35.443Z */
-/* Updated: 2025-10-10T05:14:31.446Z */
-
 @import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400&family=Lato:wght@300;400;700&display=swap');
 
 @tailwind base;
@@ -120,71 +9,45 @@
   --font-heading: 'Crimson Text', serif;
 
   --radius: 0.625rem;
-  --background: oklch(0.98 0.01 240);
-  --foreground: oklch(0.2 0.02 240);
-  --card: oklch(1 0 0);
-  --card-foreground: oklch(0.2 0.02 240);
-  --popover: oklch(1 0 0);
-  --popover-foreground: oklch(0.2 0.02 240);
-  --primary: oklch(0.5 0.15 240);
-  --primary-foreground: oklch(0.98 0 0);
-  --secondary: oklch(0.75 0.08 45);
-  --secondary-foreground: oklch(0.2 0.02 240);
-  --muted: oklch(0.94 0.01 240);
-  --muted-foreground: oklch(0.5 0.02 240);
-  --accent: oklch(0.75 0.08 45);
-  --accent-foreground: oklch(0.2 0.02 240);
-  --destructive: oklch(0.577 0.245 27.325);
-  --border: oklch(0.88 0.01 240);
-  --input: oklch(0.88 0.01 240);
-  --ring: oklch(0.5 0.15 240);
-  --chart-1: oklch(0.646 0.222 41.116);
-  --chart-2: oklch(0.6 0.118 184.704);
-  --chart-3: oklch(0.398 0.07 227.392);
-  --chart-4: oklch(0.828 0.189 84.429);
-  --chart-5: oklch(0.769 0.188 70.08);
-  --sidebar: oklch(0.985 0 0);
-  --sidebar-foreground: oklch(0.145 0 0);
-  --sidebar-primary: oklch(0.205 0 0);
-  --sidebar-primary-foreground: oklch(0.985 0 0);
-  --sidebar-accent: oklch(0.97 0 0);
-  --sidebar-accent-foreground: oklch(0.205 0 0);
-  --sidebar-border: oklch(0.922 0 0);
-  --sidebar-ring: oklch(0.708 0 0);
+  --background: 220 15% 98%;
+  --foreground: 220 20% 15%;
+  --card: 0 0% 100%;
+  --card-foreground: 220 20% 15%;
+  --popover: 0 0% 100%;
+  --popover-foreground: 220 20% 15%;
+  --primary: 223 88% 52%;
+  --primary-foreground: 0 0% 98%;
+  --secondary: 42 55% 56%;
+  --secondary-foreground: 220 20% 15%;
+  --muted: 220 10% 95%;
+  --muted-foreground: 220 10% 45%;
+  --accent: 42 55% 56%;
+  --accent-foreground: 220 20% 15%;
+  --destructive: 0 84% 60%;
+  --border: 220 10% 90%;
+  --input: 220 10% 90%;
+  --ring: 223 88% 52%;
 }
 
 .dark {
-  --background: oklch(0.15 0.02 240);
-  --foreground: oklch(0.95 0.01 240);
-  --card: oklch(0.2 0.02 240);
-  --card-foreground: oklch(0.95 0.01 240);
-  --popover: oklch(0.2 0.02 240);
-  --popover-foreground: oklch(0.95 0.01 240);
-  --primary: oklch(0.65 0.15 240);
-  --primary-foreground: oklch(0.98 0 0);
-  --secondary: oklch(0.6 0.08 45);
-  --secondary-foreground: oklch(0.98 0 0);
-  --muted: oklch(0.25 0.02 240);
-  --muted-foreground: oklch(0.65 0.02 240);
-  --accent: oklch(0.6 0.08 45);
-  --accent-foreground: oklch(0.98 0 0);
-  --destructive: oklch(0.704 0.191 22.216);
-  --border: oklch(0.3 0.02 240);
-  --input: oklch(0.3 0.02 240);
-  --ring: oklch(0.65 0.15 240);
-  --chart-1: oklch(0.488 0.243 264.376);
-  --chart-2: oklch(0.696 0.17 162.48);
-  --chart-3: oklch(0.769 0.188 70.08);
-  --chart-4: oklch(0.627 0.265 303.9);
-  --chart-5: oklch(0.645 0.246 16.439);
-  --sidebar: oklch(0.205 0 0);
-  --sidebar-foreground: oklch(0.985 0 0);
-  --sidebar-primary: oklch(0.488 0.243 264.376);
-  --sidebar-primary-foreground: oklch(0.985 0 0);
-  --sidebar-accent: oklch(0.269 0 0);
-  --sidebar-accent-foreground: oklch(0.985 0 0);
-  --sidebar-border: oklch(1 0 0 / 10%);
-  --sidebar-ring: oklch(0.556 0 0);
+  --background: 220 20% 10%;
+  --foreground: 220 10% 95%;
+  --card: 220 20% 15%;
+  --card-foreground: 220 10% 95%;
+  --popover: 220 20% 15%;
+  --popover-foreground: 220 10% 95%;
+  --primary: 223 88% 65%;
+  --primary-foreground: 0 0% 98%;
+  --secondary: 42 55% 45%;
+  --secondary-foreground: 0 0% 98%;
+  --muted: 220 15% 20%;
+  --muted-foreground: 220 10% 65%;
+  --accent: 42 55% 45%;
+  --accent-foreground: 0 0% 98%;
+  --destructive: 0 62% 30%;
+  --border: 220 15% 20%;
+  --input: 220 15% 20%;
+  --ring: 223 88% 65%;
 }
 
 @layer base {
