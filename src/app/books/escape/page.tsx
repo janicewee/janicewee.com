@@ -16,7 +16,7 @@ export default function EscapePage() {
     title: "Escape",
     author: "Janice Wee",
     isbn: "9798215283820",
-    image: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/render/image/public/document-uploads/Escape-2-1762605567370.jpg?width=8000&height=8000&resize=contain",
+    image: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/render/image/public/document-uploads/Escape-2-1762605567370.jpg?width=1200&height=1200&resize=contain",
   }
 
   return (

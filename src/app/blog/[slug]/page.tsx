@@ -17,7 +17,7 @@ const blogPosts: Record<string, {
     title: "The Emunah Chronicles universe",
     date: "December 15, 2025",
     author: "Janice Wee",
-    imageUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/render/image/public/document-uploads/abigailbook-1765759457851.jpg?width=8000&height=8000&resize=contain",
+    imageUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/render/image/public/document-uploads/abigailbook-1765759457851.jpg?width=1200&height=1200&resize=contain",
     content: `
 One project I've been procrastinating for way too long is to give readers a full character list of the entire Emunah Chronicles universe, comprising of the original Emunah Chronicles books and The Quest for Immortality, all 8 books of Emunah Short Stories, The Adventures of Billy Lionheart and Dragon Unbound, so that you can see how the stories connect and the story arcs of your favourite characters across the books.
 
@@ -63,7 +63,7 @@ Enjoy exploring the Emunah Chronicles Universe!
     title: "Billy Lionheart: The Lion Boy Who'll Steal Your Kids' Hearts This Christmas (And Yours Too)",
     date: "December 6, 2025",
     author: "Janice Wee",
-    imageUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/render/image/public/document-uploads/BillyLionheart-1765016057490.png?width=8000&height=8000&resize=contain",
+    imageUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/render/image/public/document-uploads/BillyLionheart-1765016057490.png?width=1200&height=1200&resize=contain",
     content: `
 Remember curling up to Narnia when you were a kid? Bring that joy and wonder into your child's life this Christmas with The Adventures of Billy Lionheart.
 
@@ -107,7 +107,7 @@ Give your children the gift of adventure, faith, and friendship this Christmas!
     title: "Flourless Chocolate Scone Recipe",
     date: "December 3, 2025",
     author: "Janice Wee",
-    imageUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/render/image/public/document-uploads/chocolatescones-1764742693118.jpg?width=8000&height=8000&resize=contain",
+    imageUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/render/image/public/document-uploads/chocolatescones-1764742693118.jpg?width=1200&height=1200&resize=contain",
     content: `
 These flourless chocolate scones are a chocolate lover's dream! Made with ground almonds instead of flour, they're perfect for those looking for a wheat-free treat.
 
@@ -132,7 +132,7 @@ These scones are ideal for cozy afternoons with a good book. Try them with your 
     title: "The Romeo and Juliet of The Quest for Immortality",
     date: "December 1, 2025",
     author: "Janice Wee",
-    imageUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/render/image/public/document-uploads/jaydenavainlove-1764590221153.png?width=8000&height=8000&resize=contain",
+    imageUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/render/image/public/document-uploads/jaydenavainlove-1764590221153.png?width=1200&height=1200&resize=contain",
     content: `
 Of all the lovebirds in the Emunah Chronicles novel: The Quest For Immortality, the most memorable pair to me is the tragic couple, Jayden and Ava.
 
@@ -162,7 +162,7 @@ Their story reminds us that sometimes the most powerful love stories are the one
     title: "Guillemard East Primary School",
     date: "November 16, 2025",
     author: "Janice Wee",
-    imageUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/render/image/public/document-uploads/geps-1763381011250.jpg?width=8000&height=8000&resize=contain",
+    imageUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/render/image/public/document-uploads/geps-1763381011250.jpg?width=1200&height=1200&resize=contain",
     content: `
 Guillemard East Primary School was located behind Singapore Badminton Hall. Sadly, it closed in 1987 due to low enrollment.
 
@@ -189,7 +189,7 @@ Having my father work there as a teacher made the school even more special to me
     title: "In Memory of Ah Kong",
     date: "November 8, 2025",
     author: "Janice Wee",
-    imageUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/render/image/public/document-uploads/ahkong-1762693225545.jpg?width=8000&height=8000&resize=contain",
+    imageUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/render/image/public/document-uploads/ahkong-1762693225545.jpg?width=1200&height=1200&resize=contain",
     content: `
 When Daddy was alive, he told me many stories of his late Dad's youth. My grandfather, Ah Kong, was incredibly strong.
 
@@ -216,7 +216,7 @@ His legacy lives on in the characters I create and the values I try to convey th
     title: "A Father's Heartbreak",
     date: "November 1, 2025",
     author: "Janice Wee",
-    imageUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/render/image/public/document-uploads/dragonunboundcurtain-1762090791130.jpg?width=8000&height=8000&resize=contain",
+    imageUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/render/image/public/document-uploads/dragonunboundcurtain-1762090791130.jpg?width=1200&height=1200&resize=contain",
     content: `
 When I wrote Dragon Unbound, Leia's story stuck in my mind, haunting me.
 
