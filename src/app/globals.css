@@ -151,9 +151,6 @@
   --sidebar-accent-foreground: oklch(0.205 0 0);
   --sidebar-border: oklch(0.922 0 0);
   --sidebar-ring: oklch(0.708 0 0);
-  
-  --font-heading: 'Crimson Text', serif;
-  --font-body: 'Lato', sans-serif;
 }
 
 .dark {
@@ -190,13 +187,9 @@
   --sidebar-ring: oklch(0.556 0 0);
 }
 
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
 @layer base {
   * {
-    @apply border-border outline-ring/50;
+    @apply border-border;
   }
   body {
     @apply bg-background text-foreground;
@@ -205,9 +198,4 @@
   h1, h2, h3, h4, h5, h6 {
     font-family: var(--font-heading);
   }
-}
-
-/* Hide Next.js error overlay portal */
-nextjs-portal {
-  display: none !important;
 }

@@ -24,6 +24,14 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <Script
+          defer
+          src="https://cloud.umami.is/script.js"
+          data-website-id="546b9e9c-9967-4921-82d9-450005cde91c"
+          strategy="afterInteractive"
+        />
+      </head>
       <body className="antialiased">
         <Script
           id="orchids-browser-logs"
