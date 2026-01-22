@@ -82,6 +82,7 @@ export default function DisturbingDreamsPage() {
                     <Button asChild variant="default" size="lg" className="w-full sm:w-auto font-bold shadow-md hover:scale-105 transition-transform">
                       <a href="https://www.janicewee.com/books/disturbing-dreams-free-ebook.pdf" target="_blank" rel="noopener noreferrer">
                         Download Free Ebook (PDF)
+                        <BookOpen className="ml-2 h-4 w-4" />
                       </a>
                     </Button>
                   </div>
