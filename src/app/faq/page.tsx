@@ -18,14 +18,13 @@ const faqData = [
           <Link href="/books/little-nonyas-escapades" className="group">
             <Card className="overflow-hidden hover:shadow-lg transition-shadow">
               <div className="relative aspect-[2/3]">
-                  <Image
-                    unoptimized
-                    src="https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/littlenonyaescapades-1760416064407.jpg"
-                    alt="Little Nonya's Escapades book cover"
-                    fill
-                    unoptimized
-                    className="object-cover group-hover:scale-105 transition-transform duration-300"
-                  />
+                    <Image
+                      unoptimized
+                      src="https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/littlenonyaescapades-1760416064407.jpg"
+                      alt="Little Nonya's Escapades book cover"
+                      fill
+                      className="object-cover group-hover:scale-105 transition-transform duration-300"
+                    />
               </div>
               <div className="p-4">
                 <h4 className="font-semibold text-primary">Little Nonya's Escapades</h4>
