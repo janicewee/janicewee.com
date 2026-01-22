@@ -104,6 +104,31 @@ export default function Home() {
       <section className="py-16 bg-muted/30">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-4xl font-bold text-center text-primary mb-12">What Readers Say</h2>
+          
+          {/* Featured Review */}
+          <Card className="p-8 mb-12 border-primary/20 bg-background/50">
+            <div className="flex mb-4" aria-label="5 star rating">
+              {[...Array(5)].map((_, i) => (
+                <Star key={i} className="h-6 w-6 fill-secondary text-secondary" />
+              ))}
+            </div>
+            <p className="text-xl text-foreground mb-6 italic leading-relaxed">
+              "Disturbing Dreams by Janice Wee is a gripping and unsettling start to the Emunah series that blends faith, futuristic technology, and apocalyptic suspense into a story that feels uncomfortably plausible... The pacing is strong, the ideas are bold, and the story leaves you thinking long after you’ve finished the last page."
+            </p>
+            <div className="flex flex-col md:flex-row md:items-center justify-between gap-4">
+              <div>
+                <p className="text-lg font-bold text-primary">Valeria Vargas</p>
+                <p className="text-sm text-muted-foreground">Goodreads Review for Emunah Book 1: Disturbing Dreams</p>
+              </div>
+              <Button asChild variant="outline">
+                <a href="/books/emunah-book-1-disturbing-dreams">
+                  Read Full Review on Book Page
+                  <ExternalLink className="ml-2 h-4 w-4" />
+                </a>
+              </Button>
+            </div>
+          </Card>
+
           <div className="grid md:grid-cols-3 gap-8">
             {/* Dragon Unbound Review */}
             <Card className="p-6">
