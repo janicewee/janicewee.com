@@ -37,38 +37,56 @@ export default function DisturbingDreamsPage() {
                 Meet Emunah, a spirited young woman whose life takes an eerie turn when ominous dreams seep into reality. Beast Corp, an enigmatic conglomerate, casts an increasingly monstrous shadow over their world. With each spine-tingling discovery, Emunah and her friends stumble further into a terrifying plot that threatens to fracture their existence.
               </p>
 
-              <div className="flex flex-wrap gap-3">
-                <Button asChild size="lg">
-                  <a href="https://books2read.com/u/4A2rGp" target="_blank" rel="noopener noreferrer">
-                    Buy on Books2Read
-                    <ExternalLink className="ml-2 h-4 w-4" />
-                  </a>
-                </Button>
-                <Button asChild variant="outline" size="lg">
-                  <a href="https://www.barnesandnoble.com/w/disturbing-dreams-janice-wee/1143658446" target="_blank" rel="noopener noreferrer">
-                    Barnes & Noble
-                    <ExternalLink className="ml-2 h-4 w-4" />
-                  </a>
-                </Button>
-                <Button asChild variant="outline" size="lg">
-                  <a href="https://www.kobo.com/sg/en/ebook/disturbing-dreams" target="_blank" rel="noopener noreferrer">
-                    Kobo
-                    <ExternalLink className="ml-2 h-4 w-4" />
-                  </a>
-                </Button>
-                  <Button asChild variant="outline" size="lg">
-                    <a href="https://www.amazon.com.au/Disturbing-Dreams-1-Janice-Wee/dp/B0C87Y2VLC" target="_blank" rel="noopener noreferrer">
-                      Amazon
-                      <ExternalLink className="ml-2 h-4 w-4" />
-                    </a>
-                  </Button>
-                  <Button asChild variant="secondary" size="lg" className="w-full md:w-auto">
-                    <a href="https://www.janicewee.com/books/disturbing-dreams-free-ebook.pdf" target="_blank" rel="noopener noreferrer">
-                      Download Free Ebook (PDF)
-                      <BookOpen className="ml-2 h-4 w-4" />
-                    </a>
-                  </Button>
+              <div className="space-y-6">
+                <div>
+                  <h3 className="text-sm font-semibold uppercase tracking-wider text-muted-foreground mb-3">Available at Retailers</h3>
+                  <div className="flex flex-wrap gap-3">
+                    <Button asChild variant="outline" size="lg" className="border-primary text-primary hover:bg-primary hover:text-white transition-all shadow-sm">
+                      <a href="https://books2read.com/u/4A2rGp" target="_blank" rel="noopener noreferrer">
+                        Buy on Books2Read
+                        <ExternalLink className="ml-2 h-4 w-4" />
+                      </a>
+                    </Button>
+                    <Button asChild variant="outline" size="lg" className="shadow-sm">
+                      <a href="https://www.barnesandnoble.com/w/disturbing-dreams-janice-wee/1143658446" target="_blank" rel="noopener noreferrer">
+                        Barnes & Noble
+                        <ExternalLink className="ml-2 h-4 w-4" />
+                      </a>
+                    </Button>
+                    <Button asChild variant="outline" size="lg" className="shadow-sm">
+                      <a href="https://www.kobo.com/sg/en/ebook/disturbing-dreams" target="_blank" rel="noopener noreferrer">
+                        Kobo
+                        <ExternalLink className="ml-2 h-4 w-4" />
+                      </a>
+                    </Button>
+                    <Button asChild variant="outline" size="lg" className="shadow-sm">
+                      <a href="https://www.amazon.com.au/Disturbing-Dreams-1-Janice-Wee/dp/B0C87Y2VLC" target="_blank" rel="noopener noreferrer">
+                        Amazon
+                        <ExternalLink className="ml-2 h-4 w-4" />
+                      </a>
+                    </Button>
+                  </div>
                 </div>
+
+                <div className="bg-primary/5 border border-primary/10 rounded-xl p-6 shadow-sm mt-8">
+                  <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-6">
+                    <div className="flex items-center gap-3">
+                      <div className="bg-primary/10 p-3 rounded-lg">
+                        <BookOpen className="h-6 w-6 text-primary" />
+                      </div>
+                      <div>
+                        <h3 className="text-lg font-bold text-primary">Free Digital Edition</h3>
+                        <p className="text-sm text-muted-foreground">Download the complete PDF ebook for free</p>
+                      </div>
+                    </div>
+                    <Button asChild variant="default" size="lg" className="w-full sm:w-auto font-bold shadow-md hover:scale-105 transition-transform">
+                      <a href="https://www.janicewee.com/books/disturbing-dreams-free-ebook.pdf" target="_blank" rel="noopener noreferrer">
+                        Download Free Ebook (PDF)
+                      </a>
+                    </Button>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
 
