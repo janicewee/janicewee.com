@@ -141,21 +141,59 @@ export default function DisturbingDreamsPage() {
           </section>
 
           {/* Reader Reviews */}
-          <section>
+          <section id="reviews">
             <h2 className="text-3xl font-bold text-primary mb-6">Reader Reviews</h2>
-            <Card className="p-6">
-              <div className="flex mb-4">
-                {[...Array(5)].map((_, i) => (
-                  <Star key={i} className="h-5 w-5 fill-secondary text-secondary" />
-                ))}
-              </div>
-              <p className="text-foreground mb-4 leading-relaxed italic">
-                "Eerily scary and could happen in our lifetime."
-              </p>
-              <p className="text-sm text-muted-foreground font-semibold">
-                — A beta reader
-              </p>
-            </Card>
+            <div className="space-y-6">
+              <Card className="p-8 border-primary/20">
+                <div className="flex mb-4">
+                  {[...Array(5)].map((_, i) => (
+                    <Star key={i} className="h-5 w-5 fill-secondary text-secondary" />
+                  ))}
+                </div>
+                <div className="prose prose-lg max-w-none text-foreground mb-6">
+                  <p className="italic">
+                    "Disturbing Dreams by Janice Wee is a gripping and unsettling start to the Emunah series that blends faith, futuristic technology, and apocalyptic suspense into a story that feels uncomfortably plausible.
+                  </p>
+                  <p className="italic">
+                    Emunah is a compelling protagonist strong, curious, and deeply human. What begins as a series of disturbing, otherworldly dreams slowly bleeds into reality, and from that moment on, the novel never lets you relax. Beast Corp is not just a shadowy corporation; it represents everything frightening about unchecked technological ambition. The way the story weaves together artificial intelligence, cloning, and corporate power feels disturbingly close to where our world could be heading.
+                  </p>
+                  <p className="italic">
+                    The most chilling aspect of the book is the global disappearance of Christians whether it is the Rapture or something far more sinister remains unclear and the chaos that follows. This uncertainty drives the tension of the entire story and creates a haunting atmosphere of confusion, fear, and moral collapse. The rise of a one-world dictator in the aftermath feels both shocking and eerily believable.
+                  </p>
+                  <p className="italic">
+                    What makes this book stand out is how it doesn’t rely only on thrills. It asks big questions about faith, truth, deception, and what happens when humanity starts playing God. The pacing is strong, the ideas are bold, and the story leaves you thinking long after you’ve finished the last page especially with the expanded ending chapters in this edition.
+                  </p>
+                  <p className="italic">
+                    If you enjoy Christian dystopian fiction, end-times thrillers, or stories that mix technology with prophecy, Disturbing Dreams is a powerful and thought-provoking read that will definitely make you want to continue the series."
+                  </p>
+                </div>
+                <div className="flex flex-col md:flex-row md:items-center justify-between gap-4 pt-6 border-t border-border">
+                  <p className="text-sm text-muted-foreground font-semibold">
+                    — Valeria Vargas, Goodreads Reviewer
+                  </p>
+                  <Button asChild variant="link" className="p-0 h-auto">
+                    <a href="https://www.goodreads.com/book/show/181518303-disturbing-dreams" target="_blank" rel="noopener noreferrer">
+                      View on Goodreads
+                      <ExternalLink className="ml-2 h-4 w-4" />
+                    </a>
+                  </Button>
+                </div>
+              </Card>
+
+              <Card className="p-6">
+                <div className="flex mb-4">
+                  {[...Array(5)].map((_, i) => (
+                    <Star key={i} className="h-5 w-5 fill-secondary text-secondary" />
+                  ))}
+                </div>
+                <p className="text-foreground mb-4 leading-relaxed italic">
+                  "Eerily scary and could happen in our lifetime."
+                </p>
+                <p className="text-sm text-muted-foreground font-semibold">
+                  — A beta reader
+                </p>
+              </Card>
+            </div>
           </section>
 
           {/* ISBN Section */}
