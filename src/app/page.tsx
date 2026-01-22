@@ -120,12 +120,20 @@ export default function Home() {
                 <p className="text-lg font-bold text-primary">Valeria Vargas</p>
                 <p className="text-sm text-muted-foreground">Goodreads Review for Emunah Book 1: Disturbing Dreams</p>
               </div>
-              <Button asChild variant="outline">
-                <a href="/books/emunah-book-1-disturbing-dreams">
-                  Read Full Review on Book Page
-                  <ExternalLink className="ml-2 h-4 w-4" />
-                </a>
-              </Button>
+              <div className="flex flex-wrap gap-3">
+                <Button asChild variant="outline">
+                  <a href="/books/emunah-book-1-disturbing-dreams">
+                    Read Full Review
+                    <ExternalLink className="ml-2 h-4 w-4" />
+                  </a>
+                </Button>
+                <Button asChild variant="secondary">
+                  <a href="https://www.janicewee.com/books/disturbing-dreams-free-ebook.pdf" target="_blank" rel="noopener noreferrer">
+                    Get Free Ebook (PDF)
+                    <ExternalLink className="ml-2 h-4 w-4" />
+                  </a>
+                </Button>
+              </div>
             </div>
           </Card>
 
