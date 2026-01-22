@@ -56,13 +56,19 @@ export default function DisturbingDreamsPage() {
                     <ExternalLink className="ml-2 h-4 w-4" />
                   </a>
                 </Button>
-                <Button asChild variant="outline" size="lg">
-                  <a href="https://www.amazon.com.au/Disturbing-Dreams-1-Janice-Wee/dp/B0C87Y2VLC" target="_blank" rel="noopener noreferrer">
-                    Amazon
-                    <ExternalLink className="ml-2 h-4 w-4" />
-                  </a>
-                </Button>
-              </div>
+                  <Button asChild variant="outline" size="lg">
+                    <a href="https://www.amazon.com.au/Disturbing-Dreams-1-Janice-Wee/dp/B0C87Y2VLC" target="_blank" rel="noopener noreferrer">
+                      Amazon
+                      <ExternalLink className="ml-2 h-4 w-4" />
+                    </a>
+                  </Button>
+                  <Button asChild variant="secondary" size="lg" className="w-full md:w-auto">
+                    <a href="https://www.janicewee.com/books/disturbing-dreams-free-ebook.pdf" target="_blank" rel="noopener noreferrer">
+                      Download Free Ebook (PDF)
+                      <BookOpen className="ml-2 h-4 w-4" />
+                    </a>
+                  </Button>
+                </div>
             </div>
           </div>
 
