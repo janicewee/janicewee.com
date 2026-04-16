@@ -129,6 +129,27 @@ export default function BillyLionheartSeriesPage() {
             ))}
           </section>
 
+          {/* Author Reads Chapter 1 */}
+          <section className="mt-16">
+            <h2 className="text-3xl font-bold text-primary mb-3 text-center">Author Reads Billy The Lion Boy</h2>
+            <p className="text-lg text-muted-foreground text-center mb-6 max-w-2xl mx-auto">
+              Listen to author Janice Wee read the first chapter of Billy The Lion Boy
+            </p>
+            <div className="max-w-4xl mx-auto">
+              <div className="relative w-full aspect-video rounded-xl overflow-hidden shadow-2xl">
+                <iframe
+                  width="100%"
+                  height="100%"
+                  src="https://www.youtube.com/embed/QPCYGzhgunc?start=262"
+                  title="Author Janice Wee reads Billy The Lion Boy Chapter 1"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  allowFullScreen
+                  className="absolute inset-0"
+                />
+              </div>
+            </div>
+          </section>
+
           {/* Reader Review */}
           <section className="mt-16">
             <h2 className="text-3xl font-bold text-primary mb-6 text-center">What Readers Say</h2>
