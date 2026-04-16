@@ -13,6 +13,44 @@ const blogPosts: Record<string, {
   content: string
   imageUrl: string
 }> = {
+  'emunah-chronicles-cinematic-videos': {
+    title: "Emunah Chronicles Universe Cinematic Videos",
+    date: "April 16, 2026",
+    author: "Janice Wee",
+    imageUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/render/image/public/document-uploads/abigailbook-1765759457851.jpg?width=1200&height=1200&resize=contain",
+    content: `
+Did you read any of my books from the Emunah Chronicles Universe?
+
+Do you prefer watching videos to reading books?
+
+I realised that most people don't read fiction books but they enjoy watching cinematic videos. So this playlist is for all of you who love videos.
+
+## Watch the Playlist
+
+[youtube:https://www.youtube.com/embed/videoseries?list=PLVyqR1ZxYK-M691kPO1iStkZaLrBFoKU3]
+
+## About the Videos
+
+So I made a series of cinematic videos from my Emunah Chronicles novels and compiled them in this YouTube playlist.
+
+These are not mere book trailers, they are cinematic videos of the stories that I wrote in my novels.
+
+## Who Are These Videos For?
+
+They are made for the following:
+
+- Readers who want to see the characters come to life
+- People who prefer watching to reading
+- Fans of Christian speculative fiction
+- Anyone curious about the Emunah Chronicles Universe
+
+## Explore the Books
+
+If any of these videos interest you, do check out the books they are based on. The novels contain far more detail, depth, and story than the videos can capture.
+
+[Explore the Emunah Chronicles Universe](https://emunahchronicles.com)
+    `
+  },
   'emunah-chronicles-universe': {
     title: "The Emunah Chronicles universe",
     date: "December 15, 2025",
@@ -1200,7 +1238,7 @@ export default async function BlogPost({ params }: Props) {
           <div className="bg-card rounded-lg shadow-xl p-8 md:p-12 mb-16 prose prose-lg max-w-none">
             {post.content.split('\n').map((paragraph, index) => {
               if (!paragraph.trim()) return null
-              
+
               if (paragraph.startsWith('## ')) {
                 return (
                   <h2 key={index} className="text-3xl font-bold text-primary mt-8 mb-4">
@@ -1208,7 +1246,7 @@ export default async function BlogPost({ params }: Props) {
                   </h2>
                 )
               }
-              
+
               if (paragraph.startsWith('### ')) {
                 return (
                   <h3 key={index} className="text-2xl font-bold text-primary mt-6 mb-3">
@@ -1216,7 +1254,23 @@ export default async function BlogPost({ params }: Props) {
                   </h3>
                 )
               }
-              
+
+              // YouTube embed: [youtube:URL]
+              const youtubeMatch = paragraph.trim().match(/^\[youtube:(.+)\]$/)
+              if (youtubeMatch) {
+                return (
+                  <div key={index} className="relative w-full aspect-video rounded-xl overflow-hidden shadow-2xl my-8">
+                    <iframe
+                      src={youtubeMatch[1]}
+                      title="YouTube video"
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                      allowFullScreen
+                      className="absolute inset-0 w-full h-full"
+                    />
+                  </div>
+                )
+              }
+
               // Check for markdown links [text](url)
               const linkRegex = /\[([^\]]+)\]\(([^)]+)\)/g
               if (linkRegex.test(paragraph)) {
@@ -1247,7 +1301,7 @@ export default async function BlogPost({ params }: Props) {
                   </p>
                 )
               }
-              
+
               return (
                 <p key={index} className="text-foreground/90 mb-4 leading-relaxed">
                   {paragraph}

@@ -14,6 +14,15 @@ export const metadata: Metadata = {
 
 const blogPosts = [
   {
+    id: 29,
+    title: "Emunah Chronicles Universe Cinematic Videos",
+    date: "April 16, 2026",
+    author: "Janice Wee",
+    excerpt: "Did you read any of my books from the Emunah Chronicles Universe? Do you prefer watching videos to reading books? I realised that most people don't read fiction books but they enjoy watching cinematic videos. So this playlist is for all of you who love videos. I made a series of cinematic videos from my Emunah Chronicles novels and compiled them in this YouTube playlist.",
+    imageUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/render/image/public/document-uploads/abigailbook-1765759457851.jpg?width=1200&height=1200&resize=contain",
+    slug: "emunah-chronicles-cinematic-videos"
+  },
+  {
     id: 28,
     title: "The Emunah Chronicles universe",
     date: "December 15, 2025",
