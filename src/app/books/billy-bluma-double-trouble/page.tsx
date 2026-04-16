@@ -84,6 +84,22 @@ export default function BillyBlumaPage() {
             </div>
           </section>
 
+          {/* Watch */}
+          <section className="mb-12">
+            <h2 className="text-3xl font-bold text-primary mb-6">Watch</h2>
+            <div className="relative w-full aspect-video rounded-lg overflow-hidden shadow-lg">
+              <iframe
+                width="100%"
+                height="100%"
+                src="https://www.youtube.com/embed/LPjdo7WRogI"
+                title="Billy & Bluma: Double Trouble - Video"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowFullScreen
+                className="absolute inset-0"
+              />
+            </div>
+          </section>
+
           {/* Book Description */}
           <section className="mb-12">
             <Card className="p-8">
