@@ -179,6 +179,38 @@ Such is the story of Abigail Applewood."`,
                   </Card>
                 )}
 
+                {/* Video Features */}
+                <Card className="p-6 mb-8">
+                  <h2 className="text-2xl font-bold text-primary mb-4 flex items-center">
+                    <BookOpen className="mr-2 h-6 w-6 text-secondary" />
+                    Watch
+                  </h2>
+                  <div className="space-y-6">
+                    <div className="aspect-video rounded-lg overflow-hidden">
+                      <iframe
+                        width="100%"
+                        height="100%"
+                        src="https://www.youtube.com/embed/fF1LB6JdxeY"
+                        title="Abigail - Video 1"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowFullScreen
+                        className="w-full h-full"
+                      ></iframe>
+                    </div>
+                    <div className="aspect-video rounded-lg overflow-hidden">
+                      <iframe
+                        width="100%"
+                        height="100%"
+                        src="https://www.youtube.com/embed/elqrAdcElE0"
+                        title="Abigail - Video 2"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowFullScreen
+                        className="w-full h-full"
+                      ></iframe>
+                    </div>
+                  </div>
+                </Card>
+
                 {/* Reader Review */}
                 <Card className="p-6 mb-8 border-l-4 border-l-secondary">
                   <h2 className="text-2xl font-bold text-primary mb-4 flex items-center">
