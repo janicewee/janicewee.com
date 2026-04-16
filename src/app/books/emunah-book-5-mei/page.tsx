@@ -153,6 +153,25 @@ In a single movement, she drew her gun and blasted a sphere at his forehead. His
                   </Card>
                 )}
 
+                {/* Video Feature */}
+                <Card className="p-6 mb-8">
+                  <h2 className="text-2xl font-bold text-primary mb-4 flex items-center">
+                    <BookOpen className="mr-2 h-6 w-6 text-secondary" />
+                    Watch
+                  </h2>
+                  <div className="aspect-video rounded-lg overflow-hidden">
+                    <iframe
+                      width="100%"
+                      height="100%"
+                      src="https://www.youtube.com/embed/5BGAuGR-IFs"
+                      title="Mei - Video"
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                      allowFullScreen
+                      className="w-full h-full"
+                    ></iframe>
+                  </div>
+                </Card>
+
                 <Card className="p-6 mb-8 bg-muted/30">
                   <h2 className="text-2xl font-bold text-primary mb-4">Book Excerpt</h2>
                   <blockquote className="text-foreground leading-relaxed italic border-l-4 border-secondary pl-4 whitespace-pre-line">
