@@ -14,6 +14,15 @@ export const metadata: Metadata = {
 
 const blogPosts = [
   {
+    id: 30,
+    title: "The Guy Who Broke Her Heart",
+    date: "April 26, 2026",
+    author: "Janice Wee",
+    excerpt: "Have you ever experienced the pain of a broken heart? Against all logic, you fell for someone who isn't into you, who treats you like a friend while infatuated with someone else? Abigail is inspired by the heartbreaking tales of real women who remain unnamed to protect their identities.",
+    imageUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/book1abigail-1760404534946.jpg",
+    slug: "the-guy-who-broke-her-heart"
+  },
+  {
     id: 29,
     title: "Emunah Chronicles Universe Cinematic Videos",
     date: "April 16, 2026",

@@ -13,6 +13,31 @@ const blogPosts: Record<string, {
   content: string
   imageUrl: string
 }> = {
+  'the-guy-who-broke-her-heart': {
+    title: "The Guy Who Broke Her Heart",
+    date: "April 26, 2026",
+    author: "Janice Wee",
+    imageUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/book1abigail-1760404534946.jpg",
+    content: `
+Have you ever experienced the pain of a broken heart?
+
+Against all logic, you fell for someone who isn't into you, who treats you like a friend while infatuated with someone else?
+
+## He Used Her to Get to Her Friend
+
+[youtube:https://www.youtube.com/embed/fF1LB6JdxeY]
+
+## Inspired by Real Stories
+
+Abigail is inspired by the heartbreaking tales of real women who remain unnamed to protect their identities.
+
+## Read the Book
+
+More about Abigail, the book which launched the Emunah Short Stories series:
+
+[Emunah Short Stories Book 1: Abigail - A Story of True Love and Betrayal](/books/emunah-book-1-abigail)
+    `
+  },
   'emunah-chronicles-cinematic-videos': {
     title: "Emunah Chronicles Universe Cinematic Videos",
     date: "April 16, 2026",
