@@ -16,6 +16,15 @@ export const metadata: Metadata = {
 
 const blogPosts = [
   {
+    id: 39,
+    title: "What if the stars told your story?",
+    date: "June 28, 2026",
+    author: "Janice Wee",
+    excerpt: "When I was a kid, daddy pointed out the stars. They are arranged in constellations that tell the story. Fast forward decades later to 2017, when a rare alignment in the constellation of Virgo with the sun position at Virgo's shoulder and the moon directly under Virgo, with the alignment of Mercury, Mars and Venus with 9 stars from the Leo, forming a crown of 12 stars as depicted in Revelation 12. Mary's Flight is inspired by that.",
+    imageUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/IMG_0194-1760677132993.jpeg",
+    slug: "what-if-the-stars-told-your-story"
+  },
+  {
     id: 38,
     title: "True love that never fails",
     date: "June 21, 2026",

@@ -15,6 +15,31 @@ const blogPosts: Record<string, {
   content: string
   imageUrl: string
 }> = {
+  'what-if-the-stars-told-your-story': {
+    title: "What if the stars told your story?",
+    date: "June 28, 2026",
+    author: "Janice Wee",
+    imageUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/IMG_0194-1760677132993.jpeg",
+    content: `
+When I was a kid, daddy pointed out the stars. They are arranged in constellations that tell the story. All that flew over my head when I was a kid. As a teenager I had no interest. Though my dad's closest brother too was interested in star gazing and my cousins had long conversations with him about the constellations.
+
+## She Thought It Was Nonsense. The Stars Proved Her Wrong.
+
+[youtube:https://www.youtube.com/embed/HjXj5cm60cE]
+
+## A Rare Alignment
+
+Fast forward decades later to 2017, when a rare alignment in the constellation of Virgo with the sun position at Virgo's shoulder and the moon directly under Virgo, with the alignment of Mercury, Mars and Venus with 9 stars from the Leo, forming a crown of 12 stars as depicted in Revelation 12.
+
+## The Inspiration
+
+Mary's Flight is inspired by that.
+
+## Read the Book
+
+[More about Mary's Flight](/books/emunah-book-8-marys-flight)
+    `
+  },
   'true-love-that-never-fails': {
     title: "True love that never fails",
     date: "June 21, 2026",
