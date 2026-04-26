@@ -16,6 +16,15 @@ export const metadata: Metadata = {
 
 const blogPosts = [
   {
+    id: 43,
+    title: "Would you trust Dragon?",
+    date: "July 26, 2026",
+    author: "Janice Wee",
+    excerpt: "When Dragon is unbound, he turns on the charm and professes to turn over a new leaf. He is particularly good with the kids. Bluma, now a mother of an entire nation trusts too freely and what happens next will horrify you. Dragon Unbound. A fantasy novel by indie author Janice Wee is utterly spellbinding.",
+    imageUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/dragonunbound-1760677388114.jpg",
+    slug: "would-you-trust-dragon"
+  },
+  {
     id: 42,
     title: "Have you ever had a dream that you could never forget?",
     date: "July 19, 2026",

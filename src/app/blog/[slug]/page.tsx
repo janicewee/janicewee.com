@@ -15,6 +15,27 @@ const blogPosts: Record<string, {
   content: string
   imageUrl: string
 }> = {
+  'would-you-trust-dragon': {
+    title: "Would you trust Dragon?",
+    date: "July 26, 2026",
+    author: "Janice Wee",
+    imageUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/dragonunbound-1760677388114.jpg",
+    content: `
+When Dragon is unbound, he turns on the charm and professes to turn over a new leaf. He is particularly good with the kids.
+
+## She Trusted The Dragon. Then He Took Her Son.
+
+[youtube:https://www.youtube.com/embed/_2HF6nrMqgs]
+
+## A Mother's Trust
+
+Bluma, now a mother of an entire nation trusts too freely and what happens next will horrify you.
+
+## Get the Book
+
+Dragon Unbound. A fantasy novel by indie author Janice Wee is utterly spellbinding. [Get it here](/books/dragon-unbound).
+    `
+  },
   'have-you-ever-had-a-dream-you-could-never-forget': {
     title: "Have you ever had a dream that you could never forget?",
     date: "July 19, 2026",
