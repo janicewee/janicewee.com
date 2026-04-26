@@ -6,6 +6,8 @@ import Link from 'next/link'
 import { notFound } from 'next/navigation'
 import type { Metadata } from 'next'
 
+export const dynamic = 'force-dynamic'
+
 const blogPosts: Record<string, {
   title: string
   date: string
@@ -1340,6 +1342,14 @@ export default async function BlogPost({ params }: Props) {
   const post = blogPosts[slug]
 
   if (!post) {
+    notFound()
+  }
+
+  const now = new Date()
+  now.setHours(0, 0, 0, 0)
+  const postDate = new Date(post.date)
+  postDate.setHours(0, 0, 0, 0)
+  if (postDate > now) {
     notFound()
   }
 

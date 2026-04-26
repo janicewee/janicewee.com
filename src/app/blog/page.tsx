@@ -7,6 +7,8 @@ import Link from 'next/link'
 import Image from 'next/image'
 import type { Metadata } from 'next'
 
+export const dynamic = 'force-dynamic'
+
 export const metadata: Metadata = {
   title: "Blog - Janice Wee",
   description: "Read the latest posts from Janice Wee about writing, recipes, and life as an indie author.",
@@ -340,10 +342,18 @@ const blogPosts = [
 ]
 
 export default function BlogPage() {
+  const now = new Date()
+  now.setHours(0, 0, 0, 0)
+  const publishedPosts = blogPosts.filter((post) => {
+    const postDate = new Date(post.date)
+    postDate.setHours(0, 0, 0, 0)
+    return postDate <= now
+  })
+
   return (
     <>
       <Navigation />
-      
+
       <main className="min-h-screen bg-background">
         {/* Header */}
         <section className="bg-gradient-to-b from-primary/10 to-background py-16">
@@ -359,7 +369,7 @@ export default function BlogPage() {
         <section className="py-16">
           <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="space-y-12">
-              {blogPosts.map((post) => (
+              {publishedPosts.map((post) => (
                 <Card key={post.id} className="overflow-hidden shadow-xl hover:shadow-2xl transition-all duration-300 border-border/50">
                   <div className="grid md:grid-cols-5 gap-0">
                     {/* Post Image */}
