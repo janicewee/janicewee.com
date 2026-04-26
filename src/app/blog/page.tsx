@@ -14,6 +14,15 @@ export const metadata: Metadata = {
 
 const blogPosts = [
   {
+    id: 31,
+    title: "Spiritual Warfare in the Family",
+    date: "May 3, 2026",
+    author: "Janice Wee",
+    excerpt: "We are now in the church age or the dispensation of Grace. After this is the Rapture of The Church, followed by 7 years of Tribulation. Once Dragon is released, what do you think will happen? I believe he would deceive the nations using his tried and tested formula he has been following since the fall of man. Dragon Unbound is as much a social commentary on today's state of affairs as it is a fantasy novel set in the Bible Prophecy timeline.",
+    imageUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/dragonunbound-1760677388114.jpg",
+    slug: "spiritual-warfare-in-the-family"
+  },
+  {
     id: 30,
     title: "The Guy Who Broke Her Heart",
     date: "April 26, 2026",

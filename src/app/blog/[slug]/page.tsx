@@ -13,6 +13,39 @@ const blogPosts: Record<string, {
   content: string
   imageUrl: string
 }> = {
+  'spiritual-warfare-in-the-family': {
+    title: "Spiritual Warfare in the Family",
+    date: "May 3, 2026",
+    author: "Janice Wee",
+    imageUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/dragonunbound-1760677388114.jpg",
+    content: `
+We are now in the church age or the dispensation of Grace. After this is the Rapture of The Church, followed by 7 years of Tribulation. At the end of this, Jesus Christ returns and defeats Satan and all his followers and binds the Dragon or Great Deceiver for a thousand years.
+
+Then Jesus Christ reigns for a thousand years.
+
+Once Dragon is released, what do you think will happen?
+
+## Their Love Built a Kingdom. His Lies Could Tear It Apart.
+
+[youtube:https://www.youtube.com/embed/Bma0Xrwbo-o]
+
+## The Dragon's Tried and Tested Formula
+
+I believe he would deceive the nations using his tried and tested formula he has been following since the fall of man.
+
+Use sly deception, masquerade as an angel of light to deceive the weak. He tempted Eve who then got Adam to eat the forbidden fruit. He turned family members against one another.
+
+## A Social Commentary
+
+Using the observations of this day and age, I projected that Dragon would again strive to break up marriages, turn children against parents and destroy families which are the building blocks of society.
+
+Dragon Unbound is as much a social commentary on today's state of affairs, the spiritual warfare in our current world, as much as it is a fantasy novel set in the Bible Prophecy timeline.
+
+## Read the Book
+
+[More about Dragon Unbound](/books/dragon-unbound)
+    `
+  },
   'the-guy-who-broke-her-heart': {
     title: "The Guy Who Broke Her Heart",
     date: "April 26, 2026",
