@@ -14,6 +14,15 @@ export const metadata: Metadata = {
 
 const blogPosts = [
   {
+    id: 34,
+    title: "Stories of Body Transformation That Fascinate Me",
+    date: "May 31, 2026",
+    author: "Janice Wee",
+    excerpt: "Stories of body transformation fascinate me. How an 80lb weakling builds his body so that he can face beach bullies and win. Superman II had a scene when he lost his powers and was beaten up by a bully in a bar. The scene where he faced the bully after getting back his strength was downright satisfying. Along that line is my story Emunah Short Stories Book 4: John.",
+    imageUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/book4john-1760404535976.jpg",
+    slug: "stories-of-body-transformation"
+  },
+  {
     id: 33,
     title: "How far would you go to gain immortality?",
     date: "May 17, 2026",

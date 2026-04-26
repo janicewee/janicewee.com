@@ -13,6 +13,29 @@ const blogPosts: Record<string, {
   content: string
   imageUrl: string
 }> = {
+  'stories-of-body-transformation': {
+    title: "Stories of Body Transformation That Fascinate Me",
+    date: "May 31, 2026",
+    author: "Janice Wee",
+    imageUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/book4john-1760404535976.jpg",
+    content: `
+Stories of body transformation fascinate me. How an 80lb weakling builds his body so that he can face beach bullies and win (an old body building ad I saw in really old comic books).
+
+## The Skinny Scholar Who Defied Everyone
+
+[youtube:https://www.youtube.com/embed/1lSUsM-xOt0]
+
+## Superman's Transformation
+
+Superman II starring Christopher Reeve had a scene when he lost his powers and was beaten up by a bully in a bar. The scene where he faced the bully after getting back his strength, and gave the bully a taste of his own medicine was downright satisfying.
+
+Then there were the before and after pics of Christopher Reeve where he built his body to play Superman, and more recently the latest Superman actor, David Corenswet's transformation to play the titular role was beyond impressive.
+
+## Read the Book
+
+Along that line is my story [Emunah Short Stories Book 4: John - An Inspiring Tale of Strength](/books/emunah-book-4-john)
+    `
+  },
   'how-far-would-you-go-to-gain-immortality': {
     title: "How far would you go to gain immortality?",
     date: "May 17, 2026",
