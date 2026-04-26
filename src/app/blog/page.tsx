@@ -16,6 +16,15 @@ export const metadata: Metadata = {
 
 const blogPosts = [
   {
+    id: 37,
+    title: "Can a 7 year old kid outsmart grown ups?",
+    date: "June 14, 2026",
+    author: "Janice Wee",
+    excerpt: "Do not underestimate the little ones. They are a lot smarter than you may realise. More observant. Their little brains working overtime on ways to outsmart the grown ups. Billy Lionheart is one such kid. Orphaned during the Tribulation, the toddler escaped the massacre by hiding in a pipe. When the humans were away attending the Feast of Tabernacles, Little Billy was left alone with Leonard Lion. That was the opportunity he had been waiting for.",
+    imageUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/billylionheart-1760154828519.jpg",
+    slug: "can-a-7-year-old-outsmart-grown-ups"
+  },
+  {
     id: 36,
     title: "What if you must flee your comfy life because of something you saw?",
     date: "June 7, 2026",

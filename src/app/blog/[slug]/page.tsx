@@ -15,6 +15,37 @@ const blogPosts: Record<string, {
   content: string
   imageUrl: string
 }> = {
+  'can-a-7-year-old-outsmart-grown-ups': {
+    title: "Can a 7 year old kid outsmart grown ups?",
+    date: "June 14, 2026",
+    author: "Janice Wee",
+    imageUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/billylionheart-1760154828519.jpg",
+    content: `
+Do not underestimate the little ones. They are a lot smarter than you may realise. More observant. Their little brains working overtime on ways to outsmart the grown ups.
+
+Billy Lionheart is one such kid.
+
+## The Boy Who Trapped a Lion With a Dirty Sock
+
+[youtube:https://www.youtube.com/embed/xS_DjRwF2yE]
+
+## Orphaned During the Tribulation
+
+Orphaned during the Tribulation, the toddler escaped the massacre by hiding in a pipe. Mei and Boris rescued him. By the start of The Adventures of Billy Lionheart, the little one had moved in with four foster human parents and a lion nanny into their comfy home in the Millennial Kingdom.
+
+## A Plan in the Making
+
+He knew his real parents were alive and went to work figuring out how to find them and how to escape his caregivers so that he could get to work.
+
+## The Opportunity
+
+When the humans were away attending the Feast of Tabernacles, Little Billy was left alone with Leonard Lion. That was the opportunity he had been waiting for.
+
+## Read the Book
+
+Read what happens next in [Billy the Lion Boy](/books/billy-the-lion-boy).
+    `
+  },
   'what-if-you-must-flee-your-comfy-life': {
     title: "What if you must flee your comfy life because of something you saw?",
     date: "June 7, 2026",
