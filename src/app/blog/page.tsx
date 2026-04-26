@@ -16,6 +16,15 @@ export const metadata: Metadata = {
 
 const blogPosts = [
   {
+    id: 36,
+    title: "What if you must flee your comfy life because of something you saw?",
+    date: "June 7, 2026",
+    author: "Janice Wee",
+    excerpt: "Mei had a cushy job as a scientist in Beast Corp., the world's most prestigious biotech company. Her perks were mind boggling, including the promise of immortality. All was good until curiosity got the better of her. When she witnessed her supervisor end a subject after transferring his memories to a clone, she fled. So begins the story Mei. Emunah Short Stories Book 5.",
+    imageUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/book5mei-1760410829482.jpg",
+    slug: "what-if-you-must-flee-your-comfy-life"
+  },
+  {
     id: 34,
     title: "Stories of Body Transformation That Fascinate Me",
     date: "May 31, 2026",

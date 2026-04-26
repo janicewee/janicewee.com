@@ -15,6 +15,31 @@ const blogPosts: Record<string, {
   content: string
   imageUrl: string
 }> = {
+  'what-if-you-must-flee-your-comfy-life': {
+    title: "What if you must flee your comfy life because of something you saw?",
+    date: "June 7, 2026",
+    author: "Janice Wee",
+    imageUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/book5mei-1760410829482.jpg",
+    content: `
+Mei had a cushy job as a scientist in Beast Corp., the world's most prestigious biotech company. Her perks were mind boggling, including the promise of immortality, if she did everything they asked of her.
+
+## Everyone Around Her Vanished on the Plane. What Happened Next Changed Everything.
+
+[youtube:https://www.youtube.com/embed/5BGAuGR-IFs]
+
+## The Truth Behind Beast Corp
+
+All was good until curiosity got the better of her. Subjects who participated in the program were cloned - the cloned bodies were bioengineered to be perfect and powerful and the final step would be to transfer the subject's mind to the body. That was the con. The memories of the subject were given to the clone, then the subject was terminated.
+
+## The Moment Everything Changed
+
+Ben, Mei's acquaintance was one such subject. When she witnessed her supervisor end him after transferring his memories to the clone she had grown for him, she fled. So begins the story Mei. Emunah Short Stories Book 5.
+
+## Get the Book
+
+[Emunah Short Stories Book 5: Mei](/books/emunah-book-5-mei)
+    `
+  },
   'stories-of-body-transformation': {
     title: "Stories of Body Transformation That Fascinate Me",
     date: "May 31, 2026",
