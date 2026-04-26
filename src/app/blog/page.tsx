@@ -16,6 +16,15 @@ export const metadata: Metadata = {
 
 const blogPosts = [
   {
+    id: 40,
+    title: "How do you know he really loves you?",
+    date: "July 5, 2026",
+    author: "Janice Wee",
+    excerpt: "Sue was smitten. Liam loved her, or so she thought. Emma, was fun to hang out with and the best friend a girl could have… until she discovered their affair. Her bestie was her husband's mistress! As for Liam? Want to know what happens to the two-timing wolf in sheep's clothing…",
+    imageUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/book6liam-1760410829597.jpg",
+    slug: "how-do-you-know-he-really-loves-you"
+  },
+  {
     id: 39,
     title: "What if the stars told your story?",
     date: "June 28, 2026",
