@@ -23,6 +23,15 @@ const blogPosts = [
     slug: "stories-of-body-transformation"
   },
   {
+    id: 35,
+    title: "Unequally Yoked?",
+    date: "May 24, 2026",
+    author: "Janice Wee",
+    excerpt: "When a Christian marries a non Christian, they are considered to be unequally yoked - something that the Bible warns against. In my school days, I heard of a sweet girl and a hunky guy who seemed made for each other. The girl was a Christian who loved the Lord, while the boy was an atheist. For that reason, to obey God, she broke up with him. They inspired the story of Emunah and Jayden.",
+    imageUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/book3emunah-1760404534743.jpg",
+    slug: "unequally-yoked"
+  },
+  {
     id: 33,
     title: "How far would you go to gain immortality?",
     date: "May 17, 2026",

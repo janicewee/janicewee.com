@@ -36,6 +36,31 @@ Then there were the before and after pics of Christopher Reeve where he built hi
 Along that line is my story [Emunah Short Stories Book 4: John - An Inspiring Tale of Strength](/books/emunah-book-4-john)
     `
   },
+  'unequally-yoked': {
+    title: "Unequally Yoked?",
+    date: "May 24, 2026",
+    author: "Janice Wee",
+    imageUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/book3emunah-1760404534743.jpg",
+    content: `
+When a Christian marries a non Christian, they are considered to be unequally yoked - something that the Bible warns against.
+
+## She Turned Him Down. He Never Forgot Her.
+
+[youtube:https://www.youtube.com/embed/ovdWt3v9dJk]
+
+## A Real Love Story
+
+In my school days, I heard of a sweet girl and a hunky guy who seemed made for each other, and clearly attracted to each other. They were boyfriend girlfriend for a while. The girl was a Christian who loved the Lord, while the boy was an atheist. For that reason, to obey God, she broke up with him.
+
+## The Romeo and Juliet of Our Cohort
+
+They were the Romeo and Juliet of our cohort and inspired the story of Emunah and Jayden.
+
+## Read the Book
+
+[Emunah Short Stories Book 3: Emunah - UFOs, Aliens & Faith](/books/emunah-book-3-emunah)
+    `
+  },
   'how-far-would-you-go-to-gain-immortality': {
     title: "How far would you go to gain immortality?",
     date: "May 17, 2026",
