@@ -15,6 +15,35 @@ const blogPosts: Record<string, {
   content: string
   imageUrl: string
 }> = {
+  'what-if-your-hero-wore-a-saucepan': {
+    title: "What if your hero wore a saucepan to save your life?",
+    date: "August 2, 2026",
+    author: "Janice Wee",
+    imageUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/render/image/public/document-uploads/jaydenavainlove-1764590221153.png?width=1200&height=1200&resize=contain",
+    content: `
+I'll be honest. Of all the Disney cartoons I have ever seen, only one hero stood up - the one who wore a saucepan as a helmet. I don't even remember the name of that movie but that image of a suave hero stuck.
+
+## He Wore A Saucepan To Rescue Her — And Sparks Flew
+
+[youtube:https://www.youtube.com/embed/FqqddLLjDYg]
+
+## Jayden's Sassy Attitude
+
+So when I wrote Jayden in the Emunah Chronicles Universe, I gave him that sassy attitude and saucepan helmet when he gave up his riches, to live underground during the Tribulation years.
+
+## The Romeo and Juliet of the Series
+
+Of all the couples, Jayden and Ava struck me as the Romeo and Juliet of the series. Their love story is as heartbreaking as it is entertaining and beautiful.
+
+## Read the Books
+
+You've got to read the books to see this for yourself.
+
+[The Beast's Mark](/books/emunah-book-2-the-beasts-mark) is where their love blossoms.
+
+If you like to get to the heartbreaking part, check out [The Quest for Immortality](/books/quest-for-immortality). Fair warning. Have a box of tissues on hand.
+    `
+  },
   'would-you-trust-dragon': {
     title: "Would you trust Dragon?",
     date: "July 26, 2026",

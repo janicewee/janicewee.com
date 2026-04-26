@@ -16,6 +16,15 @@ export const metadata: Metadata = {
 
 const blogPosts = [
   {
+    id: 44,
+    title: "What if your hero wore a saucepan to save your life?",
+    date: "August 2, 2026",
+    author: "Janice Wee",
+    excerpt: "Of all the Disney cartoons I have ever seen, only one hero stood up - the one who wore a saucepan as a helmet. So when I wrote Jayden in the Emunah Chronicles Universe, I gave him that sassy attitude and saucepan helmet when he gave up his riches, to live underground during the Tribulation years. Of all the couples, Jayden and Ava struck me as the Romeo and Juliet of the series.",
+    imageUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/render/image/public/document-uploads/jaydenavainlove-1764590221153.png?width=1200&height=1200&resize=contain",
+    slug: "what-if-your-hero-wore-a-saucepan"
+  },
+  {
     id: 43,
     title: "Would you trust Dragon?",
     date: "July 26, 2026",
