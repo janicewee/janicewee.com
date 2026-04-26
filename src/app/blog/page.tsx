@@ -16,6 +16,15 @@ export const metadata: Metadata = {
 
 const blogPosts = [
   {
+    id: 45,
+    title: "Jayden and Ava. Their love story that will make you laugh and cry",
+    date: "August 9, 2026",
+    author: "Janice Wee",
+    excerpt: "Jayden and Ava were made for each other. Deeply in love, they had plans for the future. Yet during the 7 Year Tribulation, few escape alive. Once a self made billionaire, Jayden gave it all up when he chose to follow Jesus and refused to take the mark of the beast. He saved many lives, including Ava's. As they fought to survive, Jayden sacrificed his own life so that Ava could escape. Their story does not end there.",
+    imageUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/render/image/public/document-uploads/jaydenavainlove-1764590221153.png?width=1200&height=1200&resize=contain",
+    slug: "jayden-and-ava-love-story"
+  },
+  {
     id: 44,
     title: "What if your hero wore a saucepan to save your life?",
     date: "August 2, 2026",

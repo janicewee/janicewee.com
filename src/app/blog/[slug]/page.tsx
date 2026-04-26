@@ -15,6 +15,37 @@ const blogPosts: Record<string, {
   content: string
   imageUrl: string
 }> = {
+  'jayden-and-ava-love-story': {
+    title: "Jayden and Ava. Their love story that will make you laugh and cry",
+    date: "August 9, 2026",
+    author: "Janice Wee",
+    imageUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/render/image/public/document-uploads/jaydenavainlove-1764590221153.png?width=1200&height=1200&resize=contain",
+    content: `
+Jayden and Ava were made for each other. Deeply in love, they had plans for the future. Yet during the 7 Year Tribulation, few escape alive.
+
+## This Billionaire Lost EVERYTHING — Then Sacrificed His Life For Love
+
+[youtube:https://www.youtube.com/embed/P_OFOl861L8]
+
+## From Riches to the Underground
+
+Once a self made billionaire with access to all the luxuries the world had to offer, Jayden gave it all up when he chose to follow Jesus and refused to take the mark of the beast. He saved many lives, including Ava's. Love blossomed.
+
+## The Ultimate Sacrifice
+
+As they fought to survive the 7 years of tribulation, Beast infiltrated their underground city and Jayden sacrificed his own life so that Ava could escape.
+
+## Their Story Does Not End There
+
+Jesus defeated death. Those who died, faithful to Him would return with Him in glory.
+
+## Read the Full Story
+
+[The Beast's Mark](/books/emunah-book-2-the-beasts-mark) - where their love blossoms.
+
+[The Quest for Immortality](/books/quest-for-immortality) - where their story continues.
+    `
+  },
   'what-if-your-hero-wore-a-saucepan': {
     title: "What if your hero wore a saucepan to save your life?",
     date: "August 2, 2026",
