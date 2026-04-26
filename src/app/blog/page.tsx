@@ -16,6 +16,15 @@ export const metadata: Metadata = {
 
 const blogPosts = [
   {
+    id: 46,
+    title: "Why Lord?",
+    date: "August 16, 2026",
+    author: "Janice Wee",
+    excerpt: "Have you been so overwhelmed with life, so grieved you ask God, \"Why Lord?\" The devil knows his days are numbered and that time is running out. He is attacking believers in Jesus Christ all over the world, in all-out-war. It is a battle in the spiritual realm. Against the unseen. But we are not without help. God sees. God provides. Oliver is a story about a Christian under spiritual attack.",
+    imageUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/book2oliver-1760404534983.jpg",
+    slug: "why-lord"
+  },
+  {
     id: 45,
     title: "Jayden and Ava. Their love story that will make you laugh and cry",
     date: "August 9, 2026",
