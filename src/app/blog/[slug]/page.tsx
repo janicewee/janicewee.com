@@ -15,6 +15,37 @@ const blogPosts: Record<string, {
   content: string
   imageUrl: string
 }> = {
+  'true-love-that-never-fails': {
+    title: "True love that never fails",
+    date: "June 21, 2026",
+    author: "Janice Wee",
+    imageUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/book1abigail-1760404534946.jpg",
+    content: `
+Have you ever been let down by the one you love?
+
+Sometimes they just are too obtuse and have no idea they are hurting you.
+
+Then again, you might have found someone truly wonderful, but that person is taken away.
+
+## The One She Longed For Was With Her All Along
+
+[youtube:https://www.youtube.com/embed/elqrAdcElE0]
+
+## Life Is Full of Joy, Full of Pain
+
+Life is full of joy, full of pain. Hope, disappointment, yet…
+
+Did you know there is someone who loves you? Someone who will never fail you?
+
+## Abigail's Story
+
+Abigail realises who truly loves her.
+
+## Read the Full Story
+
+[Read Abigail's full story at emunahchronicles.com](https://emunahchronicles.com/books/abigail)
+    `
+  },
   'can-a-7-year-old-outsmart-grown-ups': {
     title: "Can a 7 year old kid outsmart grown ups?",
     date: "June 14, 2026",

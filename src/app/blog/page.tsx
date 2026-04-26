@@ -16,6 +16,15 @@ export const metadata: Metadata = {
 
 const blogPosts = [
   {
+    id: 38,
+    title: "True love that never fails",
+    date: "June 21, 2026",
+    author: "Janice Wee",
+    excerpt: "Have you ever been let down by the one you love? Sometimes they just are too obtuse and have no idea they are hurting you. Then again, you might have found someone truly wonderful, but that person is taken away. Life is full of joy, full of pain. Hope, disappointment, yet… Did you know there is someone who loves you? Someone who will never fail you? Abigail realises who truly loves her.",
+    imageUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/book1abigail-1760404534946.jpg",
+    slug: "true-love-that-never-fails"
+  },
+  {
     id: 37,
     title: "Can a 7 year old kid outsmart grown ups?",
     date: "June 14, 2026",
