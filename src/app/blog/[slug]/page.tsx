@@ -13,6 +13,31 @@ const blogPosts: Record<string, {
   content: string
   imageUrl: string
 }> = {
+  'eerie-presence-in-a-room': {
+    title: "Have you ever felt an eerie presence in a room in a house?",
+    date: "May 10, 2026",
+    author: "Janice Wee",
+    imageUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/book2oliver-1760404534983.jpg",
+    content: `
+In a house where we often spent the night, one room in particular felt spooky, like there was an eerie presence there. The owner who stayed in there passed away in the house so was that a ghostly presence?
+
+## She Was Talking to Ghosts. He Found His Dead Father Alive.
+
+[youtube:https://www.youtube.com/embed/hC0PmSkfqzE]
+
+## Familiar Spirits
+
+Before he died, he claimed to have been visited by the ghosts of dead family members in separate incidents. These were familiar spirits, as is the "ghost" impersonating him.
+
+## The Inspiration
+
+That inspired the cursed box story arc in Emunah Short Stories, which begins in the second book, Oliver.
+
+## Read the Book
+
+[More about Emunah Short Stories Book 2: Oliver - A Supernatural Thriller](/books/emunah-book-2-oliver)
+    `
+  },
   'spiritual-warfare-in-the-family': {
     title: "Spiritual Warfare in the Family",
     date: "May 3, 2026",

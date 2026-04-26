@@ -14,6 +14,15 @@ export const metadata: Metadata = {
 
 const blogPosts = [
   {
+    id: 32,
+    title: "Have you ever felt an eerie presence in a room in a house?",
+    date: "May 10, 2026",
+    author: "Janice Wee",
+    excerpt: "In a house where we often spent the night, one room in particular felt spooky, like there was an eerie presence there. The owner who stayed in there passed away in the house so was that a ghostly presence? That inspired the cursed box story arc in Emunah Short Stories, which begins in the second book, Oliver.",
+    imageUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/book2oliver-1760404534983.jpg",
+    slug: "eerie-presence-in-a-room"
+  },
+  {
     id: 31,
     title: "Spiritual Warfare in the Family",
     date: "May 3, 2026",
