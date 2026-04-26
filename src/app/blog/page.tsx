@@ -14,6 +14,15 @@ export const metadata: Metadata = {
 
 const blogPosts = [
   {
+    id: 33,
+    title: "How far would you go to gain immortality?",
+    date: "May 17, 2026",
+    author: "Janice Wee",
+    excerpt: "Cloning humans was once pure science fiction but now with news about companies exploring growing clones for body parts, would the sci fi trope of cloning bodies to replace natural ones become a reality? That is one of the premises in The Quest for Immortality - Beast Corp's promise that lured Mei into the organisation.",
+    imageUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/questforimmortality-1760677198452.jpg",
+    slug: "how-far-would-you-go-to-gain-immortality"
+  },
+  {
     id: 32,
     title: "Have you ever felt an eerie presence in a room in a house?",
     date: "May 10, 2026",

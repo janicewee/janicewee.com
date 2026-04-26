@@ -13,6 +13,27 @@ const blogPosts: Record<string, {
   content: string
   imageUrl: string
 }> = {
+  'how-far-would-you-go-to-gain-immortality': {
+    title: "How far would you go to gain immortality?",
+    date: "May 17, 2026",
+    author: "Janice Wee",
+    imageUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/questforimmortality-1760677198452.jpg",
+    content: `
+Cloning humans was once pure science fiction but now with news about companies exploring growing clones for body parts, would the sci fi trope of cloning bodies to replace natural ones become a reality?
+
+## Scientists Are Growing Human Bodies for the Wealthy to Live Forever
+
+[youtube:https://www.youtube.com/embed/lNJ-_Y4SffY]
+
+## Beast Corp's Promise
+
+That is one of the premises in The Quest for Immortality - Beast Corp's promise that lured Mei into the organisation.
+
+## Read the Book
+
+Read the entire story in the scifi novel [The Quest For Immortality](/books/quest-for-immortality)
+    `
+  },
   'eerie-presence-in-a-room': {
     title: "Have you ever felt an eerie presence in a room in a house?",
     date: "May 10, 2026",
