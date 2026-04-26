@@ -15,6 +15,37 @@ const blogPosts: Record<string, {
   content: string
   imageUrl: string
 }> = {
+  'have-you-ever-had-a-dream-you-could-never-forget': {
+    title: "Have you ever had a dream that you could never forget?",
+    date: "July 19, 2026",
+    author: "Janice Wee",
+    imageUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/disturbingdreamswhite-1760677667408.jpg",
+    content: `
+For me, my recurring nightmare is being lost in the exam hall, unable to find my seats to do my paper, and then time is up.
+
+What is yours?
+
+## What If Your Dreams Were Warnings?
+
+[youtube:https://www.youtube.com/embed/D6XdLQzGv-k]
+
+## Prophetic Dreams
+
+In Disturbing Dreams, various characters have prophetic dreams - nightmares that come to pass. Warnings of things to come.
+
+## Where It All Begins
+
+It all starts innocently enough, with Emunah and her personal A.I. which turns into her stalker that proposes disturbing ways it could enter her reality. Investigations lead to a corporate conspiracy, extra terrestrials with a connection to the occult.
+
+## A Chilling Read
+
+Disturbing Dreams is a chilling read that could happen in the near future.
+
+## Get the Book
+
+[Get Disturbing Dreams here](/books/emunah-book-1-disturbing-dreams)
+    `
+  },
   'born-on-christmas-left-behind-at-the-rapture': {
     title: "Born on Christmas, Left Behind at the Rapture — A Story You Won't Forget",
     date: "July 12, 2026",

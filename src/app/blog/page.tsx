@@ -16,6 +16,15 @@ export const metadata: Metadata = {
 
 const blogPosts = [
   {
+    id: 42,
+    title: "Have you ever had a dream that you could never forget?",
+    date: "July 19, 2026",
+    author: "Janice Wee",
+    excerpt: "For me, my recurring nightmare is being lost in the exam hall, unable to find my seats to do my paper, and then time is up. In Disturbing Dreams, various characters have prophetic dreams - nightmares that come to pass. Warnings of things to come. It all starts innocently enough, with Emunah and her personal A.I. which turns into her stalker that proposes disturbing ways it could enter her reality.",
+    imageUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/disturbingdreamswhite-1760677667408.jpg",
+    slug: "have-you-ever-had-a-dream-you-could-never-forget"
+  },
+  {
     id: 41,
     title: "Born on Christmas, Left Behind at the Rapture — A Story You Won't Forget",
     date: "July 12, 2026",
