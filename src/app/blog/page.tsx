@@ -16,6 +16,15 @@ export const metadata: Metadata = {
 
 const blogPosts = [
   {
+    id: 41,
+    title: "Born on Christmas, Left Behind at the Rapture — A Story You Won't Forget",
+    date: "July 12, 2026",
+    author: "Janice Wee",
+    excerpt: "Did you know that when my first child was born, my husband was stopped by the police who thought he might be up to no good, running down the deserted street past midnight. When I wrote Lydia's first Christmas, her birth, I drew heavily on my own experience with childbirth and the stories I heard from the nurses. She was born on Christmas and hated it. To find out why, read Emunah Short Stories: Lydia's 12 Christmases.",
+    imageUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/book7lydia-1760410829051.jpg",
+    slug: "born-on-christmas-left-behind-at-the-rapture"
+  },
+  {
     id: 40,
     title: "How do you know he really loves you?",
     date: "July 5, 2026",

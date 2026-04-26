@@ -15,6 +15,29 @@ const blogPosts: Record<string, {
   content: string
   imageUrl: string
 }> = {
+  'born-on-christmas-left-behind-at-the-rapture': {
+    title: "Born on Christmas, Left Behind at the Rapture — A Story You Won't Forget",
+    date: "July 12, 2026",
+    author: "Janice Wee",
+    imageUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/book7lydia-1760410829051.jpg",
+    content: `
+Did you know that when my first child was born, my husband was stopped by the police who thought he might be up to no good, running down the deserted street past midnight.. until he saw me, fully pregnant and in labour.
+
+[youtube:https://www.youtube.com/embed/PzkMfLUszc8]
+
+## Drawing from Real Life
+
+When I wrote Lydia's first Christmas, her birth, I drew heavily on my own experience with childbirth and the stories I heard from the nurses. Personally, I hate needles and threatened to kick the doctor who came near me with a needle to try to administer pain killers.
+
+## Back to Lydia
+
+She was born on Christmas and hated it.
+
+## Read the Book
+
+To find out why, read [Emunah Short Stories: Lydia's 12 Christmases](/books/emunah-book-7-lydias-12-christmases).
+    `
+  },
   'how-do-you-know-he-really-loves-you': {
     title: "How do you know he really loves you?",
     date: "July 5, 2026",
